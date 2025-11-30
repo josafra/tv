@@ -27,8 +27,6 @@ https://stream.digitalgt.com:3136/live/multivisionlive.m3u8
 https://stream.digitalgt.com:3605/live/multivisionsportslive.m3u8
 #EXTINF:-1, Nim TV (720p) [Not 24/7]
 https://cdn.streamhispanatv.net:3210/live/nimtvgtlive.m3u8
-#EXTINF:-1, Nuevo Mundo TV (720p)
-https://tvlatina.live:1936/8008/8008/playlist.m3u8
 #EXTINF:-1, Peniel Kids & Young (480p)
 https://s.emisoras.tv:8081/penielkids/index.m3u8
 #EXTINF:-1, Peniel Musical (480p)
