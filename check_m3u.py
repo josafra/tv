@@ -150,9 +150,7 @@ def main():
             continue
 
         print(f"⚡ Iniciando verificación de {len(channels)} canales con {MAX_WORKERS} hilos concurrentes...")
-        # 
 
-[Image of multithreading in Python]
 
 
         # Paso 3: Verificar Canales en paralelo
