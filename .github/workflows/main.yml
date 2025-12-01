@@ -38,15 +38,10 @@ jobs:
       - name: ⚡ Ejecutar Script de Verificación M3U
         run: python check_m3u.py
         
-      - name: 📤 Commit y Push de Cambios
-        # Esta secuencia sube la lista limpia de vuelta al repositorio
+     - name: 📤 Commit y Push de Cambios
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          
-          # Agrega la lista limpia generada por el script
-          git add lista_limpia.m3u
-          
-          # Realiza el commit si hay cambios. El '|| true' evita que falle si no hay cambios.
-          git commit -m "🤖 Actualización automática de lista M3U (canales muertos eliminados)" || true
+          git add *.m3u  # AHORA AÑADE TODOS LOS ARCHIVOS QUE TERMINAN EN .m3u
+          git commit -m "🤖 Actualización automática de listas M3U (canales muertos eliminados)" || true
           git push
