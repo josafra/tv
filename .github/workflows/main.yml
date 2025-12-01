@@ -1,1 +1,52 @@
+name: M3U Daily Checker
 
+# 1. CUÁNDO se ejecuta la acción:
+on:
+  push:
+    branches:
+      - main  # O la rama principal de tu repositorio (master, main, etc.)
+    paths:
+      - 'lista_original.m3u' # Si solo quieres que se ejecute si se actualiza la lista
+  schedule:
+    # Se ejecuta todos los días a las 03:00 AM (hora UTC). 
+    # Puedes cambiar '0 3' a la hora que desees.
+    - cron: '0 3 * * *' 
+  workflow_dispatch:
+    # Permite ejecutar manualmente la acción desde la pestaña 'Actions' en GitHub
+
+# 2. QUÉ hace la acción:
+jobs:
+  check_and_update:
+    runs-on: ubuntu-latest # Ejecutar en un servidor Linux
+
+    steps:
+      - name: ⬇️ Checkout del Código
+        # Descarga tu repositorio para que el script pueda acceder a 'lista_original.m3u'
+        uses: actions/checkout@v4
+        with:
+          # Es crucial usar este token para permitir que el Action pueda hacer 'push'
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: 🐍 Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+          
+      - name: ⚙️ Instalar Librería Requests
+        run: pip install requests
+        
+      - name: ⚡ Ejecutar Script de Verificación M3U
+        run: python check_m3u.py
+        
+      - name: 📤 Commit y Push de Cambios
+        # Esta secuencia sube la lista limpia de vuelta al repositorio
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          
+          # Agrega la lista limpia generada por el script
+          git add lista_limpia.m3u
+          
+          # Realiza el commit si hay cambios. El '|| true' evita que falle si no hay cambios.
+          git commit -m "🤖 Actualización automática de lista M3U (canales muertos eliminados)" || true
+          git push
