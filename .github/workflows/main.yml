@@ -4,21 +4,23 @@ name: M3U Daily Checker
 on:
   schedule:
     # Se ejecuta todos los días a las 03:00 AM (hora UTC). 
-    # Puedes cambiar '0 3' a la hora que desees.
     - cron: '0 3 * * *' 
   workflow_dispatch:
-    # Permite ejecutar manualmente la acción desde la pestaña 'Actions'
+    # Permite ejecutar manualmente la acción
 
 # 2. QUÉ hace la acción:
 jobs:
   check_and_update:
-    runs-on: ubuntu-latest # Ejecutar en un servidor Linux
-
+    runs-on: ubuntu-latest 
+    
+    # SOLUCIÓN AL ERROR 403: Otorga permiso de escritura al bot para hacer el push
+    permissions:
+      contents: write 
+      
     steps:
       - name: ⬇️ Checkout del Código
         uses: actions/checkout@v4
         with:
-          # Es crucial usar este token para permitir que el Action pueda hacer 'push'
           token: ${{ secrets.GITHUB_TOKEN }}
       
       - name: 🐍 Configurar Python
@@ -36,7 +38,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          # CORRECCIÓN: Ahora añade todos los archivos M3U modificados por el script de Python.
+          # CORRECCIÓN: Ahora añade todos los archivos M3U que el script ha sobrescrito.
           git add *.m3u
           # El '|| true' evita que falle si no hubo cambios en los archivos.
           git commit -m "🤖 Actualización automática de listas M3U (canales muertos eliminados)" || true
