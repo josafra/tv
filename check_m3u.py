@@ -11,7 +11,7 @@ MAX_WORKERS = 20 # Número de verificaciones de canales concurrentes
 MAPPING_FILES = {
     # LATAM y España - ¡El script sobrescribirá estos archivos locales!
     'https://iptv-org.github.io/iptv/countries/es.m3u': 'espana.m3u',
-    'https://iptv-org.github.io/iptv/countries/ar.m3u': 'argentina.m3u',
+    'https://iptv-org.github.io/iptv/countries/ar.m3u': 'Argentina.m3u',
     'https://iptv-org.github.io/iptv/countries/mx.m3u': 'mexico.m3u',
     'https://iptv-org.github.io/iptv/countries/co.m3u': 'colombia.m3u',
     'https://iptv-org.github.io/iptv/countries/cl.m3u': 'chile.m3u',
