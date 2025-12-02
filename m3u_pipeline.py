@@ -2,14 +2,13 @@ import asyncio
 from playwright.async_api import async_playwright
 import time
 import os
-import re # ¡Añadido para las expresiones regulares!
+import re # ¡Asegúrate de que esta línea esté al inicio!
 
 # --- UTILIDADES PARA GITHUB ACTIONS ---
 def install_playwright_drivers():
     """Instala los drivers de navegador (Chromium) necesarios para Playwright."""
     print("-> Instalando drivers de Playwright...")
-    # La instalación se realiza automáticamente cuando Playwright se usa por primera vez, 
-    # pero mantenemos la línea para asegurar la disponibilidad en entornos como GitHub Actions.
+    # La instalación se realiza automáticamente cuando Playwright se usa por primera vez.
     os.system('playwright install chromium') 
 
 # --- ⚙️ LÓGICA DE SCRAPING DE PHOTOCALL TV ---
@@ -18,35 +17,44 @@ async def scrape_all_photocall_channels():
     install_playwright_drivers() 
     
     m3u_lines = ['#EXTM3U\n']
+    BASE_URL = "https://photocalltv.online/"
     
     async with async_playwright() as p:
         # Usamos 'args=["--no-sandbox"]' para asegurar la compatibilidad con GitHub Actions
         browser = await p.chromium.launch(headless=True, args=["--no-sandbox"])
         page = await browser.new_page()
         
-        BASE_URL = "https://photocalltv.online/"
         print(f"-> Navegando a la URL base: {BASE_URL}")
         await page.goto(BASE_URL, timeout=60000)
 
-        # 1. IDENTIFICAR TODOS LOS ENLACES DE CANAL (Selector Corregido)
-        # Este selector funciona para los elementos de Kadence Blocks que contienen el enlace.
-        CHANNEL_LINK_SELECTOR = '.kb-row-layout-wrap a'
+        # 1. IDENTIFICAR TODOS LOS ENLACES DE CANAL (Búsqueda Universal)
         
-        # Obtenemos TODOS los enlaces de canal (href)
-        href_elements = await page.locator(CHANNEL_LINK_SELECTOR).all()
+        # Obtenemos TODOS los elementos <a> (links) en la página.
+        all_links = await page.get_by_role('link').all()
         
-        # Extraemos las URLs de las páginas de canal
-        channel_urls = []
-        for element in href_elements:
+        # Extraemos solo las URLs que contienen la palabra clave 'canal-' y que son únicas.
+        channel_urls = set() # Usamos un set para evitar duplicados
+        
+        for element in all_links:
             href = await element.get_attribute('href')
-            if href and "canal-" in href:
-                # Si el href es una URL absoluta, la usamos directamente. 
-                # Si es relativa, la construimos. Esto evita la duplicación de la URL base.
+            # Filtramos por el patrón de URL de canal y nos aseguramos de que no sean enlaces ancla
+            if href and "/canal-" in href and not href.startswith('#'): 
+                
                 if href.startswith('http'):
-                    channel_urls.append(href)
+                    # Si el enlace es absoluto, lo añadimos directamente (evita la duplicación)
+                    channel_urls.add(href)
                 else:
-                    channel_urls.append(BASE_URL.rstrip('/') + '/' + href.lstrip('/'))
+                    # Si el enlace es relativo, construimos la URL completa
+                    channel_urls.add(BASE_URL.rstrip('/') + href.lstrip('/'))
 
+        # Convertimos el set a list para poder iterar con índice
+        channel_urls = list(channel_urls)
+        
+        # Eliminamos el enlace base de Photocalltv.Online si está en la lista de URLs
+        try:
+            channel_urls.remove(BASE_URL)
+        except ValueError:
+            pass 
 
         total_canales = len(channel_urls)
         print(f"-> Se encontraron {total_canales} URLs de canal para procesar.")
@@ -69,29 +77,27 @@ async def scrape_all_photocall_channels():
 
                 # --- 3. EXTRACCIÓN ROBUSTA: BUSCANDO EL STREAM EN EL HTML/JAVASCRIPT ---
                 
-                # Opción 1: Buscar directamente en el código fuente de la página por la URL HLS/M3U
                 content = await page.content()
                 
-                # Expresión regular para encontrar cualquier URL que termine en .m3u8 o .m3u 
-                # y que parezca ser un stream
-                m3u_match = re.search(r'(https?://[^\s\'"]+\.(m3u8|m3u))', content)
-                if m3u_match:
-                    url_stream = m3u_match.group(1)
+                # Buscamos la variable MAIN_HLS
+                main_hls_match = re.search(r'const MAIN_HLS="([^"]+)"', content)
+                if main_hls_match:
+                    url_stream = main_hls_match.group(1)
+                    print(f"   [INFO] Stream encontrado en variable MAIN_HLS.")
                 
-                # Opción 2: Buscar variables JS específicas (seguro que una de las dos funciona)
+                # Si no se encuentra MAIN_HLS, buscamos BACKUP_HLS
                 if not url_stream:
-                    # Buscamos la variable MAIN_HLS
-                    main_hls_match = re.search(r'const MAIN_HLS="([^"]+)"', content)
-                    if main_hls_match:
-                        url_stream = main_hls_match.group(1)
-                        print(f"   [INFO] Stream encontrado en variable MAIN_HLS.")
-                
-                if not url_stream:
-                    # Buscamos la variable BACKUP_HLS
                     backup_hls_match = re.search(r'const BACKUP_HLS="([^"]+)"', content)
                     if backup_hls_match:
                         url_stream = backup_hls_match.group(1)
                         print(f"   [INFO] Stream encontrado en variable BACKUP_HLS.")
+
+                # Si aún no se encuentra el stream, buscamos M3U8/M3U genérico
+                if not url_stream:
+                    m3u_match = re.search(r'(https?://[^\s\'"]+\.(m3u8|m3u))', content)
+                    if m3u_match:
+                        url_stream = m3u_match.group(1)
+                        print(f"   [INFO] Stream encontrado con expresión regular M3U/M3U8.")
 
 
                 # --- 4. Formatea y añade a la lista ---
