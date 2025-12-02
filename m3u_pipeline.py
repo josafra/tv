@@ -30,7 +30,7 @@ async def scrape_all_photocall_channels():
 
         # 1. IDENTIFICAR TODOS LOS ENLACES DE CANAL (Selector Corregido)
         # Este selector funciona para los elementos de Kadence Blocks que contienen el enlace.
-        CHANNEL_LINK_SELECTOR = '.kb-advanced-heading-link'
+        CHANNEL_LINK_SELECTOR = '.entry-content a'
         
         # Obtenemos TODOS los enlaces de canal (href)
         href_elements = await page.locator(CHANNEL_LINK_SELECTOR).all()
