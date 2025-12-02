@@ -5,75 +5,89 @@ import os
 
 # --- UTILIDADES PARA GITHUB ACTIONS ---
 def install_playwright_drivers():
-    """
-    Instala los drivers de navegador (Chromium) necesarios para Playwright.
-    Este paso es crucial para que funcione en el servidor de GitHub.
-    """
+    """Instala los drivers de navegador (Chromium) necesarios para Playwright."""
     print("-> Instalando drivers de Playwright...")
     os.system('playwright install chromium')
 
 # --- ⚙️ LÓGICA DE SCRAPING DE PHOTOCALL TV ---
 async def scrape_all_photocall_channels():
-    """
-    Navega a Photocall TV, hace clic en TODOS los logos y extrae las URLs de stream.
-    """
+    """Extrae las URLs del stream navegando a las páginas internas e interceptando el tráfico."""
     install_playwright_drivers() 
     
-    # El encabezado M3U debe ir primero
     m3u_lines = ['#EXTM3U\n']
     
     async with async_playwright() as p:
-        # Lanza el navegador en modo headless (sin interfaz gráfica)
         browser = await p.chromium.launch(headless=True)
         page = await browser.new_page()
-        print("-> Navegando a Photocall TV...")
-        await page.goto("https://photocalltv.es/", timeout=60000)
-
-        # 1. IDENTIFICAR TODOS LOS CANALES CLICABLES
-        # Si esto falla, debes ajustar este selector a la clase CSS o ID correcta.
-        CHANNEL_SELECTOR = '.canales-li' 
         
-        channel_elements = await page.locator(CHANNEL_SELECTOR).all()
-        total_canales = len(channel_elements)
-        print(f"-> Se encontraron {total_canales} posibles canales en Photocall TV.")
+        BASE_URL = "https://photocalltv.online/"
+        print(f"-> Navegando a la URL base: {BASE_URL}")
+        await page.goto(BASE_URL, timeout=60000)
 
-        for i, element in enumerate(channel_elements):
+        # 1. IDENTIFICAR TODOS LOS ENLACES DE CANAL
+        # Usamos el selector más probable para los enlaces (<a>) dentro de los contenedores (<li>).
+        # SI ESTO FALLA, DEBE CAMBIARSE A MANO:
+        CHANNEL_LINK_SELECTOR = '.canales-li a' 
+        
+        # Obtenemos TODOS los enlaces de canal (href)
+        href_elements = await page.locator(CHANNEL_LINK_SELECTOR).all()
+        
+        # Extraemos las URLs de las páginas de canal
+        channel_urls = []
+        for element in href_elements:
+            href = await element.get_attribute('href')
+            if href and "canal-" in href:
+                # Construye la URL completa
+                channel_urls.append(BASE_URL.rstrip('/') + '/' + href.lstrip('/'))
+
+        total_canales = len(channel_urls)
+        print(f"-> Se encontraron {total_canales} URLs de canal para procesar.")
+
+        # 2. PROCESAR CADA URL DE CANAL
+        for i, channel_url in enumerate(channel_urls):
+            
+            # Inicializamos la variable que contendrá la URL final del stream
+            url_stream = ""
+            canal_name = channel_url.split('/')[-2].replace('-', ' ').title()
+            print(f"[{i+1}/{total_canales}] Procesando: {canal_name} ({channel_url})")
+            
             try:
-                canal_name = await element.get_attribute('id') or f"Canal_{i+1}"
-                print(f"[{i+1}/{total_canales}] Procesando: {canal_name}")
-
-                # 2. Simular el clic en el logo
-                await element.click(timeout=5000)
-                time.sleep(3) # Pausa ética y de carga
-
-                # 3. Intentar capturar la URL del stream
-                url_stream = ""
-                try:
-                    # Espera la ventana emergente que contiene el stream
-                    new_page = await page.wait_for_event("popup", timeout=15000)
-                    url_stream = new_page.url
-                    await new_page.close()
-                except Exception:
-                    # Si no hay pop-up o falla la espera, no se captura la URL
-                    pass
-
-                # 4. Formatea y añade a la lista (Formato M3U SIMPLE, sin logos)
-                if url_stream and url_stream not in ["about:blank", "https://photocalltv.es/"]:
-                    # Formatea el nombre del canal
-                    nombre_m3u = canal_name.replace("_", " ").title()
+                # --- 3. CONFIGURACIÓN DE LA INTERCEPTACIÓN DE RED ---
+                
+                # Función que se ejecuta cada vez que hay una petición de red
+                async def capture_request(route, request):
+                    nonlocal url_stream
+                    request_url = request.url
                     
-                    # Añade la etiqueta #EXTINF simple
-                    m3u_lines.append(f'#EXTINF:-1, {nombre_m3u}')
-                    # Añade la URL del stream
+                    # Buscamos streams M3U8, MP4, o M3U. El not url_stream evita sobrescribir
+                    if any(ext in request_url for ext in ['.m3u8', '.mp4', '.m3u']) and not url_stream:
+                        url_stream = request_url
+                        # Opcional: detenemos la intercepción si encontramos el stream
+                        await page.unroute("**/*")
+                    
+                    # Siempre debe continuar la petición para que la página cargue
+                    await route.continue_()
+
+                # Comenzamos a interceptar todas las peticiones antes de navegar/recargar
+                await page.route("**/*", capture_request)
+                
+                # Navega directamente a la página del canal para iniciar la carga del stream
+                await page.goto(channel_url, timeout=45000)
+                
+                # Esperamos un tiempo suficiente para que el reproductor cargue y haga la petición M3U8
+                await asyncio.sleep(8) 
+                
+                # Aseguramos que la intercepción se detenga si no se detuvo antes
+                await page.unroute("**/*")
+
+                # --- 4. Formatea y añade a la lista ---
+                if url_stream:
+                    m3u_lines.append(f'#EXTINF:-1, {canal_name}')
                     m3u_lines.append(f'{url_stream}\n')
                 else:
-                    print(f"   [FALLO] No se pudo obtener stream para {canal_name}.")
-                
-                # 5. Vuelve a la página principal para el siguiente clic
-                await page.goto("https://photocalltv.es/", timeout=30000)
+                    print(f"   [FALLO] No se pudo obtener stream (URL final) para {canal_name}.")
                 
             except Exception as e:
-                # Captura errores en canales individuales
                 print(f"   [ERROR] Fallo al procesar {canal_name}: {e}")
                 
         await browser.close()
@@ -85,10 +99,9 @@ async def scrape_all_photocall_channels():
 def run_scraper():
     """Ejecuta el scraper y guarda el resultado en el archivo final."""
     
-    # 1. Ejecuta la función asíncrona principal
     m3u_photocall = asyncio.run(scrape_all_photocall_channels()) 
     
-    # 2. Guarda la lista en el archivo final para el commit
+    # Guarda la lista en el archivo final para el commit (photocall_canales.m3u)
     filename = 'photocall_canales.m3u' 
     with open(filename, 'w') as f:
         f.writelines(m3u_photocall)
