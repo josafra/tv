@@ -27,7 +27,7 @@ async def scrape_all_photocall_channels():
         # 1. IDENTIFICAR TODOS LOS ENLACES DE CANAL
         # Usamos el selector más probable para los enlaces (<a>) dentro de los contenedores (<li>).
         # SI ESTO FALLA, DEBE CAMBIARSE A MANO:
-        CHANNEL_LINK_SELECTOR = '.canales-li a' 
+        CHANNEL_LINK_SELECTOR = '.kb-advanced-heading-link' 
         
         # Obtenemos TODOS los enlaces de canal (href)
         href_elements = await page.locator(CHANNEL_LINK_SELECTOR).all()
