@@ -31,7 +31,7 @@ async def scrape_all_photocall_channels():
 
         # 1. IDENTIFICAR TODOS LOS CANALES CLICABLES
         # Si esto falla, debes ajustar este selector a la clase CSS o ID correcta.
-        CHANNEL_SELECTOR = '.canales' 
+        CHANNEL_SELECTOR = '.canales-li' 
         
         channel_elements = await page.locator(CHANNEL_SELECTOR).all()
         total_canales = len(channel_elements)
