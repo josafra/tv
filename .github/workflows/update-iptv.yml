@@ -31,7 +31,7 @@ jobs:
         git checkout origin/main -- channels_history.json || echo "No hay historial previo"
     
     - name: Ejecutar verificación de canales IPTV
-      run: python tu_script_principal.py
+      run: python check_m3u.py
     
     - name: Enviar notificación a Telegram
       env:
