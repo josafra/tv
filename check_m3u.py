@@ -1,15 +1,18 @@
 import requests
 import re
 import os
+import json
 from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime
 
 # --- Configuración ---
-TIMEOUT = 10 # Tiempo máximo de espera para la respuesta del servidor (segundos)
-MAX_WORKERS = 20 # Número de verificaciones de canales concurrentes
+TIMEOUT = 10
+MAX_WORKERS = 20
 
-# Mapeo: URL Externa de IPTV-ORG (Fuente) -> Nombre del archivo local (Destino)
+# Archivo para guardar el estado anterior (historial)
+HISTORY_FILE = 'channels_history.json'
+
 MAPPING_FILES = {
-    # LATAM y España - ¡El script sobrescribirá estos archivos locales!
     'https://iptv-org.github.io/iptv/countries/es.m3u': 'espana.m3u',
     'https://iptv-org.github.io/iptv/countries/ar.m3u': 'Argentina.m3u',
     'https://iptv-org.github.io/iptv/countries/mx.m3u': 'mexico.m3u',
@@ -37,9 +40,8 @@ def get_m3u_content(source):
     """Obtiene el contenido M3U de una URL externa."""
     print(f"🌐 Descargando contenido de: {source}")
     try:
-        # Petición GET para descargar el contenido del archivo M3U
         response = requests.get(source, timeout=TIMEOUT)
-        response.raise_for_status() # Lanza error para códigos 4xx/5xx
+        response.raise_for_status()
         return response.text
     except requests.exceptions.RequestException as e:
         print(f"❌ Error al descargar {source}: {e}")
@@ -49,17 +51,12 @@ def get_m3u_content(source):
 def parse_m3u(content):
     """Analiza la cadena de texto M3U y devuelve una lista de tuplas (nombre, url, extinf)."""
     channels = []
-    
-    # Expresión regular para encontrar parejas #EXTINF y URL
-    # Usamos re.DOTALL para que '.' incluya saltos de línea
     matches = re.findall(r'(#EXTINF:.*?,(.*?)\n(.*?)\s*?)(?=\n#EXTINF|\Z)', content, re.DOTALL)
 
     for match in matches:
         url = match[2].strip()
         name = match[1].strip()
         
-        # match[0] contiene la línea #EXTINF y match[2] es la URL.
-        # Guardamos match[0].split('\n')[0].strip() para obtener solo la línea #EXTINF original.
         if url and url.startswith(('http', 'https')):
             channels.append({
                 'name': name, 
@@ -76,11 +73,9 @@ def check_url_aggressive(channel):
     """Intenta verificar la URL del canal usando múltiples métodos (HEAD, GET parcial)."""
     url = channel['url']
     
-    # Método 1: HEAD Request (más rápido)
+    # Método 1: HEAD Request
     try:
-        # verify=False se usa para evitar problemas con certificados SSL en algunos streams
         response = requests.head(url, timeout=TIMEOUT, allow_redirects=True, verify=False)
-        # Códigos válidos para un stream (200 OK, 3xx Redirect)
         if 200 <= response.status_code < 400:
             channel['active'] = True
             print(f"  [ACTIVO - HEAD] {channel['name']}")
@@ -88,13 +83,12 @@ def check_url_aggressive(channel):
     except requests.exceptions.RequestException:
         pass 
 
-    # Método 2: GET parcial (Verificar contenido inicial/headers)
+    # Método 2: GET parcial
     try:
         headers = {'Range': 'bytes=0-1024', 'User-Agent': 'Mozilla/5.0'}
         response = requests.get(url, timeout=TIMEOUT, headers=headers, allow_redirects=True, verify=False)
         
         if 200 <= response.status_code < 400:
-            # Comprobar que el Content-Type sea de video/audio/m3u8
             content_type = response.headers.get('Content-Type', '').lower()
             if any(t in content_type for t in ['video', 'audio', 'mpegurl', 'stream']):
                 channel['active'] = True
@@ -103,35 +97,113 @@ def check_url_aggressive(channel):
     except requests.exceptions.RequestException:
         pass
 
-    # Si ninguno funciona
     channel['active'] = False
     print(f"  [MUERTO] {channel['name']}")
     return channel
 
 
 def update_m3u_file(file_path, channels):
-    """Genera un nuevo archivo M3U solo con los canales activos, sobrescribiendo el archivo de destino."""
-    
-    # Esta línea usa file_path (ej. 'argentina.m3u') como nombre de salida
+    """Genera un nuevo archivo M3U solo con los canales activos."""
     output_file = file_path 
-    
     active_channels = [c for c in channels if c['active']]
     
-    # El contenido M3U debe empezar con #EXTM3U
     content = "#EXTM3U\n"
     for channel in active_channels:
-        # Usamos el #EXTINF original para preservar información (TVG-ID, logo, etc.)
         content += f"{channel['extinf']}\n{channel['url']}\n"
     
-    # Guardar el contenido en el archivo local, sobrescribiéndolo
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write(content)
         
     print(f"✅ Lista limpia generada: {len(active_channels)} canales activos guardados en {output_file}")
+    return active_channels
+
+
+def load_history():
+    """Carga el historial de canales del archivo JSON."""
+    if os.path.exists(HISTORY_FILE):
+        with open(HISTORY_FILE, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    return {}
+
+
+def save_history(history):
+    """Guarda el historial de canales en un archivo JSON."""
+    with open(HISTORY_FILE, 'w', encoding='utf-8') as f:
+        json.dump(history, f, ensure_ascii=False, indent=2)
+
+
+def compare_channels(old_channels, new_channels, country_name):
+    """Compara los canales antiguos con los nuevos y devuelve un resumen de cambios."""
+    old_names = set(ch['name'] for ch in old_channels)
+    new_names = set(ch['name'] for ch in new_channels)
+    
+    added = new_names - old_names
+    removed = old_names - new_names
+    
+    return {
+        'country': country_name,
+        'total_old': len(old_channels),
+        'total_new': len(new_channels),
+        'added': sorted(list(added)),
+        'removed': sorted(list(removed)),
+        'unchanged': len(old_names & new_names)
+    }
+
+
+def generate_telegram_report(all_changes):
+    """Genera el mensaje para Telegram con todos los cambios."""
+    timestamp = datetime.now().strftime("%d/%m/%Y %H:%M")
+    
+    report = f"📡 **ACTUALIZACIÓN IPTV** - {timestamp}\n"
+    report += "=" * 40 + "\n\n"
+    
+    has_changes = False
+    
+    for change in all_changes:
+        if change['added'] or change['removed']:
+            has_changes = True
+            report += f"🌍 **{change['country'].upper()}**\n"
+            report += f"   Total canales: {change['total_new']}"
+            
+            if change['total_new'] > change['total_old']:
+                report += f" (📈 +{change['total_new'] - change['total_old']})"
+            elif change['total_new'] < change['total_old']:
+                report += f" (📉 {change['total_new'] - change['total_old']})"
+            
+            report += "\n"
+            
+            if change['added']:
+                report += f"   ✅ **Nuevos ({len(change['added'])})**:\n"
+                for ch in change['added'][:10]:  # Limitar a 10 para no saturar
+                    report += f"      • {ch}\n"
+                if len(change['added']) > 10:
+                    report += f"      ... y {len(change['added']) - 10} más\n"
+            
+            if change['removed']:
+                report += f"   ❌ **Eliminados ({len(change['removed'])})**:\n"
+                for ch in change['removed'][:5]:  # Limitar a 5
+                    report += f"      • {ch}\n"
+                if len(change['removed']) > 5:
+                    report += f"      ... y {len(change['removed']) - 5} más\n"
+            
+            report += "\n"
+    
+    if not has_changes:
+        report += "✅ **No hay cambios** - Todas las listas permanecen igual\n"
+    
+    # Guardar reporte en archivo
+    with open('telegram_report.txt', 'w', encoding='utf-8') as f:
+        f.write(report)
+    
+    return report
 
 
 def main():
     print("Iniciando proceso de verificación masiva de archivos M3U...")
+    
+    # Cargar historial
+    history = load_history()
+    all_changes = []
 
     for input_url, output_file_name in MAPPING_FILES.items():
         print(f"\n--- Procesando {output_file_name} (Fuente: {input_url}) ---")
@@ -151,15 +223,31 @@ def main():
 
         print(f"⚡ Iniciando verificación de {len(channels)} canales con {MAX_WORKERS} hilos concurrentes...")
 
-
-
         # Paso 3: Verificar Canales en paralelo
         with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-            # La función map aplica check_url_aggressive a cada canal
             results = list(executor.map(check_url_aggressive, channels))
             
         # Paso 4: Sobrescribir el archivo local
-        update_m3u_file(output_file_name, results) 
+        active_channels = update_m3u_file(output_file_name, results)
+        
+        # Paso 5: Comparar con historial
+        country_name = output_file_name.replace('.m3u', '').capitalize()
+        old_channels = history.get(output_file_name, [])
+        
+        changes = compare_channels(old_channels, active_channels, country_name)
+        all_changes.append(changes)
+        
+        # Actualizar historial
+        history[output_file_name] = active_channels
+
+    # Guardar nuevo historial
+    save_history(history)
+    
+    # Generar reporte para Telegram
+    report = generate_telegram_report(all_changes)
+    print("\n" + "=" * 50)
+    print(report)
+    print("=" * 50)
 
     print("\nProceso de automatización finalizado.")
 
