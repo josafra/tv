@@ -553,6 +553,12 @@
       "extinf": "#EXTINF:-1 tvg-id=\"HOLAPlay.es@SD\" tvg-logo=\"https://m.media-amazon.com/images/I/5194tl8duqL.png\" group-title=\"Entertainment\",HOLA! Play (1080p)"
     },
     {
+      "name": "Imás TV (1080p) [Not 24/7]",
+      "url": "https://secure3.todostreaming.es/live/imastv-livestream.m3u8",
+      "active": true,
+      "extinf": "#EXTINF:-1 tvg-id=\"ImasTV.es@SD\" tvg-logo=\"https://i.imgur.com/a9hgTmM.png\" group-title=\"General\",Imás TV (1080p) [Not 24/7]"
+    },
+    {
       "name": "Interalmeria TV (1080p)",
       "url": "https://interalmeria.tv/directo/live.m3u8",
       "active": true,
@@ -1099,12 +1105,6 @@
       "extinf": "#EXTINF:-1 tvg-id=\"TV3CAT.es@Originals\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/TV3CAT.svg/512px-TV3CAT.svg.png\" group-title=\"Undefined\",TV3CAT Originals (1080p)"
     },
     {
-      "name": "TV Artequatre (576p)",
-      "url": "https://streaming007.gestec-video.com/hls/artequatreTVA.m3u8",
-      "active": true,
-      "extinf": "#EXTINF:-1 tvg-id=\"TVA.es@SD\" tvg-logo=\"https://i.imgur.com/aobkgrS.png\" group-title=\"Undefined\",TV Artequatre (576p)"
-    },
-    {
       "name": "TV BRICS Spanish (1080p)",
       "url": "https://espbrics.mediacdn.ru/cdn/brics/spanish/playlist.m3u8",
       "active": true,
@@ -1213,12 +1213,6 @@
       "url": "https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/bravo/bravo.smil/playlist.m3u8?did=b2201035844768f58630b7eef",
       "active": true,
       "extinf": "#EXTINF:-1 tvg-id=\"BravoTV.ar@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/5/5e/Bravotv.png\" group-title=\"General\",Bravo TV"
-    },
-    {
-      "name": "Cable Imagen Armstrong (540p) [Not 24/7]",
-      "url": "https://stream.arcast.com.ar/casse/casse/playlist.m3u8",
-      "active": true,
-      "extinf": "#EXTINF:-1 tvg-id=\"CableImagenArmstrong.ar@SD\" tvg-logo=\"https://i.imgur.com/U9NuJQC.png\" group-title=\"Undefined\",Cable Imagen Armstrong (540p) [Not 24/7]"
     },
     {
       "name": "Cadena 103 (720p) [Not 24/7]",
@@ -2191,12 +2185,6 @@
       "extinf": "#EXTINF:-1 tvg-id=\"LaKalle.co@SD\" tvg-logo=\"https://www.tdtparatodos.tv/sites/default/files/la_kalle.png\" group-title=\"Music\",La Kalle (720p)"
     },
     {
-      "name": "Luna Estéreo 106.4 FM (720p) [Not 24/7]",
-      "url": "https://servervideo.intermediacolombia.com:19360/kychbbfhdz/kychbbfhdz.m3u8",
-      "active": true,
-      "extinf": "#EXTINF:-1 tvg-id=\"LunaEstereo1064FM.co@SD\" tvg-logo=\"https://i.imgur.com/cESeD6R.png\" group-title=\"Music\",Luna Estéreo 106.4 FM (720p) [Not 24/7]"
-    },
-    {
       "name": "MasMusica FM (720p)",
       "url": "https://movil.ejeserver.com/live/masmusica.m3u8",
       "active": true,
@@ -2389,12 +2377,6 @@
       "url": "https://v1.tustreaming.cl/aysentv/index.m3u8",
       "active": true,
       "extinf": "#EXTINF:-1 tvg-id=\"AysenTV.cl@SD\" tvg-logo=\"https://i.imgur.com/DmdBf9S.png\" group-title=\"General\",Aysen TV (720p)"
-    },
-    {
-      "name": "Buin Somos Todos (720p) [Not 24/7]",
-      "url": "https://bst.buin.cl/0.m3u8",
-      "active": true,
-      "extinf": "#EXTINF:-1 tvg-id=\"BuinSomosTodos.cl@SD\" tvg-logo=\"https://i.imgur.com/zzeBtux.png\" group-title=\"Undefined\",Buin Somos Todos (720p) [Not 24/7]"
     },
     {
       "name": "Campus TV (Talca) (720p) [Not 24/7]",
@@ -2915,6 +2897,12 @@
       "extinf": "#EXTINF:-1 tvg-id=\"NickelodeonLatinAmerica.us@Panregional\" tvg-logo=\"https://i.imgur.com/E84jnP8.png\" group-title=\"Kids\",Nickelodeon Latin America (720p)"
     },
     {
+      "name": "ONDA DIGITAL (720p)",
+      "url": "https://tv.ondadigital.pe/ondadigital/index.m3u8",
+      "active": true,
+      "extinf": "#EXTINF:-1 tvg-id=\"ONDADIGITAL.pe@SD\" tvg-logo=\"https://i.imgur.com/3R2emx7.jpg\" group-title=\"General\",ONDA DIGITAL (720p)"
+    },
+    {
       "name": "Ovacion TV (720p) [Not 24/7]",
       "url": "http://cdn2.ujjina.com:1935/iptvovacion1/liveovacion1tv/playlist.m3u8",
       "active": true,
@@ -3009,6 +2997,12 @@
       "url": "https://live.obslivestream.com/supercanal/index.m3u8",
       "active": true,
       "extinf": "#EXTINF:-1 tvg-id=\"SuperCanal.pe@SD\" tvg-logo=\"https://i.imgur.com/eotfCMd.png\" group-title=\"Undefined\",Super Canal Yurimaguas (720p) [Not 24/7]"
+    },
+    {
+      "name": "Telecolor Yurimaguas (720p) [Not 24/7]",
+      "url": "https://live.obslivestream.com/telecolormux/index.m3u8",
+      "active": true,
+      "extinf": "#EXTINF:-1 tvg-id=\"TelecolorYurimaguas.pe@SD\" tvg-logo=\"https://i.imgur.com/Ug6XNIU.png\" group-title=\"General\",Telecolor Yurimaguas (720p) [Not 24/7]"
     },
     {
       "name": "Telelima (1080p)",
@@ -3205,6 +3199,12 @@
       "extinf": "#EXTINF:-1 tvg-id=\"IslaTV.ve@SD\" tvg-logo=\"https://i.imgur.com/l11Ixhi.jpeg\" group-title=\"General\",Isla TV (480p)"
     },
     {
+      "name": "KandelaTV (480p)",
+      "url": "https://streamtv.intervenhosting.net:3718/live/kandelamedioslive.m3u8",
+      "active": true,
+      "extinf": "#EXTINF:-1 tvg-id=\"KandelaTV.ve@SD\" tvg-logo=\"https://i.imgur.com/cCFxyIp.jpg\" group-title=\"Music\",KandelaTV (480p)"
+    },
+    {
       "name": "Latina TV (1080p)",
       "url": "https://streamtv.latinamedios.com:3413/live/latinatvlive.m3u8",
       "active": true,
@@ -3323,12 +3323,6 @@
       "url": "https://stmv1.srvstm.com/tnovideo1/tnovideo1/playlist.m3u8",
       "active": true,
       "extinf": "#EXTINF:-1 tvg-id=\"TNORadio.ve@SD\" tvg-logo=\"https://i.ibb.co/0rYsbRk/Logo-TNO-2021-white.png\" group-title=\"General\",TNO Radio (720p)"
-    },
-    {
-      "name": "Torococo TV (720p) [Not 24/7]",
-      "url": "https://us.streaminghd.cl/torococotelevision/video.m3u8",
-      "active": true,
-      "extinf": "#EXTINF:-1 tvg-id=\"TorococoTV.ve@SD\" tvg-logo=\"https://i.ibb.co/9N7Scn8/1400-Torococo-TV.png\" group-title=\"General\",Torococo TV (720p) [Not 24/7]"
     },
     {
       "name": "TRT (410p) [Not 24/7]",
@@ -3585,12 +3579,6 @@
       "extinf": "#EXTINF:-1 tvg-id=\"RTS.ec@SD\" tvg-logo=\"https://i.imgur.com/PML8cJA.png\" group-title=\"Undefined\",RTS (480p)"
     },
     {
-      "name": "RTU (1080p) [Not 24/7]",
-      "url": "https://video1.makrodigital.com/rtu/rtu/chunks.m3u8?nimblesessionid=",
-      "active": true,
-      "extinf": "#EXTINF:-1 tvg-id=\"RTU.ec@SD\" tvg-logo=\"https://i.imgur.com/1OWvMP4.png\" group-title=\"News\",RTU (1080p) [Not 24/7]"
-    },
-    {
       "name": "Señal Positiva TV (1080p)",
       "url": "https://eu1.servers10.com:8081/8108/index.m3u8",
       "active": true,
@@ -3837,6 +3825,12 @@
       "url": "https://tv.wracanal10.com:3300/live/chinolatvlive.m3u8",
       "active": true,
       "extinf": "#EXTINF:-1 tvg-id=\"ChinolaTV.do@SD\" tvg-logo=\"https://i.imgur.com/ybud4dI.png\" group-title=\"Kids\",Chinola TV (480p)"
+    },
+    {
+      "name": "Cibaeña TV (720p)",
+      "url": "https://streamunoapp.com:3958/live/cibaenatvlive.m3u8",
+      "active": true,
+      "extinf": "#EXTINF:-1 tvg-id=\"CibaenaTV.do@SD\" tvg-logo=\"https://i.imgur.com/iHjdckl.png\" group-title=\"Entertainment\",Cibaeña TV (720p)"
     },
     {
       "name": "Cielo TV (1080p)",
@@ -4625,12 +4619,6 @@
       "extinf": "#EXTINF:-1 tvg-id=\"Teleuniverso.do@SD\" tvg-logo=\"https://i.imgur.com/gQev8ST.png\" group-title=\"General\",Teleuniverso (720p)"
     },
     {
-      "name": "Telever (1080p) [Not 24/7]",
-      "url": "https://soportedvb.click:3413/live/televerlive.m3u8",
-      "active": true,
-      "extinf": "#EXTINF:-1 tvg-id=\"Telever.do@SD\" tvg-logo=\"https://imgur.com/ejKctXc.png\" group-title=\"General\",Telever (1080p) [Not 24/7]"
-    },
-    {
       "name": "Televida (720p) [Geo-blocked]",
       "url": "https://vdo1.streamgato.us:3035/live/televidalive.m3u8",
       "active": true,
@@ -4839,12 +4827,6 @@
       "extinf": "#EXTINF:-1 tvg-id=\"BarbeTV.gt@SD\" tvg-logo=\"https://i.imgur.com/2Sekew2.png\" group-title=\"General\",Canal 9 Barbe TV (720p) [Not 24/7]"
     },
     {
-      "name": "Canal 13 Esquipulas (720p)",
-      "url": "https://tv91.hostingnuclear.com:19360/intercable/intercable.m3u8",
-      "active": true,
-      "extinf": "#EXTINF:-1 tvg-id=\"Canal13Esquipulas.gt@SD\" tvg-logo=\"https://i.imgur.com/INKZvlN.png\" group-title=\"General\",Canal 13 Esquipulas (720p)"
-    },
-    {
       "name": "Canal 30 TV Bethel (720p) [Not 24/7]",
       "url": "https://s.emisoras.tv:8081/canal30tvbethel/index.m3u8",
       "active": true,
@@ -4879,12 +4861,6 @@
       "url": "https://video03.logicahost.com.br/maxivisiontv/maxivisiontv/playlist.m3u8",
       "active": true,
       "extinf": "#EXTINF:-1 tvg-id=\"MaxivisionTV.gt@SD\" tvg-logo=\"https://i.imgur.com/UC8WrEN.jpg\" group-title=\"Entertainment\",Maxivisión TV (720p)"
-    },
-    {
-      "name": "Multivisión Canal 3 (720p) [Not 24/7]",
-      "url": "https://stream.digitalgt.com:3136/live/multivisionlive.m3u8",
-      "active": true,
-      "extinf": "#EXTINF:-1 tvg-id=\"MultivisionCanal3.gt@SD\" tvg-logo=\"https://i.imgur.com/6bdj2BV.jpg\" group-title=\"General\",Multivisión Canal 3 (720p) [Not 24/7]"
     },
     {
       "name": "Multivisión Sports (720p) [Not 24/7]",
@@ -5543,12 +5519,6 @@
       "extinf": "#EXTINF:-1 tvg-id=\"RetroxTV.cr\" tvg-logo=\"https://i.imgur.com/viJBL6f.png\" group-title=\"Classic\",Retrox TV (576p) [Geo-blocked]"
     },
     {
-      "name": "San José TV (1080p)",
-      "url": "https://rtmp.info/sanjosetv/envivo/playlist.m3u8",
-      "active": true,
-      "extinf": "#EXTINF:-1 tvg-id=\"SanJoseTV.cr@SD\" tvg-logo=\"https://i.ibb.co/mbB8hqL/blanco-crop.png\" group-title=\"Religious\",San José TV (1080p)"
-    },
-    {
       "name": "Sarapiqui TV (720p) [Not 24/7]",
       "url": "http://tiquiciatv.com:1935/stv/web/playlist.m3u8",
       "active": true,
@@ -6021,6 +5991,12 @@
       "url": "https://tigocloud.desdeparaguay.net/800tv/800tv/playlist.m3u8",
       "active": true,
       "extinf": "#EXTINF:-1 tvg-id=\"UnionTV.py@SD\" tvg-logo=\"https://i.imgur.com/No9YzNC.png\" group-title=\"General\",UnionTV"
+    },
+    {
+      "name": "Venus Media (720p)",
+      "url": "https://rds3gen.desdeparaguay.net/venusmedia/venusmedia/.m3u8",
+      "active": true,
+      "extinf": "#EXTINF:-1 tvg-id=\"VenusMedia.py@SD\" tvg-logo=\"https://i.imgur.com/XwmUbfp.png\" group-title=\"Undefined\",Venus Media (720p)"
     }
   ],
   "uruguay.m3u": [
@@ -6163,6 +6139,12 @@
       "url": "https://video01.kshost.com.br:4443/juan6318/juan6318/playlist.m3u8",
       "active": true,
       "extinf": "#EXTINF:-1 tvg-id=\"TDTMultimedia.bo@SD\" tvg-logo=\"https://i.imgur.com/JkCywl5.png\" group-title=\"General\",TDT Multimedia (720p)"
+    },
+    {
+      "name": "Unifranz (720p)",
+      "url": "https://live.enhdtv.com:8081/8192/index.m3u8",
+      "active": true,
+      "extinf": "#EXTINF:-1 tvg-id=\"Unifranz.bo@HD\" tvg-logo=\"https://unifranz.edu.bo/wp-content/themes/unifranz-web/public/images/logos/logo-light-min.442cee.svg\" group-title=\"Education;Entertainment;News\",Unifranz (720p)"
     },
     {
       "name": "Unitel Santa Cruz",
