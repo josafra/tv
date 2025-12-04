@@ -59,7 +59,7 @@ jobs:
         python send_to_telegram.py
         
 # ------------------------------------------------------------------
-# PASO 1: OFUSCACIÓN DE CÓDIGO JS PARA PROTEGER LA LÓGICA
+# PASO 1: OFUSCACIÓN DE CÓDIGO JS (CORREGIDO)
 # ------------------------------------------------------------------
     - name: Configurar Node.js (Necesario para Terser)
       uses: actions/setup-node@v4 
@@ -71,17 +71,16 @@ jobs:
 
     - name: Minificar y Ofuscar JavaScript
       run: |
-        # Usa terser para minificar y ofuscar (compress y mangle)
-        terser www/js/player.js -o www/js/player.js --compress --mangle
-        terser www/js/index.js -o www/js/index.js --compress --mangle
+        # RUTAS CORREGIDAS: Apuntan a la raíz de www/
+        terser www/player.js -o www/player.js --compress --mangle
+        terser www/index.js -o www/index.js --compress --mangle
         
 # ------------------------------------------------------------------
-# PASO 2: COPIAR FRONTEND AL ROOT para DEPLOY (Solución a /www no visible)
+# PASO 2: COPIAR FRONTEND AL ROOT para DEPLOY
 # ------------------------------------------------------------------
     - name: Copiar Frontend al Root para Deploy
       run: |
         # Copia todos los archivos de www/ a la raíz del repositorio.
-        # Esto permite que GitHub Pages (configurado en /(root)) los encuentre.
         cp -R www/* . 
         
 # ------------------------------------------------------------------
@@ -92,7 +91,7 @@ jobs:
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
         
-        # Añade todos los archivos modificados (M3U, historial, y los archivos PWA copiados al root)
+        # Añade todos los archivos (incluyendo los copiados al root)
         git add .
         
         git diff --quiet && git diff --staged --quiet || git commit -m "🤖 Actualización automática IPTV y Frontend Ofuscado - $(date +'%Y-%m-%d %H:%M')"
