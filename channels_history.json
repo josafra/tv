@@ -493,6 +493,12 @@
       "extinf": "#EXTINF:-1 tvg-id=\"FactoriadeFiccion.es@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/FDF_2012.png/500px-FDF_2012.png\" group-title=\"Entertainment\",FDF (1080p)"
     },
     {
+      "name": "Fibwi (1080p) [Not 24/7]",
+      "url": "https://hostcdn3.fibwi.com/fibwi_diario/index.fmp4.m3u8",
+      "active": true,
+      "extinf": "#EXTINF:-1 tvg-id=\"Fibwi.es@SD\" tvg-logo=\"https://i.imgur.com/4vcGzcC.png\" group-title=\"General\",Fibwi (1080p) [Not 24/7]"
+    },
+    {
       "name": "FIFA+ Spain (720p)",
       "url": "https://d63fabad.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWVzX0ZJRkFQbHVzU3BhbmlzaF9ITFM/playlist.m3u8",
       "active": true,
@@ -1185,6 +1191,12 @@
       "extinf": "#EXTINF:-1 tvg-id=\"ArgentinisimaSatelital.ar@SD\" tvg-logo=\"https://i.imgur.com/xFgJawa.png\" group-title=\"General\",Argentinísima Satelital (540p)"
     },
     {
+      "name": "ATV Argentina",
+      "url": "https://tv.streaming.com.bo/atvargentina/index.m3u8",
+      "active": true,
+      "extinf": "#EXTINF:-1 tvg-id=\"ATVArgentina.ar@SD\" tvg-logo=\"https://i.ibb.co/rMBVDmZ/atvargentina-x1.png\" group-title=\"News\",ATV Argentina"
+    },
+    {
       "name": "Azahares Radio Multimedia (720p)",
       "url": "https://streamyes.alsolnet.com/azaharesfm/live/playlist.m3u8",
       "active": true,
@@ -1207,12 +1219,6 @@
       "url": "https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/bravo/bravo.smil/playlist.m3u8?did=b2201035844768f58630b7eef",
       "active": true,
       "extinf": "#EXTINF:-1 tvg-id=\"BravoTV.ar@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/5/5e/Bravotv.png\" group-title=\"General\",Bravo TV"
-    },
-    {
-      "name": "Cable Imagen Armstrong (540p) [Not 24/7]",
-      "url": "https://stream.arcast.com.ar/casse/casse/playlist.m3u8",
-      "active": true,
-      "extinf": "#EXTINF:-1 tvg-id=\"CableImagenArmstrong.ar@SD\" tvg-logo=\"https://i.imgur.com/U9NuJQC.png\" group-title=\"Undefined\",Cable Imagen Armstrong (540p) [Not 24/7]"
     },
     {
       "name": "Canal 2 de Ushuaia (1080p)",
@@ -1323,6 +1329,12 @@
       "extinf": "#EXTINF:-1 tvg-id=\"Canal11delaCosta.ar@SD\" tvg-logo=\"https://i.imgur.com/yYExcq1.jpg\" group-title=\"Undefined\",Canal 11 de la Costa (720p)"
     },
     {
+      "name": "Canal 13 Jujuy TV (720p)",
+      "url": "https://genexservicios.com:19360/canal13jujuy/canal13jujuy.m3u8",
+      "active": true,
+      "extinf": "#EXTINF:-1 tvg-id=\"Canal13Jujuy.ar@SD\" tvg-logo=\"https://i.imgur.com/lmKLiJ3.jpg\" group-title=\"Religious\",Canal 13 Jujuy TV (720p)"
+    },
+    {
       "name": "Canal 13 La Rioja (480p)",
       "url": "http://arcast.net:1935/mp/mp/playlist.m3u8",
       "active": true,
@@ -1399,12 +1411,6 @@
       "url": "https://streaming.telered.com.ar/santa-maria/streaming/mystream.m3u8",
       "active": true,
       "extinf": "#EXTINF:-1 tvg-id=\"CanalSantaMaria.ar@SD\" tvg-logo=\"https://www.canalsantamaria.com.ar/images/santamaria_logo.jpg\" group-title=\"Religious\",Canal Santa María (360p)"
-    },
-    {
-      "name": "Canal Siete",
-      "url": "https://vivo.solumedia.com:19360/canalsiete/canalsiete.m3u8",
-      "active": true,
-      "extinf": "#EXTINF:-1 tvg-id=\"CanalSiete.ar@SD\" tvg-logo=\"https://i.imgur.com/NdQF9K9.png\" group-title=\"General\",Canal Siete"
     },
     {
       "name": "Catamarca TV (720p)",
@@ -1671,6 +1677,12 @@
       "url": "https://azt-mun.otteravision.com/azt/mun/mun.m3u8",
       "active": true,
       "extinf": "#EXTINF:-1 tvg-id=\"AztecaInternacional.mx@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/e/eb/Azteca_Internacional_logo_2023.png\" group-title=\"Entertainment\",Azteca Internacional (1080p)"
+    },
+    {
+      "name": "California Medios TV (720p)",
+      "url": "https://s5.mexside.net:1936/medios/medios/playlist.m3u8",
+      "active": true,
+      "extinf": "#EXTINF:-1 tvg-id=\"CaliforniaMediosTV.mx@SD\" tvg-logo=\"https://i.imgur.com/IDvpRNI.png\" group-title=\"General\",California Medios TV (720p)"
     },
     {
       "name": "Canal 5 (720p)",
@@ -1949,6 +1961,12 @@
       "extinf": "#EXTINF:-1 tvg-id=\"TVMarLosCabos.mx@SD\" tvg-logo=\"https://i.imgur.com/z9iVlMn.png\" group-title=\"General\",TV Mar Los Cabos (1080p)"
     },
     {
+      "name": "TV Nuevo León Canal 28 (XHMNL-TDT) (720p)",
+      "url": "https://s5.mexside.net:1936/canal28/canal28/playlist.m3u8",
+      "active": true,
+      "extinf": "#EXTINF:-1 tvg-id=\"XHMNLTDT.mx@SD\" tvg-logo=\"https://i.imgur.com/9qL4LJF.png\" group-title=\"Education\",TV Nuevo León Canal 28 (XHMNL-TDT) (720p)"
+    },
+    {
       "name": "TV UJAT (XHUJAT-TDT) (720p) [Not 24/7]",
       "url": "https://5e50264bd6766.streamlock.net/ujat/videoujat/playlist.m3u8",
       "active": true,
@@ -2087,6 +2105,12 @@
       "url": "https://eu1.servers10.com:8081/8056/index.m3u8",
       "active": true,
       "extinf": "#EXTINF:-1 tvg-id=\"Canal14Codazzi.co@SD\" tvg-logo=\"https://i.imgur.com/wNSUMhJ.png\" group-title=\"Entertainment\",Canal 14 Codazzi (720p) [Not 24/7]"
+    },
+    {
+      "name": "Canal 55 Telemorisco TV (720p)",
+      "url": "http://canal.mediaserver.com.co/live/telemorisco.m3u8",
+      "active": true,
+      "extinf": "#EXTINF:-1 tvg-id=\"Canal55TelemoriscoTV.co@SD\" tvg-logo=\"https://i.imgur.com/9BwZyhM.jpg\" group-title=\"General\",Canal 55 Telemorisco TV (720p)"
     },
     {
       "name": "Canal Dos Yopal (720p)",
@@ -2285,12 +2309,6 @@
       "url": "https://59a564764e2b6.streamlock.net/vallenato/vallenatom/playlist.m3u8",
       "active": true,
       "extinf": "#EXTINF:-1 tvg-id=\"VallenatoInternacional.us@SD\" tvg-logo=\"https://i.imgur.com/rVKroNW.png\" group-title=\"Music\",Vallenato Internacional (720p) [Not 24/7]"
-    },
-    {
-      "name": "Vive TV Colombia (1080p)",
-      "url": "http://192.144.113.132:1935/live/ViveTV/playlist.m3u8",
-      "active": true,
-      "extinf": "#EXTINF:-1 tvg-id=\"ViveTV.co@SD\" tvg-logo=\"https://i.imgur.com/25CFHpB.png\" group-title=\"Undefined\",Vive TV Colombia (1080p)"
     }
   ],
   "chile.m3u": [
@@ -2499,6 +2517,12 @@
       "extinf": "#EXTINF:-1 tvg-id=\"LatinaNetworkTV.cl@SD\" tvg-logo=\"https://www.vivalivetv.com/public/files/shows/0/1/3782-294x165-FFFFFF.jpg\" group-title=\"General\",Latina Network TV (576i)"
     },
     {
+      "name": "Meganoticias (1080p)",
+      "url": "https://ythls.armelin.one/channel/UCkccyEbqhhM3uKOI6Shm-4Q.m3u8",
+      "active": true,
+      "extinf": "#EXTINF:-1 tvg-id=\"Meganoticias.cl@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Meganoticias2019.png/512px-Meganoticias2019.png\" group-title=\"News\" http-referrer=\"https://www.meganoticias.cl/\",Meganoticias (1080p)"
+    },
+    {
       "name": "MTNA TV",
       "url": "https://live.mtna.tv/hls/mtna/mtna.m3u8",
       "active": true,
@@ -2705,6 +2729,12 @@
       "extinf": "#EXTINF:-1 tvg-id=\"AntaresTelevision.pe@SD\" tvg-logo=\"https://i.imgur.com/05gwtk2.png\" group-title=\"Entertainment\",Antares Televisión (720p) [Not 24/7]"
     },
     {
+      "name": "AsiriTV (720p) [Not 24/7]",
+      "url": "https://video2.lhdserver.es/asiritv/live.m3u8",
+      "active": true,
+      "extinf": "#EXTINF:-1 tvg-id=\"AsiriTV.pe@SD\" tvg-logo=\"https://i.imgur.com/7bGVFBa.png\" group-title=\"Culture\",AsiriTV (720p) [Not 24/7]"
+    },
+    {
       "name": "ATV (720p) [Not 24/7]",
       "url": "https://alba-pe-atv-atv.stream.mediatiquestream.com/index.m3u8",
       "active": true,
@@ -2853,12 +2883,6 @@
       "url": "https://www.milenial.news/salida/milenial.m3u8",
       "active": true,
       "extinf": "#EXTINF:-1 tvg-id=\"MilenialTV.pe@SD\" tvg-logo=\"https://i.imgur.com/8ZiNoEa.png\" group-title=\"General\",Milenial TV"
-    },
-    {
-      "name": "Millenium 109 FM (720p) [Not 24/7]",
-      "url": "https://videoserver.tmcreativos.com:19360/nqvnhujhrx/nqvnhujhrx.m3u8",
-      "active": true,
-      "extinf": "#EXTINF:-1 tvg-id=\"Millenium109FM.pe@SD\" tvg-logo=\"https://i.imgur.com/sfNL6Bv.png\" group-title=\"Music\",Millenium 109 FM (720p) [Not 24/7]"
     },
     {
       "name": "Monterrico TV (1080p) [Not 24/7]",
@@ -3821,6 +3845,18 @@
       "extinf": "#EXTINF:-1 tvg-id=\"CitricoTV.do@SD\" tvg-logo=\"https://enhd.ar/wp-content/uploads/2022/01/0e4a83fc-ba5b-4f26-a333-31f8bd544bcb-300x260.jpeg\" group-title=\"News\",Cítrico TV (240p)"
     },
     {
+      "name": "Claro Televisión Dominicana (360p)",
+      "url": "https://streamunoapp.com:3960/live/claroteledomlive.m3u8",
+      "active": true,
+      "extinf": "#EXTINF:-1 tvg-id=\"ClaroTelevisionDominicana.do@SD\" tvg-logo=\"https://i.imgur.com/fJD7OxB.png\" group-title=\"General\",Claro Televisión Dominicana (360p)"
+    },
+    {
+      "name": "Claro Visión TV (720p)",
+      "url": "https://streamunoapp.com:3057/live/clarovisiontvlive.m3u8",
+      "active": true,
+      "extinf": "#EXTINF:-1 tvg-id=\"ClaroVisionTV.do@SD\" tvg-logo=\"https://i.imgur.com/MpTgJMJ.png\" group-title=\"Entertainment\",Claro Visión TV (720p)"
+    },
+    {
       "name": "COCO TV (720p)",
       "url": "https://cloudflare.streamgato.us:3253/live/canalcocotvlive.m3u8",
       "active": true,
@@ -4691,12 +4727,6 @@
       "extinf": "#EXTINF:-1 tvg-id=\"Vallevision.do@SD\" tvg-logo=\"https://i.imgur.com/lNpgFAU.png\" group-title=\"General\",Vallevision Canal 10 (720p) [Not 24/7]"
     },
     {
-      "name": "VegaTeve (1080p) [Not 24/7]",
-      "url": "https://cloud6.livescast.com:3797/live/vegatevelive.m3u8",
-      "active": true,
-      "extinf": "#EXTINF:-1 tvg-id=\"VegaTeve.do@SD\" tvg-logo=\"https://i.imgur.com/jiyMOZx.png\" group-title=\"General\",VegaTeve (1080p) [Not 24/7]"
-    },
-    {
       "name": "Vegavisión Canal 18 (720p)",
       "url": "https://rdn.essastream.com:3400/live/canal18hdlive.m3u8",
       "active": true,
@@ -4891,6 +4921,18 @@
       "url": "https://5ca9af4645e15.streamlock.net/mayas/videomayas/playlist.m3u8",
       "active": true,
       "extinf": "#EXTINF:-1 tvg-id=\"TVMaya.gt@SD\" tvg-logo=\"https://i.imgur.com/BGFa4OO.png\" group-title=\"Education\",TV Maya (480p)"
+    },
+    {
+      "name": "TVS Retro (720p)",
+      "url": "https://cdn.streamhispanatv.net:3531/live/tvsretrogtlive.m3u8",
+      "active": true,
+      "extinf": "#EXTINF:-1 tvg-id=\"TVSRetro.gt@SD\" tvg-logo=\"https://i.imgur.com/jdnHci0.png\" group-title=\"Classic\",TVS Retro (720p)"
+    },
+    {
+      "name": "Visión TV (720p)",
+      "url": "https://cdn.streamhispanatv.net:3076/live/visiontvlive.m3u8",
+      "active": true,
+      "extinf": "#EXTINF:-1 tvg-id=\"VisionTV.gt@SD\" tvg-logo=\"https://i.imgur.com/S0JrfIl.png\" group-title=\"Undefined\",Visión TV (720p)"
     }
   ],
   "honduras.m3u": [
@@ -5447,6 +5489,12 @@
       "extinf": "#EXTINF:-1 tvg-id=\"MultizonasTV.cr@SD\" tvg-logo=\"https://i.imgur.com/PD9TCu0.png\" group-title=\"Education\",Multizonas TV (720p)"
     },
     {
+      "name": "Nicoya TV (720p) [Not 24/7]",
+      "url": "https://59ef525c24caa.streamlock.net/nicoyatv/nicoyatv/playlist.m3u8",
+      "active": true,
+      "extinf": "#EXTINF:-1 tvg-id=\"NicoyaTV.cr@SD\" tvg-logo=\"https://i.imgur.com/Lj2jRn3.png\" group-title=\"General\",Nicoya TV (720p) [Not 24/7]"
+    },
+    {
       "name": "Norte Informativo TV (240p)",
       "url": "https://videohd.live:19360/8076/8076.m3u8",
       "active": true,
@@ -5781,6 +5829,12 @@
       "extinf": "#EXTINF:-1 tvg-id=\"TheRetroChannel.pr@SD\" tvg-logo=\"https://i.imgur.com/t3i1HtE.jpg\" group-title=\"Music\",The Retro Channel (1080p)"
     },
     {
+      "name": "Triunfo 96.9 FM TV (360p)",
+      "url": "https://59825a54e4454.streamlock.net:8443/william652/william652/playlist.m3u8",
+      "active": true,
+      "extinf": "#EXTINF:-1 tvg-id=\"Triunfo969FM.pr@SD\" tvg-logo=\"https://i.ibb.co/q0qt0h5/x-SCWAc-Jfp3.png\" group-title=\"Religious\",Triunfo 96.9 FM TV (360p)"
+    },
+    {
       "name": "WDWL-DT1 (Teleadoración/Enlace PR) (720p) [Not 24/7]",
       "url": "https://67acccf130420.streamlock.net/enlacepr1/enlacepr1/playlist.m3u8",
       "active": true,
@@ -5949,12 +6003,6 @@
       "url": "https://tigocloud.desdeparaguay.net/800tv/800tv/playlist.m3u8",
       "active": true,
       "extinf": "#EXTINF:-1 tvg-id=\"UnionTV.py@SD\" tvg-logo=\"https://i.imgur.com/No9YzNC.png\" group-title=\"General\",UnionTV"
-    },
-    {
-      "name": "Venus Media (720p)",
-      "url": "https://rds3gen.desdeparaguay.net/venusmedia/venusmedia/.m3u8",
-      "active": true,
-      "extinf": "#EXTINF:-1 tvg-id=\"VenusMedia.py@SD\" tvg-logo=\"https://i.imgur.com/XwmUbfp.png\" group-title=\"Undefined\",Venus Media (720p)"
     }
   ],
   "uruguay.m3u": [
