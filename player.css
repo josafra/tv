@@ -1,0 +1,362 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  background-color: #121212;
+}
+
+.playlist-section {
+  width: 250px;
+  padding: 15px;
+  background-color: #1e1e1e;
+  border-right: 1px solid #333;
+  overflow-y: auto;
+  border: 3px solid #444;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+.video-section {
+  flex: 1;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #444;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  position: relative;
+  overflow: hidden; /* Evita desbordes */
+}
+
+video {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  background: #000;
+  border-radius: 10px;
+  border: none;
+  max-height: calc(100vh - 180px); /* Espacio para títulos e instrucciones */
+}
+
+#videoOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 9999;
+  pointer-events: auto;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#loadingText {
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  animation: blink 1.5s infinite;
+}
+
+#loadingText span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+  color: #00b3ff;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.channel-name {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #e0e0e0;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+.channel {
+  display: block;
+  margin: 10px 0;
+  padding: 12px;
+  background: #2d2d2d;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  transition: all 0.3s;
+  color: #e0e0e0;
+}
+
+.channel:hover, .channel:focus {
+  background: #3d3d3d;
+  outline: none;
+  box-shadow: 0 0 0 2px #00b3ff, 0 0 10px 2px rgba(0, 179, 255, 0.5);
+}
+
+.channel.selected {
+  background: #0078d7;
+  color: white;
+  box-shadow: 0 0 0 2px #00b3ff, 0 0 15px 4px rgba(0, 179, 255, 0.7);
+}
+
+.channel.playing {
+  background: #008a17;
+  color: white;
+  box-shadow: 0 0 0 2px #00ff41, 0 0 15px 4px rgba(0, 255, 65, 0.7);
+}
+
+.instructions {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #2d2d2d;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  color: #ccc;
+  border: 1px solid #444;
+  text-align: center;
+  max-width: 90%;
+  line-height: 1.3;
+}
+
+.message {
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 10px 0;
+  color: #aaa;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #444;
+  font-size: 1.1rem;
+  color: #e0e0e0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#welcomeOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 15;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'Segoe UI', sans-serif;
+  transition: opacity 0.5s ease;
+}
+
+#welcomeOverlay.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.loading-message {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #00b3ff;
+}
+
+/* --- REGLAS RESPONSIVE ORIGINALES --- */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .playlist-section {
+    width: calc(100% - 26px);
+    max-height: 200px;
+    overflow-y: auto;
+    border-right: none;
+  }
+  .video-section {
+    width: calc(100% - 26px);
+  }
+}
+
+
+/* ================================================= */
+/* --- AÑADIDOS PARA RESPONSIVIDAD MEJORADA Y TV --- */
+/* ================================================= */
+
+/* Ajustes generales de caja y tamaño para Desktop */
+html, body {
+  box-sizing: border-box;
+}
+
+.playlist-section {
+  min-width: 200px;
+  max-width: 300px;
+}
+
+.video-section {
+  min-width: 0;
+}
+
+/* --- 1. OPTIMIZACIÓN para TV / Pantallas Ultra-Grandes (1920px y superior) --- */
+@media (min-width: 1920px) {
+  body {
+    font-size: 1.125rem;
+  }
+
+  .playlist-section {
+    width: 350px; 
+    max-width: 400px;
+    padding: 25px 20px; 
+    margin: 15px; 
+  }
+  
+  .video-section {
+    margin: 15px; 
+    padding: 15px 20px;
+  }
+
+  video {
+    max-height: calc(100vh - 200px);
+  }
+
+  .channel {
+    padding: 18px; 
+    font-size: 1.3rem; 
+    margin: 15px 0; 
+  }
+  
+  .section-title {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+  }
+
+  .channel-name {
+    font-size: 1.4rem;
+    margin-top: 12px;
+  }
+  
+  #loadingText {
+    font-size: 2.5rem;
+  }
+
+  #loadingText span {
+    font-size: 1.8rem;
+  }
+
+  .instructions {
+    font-size: 1rem;
+    padding: 12px 18px;
+    margin-top: 12px;
+    line-height: 1.4;
+  }
+
+  .message {
+    font-size: 1.3rem;
+  }
+  
+  .channel:hover, .channel:focus, .channel.selected, .channel.playing {
+    box-shadow: 0 0 0 4px #00b3ff, 0 0 20px 5px rgba(0, 179, 255, 0.8);
+    transform: scale(1.02);
+  }
+}
+
+/* --- 2. OPTIMIZACIÓN para Móviles y Tablets --- */
+@media (max-width: 768px) {
+  .playlist-section {
+    width: calc(100% - 20px);
+    max-height: 40vh;
+    overflow-y: auto;
+    border-right: 3px solid #444;
+    margin: 10px 10px 5px 10px;
+    padding: 10px;
+  }
+  
+  .video-section {
+    width: calc(100% - 20px);
+    margin: 5px 10px 10px 10px;
+    padding: 8px;
+  }
+  
+  video {
+    max-height: calc(60vh - 80px);
+  }
+
+  .instructions {
+    display: none;
+  }
+  
+  .channel {
+    padding: 10px;
+    font-size: 0.95rem;
+  }
+
+  .section-title {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+  
+  .channel-name {
+    font-size: 1rem;
+  }
+}
+
+/* --- 3. OPTIMIZACIÓN para Móviles Pequeños (Máximo 480px) --- */
+@media (max-width: 480px) {
+  .playlist-section, .video-section {
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  .channel {
+    padding: 8px; 
+    font-size: 0.9rem;
+  }
+  
+  .section-title {
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+  }
+  
+  #loadingText {
+    font-size: 1.5rem;
+  }
+  #loadingText span {
+    font-size: 1rem;
+  }
+  #welcomeOverlay {
+    font-size: 1.5rem;
+  }
+}

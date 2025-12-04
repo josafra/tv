@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reproductor M3U8</title>
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  <link rel="stylesheet" href="player.css">
+</head>
+<body>
+  <div class="container">
+    <div class="playlist-section" id="playlist">
+      <div class="section-title">Lista de Canales</div>
+      <div class="loading-message">Cargando canales...</div>
+    </div>
+    <div class="video-section">
+      <div class="section-title" id="countryTitle">Cargando...</div>
+      <div id="welcomeOverlay">
+        <div class="welcome-text" id="welcomeText">Cargando...</div>
+      </div>
+      <video id="video"></video>
+      <div id="videoOverlay">
+        <div id="loadingText">
+          Cargando canal...<br>
+          <span id="loadingChannelName"></span>
+        </div>
+      </div>
+      <div id="currentChannel" class="channel-name">Selecciona un canal para reproducir</div>
+      <div class="message" id="initialMessage">Por favor, selecciona un canal de la lista</div>
+     <div class="instructions">
+  ↑↓ Navegar | ENTER Reproducir | ENTER×2 Pantalla completa<br>
+  <strong>F</strong> Añadir/Quitar favorito | <strong>S</strong> Ver favoritos
+</div>
+    </div>
+  </div>
+
+  <script src="player.js"></script>
+</body>
+</html>
