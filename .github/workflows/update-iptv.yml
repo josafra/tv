@@ -20,24 +20,24 @@ jobs:
       with:
         fetch-depth: 0
         token: ${{ secrets.GITHUB_TOKEN }}
-        
+    
     - name: Configurar Python
       uses: actions/setup-python@v5
       with:
         python-version: '3.10'
-        
-    - name: Instalar dependencias de Python
+    
+    - name: Instalar dependencias
       run: |
-        pip install -r requirements_scraper.txt
-        
+        pip install requests
+    
     - name: Descargar historial anterior (si existe)
       continue-on-error: true
       run: |
         git checkout origin/main -- channels_history.json || echo "No hay historial previo"
-        
+    
     - name: Ejecutar verificación de canales IPTV
       run: python check_m3u.py
-      
+    
     - name: Enviar notificación a Telegram
       env:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -57,46 +57,16 @@ jobs:
         fi
         
         python send_to_telegram.py
-        
-# ------------------------------------------------------------------
-# PASO 1: OFUSCACIÓN DE CÓDIGO JS (CORREGIDO)
-# ------------------------------------------------------------------
-    - name: Configurar Node.js (Necesario para Terser)
-      uses: actions/setup-node@v4 
-      with:
-        node-version: '20'
-        
-    - name: Instalar Terser (Minificador/Ofuscador)
-      run: npm install -g terser
-
-    - name: Minificar y Ofuscar JavaScript
-      run: |
-        # RUTAS CORREGIDAS: Apuntan a la raíz de www/
-        terser www/player.js -o www/player.js --compress --mangle
-        terser www/index.js -o www/index.js --compress --mangle
-        
-# ------------------------------------------------------------------
-# PASO 2: COPIAR FRONTEND AL ROOT para DEPLOY
-# ------------------------------------------------------------------
-    - name: Copiar Frontend al Root para Deploy
-      run: |
-        # Copia todos los archivos de www/ a la raíz del repositorio.
-        cp -R www/* . 
-        
-# ------------------------------------------------------------------
-# PASO FINAL: COMMIT Y PUSH
-# ------------------------------------------------------------------
-    - name: Guardar historial, M3U y Código JS Ofuscado
+    
+    - name: Guardar historial actualizado
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
-        
-        # Añade todos los archivos (incluyendo los copiados al root)
-        git add .
-        
-        git diff --quiet && git diff --staged --quiet || git commit -m "🤖 Actualización automática IPTV y Frontend Ofuscado - $(date +'%Y-%m-%d %H:%M')"
+        git add channels_history.json
+        git add *.m3u
+        git diff --quiet && git diff --staged --quiet || git commit -m "🤖 Actualización automática IPTV - $(date +'%Y-%m-%d %H:%M')"
         git push
-        
+    
     - name: Subir archivos como artefactos
       uses: actions/upload-artifact@v4
       with:
