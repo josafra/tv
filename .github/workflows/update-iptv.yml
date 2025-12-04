@@ -20,24 +20,24 @@ jobs:
       with:
         fetch-depth: 0
         token: ${{ secrets.GITHUB_TOKEN }}
-    
+        
     - name: Configurar Python
       uses: actions/setup-python@v5
       with:
         python-version: '3.10'
-    
-    - name: Instalar dependencias
+        
+    - name: Instalar dependencias de Python
       run: |
         pip install -r requirements_scraper.txt
-    
+        
     - name: Descargar historial anterior (si existe)
       continue-on-error: true
       run: |
         git checkout origin/main -- channels_history.json || echo "No hay historial previo"
-    
+        
     - name: Ejecutar verificación de canales IPTV
       run: python check_m3u.py
-    
+      
     - name: Enviar notificación a Telegram
       env:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -57,16 +57,45 @@ jobs:
         fi
         
         python send_to_telegram.py
-    
-    - name: Guardar historial actualizado
+        
+# ------------------------------------------------------------------
+# PASOS NUEVOS: OFUSCACIÓN DE CÓDIGO JS PARA PWA
+# ------------------------------------------------------------------
+    - name: Configurar Node.js (Necesario para Terser)
+      uses: actions/setup-node@v4 
+      with:
+        node-version: '20'
+        
+    - name: Instalar Terser (Minificador/Ofuscador)
+      run: npm install -g terser
+
+    - name: Minificar y Ofuscar JavaScript
+      run: |
+        # --compress --mangle: Compresión y cambio de nombres de variables a letras cortas
+        terser www/js/player.js -o www/js/player.js --compress --mangle
+        terser www/js/index.js -o www/js/index.js --compress --mangle
+        # Se puede añadir minificación de CSS aquí si tienes una herramienta, pero JS es lo crítico.
+
+# ------------------------------------------------------------------
+# FIN DE PASOS NUEVOS
+# ------------------------------------------------------------------
+
+    - name: Guardar historial, M3U y Código JS Ofuscado
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
+        # Añade también el código JS y CSS del frontend para que se actualice en el commit
         git add channels_history.json
         git add *.m3u
-        git diff --quiet && git diff --staged --quiet || git commit -m "🤖 Actualización automática IPTV - $(date +'%Y-%m-%d %H:%M')"
+        git add www/js/player.js # Archivo ofuscado
+        git add www/js/index.js # Archivo ofuscado
+        
+        # Añadir todos los archivos del frontend que se hayan modificado (incluyendo los nuevos PWA)
+        git add www/
+        
+        git diff --quiet && git diff --staged --quiet || git commit -m "🤖 Actualización automática IPTV y Frontend Ofuscado - $(date +'%Y-%m-%d %H:%M')"
         git push
-    
+        
     - name: Subir archivos como artefactos
       uses: actions/upload-artifact@v4
       with:
