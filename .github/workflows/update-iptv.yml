@@ -1,63 +1,5 @@
-name: Actualizar IPTV y Notificar Cambios
+# ... (El código anterior es igual) ...
 
-on:
-  schedule:
-    # Ejecutar todos los días a las 3:00 AM UTC
-    - cron: '0 3 * * *'
-  workflow_dispatch: # Permitir ejecución manual desde GitHub
-
-# Dar permisos de escritura al repositorio
-permissions:
-  contents: write
-
-jobs:
-  update-and-notify:
-    runs-on: ubuntu-latest
-    
-    steps:
-    - name: Checkout repositorio
-      uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
-        token: ${{ secrets.GITHUB_TOKEN }}
-        
-    - name: Configurar Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.10'
-        
-    - name: Instalar dependencias de Python
-      run: |
-        pip install -r requirements_scraper.txt
-        
-    - name: Descargar historial anterior (si existe)
-      continue-on-error: true
-      run: |
-        git checkout origin/main -- channels_history.json || echo "No hay historial previo"
-        
-    - name: Ejecutar verificación de canales IPTV
-      run: python check_m3u.py
-      
-    - name: Enviar notificación a Telegram
-      env:
-        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-        TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-      run: |
-        echo "🔍 Verificando variables de entorno..."
-        if [ -z "$TELEGRAM_BOT_TOKEN" ]; then
-          echo "❌ TELEGRAM_BOT_TOKEN no está configurado"
-        else
-          echo "✅ TELEGRAM_BOT_TOKEN está configurado"
-        fi
-        
-        if [ -z "$TELEGRAM_CHAT_ID" ]; then
-          echo "❌ TELEGRAM_CHAT_ID no está configurado"
-        else
-          echo "✅ TELEGRAM_CHAT_ID está configurado"
-        fi
-        
-        python send_to_telegram.py
-        
 # ------------------------------------------------------------------
 # PASOS NUEVOS: OFUSCACIÓN DE CÓDIGO JS PARA PWA
 # ------------------------------------------------------------------
@@ -71,36 +13,34 @@ jobs:
 
     - name: Minificar y Ofuscar JavaScript
       run: |
-        # --compress --mangle: Compresión y cambio de nombres de variables a letras cortas
+        # Ejecuta la ofuscación dentro de la carpeta www/js/
         terser www/js/player.js -o www/js/player.js --compress --mangle
         terser www/js/index.js -o www/js/index.js --compress --mangle
-        # Se puede añadir minificación de CSS aquí si tienes una herramienta, pero JS es lo crítico.
-
+        
 # ------------------------------------------------------------------
-# FIN DE PASOS NUEVOS
+# PASO VITAL NUEVO: COPIAR ARCHIVOS PARA EL DESPLIEGUE
+# ------------------------------------------------------------------
+    - name: Copiar Frontend al Root para Deploy
+      run: |
+        # Copia todos los archivos de la carpeta www/ (incluyendo index.html, player.html, y las carpetas js/ y css/) 
+        # a la raíz del repositorio. Esto es lo que GitHub Pages verá.
+        cp -R www/* . 
+        
+# ------------------------------------------------------------------
+# FIN DE PASOS MODIFICADOS
 # ------------------------------------------------------------------
 
     - name: Guardar historial, M3U y Código JS Ofuscado
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
-        # Añade también el código JS y CSS del frontend para que se actualice en el commit
-        git add channels_history.json
-        git add *.m3u
-        git add www/js/player.js # Archivo ofuscado
-        git add www/js/index.js # Archivo ofuscado
         
-        # Añadir todos los archivos del frontend que se hayan modificado (incluyendo los nuevos PWA)
-        git add www/
+        # Añade todo el contenido que se copió a la raíz
+        git add .
         
+        # Elimina el 'git push' del paso anterior para que no haya conflicto
         git diff --quiet && git diff --staged --quiet || git commit -m "🤖 Actualización automática IPTV y Frontend Ofuscado - $(date +'%Y-%m-%d %H:%M')"
         git push
         
     - name: Subir archivos como artefactos
-      uses: actions/upload-artifact@v4
-      with:
-        name: listas-iptv-actualizadas
-        path: |
-          *.m3u
-          telegram_report.txt
-          channels_history.json
+# ... (El resto es igual) ...
