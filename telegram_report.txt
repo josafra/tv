@@ -1,163 +1,88 @@
-📡 **ACTUALIZACIÓN IPTV** - 04/12/2025 15:47
+📡 **ACTUALIZACIÓN IPTV** - 04/12/2025 16:22
 ========================================
 
 🌍 **ESPANA**
-   Total canales: 192 (📈 +3)
-   ✅ **Nuevos (5)**:
-      • Angel TV Spanish (720p)
-      • Canal Doñana (720p) [Not 24/7]
-      • Rioja Televisión (360p) [Not 24/7]
-      • Telemotril (720p) [Not 24/7]
-      • Urola Telebista (416p)
-   ❌ **Eliminados (2)**:
+   Total canales: 192
+   ✅ **Nuevos (1)**:
       • Imás TV (1080p) [Not 24/7]
-      • Radio Carnaval TV (720p) [Not 24/7]
+   ❌ **Eliminados (1)**:
+      • Rioja Televisión (360p) [Not 24/7]
 
 🌍 **ARGENTINA**
-   Total canales: 81 (📈 +6)
-   ✅ **Nuevos (6)**:
-      • Canal 4 San Juan (576p)
-      • Canal Siete
-      • Litus TV (720p)
-      • Más FM 95.9 (720p)
-      • NG Federal (720p)
+   Total canales: 79 (📉 -2)
+   ❌ **Eliminados (2)**:
       • Quatro TV (540p)
+      • Radio Mitre
 
 🌍 **MEXICO**
-   Total canales: 72 (📈 +2)
-   ✅ **Nuevos (2)**:
-      • Canal 10 Durango
+   Total canales: 68 (📉 -4)
+   ❌ **Eliminados (4)**:
+      • California Medios TV (720p)
       • Despierta TV (1080p) [Not 24/7]
+      • El Sonorense (1080p) [Not 24/7]
+      • TV Nuevo León Canal 28 (XHMNL-TDT) (720p)
 
 🌍 **COLOMBIA**
-   Total canales: 42 (📈 +1)
-   ✅ **Nuevos (2)**:
-      • Canal 10 SOL TV (1080p)
-      • MasMusica FM (720p)
+   Total canales: 42
+   ✅ **Nuevos (1)**:
+      • Cinecanal
    ❌ **Eliminados (1)**:
-      • Canal Nets (720p) [Not 24/7]
+      • Canal 55 Telemorisco TV (720p)
 
 🌍 **CHILE**
    Total canales: 66
-   ✅ **Nuevos (3)**:
-      • Chiloe Red 25
-      • La Red (720p) [Not 24/7]
-      • Meganoticias (1080p)
-   ❌ **Eliminados (3)**:
-      • Canal 13 (1080p)
+   ✅ **Nuevos (1)**:
       • NCTV (1080p)
-      • Tevex (720p) [Not 24/7]
+   ❌ **Eliminados (1)**:
+      • Meganoticias (1080p)
 
 🌍 **PERU**
-   Total canales: 67 (📈 +4)
-   ✅ **Nuevos (5)**:
-      • ATV (720p) [Not 24/7]
-      • ATV Sur (720p) [Not 24/7]
-      • ATV+
-      • Red de Comunicación Regional (RCR) (720p) [Not 24/7]
-      • Top FM TV (240p) [Not 24/7]
-   ❌ **Eliminados (1)**:
+   Total canales: 67
+   ✅ **Nuevos (1)**:
       • Viva TV Yurimaguas (720p)
+   ❌ **Eliminados (1)**:
+      • AsiriTV (720p) [Not 24/7]
 
 🌍 **VENEZUELA**
-   Total canales: 43 (📈 +4)
-   ✅ **Nuevos (5)**:
-      • BTA TV (720p)
-      • Catatumbo TV (406p)
+   Total canales: 42 (📉 -1)
+   ✅ **Nuevos (1)**:
+      • Caminos Media TV (1080p)
+   ❌ **Eliminados (2)**:
       • Cinecanal
       • Studio Universal Latin America
-      • Televisora de Oriente (406p)
-   ❌ **Eliminados (1)**:
-      • Canal I (720p)
 
 🌍 **ECUADOR**
-   Total canales: 44 (📈 +2)
-   ✅ **Nuevos (2)**:
+   Total canales: 43 (📉 -1)
+   ✅ **Nuevos (1)**:
+      • RTU (1080p) [Not 24/7]
+   ❌ **Eliminados (2)**:
       • Cinecanal
       • Studio Universal Latin America
 
 🌍 **REPUBLICADOMINICANA**
-   Total canales: 191 (📈 +7)
-   ✅ **Nuevos (12)**:
-      • Antena 21 (480p) [Not 24/7] [Geo-blocked]
-      • Antena 7 (720p)
-      • Cinevision Canal 19 (720p)
-      • Notisur TV [Not 24/7]
-      • Peravia Vision (480p) [Geo-blocked]
-      • Rocavision TV [Not 24/7]
-      • Siembra TV (720p)
-      • Sima Vision TV (720p)
-      • Studio Universal Latin America
-      • TeleCibao (720p) [Not 24/7]
-      ... y 2 más
-   ❌ **Eliminados (5)**:
-      • Canal Sol (720p)
-      • DAN TV (720p) [Not 24/7]
+   Total canales: 190 (📉 -1)
+   ✅ **Nuevos (2)**:
       • Del Pueblo TV [Not 24/7]
-      • TVS (540p) [Not 24/7]
-      • Tenarenses TV (720p) [Not 24/7]
-
-🌍 **GUATEMALA**
-   Total canales: 21 (📉 -4)
-   ✅ **Nuevos (1)**:
-      • Iglesia Del Camino (480p) [Not 24/7]
-   ❌ **Eliminados (5)**:
-      • Amigos TV Chiquimula (480p)
-      • Aurora Media Films (720p)
-      • Nuevo Mundo TV (720p)
-      • TVS Retro (720p)
-      • Visión TV (720p)
+      • Telenord 8 (1080p) [Not 24/7]
+   ❌ **Eliminados (3)**:
+      • Claro Televisión Dominicana (360p)
+      • Claro Visión TV (720p)
+      • Studio Universal Latin America
 
 🌍 **HONDURAS**
-   Total canales: 39 (📈 +3)
-   ✅ **Nuevos (4)**:
-      • Canal 5 El Líder (720p) [Not 24/7]
-      • TSi (720p) [Not 24/7]
-      • Television Olanchana
-      • VTV (480p) [Not 24/7]
-   ❌ **Eliminados (1)**:
+   Total canales: 40 (📈 +1)
+   ✅ **Nuevos (1)**:
       • La Top 102.9 (720p)
 
-🌍 **ELSALVADOR**
-   Total canales: 26 (📈 +5)
-   ✅ **Nuevos (5)**:
-      • Canal 12 (220p)
-      • El Camino TV (480p)
-      • JFV TV (720p)
-      • RTV Católica Canal 40 (1080p)
-      • TV Getsemaní (720p)
-
-🌍 **COSTARICA**
-   Total canales: 42 (📈 +2)
-   ✅ **Nuevos (4)**:
-      • Canal 2 (576p) [Geo-blocked]
-      • Canal 4 (720p) [Geo-blocked]
-      • Canal 6 (720p) [Geo-blocked]
-      • Canal 8 (720p) [Not 24/7]
-   ❌ **Eliminados (2)**:
-      • Canal 10 (720p) [Geo-blocked]
-      • Nicoya TV (720p) [Not 24/7]
-
-🌍 **PUERTORICO**
-   Total canales: 32 (📈 +1)
-   ✅ **Nuevos (1)**:
-      • Paraíso TV (720p)
-
-🌍 **PARAGUAY**
-   Total canales: 19 (📈 +3)
-   ✅ **Nuevos (3)**:
-      • 4DmásNoticias TV (1080p) [Not 24/7]
-      • Panambi Digital TV
-      • Venus Media (720p)
+🌍 **PANAMA**
+   Total canales: 12 (📉 -1)
+   ❌ **Eliminados (1)**:
+      • Cinecanal
 
 🌍 **BOLIVIA**
-   Total canales: 24 (📈 +4)
-   ✅ **Nuevos (5)**:
-      • Bolivisión LPZ (720p)
-      • CEACOM TV [Not 24/7]
-      • Cadena A (720p) [Not 24/7]
-      • UPP TV/Bolivisión SCZ (720p) [Not 24/7]
-      • Univalle Televisión (1080p)
-   ❌ **Eliminados (1)**:
+   Total canales: 24
+   ✅ **Nuevos (1)**:
       • ATB La Paz (614p) [Not 24/7]
+   ❌ **Eliminados (1)**:
+      • Studio Universal Latin America
 
