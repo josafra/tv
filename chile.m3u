@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="13C.cl@SD" tvg-logo="https://i.ibb.co/3fbvkZ3/13cultura.png" group-title="General",13C (1080p)
+#EXTINF:-1 tvg-id="13C.cl@SD" tvg-logo="https://i.ibb.co/3fbvkZ3/13cultura.png" group-title="Culture",13C (1080p)
 https://origin.dpsgo.com/ssai/event/GI-9cp_bT8KcerLpZwkuhw/master.m3u8
 #EXTINF:-1 tvg-id="13E.cl@SD" tvg-logo="https://i.imgur.com/utI1tJV.png" group-title="Entertainment",13 Entretención (720p)
 https://origin.dpsgo.com/ssai/event/BBp0VeP6QtOOlH8nu3bWTg/master.m3u8
@@ -33,6 +33,8 @@ https://pantera1-100gb-cl-movistar.dps.live/campustv/campustv.smil/playlist.m3u8
 https://unlimited6-cl.dps.live/c9/c9.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal21.cl@SD" tvg-logo="https://i.imgur.com/znmWqhW.png" group-title="Undefined",Canal 21
 https://tls-cl.cdnz.cl/canal21tv/live/playlist.m3u8
+#EXTINF:-1 tvg-id="Canal74SanAntonio.cl@SD" tvg-logo="https://i.imgur.com/WRYsbjX.png" group-title="Undefined",Canal 74 San Antonio
+https://eu1.servers10.com:8081/8050/index.m3u8
 #EXTINF:-1 tvg-id="CanalClaro.cl@SD" tvg-logo="https://i.imgur.com/Kgjfd3J.png" group-title="Undefined",Canal Claro (720p)
 https://stitcher.pluto.tv/stitch/hls/channel/68224482c5d53e1351aaf2f2/master.m3u8?appVersion=1&deviceDNT=0&deviceId=spencer&deviceMake=safari&deviceModel=web&deviceType=web&deviceVersion=1&servertSideAds=false&sid=e3ca3088-b0b3-11f0-ab21-da2bce2249f9
 #EXTINF:-1 tvg-id="CanalISB.cl@SD" tvg-logo="https://i.imgur.com/cQ4ggTw.png" group-title="Religious",Canal ISB (Iglesia San Bernardo) (720p)
@@ -41,8 +43,6 @@ https://unlimited1-us.dps.live/isb/isb.smil/playlist.m3u8
 https://v2.tustreaming.cl/chilechannel/index.m3u8
 #EXTINF:-1 tvg-id="ChileVision.cl@SD" tvg-logo="https://i.imgur.com/PRijvR0.png" group-title="General",ChileVision (1080p)
 http://38.250.127.17:9800/play/a05h/index.m3u8
-#EXTINF:-1 tvg-id="ChiloeRed25.cl@SD" tvg-logo="https://i.imgur.com/3tqrImm.png" group-title="Culture",Chiloe Red 25
-https://v2.tustreaming.cl/chiloered/index.m3u8
 #EXTINF:-1 tvg-id="ClickTVChile.cl@SD" tvg-logo="https://i.imgur.com/H0XNbMS.png" group-title="Documentary",Click TV (Coronel) (720p)
 https://v2.tustreaming.cl/clicktv/playlist.m3u8
 #EXTINF:-1 tvg-id="Contivision.cl@SD" tvg-logo="https://i.imgur.com/Lz2OlKf.png" group-title="News",Contivision (720p)
@@ -67,8 +67,6 @@ https://tv.arkeo.cl:1936/enlacetv1/enlacetv1/playlist.m3u8
 https://alba-cl-lared-lared.stream.mediatiquestream.com/index.m3u8
 #EXTINF:-1 tvg-id="LatinaNetworkTV.cl@SD" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3782-294x165-FFFFFF.jpg" group-title="General",Latina Network TV (576i)
 https://live-server.mivideo.pro:8081/latinavzla/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="Meganoticias.cl@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Meganoticias2019.png/512px-Meganoticias2019.png" group-title="News" http-referrer="https://www.meganoticias.cl/",Meganoticias (1080p)
-https://ythls.armelin.one/channel/UCkccyEbqhhM3uKOI6Shm-4Q.m3u8
 #EXTINF:-1 tvg-id="MTNATV.cl@SD" tvg-logo="https://i.imgur.com/v7SA92F.png" group-title="Religious",MTNA TV
 https://live.mtna.tv/hls/mtna/mtna.m3u8
 #EXTINF:-1 tvg-id="NCTV.cl@SD" tvg-logo="https://i.imgur.com/oo5vDBv.png" group-title="News",NCTV (1080p)
@@ -97,6 +95,8 @@ https://unlimited1-us.dps.live/inet2/inet2.smil/playlist.m3u8
 https://unlimited6-cl.dps.live/sportinghd/sportinghd.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Televida.cl@SD" tvg-logo="https://i.imgur.com/bmNA8hq.png" group-title="Religious",Televida (1080p)
 https://tls-cl.cdnz.cl/televida/live/playlist.m3u8
+#EXTINF:-1 tvg-id="Tevex.cl@SD" tvg-logo="https://i.imgur.com/FnInQRd.png" group-title="Business",Tevex (720p) [Not 24/7]
+https://v4.tustreaming.cl/tevexinter/index.m3u8
 #EXTINF:-1 tvg-id="ThemaTelevision.cl@SD" tvg-logo="https://www.thematelevision.cl/wp-content/uploads/2019/08/fffffffff.png" group-title="Undefined",Thema Televisión (La Serena) (720p) [Not 24/7]
 https://unlimited1-us.dps.live/thema/thema.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TNE.cl@SD" tvg-logo="https://i.imgur.com/8QbvXva.png" group-title="Religious",TNE (720p) [Not 24/7]
