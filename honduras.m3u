@@ -1,6 +1,4 @@
 #EXTM3U
-#PLAYLIST:Actualizado 2025-12-07 22:32
-
 #EXTINF:-1,TEN Canal 10 (720p) [Not 24/7]
 https://raw.githubusercontent.com/BellezaEmporium/IPTV_Exception/master/channels/hn/tentv.m3u8
 #EXTINF:-1,Dios Te Ve Kids (720p)
@@ -25,8 +23,6 @@ https://dvrfl03.bozztv.com/hondu-dtelevision/index.m3u8
 https://dvrfl03.bozztv.com/hondu-telecadena/index.m3u8
 #EXTINF:-1,RCV TV (712p)
 https://59d39900ebfb8.streamlock.net/rcv/rcv/playlist.m3u8
-#EXTINF:-1,Más Noticias Televisión (720p)
-https://www.amixtv.com:8081/mntvh/index.m3u8
 #EXTINF:-1,Azteca Honduras (720p)
 https://dvrfl03.bozztv.com/hondu-azteca/index.m3u8
 #EXTINF:-1,VTV (480p) [Not 24/7]

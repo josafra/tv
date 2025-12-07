@@ -1,6 +1,4 @@
 #EXTM3U
-#PLAYLIST:Actualizado 2025-12-07 22:32
-
 #EXTINF:-1,Nick en Espanol
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d8d08395f39465da6fb3ec4/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a5107-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=919bc5fd-6cce-44a6-bb39-2894dea1c988
 #EXTINF:-1,Justicia TV
@@ -37,8 +35,6 @@ https://5f2c1b0d880e5.streamlock.net/canal33tijuana/videocanal33tijuana/playlist
 https://panel.host-live.com:19360/cn247tv/cn247tv.m3u8
 #EXTINF:-1,TV Cuatro 4.2
 https://5f2c1b0d880e5.streamlock.net/tv42/tv42.smil/.m3u8
-#EXTINF:-1,Canal 8 (720p) [Not 24/7]
-https://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8
 #EXTINF:-1,Casos de la Dra. Polo
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60d393e5579a420007ee553c/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c276ad3-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=cde127fb-082c-4bae-bbc8-eb5fcecf263d
 #EXTINF:-1,TV Cuatro 4.1
@@ -179,8 +175,6 @@ https://livetv.305streamhd.com:3504/live/tvhispaniclive.m3u8
 https://servilive.com:3263/live/channel12live.m3u8
 #EXTINF:-1,TNA Wrestling
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62ea4dadce395f0007086df2/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c7788-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=649aa9eb-97bb-42d6-85e0-d0595821c87a
-#EXTINF:-1,AION TV (1080p)
-https://vdo.aiontelevision.com:3735/live/aiontelevisionlive.m3u8
 #EXTINF:-1,BBC Drama (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60dafb9a0df1ba000758d37b/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&serverSideAds=false&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1,AsiriTV (720p) [Not 24/7]
@@ -219,8 +213,6 @@ https://v4.tustreaming.cl:443/odtv2/index.m3u8?PlaylistM3UCL
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/632b5950b515b000079e6b81/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c285534-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=71f56cc8-59b4-456a-bee7-c5cbe377e506
 #EXTINF:-1,Pelimex
 https://amg00658-amg00658c95-canelatv-international-6696.playouts.now.amagi.tv/playlist/amg00658-canelamediafast-pelimexta-canelatvinternational/cb563d167d6c6c8884c83d78d5f062ffa65928d80b6c852a6ab454876da64607d1e3b680fd358b785d9f01de6a1a0a080361cf12ce3407c3c76ad91174204213cfcac9229d86170ab5c60c2c3aab016635837209c0790a79dca93d0d8636ba304530e01b615b37c2ec5aa86852db80148b6f4adafb8c2360625f5c98435ee3b24aa4abe95e4c8b6ca1ac1e4a962658e68314c9c94dbdd28646ca458676a013999ba6898512e031a059886f1da79a39581fb4b83bf5e458aed399664be41b4a683f252b270e9c3451a8485148f0bfeab260ed1acd885fed08e85c94f93de11c8fc87907e5972653762fbe30221e91e5210b00b5e4ae8bf12032a969b1c583b8202bcaa3472a0ea169a919fae71c03b741a4baf6361ce2a0ba50bd72b3b0489e8fbb80eeffa04f842cc9c8cbbb34565759c963ec528f9577d225d179e79b5d711c0573a49451cb91ca1e1e560fd7d01084485b8ed285d58b557bd2364f13a841c94b0969fb316e57ec39b6cf6f3bc7755cc57d16d36c18ac0ebcb425fea29bc20338bed18e02dc67fdba07d7b953fa3872094ce3bc7c1f764d7bd1fc6f42652a940bb785b8941d6337e5f9c9f1d740785669653522bfa2b620d5deba6a7770e65c296778156de627de7bd00d4c40638929daa20d7b9215634ac2a22c564e6386c2d2d0d0812a2541c0036f9b5b4a8b583e64cb9b1c4c9993ff2f30ff/177/960x540_2048000/index.m3u8
-#EXTINF:-1,Sony Canal Novelas
-https://a89829b8dca2471ab52ea9a57bc28a35.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/CanelaTV_SonyCanalNovelas/playlist.m3u8
 #EXTINF:-1,Onda Digital TV | PE
 https://v4.tustreaming.cl:443/ondadigitaltv/index.m3u8?PlaylistM3UCL
 #EXTINF:-1,ITV Deportes
@@ -269,8 +261,6 @@ https://v1.tustreaming.cl/aysentv/index.m3u8
 https://streamer1.nexgen.bz/AXN/index.m3u8
 #EXTINF:-1,Conecta TV
 https://stream8.mexiserver.com:19360/conectatvx/conectatvx.m3u8
-#EXTINF:-1,Tierra Mia TV (1080p)
-https://stream-gtlc.telecentro.net.ar/hls/tierramiahls/0/playlist.m3u8
 #EXTINF:-1,Lancelot TV (404p)
 https://5c0956165db0b.streamlock.net:8090/directo/_definst_/lancelot.television/master.m3u8
 #EXTINF:-1,Kanade (1080p)
@@ -291,8 +281,6 @@ https://cloudvideo.servers10.com:8081/8230/index.m3u8
 https://inliveserver.com:1936/10016/10016/playlist.m3u8
 #EXTINF:-1,Vevo Latino SD
 https://amg00056-amg00056c13-rakuten-es-3246.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,FITE 24/7 (1080p)
-https://d3d85c7qkywguj.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/FiteTV-Nuestra/263.m3u8
 #EXTINF:-1,San Pedro TV
 https://iptv.ixfo.com.ar:30443/live/sanpedrotv/playlist.m3u8
 #EXTINF:-1,De Pelicula (720p)
@@ -309,8 +297,6 @@ https://unlimited1-cl-isp.dps.live/nettv/nettv.smil/playlist.m3u8?PlaylistM3UCL
 https://tv.streamcasthd.com:3076/live/sonicaargentinalive.m3u8
 #EXTINF:-1,ITV Patagonia  | CL
 https://unlimited1-cl-isp.dps.live/itv/itv.smil/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1,13 Realities (1080p)
-https://origin.dpsgo.com/ssai/event/g7_JOM0ORki9SR5RKHe-Kw/master.m3u8
 #EXTINF:-1,Sony Channel
 https://fl1.moveonjoy.com/Sony_Movie_Channel/index.m3u8
 #EXTINF:-1,EnerGeek Radio
@@ -349,8 +335,6 @@ https://fl1.moveonjoy.com/NBA_TV/index.m3u8
 http://stream.mediawork.cz/retrotv/smil:retrotv2.smil/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1,24 Horas Internacional [Geo-blocked]
 https://viamotionhsi.netplus.ch/live/eds/canal24horas/browser-HLS8/canal24horas.m3u8
-#EXTINF:-1,13 Kids (1080p)
-https://origin.dpsgo.com/ssai/event/LhHrVtyeQkKZ-Ye_xEU75g/master.m3u8
 #EXTINF:-1,Comedy Central en español
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5cf96dad1652631e36d43320/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c280717-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=970b3112-4df5-46fc-83e4-cefce01e5024
 #EXTINF:-1,Retro Plus TV 2
@@ -359,20 +343,12 @@ https://tls-cl.cdnz.cl/retroplustvdos/live/playlist.m3u8?PlaylistM3UCL
 https://tls-cl.cdnz.cl/retroplustvuno/live/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1,X Level Media
 https://tuvideoonline.com.ar:3332/live/xlevelmedialive.m3u8
-#EXTINF:-1,Rakuten TV Cine Español (1080p)
-https://3ed8837c27bf41dabe8e2627be2e57e6.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6196/master.m3u8
 #EXTINF:-1,Contivision (720p)
 https://unlimited6-cl.dps.live/cm/cm.smil/playlist.m3u8
 #EXTINF:-1,Metro TV (720p)
 https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8
-#EXTINF:-1,13 Teleseries (720p)
-https://origin.dpsgo.com/ssai/event/f4TrySe8SoiGF8Lu3EIq1g/master.m3u8
 #EXTINF:-1,V Classic TV (720p)
 https://5eaccbab48461.streamlock.net:1936/8112/8112/playlist.m3u8
-#EXTINF:-1,RT en Español (1080p) [Geo-blocked]
-https://rt-esp.rttv.com/dvr/rtesp/playlist.m3u8
-#EXTINF:-1,13 Festival (1080p)
-https://origin.dpsgo.com/ssai/event/Nftd0fM2SXasfDlRphvUsg/master.m3u8
 #EXTINF:-1,VM Latino (720p) [Not 24/7]
 https://59ef525c24caa.streamlock.net/vmtv/vmlatino/playlist.m3u8
 #EXTINF:-1,Ciudad Magazine

@@ -1,6 +1,4 @@
 #EXTM3U
-#PLAYLIST:Actualizado 2025-12-07 22:32
-
 #EXTINF:-1,Canal America TV (720p)
 http://newyorkstream.ddns.net:5854/enlacecanalamerica/encoderRD/playlist.m3u8
 #EXTINF:-1,Canal DTV (720p)
@@ -19,8 +17,6 @@ https://5790d294af2dc.streamlock.net/MULTIVISIONRD/MULTIVISIONRD/playlist.m3u8
 https://5790d294af2dc.streamlock.net/canal6/canal6/playlist.m3u8
 #EXTINF:-1,Cenovision HD (720p)
 https://5790d294af2dc.streamlock.net/cenovision/cenovision/playlist.m3u8
-#EXTINF:-1,Codigo TV [Not 24/7]
-https://vdo2.streamgato.us:3313/live/codigotvlive.m3u8
 #EXTINF:-1,Agenda 56 TV [Not 24/7]
 https://cloudflare.streamgato.us:3148/live/agenda56tvlive.m3u8
 #EXTINF:-1,Farovisión (720p)
@@ -77,8 +73,6 @@ https://ss2.tvrdomi.com:1936/carivision/carivision/playlist.m3u8
 https://ss2.tvrdomi.com:1936/ame47/ame47/playlist.m3u8
 #EXTINF:-1,Nickelodeon Latin America (720p)
 http://179.51.136.19:8000/play/a0q4/index.m3u8
-#EXTINF:-1,AION TV (1080p)
-https://vdo.aiontelevision.com:3735/live/aiontelevisionlive.m3u8
 #EXTINF:-1,Cascara TV (720p)
 https://ss2.tvrdomi.com:1936/cascaratv/cascaratv/playlist.m3u8
 #EXTINF:-1,Canal 17 RTVD (720p)
@@ -91,8 +85,6 @@ https://live20.bozztv.com/giatvplayout7/giatv-208429/playlist.m3u8
 https://streaming.servervideo.net:1936/cielotv/cielotv/playlist.m3u8
 #EXTINF:-1,Canal 4 RD (1080p)
 https://protvradiostream.com:1936/canal4rd-1/ngrp:canal4rd-1_all/playlist.m3u8
-#EXTINF:-1,Mun2TV (720p)
-https://vdo2.streamgato.us:3144/live/mund2tvlive.m3u8
 #EXTINF:-1,La Voz de Maria (720p)
 https://live.lavozdemaria.com:3436/live/lavozdemarialive.m3u8
 #EXTINF:-1,Gi Television (720p) [Not 24/7]
@@ -123,8 +115,6 @@ https://2-fss-1.streamhoster.com/pl_122/206532-5753032-1/playlist.m3u8
 https://cloud5.livescast.com:19360/lahoratv/lahoratv.m3u8
 #EXTINF:-1,Telefuturo (1080p)
 http://190.110.36.254/TELEFUTURO/index.m3u8
-#EXTINF:-1,Pula TV (720p)
-https://vdo2.streamgato.us:3239/live/pulatvlive.m3u8
 #EXTINF:-1,Pronems TV [Geo-blocked]
 https://vdo1.streamgato.us:3418/live/pronemstvlive.m3u8
 #EXTINF:-1,Makao TV (360p)
@@ -151,8 +141,6 @@ https://live20.bozztv.com/akamaissh101/ssh101/codificador7/playlist.m3u8
 http://200.125.170.122:8000/play/a0ci/index.m3u8
 #EXTINF:-1,OEPM TV (720p)
 https://cnn.hostlagarto.com/oepmtelevision/tracks-v1a1/mono.m3u8
-#EXTINF:-1,Telecomercio TV [Geo-blocked]
-https://vdo2.streamgato.us:3566/live/telecomerciotvlive.m3u8
 #EXTINF:-1,Bonao TV (720p)
 https://bonaotv.com/stream2/index.m3u8
 #EXTINF:-1,Portal Digital TV [Geo-blocked]
@@ -171,12 +159,6 @@ https://vdo.voxhdnet.com:3159/stream/play.m3u8
 https://2-fss-2.streamhoster.com/pl_120/206532-5753030-1/playlist.m3u8
 #EXTINF:-1,Reportero TV [Not 24/7]
 https://streamrd.cloud:5443/LiveApp/streams/J3E3REmLNBzirS9A10575071547538.m3u8
-#EXTINF:-1,TeleCibao (720p) [Not 24/7]
-https://vdo2.streamgato.us:3713/live/telecibaotvlive.m3u8
-#EXTINF:-1,GH Television (1080p)
-https://tv.ghtelevision.com:3018/live/ghtelevisionlive.m3u8
-#EXTINF:-1,Megavision Canal 43 (480p) [Not 24/7]
-https://server2grupocam.com/megavision/MV/playlist.m3u8
 #EXTINF:-1,JARABACOA TV (720p)
 https://streaming.jarabacoatv.com/Jarabacoa_tv/index.fmp4.m3u8
 #EXTINF:-1,Su Mundo TV (1080p)
@@ -187,8 +169,6 @@ https://cnn.livestreaminggroup.info:3796/live/ruta66tvlive.m3u8
 https://vdo1.streamgato.us:3677/live/telemileniolive.m3u8
 #EXTINF:-1,Telenord 12 (720p) [Not 24/7]
 https://vdo1.streamgato.us:3345/live/telenord12live.m3u8
-#EXTINF:-1,Telemax (1080p)
-https://vdo2.streamgato.us:3673/live/telemaxlive.m3u8
 #EXTINF:-1,Turismo HD (720p)
 https://live20.bozztv.com/giatvplayout7/giatv-208343/playlist.m3u8
 #EXTINF:-1,Punto TV Digital 40 [Geo-blocked]
@@ -209,16 +189,12 @@ https://video.misistemareseller.com/Fuegotv/Fuegotv/playlist.m3u8
 https://vdo1.streamgato.us:3035/live/televidalive.m3u8
 #EXTINF:-1,Valle Nuevo TV
 https://stmv6.voxtvhd.com.br/vallenuevotv/vallenuevotv/playlist.m3u8
-#EXTINF:-1,Televisión del Este (720p)
-https://vdo2.streamgato.us:3632/live/televisiondelestelive.m3u8
 #EXTINF:-1,MI Turno TV
 https://video.udwn.net:19360/miturnotv/miturnotv.m3u8
 #EXTINF:-1,Nexxo TV (720p) [Not 24/7]
 https://cdn3.streamgato.us:3938/live/nexxotvlive.m3u8
 #EXTINF:-1,Telecontacto
 https://streaming.grupomediosdelnorte.com:19360/telecontacto/telecontacto.m3u8
-#EXTINF:-1,Nitida TV (480p) [Not 24/7]
-https://ed18ov.live.opencaster.com/bznudxxdtppv/index.m3u8
 #EXTINF:-1,Telever (1080p) [Not 24/7]
 https://soportedvb.click:3413/live/televerlive.m3u8
 #EXTINF:-1,Extra 86 TV (720p)
@@ -261,8 +237,6 @@ https://cloudflare.streamgato.us:3820/live/visionndvlive.m3u8
 https://cnn.essastream.com:3387/live/xtratvlive.m3u8
 #EXTINF:-1,TV Montana Canal 10 (1080p) [Not 24/7]
 https://live20.bozztv.com/akamaissh101/ssh101/tvmontanahd/playlist.m3u8
-#EXTINF:-1,Tele Ola 44 (576i) [Not 24/7]
-https://teleola.ddns.net/hls/stream.m3u8
 #EXTINF:-1,La Ruta TV
 https://streamunoapp.com:3983/live/larutatvlive.m3u8
 #EXTINF:-1,Tiguerito TV (720p) [Not 24/7]
@@ -273,8 +247,6 @@ https://vdopanel.jlahozconsulting.com:3720/hybrid/play.m3u8
 https://cdn.streamingcpanel.com:3526/live/teleraiceslive.m3u8
 #EXTINF:-1,TV QUISQUEYA (720p)
 https://cloud5.livescast.com:19360/canaltvquisqueya/canaltvquisqueya.m3u8
-#EXTINF:-1,Larivision TV [Not 24/7]
-https://live.larimartv.net/livelan/stream.m3u8
 #EXTINF:-1,Supremateve (720p) [Not 24/7]
 https://ss2.tvrdomi.com:1936/supremateve/supremateve/playlist.m3u8
 #EXTINF:-1,Rocavision TV [Not 24/7]
@@ -317,8 +289,6 @@ https://ss2.tvrdomi.com:1936/vozzmedianetwork/vozzmedianetwork/playlist.m3u8
 https://inliveserver.com:1936/10016/10016/playlist.m3u8
 #EXTINF:-1,TVS (540p) [Not 24/7]
 https://imagenuniversaltv.net:3741/live/tvslive.m3u8
-#EXTINF:-1,R&E TV (720p)
-https://live.ryetv.net/livelan/stream.m3u8
 #EXTINF:-1,Telemetro TV [Not 24/7]
 https://streamunoapp.com:3366/live/telemetrolive.m3u8
 #EXTINF:-1,TV Hispanic [Not 24/7]

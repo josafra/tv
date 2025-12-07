@@ -1,6 +1,4 @@
 #EXTM3U
-#PLAYLIST:Actualizado 2025-12-07 22:32
-
 #EXTINF:-1,Caribbean Advantage TV (1080p) [Not 24/7]
 https://video2.getstreamhosting.com:19360/8216/8216.m3u8
 #EXTINF:-1,The Retro Channel (1080p)
@@ -55,5 +53,3 @@ https://59825a54e4454.streamlock.net:8443/papo351/papo351/playlist.m3u8
 https://tuvideoonline.com.ar:3332/live/xlevelmedialive.m3u8
 #EXTINF:-1,Salvación TV (720p)
 https://stream.eleden.com/livesalvatv/ngrp:livesalvatv_all/playlist.m3u8
-#EXTINF:-1,WIPR (1080p)
-https://streamwipr.pr/hls/stream/index.m3u8

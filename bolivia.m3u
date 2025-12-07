@@ -1,14 +1,10 @@
 #EXTM3U
-#PLAYLIST:Actualizado 2025-12-07 22:31
-
 #EXTINF:-1,F10 HD [Geo-blocked]
 https://tv2.bitstreaming.net:3235/multi_live/play.m3u8
 #EXTINF:-1,Bolivisión LPZ (720p)
 https://alba-bo-bolivision-bolivision.stream.mediatiquestream.com/index.m3u8
 #EXTINF:-1,Nickelodeon Latin America (720p)
 http://179.51.136.19:8000/play/a0q4/index.m3u8
-#EXTINF:-1,Palenque TV
-https://tv.bitstreaming.net:3234/live/palenquetvlive.m3u8
 #EXTINF:-1,Unifranz (720p)
 https://live.enhdtv.com:8081/8192/index.m3u8
 #EXTINF:-1,UPP TV/Bolivisión SCZ (720p) [Not 24/7]
@@ -17,10 +13,6 @@ https://alba-bo-bolivision-upptv.stream.mediatiquestream.com/index.m3u8
 https://rtp.noxun.net/hls/stream.m3u8
 #EXTINF:-1,ATB La Paz (614p) [Not 24/7]
 http://186.121.206.197/live/daniel/index.m3u8
-#EXTINF:-1,VTV Canal 17 (720p) [Not 24/7]
-https://solo.disfrutaenlared.com:1936/vtvcanal/vtvcanal/playlist.m3u8
-#EXTINF:-1,Red CCTV (480p)
-https://solo.disfrutaenlared.com:1936/redcctv/redcctv/playlist.m3u8
 #EXTINF:-1,Coral TV (480p)
 https://tv.mediacp.eu:8081/coraltv/index.m3u8
 #EXTINF:-1,Univalle Televisión (1080p)

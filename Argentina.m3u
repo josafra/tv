@@ -1,6 +1,4 @@
 #EXTM3U
-#PLAYLIST:Actualizado 2025-12-07 22:31
-
 #EXTINF:-1,Cadena 103 (720p) [Not 24/7]
 http://arcast.net:1935/cadena103/cadena103/playlist.m3u8
 #EXTINF:-1,Canal 13 La Rioja (480p)
@@ -103,10 +101,6 @@ https://stream1.sersat.com/hls/argentinisima.m3u8
 https://canaletaplus.com:3922/hybrid/play.m3u8
 #EXTINF:-1,Radio Conexion Web TV (720p)
 https://tuvideoonline.com.ar:3391/live/radioconexionlive.m3u8
-#EXTINF:-1,Telemax
-https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8
-#EXTINF:-1,Canal 26 (1080p)
-https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8
 #EXTINF:-1,TV Solidaria (576p)
 https://canadaremar2.todostreaming.es/live/argentina-web.m3u8
 #EXTINF:-1,Metro TV (720p)
@@ -125,10 +119,6 @@ https://iptv.ixfo.com.ar:30443/live-HD/MISIONES4/playlist.m3u8
 https://iptv.ixfo.com.ar:30443/live/sanpedrotv/playlist.m3u8
 #EXTINF:-1,Canal 4 Posadas (576p)
 https://iptv.ixfo.com.ar:30443/live/C4POS/playlist.m3u8
-#EXTINF:-1,Canal Santa María (360p)
-https://streaming.telered.com.ar/santa-maria/streaming/mystream.m3u8
-#EXTINF:-1,Canal Provincial (360p)
-https://streaming.telered.com.ar/provincial/streaming/mystream.m3u8
 #EXTINF:-1,Canal 2 Misiones (1080p)
 https://nd106.republicaservers.com:4433/hls/canal2misioness/index.m3u8
 #EXTINF:-1,RTN (Neuquén) (720p) [Not 24/7]
