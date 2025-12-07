@@ -1,75 +1,75 @@
 #EXTM3U
-#PLAYLIST:Actualizado 2025-12-07 22:05
+#PLAYLIST:Actualizado 2025-12-07 22:08
 
 #EXTINF:-1,TEN Canal 10 (720p) [Not 24/7]
 https://raw.githubusercontent.com/BellezaEmporium/IPTV_Exception/master/channels/hn/tentv.m3u8
+#EXTINF:-1,TV Copán (720p) [Not 24/7]
+https://s.emisoras.tv:8081/tvcopan/index.m3u8
+#EXTINF:-1,Choluteca TV (1080p)
+https://s.emisoras.tv:8081/cholutecatv/index.m3u8
+#EXTINF:-1,Telecadena 7 y 4
+https://dvrfl03.bozztv.com/hondu-telecadena/index.m3u8
 #EXTINF:-1,Alsacias Televisión (ATV | Canal 28) (720p)
 https://s.emisoras.tv:8081/atv/index.m3u8
 #EXTINF:-1,Telerayo (1080p)
 https://s.emisoras.tv:8081/telerayo/index.m3u8
 #EXTINF:-1,Dios Te Ve Kids (720p)
 https://s.emisoras.tv:8081/diostevekids/index.m3u8
-#EXTINF:-1,Choluteca TV (1080p)
-https://s.emisoras.tv:8081/cholutecatv/index.m3u8
-#EXTINF:-1,Kerusso TV (720p)
-https://s.emisoras.tv:8081/kerussotv/index.m3u8
-#EXTINF:-1,RCV TV (712p)
-https://59d39900ebfb8.streamlock.net/rcv/rcv/playlist.m3u8
 #EXTINF:-1,Metro TV (720p)
 https://s.emisoras.tv:8081/metrotv/index.m3u8
+#EXTINF:-1,Puringla TV (720p)
+https://stmv1.srvif.com/puringla/puringla/playlist.m3u8
+#EXTINF:-1,VTV (480p) [Not 24/7]
+https://d3q93l5bumjyoq.cloudfront.net/index.m3u8
+#EXTINF:-1,DTV
+https://dvrfl03.bozztv.com/hondu-dtelevision/index.m3u8
+#EXTINF:-1,Kerusso TV (720p)
+https://s.emisoras.tv:8081/kerussotv/index.m3u8
+#EXTINF:-1,La Top 107.7 (720p)
+https://59d39900ebfb8.streamlock.net/top107/top107/playlist.m3u8
 #EXTINF:-1,Dios Te Ve (720p)
 https://s.emisoras.tv:8081/diostevetv/index.m3u8
-#EXTINF:-1,TV Copán (720p) [Not 24/7]
-https://s.emisoras.tv:8081/tvcopan/index.m3u8
-#EXTINF:-1,Más Noticias Televisión (720p)
-https://www.amixtv.com:8081/mntvh/index.m3u8
+#EXTINF:-1,RCV TV (712p)
+https://59d39900ebfb8.streamlock.net/rcv/rcv/playlist.m3u8
 #EXTINF:-1,La Top 102.9 (720p)
 https://59d39900ebfb8.streamlock.net/top102/top102/playlist.m3u8
 #EXTINF:-1,Azteca Honduras (720p)
 https://dvrfl03.bozztv.com/hondu-azteca/index.m3u8
-#EXTINF:-1,VTV (480p) [Not 24/7]
-https://d3q93l5bumjyoq.cloudfront.net/index.m3u8
-#EXTINF:-1,La Top 107.7 (720p)
-https://59d39900ebfb8.streamlock.net/top107/top107/playlist.m3u8
-#EXTINF:-1,Telecadena 7 y 4
-https://dvrfl03.bozztv.com/hondu-telecadena/index.m3u8
-#EXTINF:-1,Puringla TV (720p)
-https://stmv1.srvif.com/puringla/puringla/playlist.m3u8
+#EXTINF:-1,Más Noticias Televisión (720p)
+https://www.amixtv.com:8081/mntvh/index.m3u8
 #EXTINF:-1,Paradise TV (720p)
 https://s2.tvdatta.com:3840/live/paradisetvlive.m3u8
-#EXTINF:-1,DTV
-https://dvrfl03.bozztv.com/hondu-dtelevision/index.m3u8
-#EXTINF:-1,Radio Imagen 105.1 FM (720p) [Not 24/7]
-https://streaming.imagenfm105-1.com/hls/stream.m3u8
-#EXTINF:-1,TV Centro HD (720p)
-https://cloud2.streaminglivehd.com:1936/8032/8032/playlist.m3u8
-#EXTINF:-1,Q'hubo TV (410p) [Not 24/7]
-https://5e85d90130e77.streamlock.net/6024/6024/playlist.m3u8
-#EXTINF:-1,EDN TV (1080p) [Not 24/7]
-https://60417ddeaf0d9.streamlock.net/edntv/videoedntv/playlist.m3u8
 #EXTINF:-1,Lenca Television Canal 40 (720p) [Not 24/7]
 https://lencatelevision.com/hls/stream.m3u8
-#EXTINF:-1,Sula TV
-https://tv.webmedialive.com/sulatv/live/playlist.m3u8
-#EXTINF:-1,Televisión Metrópolis 19.1 (1080p) [Not 24/7]
-https://5e85d90130e77.streamlock.net/6028/6028/playlist.m3u8
-#EXTINF:-1,CHTV
-https://viewhn.com/chtv/live/playlist.m3u8
-#EXTINF:-1,Ebenezer TV (1080p)
-https://5e85d90130e77.streamlock.net/6010/ngrp:6010_all/playlist.m3u8
-#EXTINF:-1,Telemás (720p)
-https://viewhn.com/telemas/live/playlist.m3u8
-#EXTINF:-1,Girasol TV (720p)
-https://video.misistemareseller.com/Girasoltv/Girasoltv/playlist.m3u8
+#EXTINF:-1,Radio Imagen 105.1 FM (720p) [Not 24/7]
+https://streaming.imagenfm105-1.com/hls/stream.m3u8
+#EXTINF:-1,EDN TV (1080p) [Not 24/7]
+https://60417ddeaf0d9.streamlock.net/edntv/videoedntv/playlist.m3u8
 #EXTINF:-1,TV Centro 27.2 HD (720p)
 https://cloud2.streaminglivehd.com:1936/8004/8004/playlist.m3u8
+#EXTINF:-1,Q'hubo TV (410p) [Not 24/7]
+https://5e85d90130e77.streamlock.net/6024/6024/playlist.m3u8
+#EXTINF:-1,TV Centro HD (720p)
+https://cloud2.streaminglivehd.com:1936/8032/8032/playlist.m3u8
+#EXTINF:-1,CHTV
+https://viewhn.com/chtv/live/playlist.m3u8
+#EXTINF:-1,Televisión Metrópolis 19.1 (1080p) [Not 24/7]
+https://5e85d90130e77.streamlock.net/6028/6028/playlist.m3u8
+#EXTINF:-1,Sula TV
+https://tv.webmedialive.com/sulatv/live/playlist.m3u8
+#EXTINF:-1,Telemás (720p)
+https://viewhn.com/telemas/live/playlist.m3u8
+#EXTINF:-1,Ebenezer TV (1080p)
+https://5e85d90130e77.streamlock.net/6010/ngrp:6010_all/playlist.m3u8
 #EXTINF:-1,Televisión Metrópolis 19.2 (1080p) [Not 24/7]
 https://5e85d90130e77.streamlock.net/6014/6014/playlist.m3u8
+#EXTINF:-1,Girasol TV (720p)
+https://video.misistemareseller.com/Girasoltv/Girasoltv/playlist.m3u8
 #EXTINF:-1,Litoral Atlántico HD (720p)
 https://cdn4.streamgato.us:3595/live/litoralhdlive.m3u8
 #EXTINF:-1,Jehová TV (720p)
 https://video.misistemareseller.com/jehovatelevision/jehovatelevision/playlist.m3u8
-#EXTINF:-1,Canal 11 (1080p) [Not 24/7]
-https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/canal11hn/canal11hn.smil/playlist.m3u8
 #EXTINF:-1,Radio Ideal 104.7 FM (La Esperanza) (720p) [Not 24/7]
 https://www.idealfm104-7.com/hls/0/stream.m3u8
+#EXTINF:-1,Canal 11 (1080p) [Not 24/7]
+https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/canal11hn/canal11hn.smil/playlist.m3u8
