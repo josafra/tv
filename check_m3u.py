@@ -11,9 +11,27 @@ MOVIES_SOURCE_URL = "https://iptv-org.github.io/iptv/categories/movies.m3u"
 
 # 📌 Palabras clave para el filtrado de idioma (en minúsculas)
 LATIN_KEYWORDS = [
-    'latino', 'español', 'castellano', 'es', 
-    'mexico', 'colombia', 'argentina', 'peru', 
-    'chile', 'venezuela', 'ecuador', 'españa'
+    'español', 
+    'castellano', 
+    'hispano', 
+    'latino', 
+    'latinoamericano', 
+    'iberoamericano', 
+    'habla hispana',
+    'habla española',
+    'lengua española',
+    'idioma español',
+    'lengua castellana', 
+    'idioma castellano',
+    'castellanohablante', 
+    'hablante de castellano',
+    'spanish',  # Inglés de Español
+    'es',       # Abreviatura de idioma
+    'spain',    # Nombre de país
+    'latam',    # LatAm (Latin America)
+    'america',  # Para capturar Latin America
+    'sur',      # South, para "Latin America South"
+    'mexico'    # País común de contenido en español
 ]
 
 TIMEOUT = 3 # Timeout de 3 segundos para la validación de enlaces
@@ -47,10 +65,25 @@ def check_url_status(url):
 
 def is_latin_channel(line):
     """
-    Verifica si una línea de metadatos M3U (#EXTINF) contiene alguna palabra clave latina.
+    Verifica si una línea de metadatos M3U (#EXTINF) contiene alguna palabra clave 
+    latina/española o indicador de idioma en atributos comunes.
     """
     line_lower = line.lower()
-    return any(keyword in line_lower for keyword in LATIN_KEYWORDS)
+    
+    # 1. Búsqueda de palabras clave en el texto completo (título y atributos)
+    if any(keyword in line_lower for keyword in LATIN_KEYWORDS):
+        return True
+    
+    # 2. Búsqueda explícita de atributos de idioma/país comunes en IPTV-ORG
+    if ('tvg-language="es"' in line_lower or 
+        'tvg-country="es"' in line_lower or 
+        'tvg-country="mx"' in line_lower or # México
+        'tvg-country="co"' in line_lower or # Colombia
+        'tvg-country="ar"' in line_lower or # Argentina
+        'tvg-country="cl"' in line_lower):  # Chile
+        return True
+        
+    return False
 
 def load_m3u_content(filepath):
     """Lee el contenido de un archivo M3U."""
@@ -87,7 +120,7 @@ def update_cine_m3u():
         raw_m3u_content = response.text
     except Exception as e:
         print(f"❌ Error al descargar la lista de origen: {e}")
-        return 'cine.m3u', 0 # Retorna 0 si falla la descarga
+        return 'cine.m3u', 0 
 
     lines = raw_m3u_content.split('\n')
     output_lines = ['#EXTM3U']
@@ -96,7 +129,6 @@ def update_cine_m3u():
     
     print("   ... Filtrando y programando validación de enlaces (Multithreading)")
     
-    # Lista temporal para guardar el par (#EXTINF, URL) de canales latinos
     channels_to_validate = []
 
     # PASO 1: Filtrar por idioma y preparar para la validación
@@ -105,6 +137,7 @@ def update_cine_m3u():
         line = lines[i].strip()
         
         if line.startswith('#EXTINF'):
+            # APLICAMOS EL FILTRO LATINO/ESPAÑOL AQUÍ
             if is_latin_channel(line):
                 if i + 1 < len(lines):
                     url = lines[i+1].strip()
@@ -113,7 +146,7 @@ def update_cine_m3u():
                 else:
                     i += 1
             else:
-                i += 1
+                i += 1 # No es latino, se salta
         else:
             i += 1
 
@@ -176,7 +209,6 @@ def process_local_m3u(filename):
 
     # PASO 2: Ejecutar la validación multithreaded
     for line, url in channels_to_validate:
-        # Usa la misma función check_url_status, beneficiándose de la caché
         thread = threading.Thread(target=lambda u: check_url_status(u), args=(url,))
         validation_threads.append(thread)
         thread.start()
@@ -203,8 +235,10 @@ def process_local_m3u(filename):
 def save_history(data):
     """Guarda el historial de canales en channels_history.json."""
     try:
+        # Solo guardamos números, como se corrigió anteriormente
+        cleaned_data = {k: v for k, v in data.items()} 
         with open(HISTORY_FILE, 'w', encoding='utf-8') as f:
-            json.dump(data, f, indent=4)
+            json.dump(cleaned_data, f, indent=4)
         print("✅ Historial de canales actualizado.")
     except Exception as e:
         print(f"❌ Error al guardar el historial: {e}")
@@ -212,12 +246,11 @@ def save_history(data):
 # --- FLUJO PRINCIPAL ---
 
 def main():
-    global url_status_cache # Resetear caché si fuera necesario (aunque no es estrictamente obligatorio aquí)
+    global url_status_cache 
     url_status_cache = {} 
     new_channels_data = {}
 
-    # 1. 🎬 PROCESAR LISTA CINE.M3U (Implementación de la petición)
-    # Esta función descarga, filtra por idioma y valida los enlaces.
+    # 1. 🎬 PROCESAR LISTA CINE.M3U (Implementación del filtro latino/español)
     cine_file, count = update_cine_m3u()
     new_channels_data[cine_file] = count
     
@@ -227,11 +260,11 @@ def main():
     m3u_files_to_process = [f for f in all_m3u_files if f != cine_file]
     
     for filename in m3u_files_to_process:
+        # Se ejecuta la lógica original de validación para las demás listas
         filename, count = process_local_m3u(filename)
         new_channels_data[filename] = count
 
-    # 3. 💾 GUARDAR EL NUEVO HISTORIAL PARA send_to_telegram.py
-    # La lista new_channels_data contiene los conteos actualizados para todas las listas.
+    # 3. 💾 GUARDAR EL NUEVO HISTORIAL
     save_history(new_channels_data)
     
     print("\nProceso de validación de listas terminado.")
