@@ -10,9 +10,15 @@ on:
 permissions:
   contents: write
 
+# Evitar ejecuciones simultáneas
+concurrency:
+  group: iptv-update
+  cancel-in-progress: true
+
 jobs:
   update-and-notify:
     runs-on: ubuntu-latest
+    timeout-minutes: 20  # Máximo 20 minutos (antes se cancelaba a los 6)
     
     steps:
     - name: Checkout repositorio
