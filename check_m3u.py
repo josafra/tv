@@ -33,6 +33,7 @@ MAPPING_FILES = {
     'https://iptv-org.github.io/iptv/countries/py.m3u': 'paraguay.m3u',
     'https://iptv-org.github.io/iptv/countries/uy.m3u': 'uruguay.m3u',
     'https://iptv-org.github.io/iptv/countries/bo.m3u': 'bolivia.m3u',
+    'https://iptv-org.github.io/iptv/categories/movies.m3u': 'cine.m3u',
 }
 
 
