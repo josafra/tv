@@ -1,231 +1,240 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Verificador de canales IPTV - OPTIMIZADO
-- Timeouts cortos (3 segundos)
-- Sin warnings de SSL
-- Procesamiento en paralelo eficiente
-"""
-
+import os
 import requests
-from concurrent.futures import ThreadPoolExecutor, as_completed
-from pathlib import Path
-import warnings
-import urllib3
+import json
+import threading
 from datetime import datetime
 
-# ============================================
-# CONFIGURACIÓN OPTIMIZADA
-# ============================================
+# --- CONFIGURACIÓN Y CONSTANTES ---
 
-# Silenciar warnings de SSL (para no llenar el log)
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-warnings.filterwarnings('ignore', message='Unverified HTTPS request')
+# 📌 URL de origen para la lista de películas de IPTV-ORG
+MOVIES_SOURCE_URL = "https://iptv-org.github.io/iptv/categories/movies.m3u"
 
-CONFIG = {
-    'timeout': 3,           # Timeout por canal (3 segundos)
-    'max_workers': 30,      # Hilos paralelos (aumentado)
-    'max_retries': 1,       # Solo 1 reintento
-    'verify_ssl': False     # Deshabilitar verificación SSL
-}
+# 📌 Palabras clave para el filtrado de idioma (en minúsculas)
+LATIN_KEYWORDS = [
+    'latino', 'español', 'castellano', 'es', 
+    'mexico', 'colombia', 'argentina', 'peru', 
+    'chile', 'venezuela', 'ecuador', 'españa'
+]
 
-# ============================================
-# FUNCIONES CORE
-# ============================================
+TIMEOUT = 3 # Timeout de 3 segundos para la validación de enlaces
+HISTORY_FILE = 'channels_history.json'
 
-def leer_m3u(archivo):
-    """Lee un archivo M3U y extrae canales"""
-    canales = []
-    try:
-        with open(archivo, 'r', encoding='utf-8', errors='ignore') as f:
-            lineas = f.readlines()
-            
-        nombre_canal = None
-        for linea in lineas:
-            linea = linea.strip()
-            
-            if linea.startswith('#EXTINF'):
-                # Extraer nombre del canal
-                if ',' in linea:
-                    nombre_canal = linea.split(',', 1)[1].strip()
-                else:
-                    nombre_canal = "Canal sin nombre"
-            
-            elif linea and not linea.startswith('#'):
-                # Es una URL
-                if nombre_canal:
-                    canales.append({
-                        'nombre': nombre_canal,
-                        'url': linea,
-                        'archivo': archivo.name
-                    })
-                nombre_canal = None
+# Variables globales para el multithreading
+url_status_cache = {}
+lock = threading.Lock()
+
+# --- FUNCIONES DE UTILIDAD Y VALIDACIÓN ---
+
+def check_url_status(url):
+    """
+    Verifica el estado de una URL (link) usando un timeout.
+    Utiliza caché para no verificar la misma URL varias veces.
+    """
+    with lock:
+        if url in url_status_cache:
+            return url_status_cache[url]
     
+    try:
+        # HEAD es más rápido ya que no descarga el cuerpo completo del contenido
+        response = requests.head(url, timeout=TIMEOUT, allow_redirects=True)
+        is_valid = response.status_code == 200
+    except requests.exceptions.RequestException:
+        is_valid = False
+    
+    with lock:
+        url_status_cache[url] = is_valid
+    return is_valid
+
+def is_latin_channel(line):
+    """
+    Verifica si una línea de metadatos M3U (#EXTINF) contiene alguna palabra clave latina.
+    """
+    line_lower = line.lower()
+    return any(keyword in line_lower for keyword in LATIN_KEYWORDS)
+
+def load_m3u_content(filepath):
+    """Lee el contenido de un archivo M3U."""
+    try:
+        with open(filepath, 'r', encoding='utf-8') as f:
+            return f.read()
     except Exception as e:
-        print(f"❌ Error leyendo {archivo}: {e}")
-    
-    return canales
+        print(f"❌ Error al leer {filepath}: {e}")
+        return None
 
-def validar_canal(canal):
-    """
-    Valida un canal usando HEAD request con timeout corto
-    Retorna el canal si es válido, None si falla
-    """
-    url = canal['url']
-    
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-    }
-    
+def save_m3u_content(filepath, content):
+    """Escribe el contenido filtrado en el archivo M3U."""
     try:
-        # Intentar HEAD primero (más rápido)
-        response = requests.head(
-            url,
-            headers=headers,
-            timeout=CONFIG['timeout'],
-            verify=CONFIG['verify_ssl'],
-            allow_redirects=True
-        )
-        
-        # Si HEAD no funciona, probar GET
-        if response.status_code >= 400:
-            response = requests.get(
-                url,
-                headers=headers,
-                timeout=CONFIG['timeout'],
-                verify=CONFIG['verify_ssl'],
-                stream=True
-            )
-            response.close()
-        
-        # Canal válido si código < 400
-        if response.status_code < 400:
-            return canal
-        
-        return None
-        
-    except requests.exceptions.Timeout:
-        # Timeout = canal lento o muerto
-        return None
-    except requests.exceptions.SSLError:
-        # Error SSL = canal problemático
-        return None
-    except Exception:
-        # Cualquier otro error = canal muerto
-        return None
-
-def validar_canales_paralelo(canales):
-    """Valida canales en paralelo con progreso"""
-    print(f"\n🔍 Validando {len(canales)} canales...")
-    print(f"⚙️  Configuración: {CONFIG['max_workers']} hilos, timeout {CONFIG['timeout']}s")
-    print("=" * 60)
-    
-    canales_validos = []
-    procesados = 0
-    
-    with ThreadPoolExecutor(max_workers=CONFIG['max_workers']) as executor:
-        futuros = {executor.submit(validar_canal, canal): canal for canal in canales}
-        
-        for futuro in as_completed(futuros):
-            procesados += 1
-            resultado = futuro.result()
-            
-            if resultado:
-                canales_validos.append(resultado)
-                # Mostrar progreso cada 50 canales
-                if procesados % 50 == 0:
-                    porcentaje = (procesados / len(canales)) * 100
-                    print(f"✓ Procesados: {procesados}/{len(canales)} ({porcentaje:.1f}%) - Válidos: {len(canales_validos)}")
-    
-    print("=" * 60)
-    print(f"✅ Validación completada:")
-    print(f"   📊 Total: {len(canales)} canales")
-    print(f"   ✓ Válidos: {len(canales_validos)}")
-    print(f"   ✗ Caídos: {len(canales) - len(canales_validos)}")
-    
-    return canales_validos
-
-def escribir_m3u(archivo, canales):
-    """Escribe canales validados en formato M3U"""
-    try:
-        with open(archivo, 'w', encoding='utf-8') as f:
-            f.write("#EXTM3U\n")
-            f.write(f"#PLAYLIST:Actualizado {datetime.now().strftime('%Y-%m-%d %H:%M')}\n\n")
-            
-            for canal in canales:
-                f.write(f"#EXTINF:-1,{canal['nombre']}\n")
-                f.write(f"{canal['url']}\n")
-        
+        with open(filepath, 'w', encoding='utf-8') as f:
+            f.write('\n'.join(content))
         return True
     except Exception as e:
-        print(f"❌ Error escribiendo {archivo}: {e}")
+        print(f"❌ Error al guardar {filepath}: {e}")
         return False
 
-def procesar_archivo_m3u(archivo_path):
-    """Procesa un archivo M3U completo"""
-    print(f"\n{'=' * 60}")
-    print(f"📄 Procesando: {archivo_path.name}")
-    print(f"{'=' * 60}")
-    
-    # 1. Leer canales
-    canales_originales = leer_m3u(archivo_path)
-    print(f"📊 Canales encontrados: {len(canales_originales)}")
-    
-    if not canales_originales:
-        print("⚠️  No hay canales para validar")
-        return
-    
-    # 2. Validar canales
-    canales_validos = validar_canales_paralelo(canales_originales)
-    
-    # 3. Guardar solo los válidos
-    if canales_validos:
-        if escribir_m3u(archivo_path, canales_validos):
-            print(f"💾 Guardado: {archivo_path.name}")
-            tasa_exito = (len(canales_validos) / len(canales_originales)) * 100
-            print(f"📈 Tasa de éxito: {tasa_exito:.1f}%")
-    else:
-        print("⚠️  No hay canales válidos para guardar")
+# --- LÓGICA ESPECÍFICA PARA cine.m3u (TU PETICIÓN) ---
 
-# ============================================
-# MAIN
-# ============================================
+def update_cine_m3u():
+    """
+    Descarga la lista de cine de IPTV-ORG, filtra por latinos/españoles,
+    valida los enlaces y guarda el resultado en 'cine.m3u'.
+    """
+    print(f"\n-> Procesando lista cine.m3u (Fuente remota: {MOVIES_SOURCE_URL})")
+    
+    try:
+        # Descargar la lista remota
+        response = requests.get(MOVIES_SOURCE_URL, timeout=10)
+        response.raise_for_status()
+        raw_m3u_content = response.text
+    except Exception as e:
+        print(f"❌ Error al descargar la lista de origen: {e}")
+        return 'cine.m3u', 0 # Retorna 0 si falla la descarga
+
+    lines = raw_m3u_content.split('\n')
+    output_lines = ['#EXTM3U']
+    valid_channels_count = 0
+    validation_threads = []
+    
+    print("   ... Filtrando y programando validación de enlaces (Multithreading)")
+    
+    # Lista temporal para guardar el par (#EXTINF, URL) de canales latinos
+    channels_to_validate = []
+
+    # PASO 1: Filtrar por idioma y preparar para la validación
+    i = 0
+    while i < len(lines):
+        line = lines[i].strip()
+        
+        if line.startswith('#EXTINF'):
+            if is_latin_channel(line):
+                if i + 1 < len(lines):
+                    url = lines[i+1].strip()
+                    channels_to_validate.append((line, url))
+                    i += 2
+                else:
+                    i += 1
+            else:
+                i += 1
+        else:
+            i += 1
+
+    # PASO 2: Ejecutar la validación multithreaded
+    for line, url in channels_to_validate:
+        thread = threading.Thread(target=lambda u: check_url_status(u), args=(url,))
+        validation_threads.append(thread)
+        thread.start()
+
+    # Esperar a que todos los threads terminen
+    for thread in validation_threads:
+        thread.join()
+
+    # PASO 3: Construir la lista final usando el caché de estados
+    for line, url in channels_to_validate:
+        if url_status_cache.get(url, False):
+            output_lines.append(line)
+            output_lines.append(url)
+            valid_channels_count += 1
+            
+    # Escribir el resultado
+    save_m3u_content('cine.m3u', output_lines)
+        
+    print(f"✅ 'cine.m3u' actualizado con {valid_channels_count} canales latinos válidos.")
+    return 'cine.m3u', valid_channels_count
+
+# --- LÓGICA ORIGINAL PARA OTRAS LISTAS LOCALES ---
+
+def process_local_m3u(filename):
+    """
+    Procesa un archivo M3U local existente (excepto cine.m3u), 
+    validando todos sus enlaces y eliminando los caídos.
+    """
+    print(f"\n-> Procesando lista local: {filename}")
+    content = load_m3u_content(filename)
+    if not content:
+        return filename, 0
+
+    lines = content.split('\n')
+    output_lines = ['#EXTM3U']
+    valid_channels_count = 0
+    
+    validation_threads = []
+    channels_to_validate = []
+
+    # PASO 1: Identificar canales para validar
+    i = 0
+    while i < len(lines):
+        line = lines[i].strip()
+        
+        if line.startswith('#EXTINF'):
+            if i + 1 < len(lines):
+                url = lines[i+1].strip()
+                channels_to_validate.append((line, url))
+                i += 2
+            else:
+                i += 1
+        else:
+            i += 1
+
+    # PASO 2: Ejecutar la validación multithreaded
+    for line, url in channels_to_validate:
+        # Usa la misma función check_url_status, beneficiándose de la caché
+        thread = threading.Thread(target=lambda u: check_url_status(u), args=(url,))
+        validation_threads.append(thread)
+        thread.start()
+
+    # Esperar a que todos los threads terminen
+    for thread in validation_threads:
+        thread.join()
+
+    # PASO 3: Construir la lista final
+    for line, url in channels_to_validate:
+        if url_status_cache.get(url, False):
+            output_lines.append(line)
+            output_lines.append(url)
+            valid_channels_count += 1
+            
+    # Escribir el resultado
+    save_m3u_content(filename, output_lines)
+    
+    print(f"✅ '{filename}' limpiado. Canales válidos: {valid_channels_count}.")
+    return filename, valid_channels_count
+
+# --- GESTIÓN DEL HISTORIAL ---
+
+def save_history(data):
+    """Guarda el historial de canales en channels_history.json."""
+    try:
+        with open(HISTORY_FILE, 'w', encoding='utf-8') as f:
+            json.dump(data, f, indent=4)
+        print("✅ Historial de canales actualizado.")
+    except Exception as e:
+        print(f"❌ Error al guardar el historial: {e}")
+
+# --- FLUJO PRINCIPAL ---
 
 def main():
-    print("=" * 60)
-    print("🚀 VERIFICADOR DE CANALES IPTV - MODO OPTIMIZADO")
-    print("=" * 60)
-    print(f"⏰ Inicio: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    global url_status_cache # Resetear caché si fuera necesario (aunque no es estrictamente obligatorio aquí)
+    url_status_cache = {} 
+    new_channels_data = {}
+
+    # 1. 🎬 PROCESAR LISTA CINE.M3U (Implementación de la petición)
+    # Esta función descarga, filtra por idioma y valida los enlaces.
+    cine_file, count = update_cine_m3u()
+    new_channels_data[cine_file] = count
     
-    # Buscar todos los archivos M3U
-    archivos_m3u = list(Path('.').glob('*.m3u'))
+    # 2. 🌍 PROCESAR OTRAS LISTAS LOCALES
+    # Obtener todas las listas M3U en el repositorio, excluyendo la que ya procesamos.
+    all_m3u_files = [f for f in os.listdir('.') if f.endswith('.m3u')]
+    m3u_files_to_process = [f for f in all_m3u_files if f != cine_file]
     
-    # Excluir archivos de respaldo si existen
-    archivos_m3u = [f for f in archivos_m3u if not f.name.endswith('.backup.m3u')]
+    for filename in m3u_files_to_process:
+        filename, count = process_local_m3u(filename)
+        new_channels_data[filename] = count
+
+    # 3. 💾 GUARDAR EL NUEVO HISTORIAL PARA send_to_telegram.py
+    # La lista new_channels_data contiene los conteos actualizados para todas las listas.
+    save_history(new_channels_data)
     
-    if not archivos_m3u:
-        print("❌ No se encontraron archivos M3U")
-        return
-    
-    print(f"📁 Archivos encontrados: {len(archivos_m3u)}")
-    for archivo in sorted(archivos_m3u):
-        print(f"   • {archivo.name}")
-    
-    # Procesar cada archivo
-    inicio = datetime.now()
-    
-    for archivo in sorted(archivos_m3u):
-        procesar_archivo_m3u(archivo)
-    
-    # Resumen final
-    duracion = (datetime.now() - inicio).total_seconds()
-    
-    print("\n" + "=" * 60)
-    print("✨ PROCESO COMPLETADO")
-    print("=" * 60)
-    print(f"⏱️  Duración total: {duracion:.1f} segundos")
-    print(f"⏰ Finalizado: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    print("=" * 60)
+    print("\nProceso de validación de listas terminado.")
 
 if __name__ == "__main__":
     main()
