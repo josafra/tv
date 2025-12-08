@@ -1,4 +1,3 @@
-
 import os
 import requests
 import json
@@ -53,10 +52,10 @@ def check_url_status(url):
         if url in url_status_cache:
             return url_status_cache[url]
     
-   try:
-        # ... (petición requests.head)
+    try:
+        # HEAD es más rápido ya que no descarga el cuerpo completo del contenido
         response = requests.head(url, timeout=TIMEOUT, allow_redirects=True)
-        # ESTO DEBE SER response.status_code == 200 o 3XX para redirecciones válidas
+        # Consideramos válido si el código de estado es menor que 400 (200 OK, 3xx Redirección)
         is_valid = response.status_code < 400 
     except requests.exceptions.RequestException:
         is_valid = False
@@ -71,6 +70,10 @@ def is_latin_channel(line):
     latina/española o indicador de idioma en atributos comunes.
     """
     line_lower = line.lower()
+    
+    # 0. RECHAZO EXPLICITO DE IDIOMA INGLES (Para evitar falsos positivos)
+    if 'tvg-language="en"' in line_lower or 'english' in line_lower:
+        return False
     
     # 1. Búsqueda de palabras clave en el texto completo (título y atributos)
     if any(keyword in line_lower for keyword in LATIN_KEYWORDS):
@@ -106,7 +109,7 @@ def save_m3u_content(filepath, content):
         print(f"❌ Error al guardar {filepath}: {e}")
         return False
 
-# --- LÓGICA ESPECÍFICA PARA cine.m3u (TU PETICIÓN) ---
+# --- LÓGICA ESPECÍFICA PARA cine.m3u (FILTRADO LATINO) ---
 
 def update_cine_m3u():
     """
@@ -237,7 +240,7 @@ def process_local_m3u(filename):
 def save_history(data):
     """Guarda el historial de canales en channels_history.json."""
     try:
-        # Solo guardamos números, como se corrigió anteriormente
+        # Aseguramos que solo se guarden números, como se corrigió previamente.
         cleaned_data = {k: v for k, v in data.items()} 
         with open(HISTORY_FILE, 'w', encoding='utf-8') as f:
             json.dump(cleaned_data, f, indent=4)
