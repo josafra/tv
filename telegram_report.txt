@@ -1,15 +1,15 @@
-📺 REPORTE IPTV - 08/12/2025 01:20
+📺 REPORTE IPTV - 08/12/2025 01:34
 ━━━━━━━━━━━━━━━━━━━━━
 
 📊 RESUMEN GENERAL
-• Total canales: 1347
+• Total canales: 1769
 • 🟢 +369 nuevos canales
 
 📋 DETALLES POR LISTA
 🟢 mexico2.m3u: 181 (+181)
 🟢 mexico3.m3u: 188 (+188)
 
-⚪ 22 listas sin cambios
+⚪ 23 listas sin cambios
 
 ━━━━━━━━━━━━━━━━━━━━━
 🤖 Actualización automática
