@@ -3,18 +3,19 @@ name: 📡 Actualización y Limpieza Periódica de Listas IPTV
 on:
   workflow_dispatch:
   schedule:
-    # Primera ejecución: 00:00 UTC (Medianoche)
-    - cron: '0 0 * * *' 
-    # Segunda ejecución: 12:00 UTC (Mediodía)
-    - cron: '0 12 * * *' 
+    # Ejecución cada 12 horas: 00:00 UTC (Medianoche) y 12:00 UTC (Mediodía)
+    - cron: '0 0,12 * * *' 
 
 jobs:
   update_and_validate:
     runs-on: ubuntu-latest
     
+    # *** CORRECCIÓN CRUCIAL PARA EL ERROR 403 (Permisos) ***
+    permissions:
+      contents: write # Esto permite que el bot suba los cambios (haga git push)
+      
     steps:
       - name: ⬇️ Checkout del Repositorio
-        # Descarga el código del repositorio
         uses: actions/checkout@v4
 
       - name: 🐍 Configuración de Python
@@ -23,15 +24,13 @@ jobs:
           python-version: '3.x'
 
       - name: 📦 Instalación de Dependencias
-        # Instala 'requests' desde tu requirements_scraper.txt
         run: pip install -r requirements_scraper.txt 
 
       - name: 🛠️ Ejecutar Script de Validación y Filtrado (check_m3u.py)
-        # Descarga, filtra cine, actualiza países, y valida enlaces
         run: python check_m3u.py
 
       - name: 💬 Ejecutar Notificación por Telegram (send_to_telegram.py)
-        # Envía el reporte de cambios. Asegúrate de que los secretos estén configurados.
+        # Asegúrate de que los secretos TELEGRAM_BOT_TOKEN y TELEGRAM_CHAT_ID estén configurados en tu repositorio.
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -44,14 +43,13 @@ jobs:
           
       - name: ⬆️ Commit y Push de Cambios
         run: |
-          # 1. Agregar TODOS los archivos modificados (incluyendo .m3u y historial)
+          # 1. Agregar TODOS los archivos modificados (para evitar el error "unstaged changes")
           git add . 
           
-          # 2. Commit (con --allow-empty para evitar fallos si no hay cambios)
+          # 2. Commit 
           git commit --allow-empty -m "🤖 Actualización automática IPTV - $(date '+%Y-%m-%d %H:%M')"
           
-          # 3. SOLUCIÓN AL ERROR DE PUSH RECHAZADO: 
-          # Integra los últimos cambios del remoto ANTES de subir, reescribiendo el historial.
+          # 3. Solucionar el conflicto: Integra los últimos cambios remotos antes de subir
           git pull --rebase 
           
           # 4. Push final
