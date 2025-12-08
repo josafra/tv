@@ -38,6 +38,10 @@ COUNTRY_SOURCES = {
 MOVIES_SOURCE_URL = "https://iptv-org.github.io/iptv/categories/movies.m3u"
 CINE_FILENAME = "cine.m3u"
 
+# 📌 Fuente Específica para Música (SIN filtro de idioma - todos los idiomas)
+MUSIC_SOURCE_URL = "https://iptv-org.github.io/iptv/categories/music.m3u"
+MUSIC_FILENAME = "musica.m3u"
+
 # 📌 Palabras clave MEJORADAS para el filtrado de idioma
 LATIN_KEYWORDS = [
     # Idioma explícito
@@ -53,6 +57,10 @@ LATIN_KEYWORDS = [
     # Indicadores latinos
     'latino', 'latina', 'latam', 'latinoamericano', 'latinoamerica',
     'hispano', 'hispana', 'iberoamericano', 'habla hispana',
+    
+    # Géneros musicales latinos (para música)
+    'reggaeton', 'salsa', 'bachata', 'merengue', 'cumbia',
+    'mariachi', 'ranchera', 'banda', 'corrido', 'tango',
 ]
 
 # Palabras que EXCLUYEN el canal (no es español)
@@ -148,7 +156,7 @@ def save_m3u_content(filepath, content):
 
 def process_remote_list(source_url, filename, apply_latin_filter=False):
     """
-    Descarga una lista remota, la filtra (si es cine), valida los enlaces 
+    Descarga una lista remota, la filtra (si se requiere), valida los enlaces 
     y guarda el resultado en el archivo local.
     """
     print(f"\n{'='*60}")
@@ -189,7 +197,7 @@ def process_remote_list(source_url, filename, apply_latin_filter=False):
             if i + 1 < len(lines):
                 url = lines[i+1].strip()
             
-            # APLICAR FILTRO DE IDIOMA SOLO PARA CINE
+            # APLICAR FILTRO DE IDIOMA SI SE REQUIERE
             passes_filter = True
             if apply_latin_filter:
                 passes_filter = is_latin_channel(line, url)
@@ -274,8 +282,17 @@ def main():
     )
     new_channels_data[filename] = count
     
-    # 2. 🌍 PROCESAR LISTAS DE PAÍSES (SIN FILTRO)
-    print("\n\n🌍 PASO 2: Procesando listas de países")
+    # 2. 🎵 PROCESAR MÚSICA.M3U (SIN FILTRO - TODOS LOS IDIOMAS)
+    print("\n🎵 PASO 2: Procesando lista de MÚSICA (todos los idiomas)")
+    filename, count = process_remote_list(
+        MUSIC_SOURCE_URL, 
+        MUSIC_FILENAME, 
+        apply_latin_filter=False  # ← SIN FILTRO (como los países)
+    )
+    new_channels_data[filename] = count
+    
+    # 3. 🌍 PROCESAR LISTAS DE PAÍSES (SIN FILTRO)
+    print("\n\n🌍 PASO 3: Procesando listas de países")
     for source_url, filename in COUNTRY_SOURCES.items():
         filename, count = process_remote_list(
             source_url, 
@@ -284,7 +301,7 @@ def main():
         )
         new_channels_data[filename] = count
 
-    # 3. 💾 GUARDAR HISTORIAL
+    # 4. 💾 GUARDAR HISTORIAL
     save_history(new_channels_data)
     
     print("\n" + "="*60)
