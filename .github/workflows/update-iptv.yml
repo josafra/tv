@@ -1,83 +1,59 @@
-name: Actualizar IPTV y Notificar Cambios
+name: 📡 Actualización y Limpieza Diaria de Listas IPTV
 
 on:
+  workflow_dispatch:
   schedule:
-    # Ejecutar todos los días a las 3:00 AM UTC
-    - cron: '0 3 * * *'
-  workflow_dispatch: # Permitir ejecución manual desde GitHub
-
-# Dar permisos de escritura al repositorio
-permissions:
-  contents: write
-
-# Evitar ejecuciones simultáneas
-concurrency:
-  group: iptv-update
-  cancel-in-progress: true
+    # Primera ejecución: 00:00 UTC (Medianoche)
+    - cron: '0 0 * * *' 
+    # Segunda ejecución: 12:00 UTC (Mediodía)
+    - cron: '0 12 * * *' 
 
 jobs:
-  update-and-notify:
+  update_and_validate:
     runs-on: ubuntu-latest
-    timeout-minutes: 20  # Máximo 20 minutos (antes se cancelaba a los 6)
     
     steps:
-    - name: Checkout repositorio
-      uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
-        token: ${{ secrets.GITHUB_TOKEN }}
-    
-    - name: Configurar Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.10'
-    
-    - name: Instalar dependencias
-      run: |
-        pip install requests
-    
-    - name: Descargar historial anterior (si existe)
-      continue-on-error: true
-      run: |
-        git checkout origin/main -- channels_history.json || echo "No hay historial previo"
-    
-    - name: Ejecutar verificación de canales IPTV
-      run: python check_m3u.py
-    
-    - name: Enviar notificación a Telegram
-      env:
-        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-        TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-      run: |
-        echo "🔍 Verificando variables de entorno..."
-        if [ -z "$TELEGRAM_BOT_TOKEN" ]; then
-          echo "❌ TELEGRAM_BOT_TOKEN no está configurado"
-        else
-          echo "✅ TELEGRAM_BOT_TOKEN está configurado"
-        fi
-        
-        if [ -z "$TELEGRAM_CHAT_ID" ]; then
-          echo "❌ TELEGRAM_CHAT_ID no está configurado"
-        else
-          echo "✅ TELEGRAM_CHAT_ID está configurado"
-        fi
-        
-        python send_to_telegram.py
-    
-    - name: Guardar historial actualizado
-      run: |
-        git config user.name "github-actions[bot]"
-        git config user.email "github-actions[bot]@users.noreply.github.com"
-        git add channels_history.json
-        git add *.m3u
-        git diff --quiet && git diff --staged --quiet || git commit -m "🤖 Actualización automática IPTV - $(date +'%Y-%m-%d %H:%M')"
-        git push
-    
-    - name: Subir archivos como artefactos
-      uses: actions/upload-artifact@v4
-      with:
-        name: listas-iptv-actualizadas
-        path: |
-          *.m3u
-          telegram_report.txt
-          channels_history.json
+      - name: ⬇️ Checkout del Repositorio
+        # Descarga el código del repositorio
+        uses: actions/checkout@v4
+
+      - name: 🐍 Configuración de Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: 📦 Instalación de Dependencias
+        # Instala 'requests' desde tu requirements_scraper.txt
+        run: pip install -r requirements_scraper.txt 
+
+      - name: 🛠️ Ejecutar Script de Validación y Filtrado (check_m3u.py)
+        # Descarga, filtra cine, actualiza países, y valida enlaces
+        run: python check_m3u.py
+
+      - name: 💬 Ejecutar Notificación por Telegram (send_to_telegram.py)
+        # Envía el reporte de cambios
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python send_to_telegram.py
+        # NOTA: Asegúrate de que los nombres de los secretos (secrets.TELEGRAM_...) sean correctos.
+
+      - name: 💾 Configurar Git para Commit Automático
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+      - name: ⬆️ Commit y Push de Cambios
+        run: |
+          # 1. Agregar los archivos modificados
+          git add *.m3u channels_history.json
+          
+          # 2. Commit con timestamp
+          git commit -m "🤖 Actualización automática IPTV - $(date '+%Y-%m-%d %H:%M')"
+          
+          # 3. SOLUCIÓN AL ERROR DE PUSH RECHAZADO: 
+          # Descarga los últimos cambios remotos y aplica los commits del bot encima.
+          git pull --rebase 
+          
+          # 4. Push final
+          git push
