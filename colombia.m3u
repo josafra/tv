@@ -21,8 +21,6 @@ https://movil.ejeserver.com/live/teledoradahd.m3u8
 http://canal.mediaserver.com.co/live/telemorisco.m3u8
 #EXTINF:-1,Bum Televisión (720p) [Not 24/7]
 https://movil.ejeserver.com/live/visiondorada.m3u8
-#EXTINF:-1,Cinecanal
-https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/CINECANAL/index.m3u8
 #EXTINF:-1,MasMusica FM (720p)
 https://movil.ejeserver.com/live/masmusica.m3u8
 #EXTINF:-1,CNC Santander de Quilichao (480p)

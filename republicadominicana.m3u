@@ -19,8 +19,6 @@ https://5790d294af2dc.streamlock.net/canal6/canal6/playlist.m3u8
 https://5790d294af2dc.streamlock.net/cenovision/cenovision/playlist.m3u8
 #EXTINF:-1,Agenda 56 TV [Not 24/7]
 https://cloudflare.streamgato.us:3148/live/agenda56tvlive.m3u8
-#EXTINF:-1,Farovisión (720p)
-https://streamtv.intervenhosting.net:3754/hybrid/play.m3u8
 #EXTINF:-1,COCO TV (720p)
 https://cloudflare.streamgato.us:3253/live/canalcocotvlive.m3u8
 #EXTINF:-1,Antena 7 (720p)
@@ -217,8 +215,6 @@ https://vdopanel.jlahozconsulting.com:3460/hybrid/play.m3u8
 https://hilandofinotv.essastream.com:3480/live/telenewscanallive.m3u8
 #EXTINF:-1,Haina Vision (720p)
 https://cdn.streamingcpanel.com:3447/live/hainavisionlive.m3u8
-#EXTINF:-1,Studio Universal Latin America
-https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/STUDIO_UNIVERSAL/index.m3u8
 #EXTINF:-1,Cana TV Digital (720p) [Not 24/7]
 https://stream.hostuis.com:19360/canatvdigital/canatvdigital.m3u8
 #EXTINF:-1,Tu Musica HD (720p)
@@ -241,8 +237,6 @@ https://live20.bozztv.com/akamaissh101/ssh101/tvmontanahd/playlist.m3u8
 https://streamunoapp.com:3983/live/larutatvlive.m3u8
 #EXTINF:-1,Tiguerito TV (720p) [Not 24/7]
 https://ss2.tvrdomi.com:1936/tigueritostv/tigueritostv/playlist.m3u8
-#EXTINF:-1,Edu+ TV
-https://vdopanel.jlahozconsulting.com:3720/hybrid/play.m3u8
 #EXTINF:-1,Naranja TV (720p)
 https://cdn.streamingcpanel.com:3526/live/teleraiceslive.m3u8
 #EXTINF:-1,TV QUISQUEYA (720p)
