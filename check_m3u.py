@@ -1,3 +1,4 @@
+
 import os
 import requests
 import json
@@ -52,10 +53,11 @@ def check_url_status(url):
         if url in url_status_cache:
             return url_status_cache[url]
     
-    try:
-        # HEAD es más rápido ya que no descarga el cuerpo completo del contenido
+   try:
+        # ... (petición requests.head)
         response = requests.head(url, timeout=TIMEOUT, allow_redirects=True)
-        is_valid = response.status_code == 200
+        # ESTO DEBE SER response.status_code == 200 o 3XX para redirecciones válidas
+        is_valid = response.status_code < 400 
     except requests.exceptions.RequestException:
         is_valid = False
     
