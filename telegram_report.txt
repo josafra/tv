@@ -1,88 +1,15 @@
-📡 **ACTUALIZACIÓN IPTV** - 04/12/2025 16:22
-========================================
+📺 REPORTE IPTV - 08/12/2025 01:06
+━━━━━━━━━━━━━━━━━━━━━
 
-🌍 **ESPANA**
-   Total canales: 192
-   ✅ **Nuevos (1)**:
-      • Imás TV (1080p) [Not 24/7]
-   ❌ **Eliminados (1)**:
-      • Rioja Televisión (360p) [Not 24/7]
+📊 RESUMEN GENERAL
+• Total canales: 1534
+• 🟢 +369 nuevos canales
 
-🌍 **ARGENTINA**
-   Total canales: 79 (📉 -2)
-   ❌ **Eliminados (2)**:
-      • Quatro TV (540p)
-      • Radio Mitre
+📋 DETALLES POR LISTA
+🟢 mexico2.m3u: 181 (+181)
+🟢 mexico3.m3u: 188 (+188)
 
-🌍 **MEXICO**
-   Total canales: 68 (📉 -4)
-   ❌ **Eliminados (4)**:
-      • California Medios TV (720p)
-      • Despierta TV (1080p) [Not 24/7]
-      • El Sonorense (1080p) [Not 24/7]
-      • TV Nuevo León Canal 28 (XHMNL-TDT) (720p)
+⚪ 22 listas sin cambios
 
-🌍 **COLOMBIA**
-   Total canales: 42
-   ✅ **Nuevos (1)**:
-      • Cinecanal
-   ❌ **Eliminados (1)**:
-      • Canal 55 Telemorisco TV (720p)
-
-🌍 **CHILE**
-   Total canales: 66
-   ✅ **Nuevos (1)**:
-      • NCTV (1080p)
-   ❌ **Eliminados (1)**:
-      • Meganoticias (1080p)
-
-🌍 **PERU**
-   Total canales: 67
-   ✅ **Nuevos (1)**:
-      • Viva TV Yurimaguas (720p)
-   ❌ **Eliminados (1)**:
-      • AsiriTV (720p) [Not 24/7]
-
-🌍 **VENEZUELA**
-   Total canales: 42 (📉 -1)
-   ✅ **Nuevos (1)**:
-      • Caminos Media TV (1080p)
-   ❌ **Eliminados (2)**:
-      • Cinecanal
-      • Studio Universal Latin America
-
-🌍 **ECUADOR**
-   Total canales: 43 (📉 -1)
-   ✅ **Nuevos (1)**:
-      • RTU (1080p) [Not 24/7]
-   ❌ **Eliminados (2)**:
-      • Cinecanal
-      • Studio Universal Latin America
-
-🌍 **REPUBLICADOMINICANA**
-   Total canales: 190 (📉 -1)
-   ✅ **Nuevos (2)**:
-      • Del Pueblo TV [Not 24/7]
-      • Telenord 8 (1080p) [Not 24/7]
-   ❌ **Eliminados (3)**:
-      • Claro Televisión Dominicana (360p)
-      • Claro Visión TV (720p)
-      • Studio Universal Latin America
-
-🌍 **HONDURAS**
-   Total canales: 40 (📈 +1)
-   ✅ **Nuevos (1)**:
-      • La Top 102.9 (720p)
-
-🌍 **PANAMA**
-   Total canales: 12 (📉 -1)
-   ❌ **Eliminados (1)**:
-      • Cinecanal
-
-🌍 **BOLIVIA**
-   Total canales: 24
-   ✅ **Nuevos (1)**:
-      • ATB La Paz (614p) [Not 24/7]
-   ❌ **Eliminados (1)**:
-      • Studio Universal Latin America
-
+━━━━━━━━━━━━━━━━━━━━━
+🤖 Actualización automática
