@@ -1,10 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="AuroraMediaFilms.gt@SD" tvg-logo="https://i.imgur.com/DVC5w6H.png" group-title="Movies",Aurora Media Films (720p)
 https://cdn.streamhispanatv.net:3417/live/auroramflive.m3u8
-#EXTINF:-1 tvg-id="CineTerror.us@LATAM" tvg-logo="https://i.imgur.com/I5XxyLI.png" group-title="Movies",Cine Terror LATAM [Geo-blocked]
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5dcddf1ed95e740009fef7ab/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
-#EXTINF:-1 tvg-id="MovieSphere.us@SD" tvg-logo="https://i.imgur.com/h1ejU90.png" group-title="Movies",MovieSphere by Lionsgate
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/645e7828e1979c00087b75b4/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a02e5-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=6ee42393-c7a0-4d1d-82c7-0121c35ec03e
 #EXTINF:-1 tvg-id="MyTimeMovieNetwork.mx@SD" tvg-logo="https://i.imgur.com/pw4NZK1.png" group-title="Movies",MyTime Movie Network Mexico (720p)
 https://appletree-mytime-samsungmexico.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="MyTimeMovieNetwork.es@SD" tvg-logo="https://i.imgur.com/pw4NZK1.png" group-title="Movies",MyTime movie network Spain (1080p)
@@ -13,15 +9,5 @@ https://appletree-mytimespain-rakuten.amagi.tv/playlist.m3u8
 http://176.65.146.237:8401/play/a09i/index.m3u8
 #EXTINF:-1 tvg-id="PersianaLatino.fr@SD" tvg-logo="https://www.lyngsat.com/logo/tv/pp/persiana-latino-fr.png" group-title="Movies",Persiana Latino
 https://latinohls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PlutoTVCineAccion.us@Spain" tvg-logo="https://i.imgur.com/PXhCzXn.png" group-title="Movies",Pluto TV Cine Acción (720p)
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1ac2591dd8880007bb7d6d/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
-#EXTINF:-1 tvg-id="PlutoTVCineClasico.us@Spain" tvg-logo="https://i.imgur.com/hCA5BRr.png" group-title="Movies",Pluto TV Cine Clásico (720p)
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/61373bb45168fe000773eecd/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
-#EXTINF:-1 tvg-id="PlutoTVCineEstelar.us@Spain" tvg-logo="https://i.imgur.com/v3BO4nW.png" group-title="Movies",Pluto TV Cine Estelar (720p)
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1ac1f1b66c76000790ef27/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
-#EXTINF:-1 tvg-id="PlutoTVCineEstelar.us@SpainPlus" tvg-logo="https://i.imgur.com/v3BO4nW.png" group-title="Movies",Pluto TV Cine Estelar Spain+
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f59f50cc36a94000749fd3f/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&is_lat=1&platform=web&rdid=channel&tags=ROKU_CONTENT_TAGS
-#EXTINF:-1 tvg-id="PlutoTVThrillers.us@Spain" tvg-logo="https://i.imgur.com/ULKvDN7.png" group-title="Movies",Pluto TV Thrillers Spain
-http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f1ac8a87cd38d000745d7cf/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=unknown&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=b44a3bb2-778d-11eb-9fe3-3bf7f4412392&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=bec2cd61-c8bf-4269-8475-9b5cdf24d1f0&userId=
 #EXTINF:-1 tvg-id="RuntimeEspanol.us@SD" tvg-logo="https://i.imgur.com/OMQq19N.png" group-title="Movies",Runtime Espanol (720p)
 https://run-rt-uh-roku.otteravision.com/run/rt_uh/rt_uh.m3u8
