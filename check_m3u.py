@@ -76,6 +76,7 @@ EXCLUDE_KEYWORDS = [
 
 TIMEOUT = 3
 HISTORY_FILE = 'channels_history.json'
+CLEANING_HISTORY_FILE = 'cleaning_history.json'
 
 # Variables globales para el multithreading
 url_status_cache = {}
@@ -249,23 +250,140 @@ def process_remote_list(source_url, filename, apply_latin_filter=False):
     
     return filename, valid_channels_count
 
+# --- NUEVA FUNCIÓN: LIMPIEZA DE ARCHIVOS LOCALES ---
+
+def clean_local_m3u_files():
+    """
+    Lee todos los archivos M3U locales, verifica sus URLs,
+    elimina los canales muertos y reescribe los archivos.
+    
+    Retorna un diccionario con estadísticas de limpieza.
+    """
+    print("\n" + "="*60)
+    print("🧹 FASE 2: LIMPIEZA DE ARCHIVOS M3U LOCALES")
+    print("="*60)
+    
+    cleaning_results = {}
+    
+    # Buscar todos los archivos .m3u en el directorio actual
+    m3u_files = [f for f in os.listdir('.') if f.endswith('.m3u')]
+    
+    if not m3u_files:
+        print("⚠️  No se encontraron archivos M3U locales para limpiar")
+        return cleaning_results
+    
+    print(f"📂 Archivos M3U encontrados: {len(m3u_files)}")
+    
+    for filename in m3u_files:
+        print(f"\n{'─'*60}")
+        print(f"🔍 Verificando: {filename}")
+        
+        try:
+            # Leer el archivo M3U local
+            with open(filename, 'r', encoding='utf-8') as f:
+                content = f.read()
+            
+            lines = content.split('\n')
+            output_lines = ['#EXTM3U']
+            channels_to_validate = []
+            
+            # Extraer canales del archivo
+            i = 0
+            while i < len(lines):
+                line = lines[i].strip()
+                
+                if line.startswith('#EXTINF'):
+                    url = ""
+                    if i + 1 < len(lines):
+                        url = lines[i+1].strip()
+                    
+                    if url and not url.startswith('#'):
+                        channels_to_validate.append((line, url))
+                    
+                    i += 2
+                else:
+                    i += 1
+            
+            total_before = len(channels_to_validate)
+            
+            if total_before == 0:
+                print(f"   ⚠️  Archivo vacío o sin canales")
+                cleaning_results[filename] = {
+                    'before': 0,
+                    'after': 0,
+                    'removed': 0
+                }
+                continue
+            
+            print(f"   • Canales totales: {total_before}")
+            print(f"   • Verificando URLs...")
+            
+            # Validar URLs en paralelo
+            validation_threads = []
+            for line, url in channels_to_validate:
+                thread = threading.Thread(target=lambda u: check_url_status(u), args=(url,))
+                validation_threads.append(thread)
+                thread.start()
+            
+            for thread in validation_threads:
+                thread.join()
+            
+            # Construir el archivo limpio (solo canales vivos)
+            alive_count = 0
+            for line, url in channels_to_validate:
+                if url_status_cache.get(url, False):
+                    output_lines.append(line)
+                    output_lines.append(url)
+                    alive_count += 1
+            
+            removed_count = total_before - alive_count
+            
+            # Guardar el archivo limpio
+            save_m3u_content(filename, output_lines)
+            
+            # Guardar estadísticas
+            cleaning_results[filename] = {
+                'before': total_before,
+                'after': alive_count,
+                'removed': removed_count
+            }
+            
+            # Mostrar resultado
+            if removed_count > 0:
+                print(f"   🔴 Eliminados: {removed_count} canales muertos")
+                print(f"   ✅ Vivos: {alive_count} canales")
+            else:
+                print(f"   ✅ Todos los canales están vivos ({alive_count})")
+        
+        except Exception as e:
+            print(f"   ❌ Error procesando {filename}: {e}")
+            cleaning_results[filename] = {
+                'before': 0,
+                'after': 0,
+                'removed': 0,
+                'error': str(e)
+            }
+    
+    return cleaning_results
+
 # --- GESTIÓN DEL HISTORIAL ---
 
-def save_history(data):
-    """Guarda el historial de canales en channels_history.json."""
+def save_history(filepath, data):
+    """Guarda el historial en un archivo JSON."""
     try:
-        with open(HISTORY_FILE, 'w', encoding='utf-8') as f:
-            json.dump(data, f, indent=4)
-        print("\n💾 Historial actualizado correctamente")
+        with open(filepath, 'w', encoding='utf-8') as f:
+            json.dump(data, f, indent=4, ensure_ascii=False)
+        print(f"\n💾 Historial guardado: {filepath}")
+        return True
     except Exception as e:
-        print(f"❌ Error al guardar el historial: {e}")
+        print(f"❌ Error al guardar {filepath}: {e}")
+        return False
 
 # --- FLUJO PRINCIPAL ---
 
 def main():
     global url_status_cache
     url_status_cache = {}
-    new_channels_data = {}
     
     print("="*60)
     print("🚀 SISTEMA DE ACTUALIZACIÓN Y LIMPIEZA DE LISTAS IPTV")
@@ -273,42 +391,70 @@ def main():
     print(f"⏰ Inicio: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("="*60)
     
+    # ========================================
+    # FASE 1: ACTUALIZAR DESDE FUENTES REMOTAS
+    # ========================================
+    
+    print("\n" + "="*60)
+    print("📡 FASE 1: ACTUALIZACIÓN DESDE FUENTES REMOTAS")
+    print("="*60)
+    
+    remote_channels_data = {}
+    
     # 1. 🎬 PROCESAR CINE.M3U (CON FILTRO DE ESPAÑOL/LATINO)
-    print("\n🎬 PASO 1: Procesando lista de CINE (con filtro de español)")
+    print("\n🎬 Procesando lista de CINE (con filtro de español)")
     filename, count = process_remote_list(
         MOVIES_SOURCE_URL, 
         CINE_FILENAME, 
-        apply_latin_filter=True  # ← FILTRO ACTIVADO
+        apply_latin_filter=True
     )
-    new_channels_data[filename] = count
+    remote_channels_data[filename] = count
     
     # 2. 🎵 PROCESAR MÚSICA.M3U (SIN FILTRO - TODOS LOS IDIOMAS)
-    print("\n🎵 PASO 2: Procesando lista de MÚSICA (todos los idiomas)")
+    print("\n🎵 Procesando lista de MÚSICA (todos los idiomas)")
     filename, count = process_remote_list(
         MUSIC_SOURCE_URL, 
         MUSIC_FILENAME, 
-        apply_latin_filter=False  # ← SIN FILTRO (como los países)
+        apply_latin_filter=False
     )
-    new_channels_data[filename] = count
+    remote_channels_data[filename] = count
     
-    # 3. 🌍 PROCESAR LISTAS DE PAÍSES (SIN FILTRO)
-    print("\n\n🌍 PASO 3: Procesando listas de países")
+    # 3. 🌎 PROCESAR LISTAS DE PAÍSES (SIN FILTRO)
+    print("\n🌎 Procesando listas de países")
     for source_url, filename in COUNTRY_SOURCES.items():
         filename, count = process_remote_list(
             source_url, 
             filename, 
-            apply_latin_filter=False  # ← SIN FILTRO
+            apply_latin_filter=False
         )
-        new_channels_data[filename] = count
-
-    # 4. 💾 GUARDAR HISTORIAL
-    save_history(new_channels_data)
+        remote_channels_data[filename] = count
+    
+    # Guardar historial de actualización remota
+    save_history(HISTORY_FILE, remote_channels_data)
+    
+    # ========================================
+    # FASE 2: LIMPIAR ARCHIVOS M3U LOCALES
+    # ========================================
+    
+    # Limpiar el caché de URLs para la fase de limpieza
+    url_status_cache.clear()
+    
+    cleaning_results = clean_local_m3u_files()
+    
+    # Guardar historial de limpieza
+    if cleaning_results:
+        save_history(CLEANING_HISTORY_FILE, cleaning_results)
+    
+    # ========================================
+    # RESUMEN FINAL
+    # ========================================
     
     print("\n" + "="*60)
     print("✨ PROCESO COMPLETADO")
     print("="*60)
     print(f"⏰ Finalizado: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    print(f"📊 Total archivos procesados: {len(new_channels_data)}")
+    print(f"📊 Archivos actualizados: {len(remote_channels_data)}")
+    print(f"🧹 Archivos limpiados: {len(cleaning_results)}")
     print("="*60)
 
 if __name__ == "__main__":
