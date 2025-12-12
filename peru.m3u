@@ -27,8 +27,6 @@ https://live.obslivestream.com/canal8/index.m3u8
 https://play.agenciastreaming.com:8081/tvwanka/tracks-v1/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="Conecta2TV.pe@SD" tvg-logo="https://i.imgur.com/cfHaLt2.png" group-title="News",Conecta2TV (720p) [Not 24/7]
 https://live.obslivestream.com/conecta2/index.m3u8
-#EXTINF:-1 tvg-id="CongresoTV.pe@SD" tvg-logo="https://i.imgur.com/r0foZ5t.png" group-title="Legislative",Congreso TV
-https://ccstreaming.packet.mx/WebRTCAppEE/streams/45.1_kd5oiNTTWO0gEOFc431277834.m3u8
 #EXTINF:-1 tvg-id="ControversiaTV.pe@SD" tvg-logo="https://i.imgur.com/X7cPyP2.png" group-title="Undefined",Controversia TV (720p) [Not 24/7]
 https://live.obslivestream.com/controversiatv/index.m3u8
 #EXTINF:-1 tvg-id="CRTelevision.pe@SD" tvg-logo="https://i.imgur.com/oxycMeA.png" group-title="General",CR Televisión Moyobamba (720p) [Not 24/7]
@@ -89,8 +87,6 @@ https://videoserver.tmcreativos.com:19360/raditropical/raditropical.m3u8
 https://s1.tvdatta.com:3950/multi_web/play.m3u8
 #EXTINF:-1 tvg-id="RadioTVOriente.pe@SD" tvg-logo="https://i.imgur.com/iHaFLHX.png" group-title="General",RadioTV Oriente
 https://live.obslivestream.com/tvoriente/index.m3u8
-#EXTINF:-1 tvg-id="RCR.pe@SD" tvg-logo="https://i.imgur.com/A8TRPrF.png" group-title="News",Red de Comunicación Regional (RCR) (720p) [Not 24/7]
-https://5c3fb01839654.streamlock.net:1963/iptvrcrperu/livercrperutv/playlist.m3u8
 #EXTINF:-1 tvg-id="RNTelevision.pe@SD" tvg-logo="https://i.imgur.com/oFGiW7u.png" group-title="Undefined",RN Televisión (720p) [Not 24/7]
 https://videoserver.tmcreativos.com:19360/rnyurimaguas/rnyurimaguas.m3u8
 #EXTINF:-1 tvg-id="RSelvaTV.pe@SD" tvg-logo="https://i.imgur.com/DAK5ZnD.png" group-title="News",RSelvaTV
