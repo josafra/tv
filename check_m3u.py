@@ -42,6 +42,10 @@ CINE_FILENAME = "cine.m3u"
 MUSIC_SOURCE_URL = "https://iptv-org.github.io/iptv/categories/music.m3u"
 MUSIC_FILENAME = "musica.m3u"
 
+# 📌 Fuente Específica para Religión (Pluto TV España)
+RELIGION_SOURCE_URL = "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/es_pluto.m3u"
+RELIGION_FILENAME = "religion.m3u"
+
 # 📌 Palabras clave MEJORADAS para el filtrado de idioma
 LATIN_KEYWORDS = [
     # Idioma explícito
@@ -419,7 +423,16 @@ def main():
     )
     remote_channels_data[filename] = count
     
-    # 3. 🌎 PROCESAR LISTAS DE PAÍSES (SIN FILTRO)
+    # 3. 🙏 PROCESAR RELIGIÓN.M3U (SIN FILTRO - Pluto TV España)
+    print("\n🙏 Procesando lista de RELIGIÓN (Pluto TV España)")
+    filename, count = process_remote_list(
+        RELIGION_SOURCE_URL, 
+        RELIGION_FILENAME, 
+        apply_latin_filter=False
+    )
+    remote_channels_data[filename] = count
+    
+    # 4. 🌎 PROCESAR LISTAS DE PAÍSES (SIN FILTRO)
     print("\n🌎 Procesando listas de países")
     for source_url, filename in COUNTRY_SOURCES.items():
         filename, count = process_remote_list(
