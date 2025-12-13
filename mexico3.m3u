@@ -79,8 +79,6 @@ https://5ca3e84a76d30.streamlock.net/gpacifico4/smil:mazatlan.smil/playlist.m3u8
 https://cbsn-la.cbsnstream.cbsnews.com/out/v1/57b6c4534a164accb6b1872b501e0028/master.m3u8
 #EXTINF:-1,Super Canal Yurimaguas (720p) [Not 24/7]
 https://live.obslivestream.com/supercanal/index.m3u8
-#EXTINF:-1,Aguacate TV (1080p)
-https://streamtv.intervenhosting.net:3040/hybrid/play.m3u8
 #EXTINF:-1,Xtrema Cartoons
 https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8
 #EXTINF:-1,Canal E (720p)
@@ -97,8 +95,6 @@ https://rcntv-rcnmas-1-us.roku.wurl.tv/playlist.m3u8
 http://livestreamcdn.net:1935/ExtremaTV/ExtremaTV/playlist.m3u8
 #EXTINF:-1,AMX Noticias
 https://5e50264bd6766.streamlock.net/mexiquense2/videomexiquense2/playlist.m3u8
-#EXTINF:-1,Planeta TV (720p) [Not 24/7]
-https://live.obslivestream.com/planetatv/index.m3u8
 #EXTINF:-1,TV UJAT
 https://5e50264bd6766.streamlock.net/ujat/videoujat/playlist.m3u8
 #EXTINF:-1,HTV Live (1080p)
@@ -113,8 +109,6 @@ https://175036.global.ssl.fastly.net/6217e980d5bee0e090792fdf/live_75f5635097ba1
 https://rtv.fullhd-streaming.com:19360/dreikotv/dreikotv.m3u8
 #EXTINF:-1,US: TELEMUNDO Florida
 https://nbcu-telemundoflorida-firetv.amagi.tv/playlist1080.m3u8
-#EXTINF:-1,Planeta TV | PE
-https://live.obslivestream.com/planetatv/index.m3u8?PlaylistM3UCL
 #EXTINF:-1,Panc TV
 https://panel.host-live.com:19360/20004/20004.m3u8
 #EXTINF:-1,UMTV
