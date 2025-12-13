@@ -35,8 +35,6 @@ https://5ca9af4645e15.streamlock.net/lobodurango/videolobodurango/playlist.m3u8
 https://5ca9af4645e15.streamlock.net/nuevetv/videonuevetv/.m3u8
 #EXTINF:-1,TV Cuatro 4.1
 https://5f1af61612fb5.streamlock.net/tv4/tv4.smil/.m3u8
-#EXTINF:-1,TVT Tabasco (720p) [Not 24/7]
-https://5e50264bd6766.streamlock.net/tabasco/videotabasco/playlist.m3u8
 #EXTINF:-1,Mexiquense TV
 https://5e50264bd6766.streamlock.net/mexiquense/videomexiquense/playlist.m3u8
 #EXTINF:-1,Canal 44 Ciudad Juárez
@@ -57,8 +55,6 @@ https://5f2c1b0d880e5.streamlock.net/tv42/tv42.smil/.m3u8
 https://live-ilce.ovp-vivaro.digital/ovp-origin-abr/ngrp:6359ef999f3fb_all/playlist.m3u8
 #EXTINF:-1,Lobo TV
 https://5ca3e84a76d30.streamlock.net/tvlobo/videotvlobo/playlist.m3u8
-#EXTINF:-1,XHTTG-TDT Canal 44
-https://5ca9af4645e15.streamlock.net/chiapas/videochiapas/playlist.m3u8
 #EXTINF:-1,Xtrema Animal
 https://stmv6.voxtvhd.com.br/xtremaanimal/xtremaanimal/playlist.m3u8
 #EXTINF:-1,Nayarit Comunica
@@ -67,8 +63,6 @@ https://live.iplanay.gob.mx/hls/nayarittv.m3u8
 https://5ca3e84a76d30.streamlock.net/gpacifico3/obregon.smil/playlist.m3u8
 #EXTINF:-1,TV Mar La Paz
 https://5fc584f3f19c9.streamlock.net/tvmarlapaz/smil:tvmarlapaz.smil/playlist.m3u8
-#EXTINF:-1,Bolivision
-https://alba-bo-bolivision-bolivision.stream.mediatiquestream.com/index.m3u8
 #EXTINF:-1,TVP Los Mochis
 https://5ca3e84a76d30.streamlock.net/gpacifico2/mochis.smil/playlist.m3u8
 #EXTINF:-1,Clan Internacional Americas (1080p) [Geo-blocked]
