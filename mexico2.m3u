@@ -187,8 +187,6 @@ https://cloudvideo.servers10.com:8081/impactotv/index.m3u8
 https://v1.tustreaming.cl/aysentv/index.m3u8
 #EXTINF:-1,AXN
 https://streamer1.nexgen.bz/AXN/index.m3u8
-#EXTINF:-1,Conecta TV
-https://stream8.mexiserver.com:19360/conectatvx/conectatvx.m3u8
 #EXTINF:-1,Lancelot TV (404p)
 https://5c0956165db0b.streamlock.net:8090/directo/_definst_/lancelot.television/master.m3u8
 #EXTINF:-1,Kanade (1080p)
@@ -203,8 +201,6 @@ https://a-cdn.klowdtv.com/live1/cine_720p/playlist.m3u8
 https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/bravo/bravo.smil/playlist.m3u8?did=b2201035844768f58630b7eef
 #EXTINF:-1,TDtv (720p)
 https://cloudvideo.servers10.com:8081/8230/index.m3u8
-#EXTINF:-1,Frecuencia 21
-https://inliveserver.com:1936/10016/10016/playlist.m3u8
 #EXTINF:-1,Vevo Latino SD
 https://amg00056-amg00056c13-rakuten-es-3246.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1,San Pedro TV
