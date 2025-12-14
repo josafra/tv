@@ -43,7 +43,7 @@ MUSIC_SOURCE_URL = "https://iptv-org.github.io/iptv/categories/music.m3u"
 MUSIC_FILENAME = "musica.m3u"
 
 # 📌 Fuente Específica para Religión (Pluto TV España)
-RELIGION_SOURCE_URL = "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/es_pluto.m3u"
+RELIGION_SOURCE_URL = "https://iptv-org.github.io/iptv/categories/religion.m3u"
 RELIGION_FILENAME = "religion.m3u"
 
 # 📌 Palabras clave MEJORADAS para el filtrado de idioma
