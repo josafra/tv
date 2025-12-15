@@ -103,8 +103,6 @@ https://175036.global.ssl.fastly.net/6217e980d5bee0e090792fdf/live_75f5635097ba1
 https://rtv.fullhd-streaming.com:19360/dreikotv/dreikotv.m3u8
 #EXTINF:-1,US: TELEMUNDO Florida
 https://nbcu-telemundoflorida-firetv.amagi.tv/playlist1080.m3u8
-#EXTINF:-1,Panc TV
-https://panel.host-live.com:19360/20004/20004.m3u8
 #EXTINF:-1,UMTV
 https://60417ddeaf0d9.streamlock.net/montemorelos/videomontemorelos/playlist.m3u8
 #EXTINF:-1,PowerHD (720p)
@@ -125,8 +123,6 @@ https://60417ddeaf0d9.streamlock.net/ntv/videontv/playlist.m3u8
 https://cloudflare.streamgato.us:3253/live/canalcocotvlive.m3u8
 #EXTINF:-1,Distrito TV (1080p)
 https://nlb2-live.emitstream.com/hls/3mn7wpcv7hbmxmdzaxap/master.m3u8
-#EXTINF:-1,TV Nuevo León Canal 28 (XHMNL-TDT) (720p)
-https://s5.mexside.net:1936/canal28/canal28/playlist.m3u8
 #EXTINF:-1,Argentinísima Satelital (540p)
 https://stream1.sersat.com/hls/argentinisima.m3u8
 #EXTINF:-1,Spark TV Luz & Amor (1080p)

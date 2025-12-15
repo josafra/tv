@@ -75,8 +75,6 @@ http://k4.usastreams.com/limontv1/limontv1/playlist.m3u8
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_ame_main_1080.m3u8
 #EXTINF:-1,EstrellaTV
 https://estrellatv-oando.amagi.tv/playlist.m3u8
-#EXTINF:-1,Panc TV
-https://panel.host-live.com:19360/20004/20004.m3u8
 #EXTINF:-1,Dreiko TV
 https://rtv.fullhd-streaming.com:19360/dreikotv/dreikotv.m3u8
 #EXTINF:-1,Clan Internacional Americas (1080p) [Geo-blocked]
@@ -109,8 +107,6 @@ https://nlb2-live.emitstream.com/hls/3mn7wpcv7hbmxmdzaxap/master.m3u8
 https://60417ddeaf0d9.streamlock.net/ntv/videontv/playlist.m3u8
 #EXTINF:-1,RCG TV
 https://video1.getstreamhosting.com:1936/8172/8172/playlist.m3u8
-#EXTINF:-1,TV Nuevo León Canal 28 (XHMNL-TDT) (720p)
-https://s5.mexside.net:1936/canal28/canal28/playlist.m3u8
 #EXTINF:-1,PowerHD (720p)
 https://live2.tensila.com/1-1-1.power-tv/hls/master.m3u8
 #EXTINF:-1,TVS Retro (720p)
