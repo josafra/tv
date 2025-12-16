@@ -77,8 +77,6 @@ https://live.obslivestream.com/supercanal/index.m3u8
 https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8
 #EXTINF:-1,Canal E (720p)
 https://unlimited1-us.dps.live/perfiltv/perfiltv.smil/playlist.m3u8
-#EXTINF:-1,PSN
-https://srspsn.live/live/livestream.m3u8
 #EXTINF:-1,DTV (800p)
 https://s.emisoras.tv:8081/dtv/index.m3u8
 #EXTINF:-1,Limón TV (1080p) [Not 24/7]
@@ -203,8 +201,6 @@ https://cloudvideo.servers10.com:8081/impactotv/index.m3u8
 https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8
 #EXTINF:-1,Kanade (1080p)
 https://backend.energeek.cl/webtv/kanadeweb/index.m3u8?token=ZZDemoIPTVGH
-#EXTINF:-1,Magic Kids
-https://magicstream.ddns.net/magicstream/stream.m3u8
 #EXTINF:-1,Ovacion TV (720p) [Not 24/7]
 http://cdn2.ujjina.com:1935/iptvovacion1/liveovacion1tv/playlist.m3u8
 #EXTINF:-1,Cosmos TV (720p)

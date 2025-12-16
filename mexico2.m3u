@@ -67,8 +67,6 @@ https://5ca9af4645e15.streamlock.net/rtv/videortv/playlist.m3u8
 https://5e50264bd6766.streamlock.net/mexiquense2/videomexiquense2/playlist.m3u8
 #EXTINF:-1,TV UJAT
 https://5e50264bd6766.streamlock.net/ujat/videoujat/playlist.m3u8
-#EXTINF:-1,PSN
-https://srspsn.live/live/livestream.m3u8
 #EXTINF:-1,Limón TV (1080p) [Not 24/7]
 http://k4.usastreams.com/limontv1/limontv1/playlist.m3u8
 #EXTINF:-1,TVE Internacional America (1080p) [Geo-blocked]
@@ -201,8 +199,6 @@ https://amg00056-amg00056c13-rakuten-es-3246.playouts.now.amagi.tv/playlist.m3u8
 https://iptv.ixfo.com.ar:30443/live/sanpedrotv/playlist.m3u8
 #EXTINF:-1,De Pelicula (720p)
 https://cloudvideo.servers10.com:8081/8108/index.m3u8
-#EXTINF:-1,Magic Kids
-https://magicstream.ddns.net/magicstream/stream.m3u8
 #EXTINF:-1,Vision Television
 https://cloudvideo.servers10.com:8081/8016/index.m3u8
 #EXTINF:-1,Ovacion TV (720p) [Not 24/7]
