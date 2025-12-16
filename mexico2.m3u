@@ -43,10 +43,6 @@ https://5ca9af4645e15.streamlock.net/lobodurango/videolobodurango/playlist.m3u8
 https://5e50264bd6766.streamlock.net/telemetrika2/smil:telemetrika2.smil/playlist.m3u8
 #EXTINF:-1,TVP Culiacan
 https://5ca3e84a76d30.streamlock.net/gpacifico1/smil:gpculiacan.smil/playlist.m3u8
-#EXTINF:-1,Super Canal Yurimaguas (720p) [Not 24/7]
-https://live.obslivestream.com/supercanal/index.m3u8
-#EXTINF:-1,Señal España (XHUNES-TDT) (720p)
-https://tv91.hostingnuclear.com:19360/xhunestv/xhunestv.m3u8
 #EXTINF:-1,Nueve TV San Luís Potosí (720p)
 https://5ca9af4645e15.streamlock.net/nuevetv/videonuevetv/.m3u8
 #EXTINF:-1,TVP Los Mochis
@@ -125,8 +121,6 @@ https://rcntv-rcnmas-1-us.roku.wurl.tv/playlist.m3u8
 https://nbcu-telemundoflorida-firetv.amagi.tv/playlist1080.m3u8
 #EXTINF:-1,Nexxo TV (720p) [Not 24/7]
 https://cdn3.streamgato.us:3938/live/nexxotvlive.m3u8
-#EXTINF:-1,Mega Cine TV | DO
-https://cloudflare.streamgato.us:3125/live/megacinetvlive.m3u8?PlaylistM3UCL
 #EXTINF:-1,EnerGeek Retro
 https://backend.energeek.cl/webtv/egretroweb/index.m3u8?token=D3m0M3UCLWeb&PlaylistM3UCL
 #EXTINF:-1,EnerGeek FAN
@@ -197,8 +191,6 @@ https://cloudvideo.servers10.com:8081/8230/index.m3u8
 https://amg00056-amg00056c13-rakuten-es-3246.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1,San Pedro TV
 https://iptv.ixfo.com.ar:30443/live/sanpedrotv/playlist.m3u8
-#EXTINF:-1,De Pelicula (720p)
-https://cloudvideo.servers10.com:8081/8108/index.m3u8
 #EXTINF:-1,Vision Television
 https://cloudvideo.servers10.com:8081/8016/index.m3u8
 #EXTINF:-1,Ovacion TV (720p) [Not 24/7]
