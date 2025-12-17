@@ -17,8 +17,6 @@ https://s.emisoras.tv:8081/diostevekids/index.m3u8
 https://59d39900ebfb8.streamlock.net/rytqrolive/rytqrolive/chunklist.m3u8
 #EXTINF:-1,Canal 33 Tijuana
 https://5f2c1b0d880e5.streamlock.net/canal33tijuana/videocanal33tijuana/playlist.m3u8
-#EXTINF:-1,24/7 Canal de Noticias
-https://panel.host-live.com:19360/cn247tv/cn247tv.m3u8
 #EXTINF:-1,TV Cuatro 4.2
 https://5f2c1b0d880e5.streamlock.net/tv42/tv42.smil/.m3u8
 #EXTINF:-1,TV Cuatro 4.1
@@ -103,14 +101,10 @@ https://60417ddeaf0d9.streamlock.net/ntv/videontv/playlist.m3u8
 https://video1.getstreamhosting.com:1936/8172/8172/playlist.m3u8
 #EXTINF:-1,PowerHD (720p)
 https://live2.tensila.com/1-1-1.power-tv/hls/master.m3u8
-#EXTINF:-1,TVS Retro (720p)
-https://cdn.streamhispanatv.net:3531/live/tvsretrogtlive.m3u8
 #EXTINF:-1,TV Hispanic SD
 https://livetv.305streamhd.com:3504/live/tvhispaniclive.m3u8
 #EXTINF:-1,Super Channel 12
 https://servilive.com:3263/live/channel12live.m3u8
-#EXTINF:-1,AsiriTV (720p) [Not 24/7]
-https://video2.lhdserver.es/asiritv/live.m3u8
 #EXTINF:-1,MyTime Movie Network
 https://appletree-mytime-samsungmexico.amagi.tv/playlist.m3u8
 #EXTINF:-1,Argentinísima Satelital (540p)

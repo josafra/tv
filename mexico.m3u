@@ -29,10 +29,6 @@ https://video0.rogohosting.com:19360/tvcozumel/tvcozumel.m3u8
 http://stream2.dynalias.com:1935/live/tvlive1/playlist.m3u8
 #EXTINF:-1 tvg-id="XHTTGTDT.mx@SD" tvg-logo="https://i.imgur.com/dw6puHC.png" group-title="General",Canal 10 Chiapas (720p)
 https://5ca9af4645e15.streamlock.net/chiapas/videochiapas/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal10Durango.mx@SD" tvg-logo="https://i.imgur.com/H34quHQ.png" group-title="Undefined",Canal 10 Durango (1080p)
-https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal13Bajio.mx@SD" tvg-logo="https://i.imgur.com/SlycKgZ.png" group-title="General",Canal 13 Bajío (720p) [Not 24/7]
-https://stream-207963.castr.net/65313d270e749722b6474684/live_1c690d40dfb711eeabd66ba1b9ba93a1/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="Canal13Campeche.mx@SD" tvg-logo="https://i.imgur.com/SlycKgZ.png" group-title="General",Canal 13 Campeche (720p) [Not 24/7]
 https://stream-207963.castr.net/65313d270e749722b6474684/live_38c14fb0dfbd11ee8847c303f3096501/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="Canal13Chiapas.mx@SD" tvg-logo="https://i.imgur.com/SlycKgZ.png" group-title="General",Canal 13 Chiapas (720p) [Not 24/7]
@@ -125,8 +121,6 @@ https://video1.getstreamhosting.com:1936/8172/8172/playlist.m3u8
 https://5e50264bd6766.streamlock.net/radtvguerrero/videoradtvguerrero/playlist.m3u8
 #EXTINF:-1 tvg-id="RTQQueretaro.mx@SD" tvg-logo="https://i.imgur.com/RRckCvf.png" group-title="Undefined",RTQ Querétaro (1080p)
 https://59d39900ebfb8.streamlock.net/rytqrolive/rytqrolive/chunklist.m3u8
-#EXTINF:-1 tvg-id="XHUNESTDT.mx@SD" tvg-logo="https://i.imgur.com/LbZkdca.png" group-title="Education",Señal España (XHUNES-TDT) (720p)
-https://tv91.hostingnuclear.com:19360/xhunestv/xhunestv.m3u8
 #EXTINF:-1 tvg-id="XHPBZCTDT1.mx@SD" tvg-logo="https://i.imgur.com/dbJKErB.png" group-title="Undefined",SET Televisión Canal 26.1 (720p) [Not 24/7]
 https://5d0d1d7a6be9e.streamlock.net/sicom/canal1/playlist.m3u8
 #EXTINF:-1 tvg-id="XHPBZCTDT2.mx@SD" tvg-logo="https://i.imgur.com/dbJKErB.png" group-title="Education",SET Televisión Canal 26.2 (720p) [Not 24/7]
@@ -145,8 +139,6 @@ https://fl1.moveonjoy.com/Sony_Movie_Channel/index.m3u8
 https://video0.rogohosting.com:19360/4982/4982.m3u8
 #EXTINF:-1 tvg-id="SuperChannel12.mx@SD" tvg-logo="https://i.imgur.com/dLHIvKz.png" group-title="General",Super Channel 12 (1080p)
 https://servilive.com:3263/live/channel12live.m3u8
-#EXTINF:-1 tvg-id="TeleUV.mx@SD" tvg-logo="https://i.imgur.com/8MdUH69.jpeg" group-title="Education",Tele UV [Not 24/7]
-https://58fe359775f31.streamlock.net/tvuv/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="XEWHTDT.mx@SD" tvg-logo="https://i.imgur.com/klhTyDU.png" group-title="Undefined",Telemax (XEWH-TDT) (1080p)
 https://s5.mexside.net:1936/telemax/telemax/playlist.m3u8
 #EXTINF:-1 tvg-id="TeleplaySureste.mx@SD" tvg-logo="https://i.imgur.com/MeV5N08.png" group-title="Entertainment",Teleplay Sureste (720p)
