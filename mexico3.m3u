@@ -235,7 +235,5 @@ https://viamotionhsi.netplus.ch/live/eds/canal24horas/browser-HLS8/canal24horas.
 https://fl1.moveonjoy.com/MTV_CLASSIC/index.m3u8
 #EXTINF:-1,VM Latino (720p) [Not 24/7]
 https://59ef525c24caa.streamlock.net/vmtv/vmlatino/playlist.m3u8
-#EXTINF:-1,Metro TV (720p)
-https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8
 #EXTINF:-1,V Classic TV (720p)
 https://5eaccbab48461.streamlock.net:1936/8112/8112/playlist.m3u8

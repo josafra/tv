@@ -221,8 +221,6 @@ https://tls-cl.cdnz.cl/retroplustvuno/live/playlist.m3u8?PlaylistM3UCL
 https://tuvideoonline.com.ar:3332/live/xlevelmedialive.m3u8
 #EXTINF:-1,Contivision (720p)
 https://unlimited6-cl.dps.live/cm/cm.smil/playlist.m3u8
-#EXTINF:-1,Metro TV (720p)
-https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8
 #EXTINF:-1,V Classic TV (720p)
 https://5eaccbab48461.streamlock.net:1936/8112/8112/playlist.m3u8
 #EXTINF:-1,VM Latino (720p) [Not 24/7]

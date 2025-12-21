@@ -23,16 +23,12 @@ https://rdn.essastream.com:3042/live/bajotechotvlive.m3u8
 https://mlb.essastream.com:8081/bebetotelevision/index.m3u8
 #EXTINF:-1 tvg-id="Bellavision.do@SD" tvg-logo="https://i.imgur.com/XqQ3kCs.png" group-title="Entertainment",Bellavisión (1080p)
 https://rdn.essastream.com:3110/live/bellavision8hdlive.m3u8
-#EXTINF:-1 tvg-id="BocaChicaTV.do@SD" tvg-logo="https://i.imgur.com/npiRBPC.png" group-title="General",Boca Chica TV [Not 24/7]
-https://vdo2.streamgato.us:3154/live/bocachicatvlive.m3u8
 #EXTINF:-1 tvg-id="BonaoTV.do@SD" tvg-logo="https://i.imgur.com/en1vCZB.png" group-title="General",Bonao TV (720p)
 https://bonaotv.com/stream2/index.m3u8
 #EXTINF:-1 tvg-id="BonchesLatinosTV.do@SD" tvg-logo="https://i.imgur.com/Kp8x0NS.png" group-title="Entertainment",Bonches Latinos TV (720p)
 https://5790d294af2dc.streamlock.net/latinostv/latinostv/playlist.m3u8
 #EXTINF:-1 tvg-id="CanaTVDigital.do@SD" tvg-logo="https://i.imgur.com/k8jxt12.png" group-title="General",Cana TV Digital (720p) [Not 24/7]
 https://stream.hostuis.com:19360/canatvdigital/canatvdigital.m3u8
-#EXTINF:-1 tvg-id="Canal4RD.do@SD" tvg-logo="https://i.imgur.com/3AqCAji.png" group-title="General",Canal 4 RD (1080p)
-https://protvradiostream.com:1936/canal4rd-1/ngrp:canal4rd-1_all/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal17RTVD.do@HD" tvg-logo="https://i.ibb.co/2YvKhjW4/Quisqueya-17-AZUL.png" group-title="Culture",Canal 17 RTVD (720p)
 https://protvradiostream.com:1936/rtvd17/ngrp:rtvd17_all/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal56.do@SD" tvg-logo="https://i.imgur.com/HcLs5eM.png" group-title="General",Canal 56 (720p)
@@ -69,8 +65,6 @@ https://streamunoapp.com:3958/live/cibaenatvlive.m3u8
 https://streaming.servervideo.net:1936/cielotv/cielotv/playlist.m3u8
 #EXTINF:-1 tvg-id="CinevisionCanal19.do@SD" tvg-logo="https://i.imgur.com/mJN2XNm.png" group-title="General",Cinevision Canal 19 (720p)
 https://cdn.mycloudstream.io/hls/live/broadcast/etyetihk/index.m3u8
-#EXTINF:-1 tvg-id="CitricoTV.do@SD" tvg-logo="https://enhd.ar/wp-content/uploads/2022/01/0e4a83fc-ba5b-4f26-a333-31f8bd544bcb-300x260.jpeg" group-title="News",Cítrico TV (240p)
-https://rdn.essastream.com:3996/live/citricotvlive.m3u8
 #EXTINF:-1 tvg-id="ClaroTelevisionDominicana.do@SD" tvg-logo="https://i.imgur.com/fJD7OxB.png" group-title="General",Claro Televisión Dominicana (360p)
 https://streamunoapp.com:3960/live/claroteledomlive.m3u8
 #EXTINF:-1 tvg-id="ClaroVisionTV.do@SD" tvg-logo="https://i.imgur.com/MpTgJMJ.png" group-title="Entertainment",Claro Visión TV (720p)
@@ -85,6 +79,8 @@ http://190.110.36.254:80/COLORVISION/index.m3u8
 https://live20.bozztv.com/akamaissh101/ssh101/ctv8hd/playlist.m3u8
 #EXTINF:-1 tvg-id="Coral39.do@SD" tvg-logo="https://i.imgur.com/k6cv9A9.png" group-title="General",Coral 39 (480p)
 http://190.110.36.254:80/CORAL39/index.m3u8
+#EXTINF:-1 tvg-id="CromTV.do@SD" tvg-logo="https://i.imgur.com/jk1lkOV.png" group-title="General",CromTV (480p)
+https://cnn.essastream.com:3333/live/cromtvlive.m3u8
 #EXTINF:-1 tvg-id="CVVisionTV.do@SD" tvg-logo="https://dominicanchannels.com/wp-content/uploads/ccviison-1.png" group-title="General",CV Vision TV [Geo-blocked]
 https://eu1.servers10.com:8081/8128/index.m3u8
 #EXTINF:-1 tvg-id="DANTV.do@SD" tvg-logo="https://i.imgur.com/vWKtPDJ.png" group-title="General",DAN TV (720p) [Not 24/7]
@@ -123,8 +119,6 @@ https://5790d294af2dc.streamlock.net/enteraterd/enteraterd/playlist.m3u8
 https://vdopanel.jlahozconsulting.com:3460/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="Extra86TV.do@HD" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3780-294x165-FFFFFF.jpg" group-title="General",Extra 86 TV (720p)
 https://samson.streamerr.co:8081/xtelevisionrd/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="Farovision.do@SD" tvg-logo="https://i.imgur.com/YtdOXWb.png" group-title="General",Farovisión (720p)
-https://streamtv.intervenhosting.net:3754/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="FuegoTV.do@SD" tvg-logo="https://i.imgur.com/T9vWjeB.png" group-title="Music",Fuego TV (720p) [Not 24/7]
 https://video.misistemareseller.com/Fuegotv/Fuegotv/playlist.m3u8
 #EXTINF:-1 tvg-id="GalaxiATeVe.do@SD" tvg-logo="https://grupomediosdelnorte.com/iptv/galaxia.png" group-title="Entertainment",Galaxia TV (360p)
@@ -165,6 +159,8 @@ https://live20.bozztv.com/giatvplayout7/giatv-208429/playlist.m3u8
 https://live.lavozdemaria.com:3436/live/lavozdemarialive.m3u8
 #EXTINF:-1 tvg-id="LaVozdelTropico.do@SD" tvg-logo="https://i.imgur.com/DKDFpHt.png" group-title="Music",La Voz del Tropico (480p) [Geo-blocked]
 https://ss2.tvrdomi.com:1936/lavozdeltropico/lavozdeltropico/playlist.m3u8
+#EXTINF:-1 tvg-id="LatinZone.us@SD" tvg-logo="https://i.imgur.com/duEDsne.png" group-title="Music",Latin Zone TV (720p)
+https://cdn.streamingcpanel.com:3784/live/latinzonetvlive.m3u8
 #EXTINF:-1 tvg-id="LatinaTVInternacional.do@SD" tvg-logo="https://i.imgur.com/UAfyeYT.png" group-title="General",Latina TV Internacional (720p)
 https://5790d294af2dc.streamlock.net/latinatv/latinatv/chunklist.m3u8
 #EXTINF:-1 tvg-id="LenaTV.do@SD" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3232-294x165-FFFFFF.jpg" group-title="General",Lena TV [Not 24/7]
@@ -215,6 +211,8 @@ https://streamunoapp.com:3520/live/oxitvcanal36live.m3u8
 https://streamunoapp.com:3255/live/palmartvlive.m3u8
 #EXTINF:-1 tvg-id="PeraviaVision.do@SD" tvg-logo="https://i.imgur.com/k1Wj5ka.png" group-title="General",Peravia Vision (480p) [Geo-blocked]
 https://ss2.tvrdomi.com:1936/peraviavision/peraviavision/playlist.m3u8
+#EXTINF:-1 tvg-id="PronemsTV.do@SD" tvg-logo="https://i.imgur.com/a9ORO1G.png" group-title="Entertainment",Pronems TV [Geo-blocked]
+https://vdo1.streamgato.us:3418/live/pronemstvlive.m3u8
 #EXTINF:-1 tvg-id="PulaTV.do@SD" tvg-logo="https://i.imgur.com/8gSLJ2f.png" group-title="Entertainment",Pula TV (720p)
 https://vdo2.streamgato.us:3239/live/pulatvlive.m3u8
 #EXTINF:-1 tvg-id="PuntaCanaTV.do@SD" tvg-logo="https://i.imgur.com/KF7fLTx.png" group-title="General",Punta Cana TV (720p) [Not 24/7]
@@ -247,12 +245,8 @@ https://soportedvb.click:3494/live/senaldigitaltvlive.m3u8
 https://streamunoapp.com:3809/live/siembratvlive.m3u8
 #EXTINF:-1 tvg-id="SimavisionCanal18.do@SD" tvg-logo="https://i.imgur.com/io9o30K.jpg" group-title="General",Sima Vision TV (720p)
 https://soportedvb.click:3668/live/simavisiontvlive.m3u8
-#EXTINF:-1 tvg-id="SolucionTV.do@SD" tvg-logo="https://rdomint.com/images/station/domint1705img07-27-20221658956991.jpeg" group-title="General",Solucion TV (720p) [Not 24/7]
-https://ss2.tvrdomi.com:1936/soluciontv/soluciontv/playlist.m3u8
 #EXTINF:-1 tvg-id="SRCMediaTV.do@HD" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3433-294x165-FFFFFF.jpg" group-title="General",SRC Media TV [Not 24/7]
 https://video.misistemareseller.com/srctv/srctv/chunklist_w846929347.m3u8
-#EXTINF:-1 tvg-id="StudioUniversalLatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/512px-StudioUniversal2016.png" group-title="Undefined",Studio Universal Latin America
-https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/STUDIO_UNIVERSAL/index.m3u8
 #EXTINF:-1 tvg-id="SuMundoTV.do@SD" tvg-logo="https://i.imgur.com/twGGfJr.png" group-title="General",Su Mundo TV (1080p)
 https://175036.global.ssl.fastly.net/6217e980d5bee0e090792fdf/live_75f5635097ba11ecb9f1255c8fe65a34/index.m3u8
 #EXTINF:-1 tvg-id="Super7FM.do@SD" tvg-logo="https://i.imgur.com/TJEqwZo.png" group-title="Entertainment",Super7FM (720p)
@@ -261,8 +255,6 @@ https://tv.livestreaminggroup.info:3295/live/super7tvlive.m3u8
 https://ss2.tvrdomi.com:1936/supertv55/supertv55/playlist.m3u8
 #EXTINF:-1 tvg-id="Supremateve.do@HD" tvg-logo="https://canalesdominicanos.live/template/images/radios/small/supremateve.jpeg" group-title="General",Supremateve (720p) [Not 24/7]
 https://ss2.tvrdomi.com:1936/supremateve/supremateve/playlist.m3u8
-#EXTINF:-1 tvg-id="SurTV.do@SD" tvg-logo="https://i.imgur.com/oAyvK0N.jpeg" group-title="General",Sur TV (720p)
-https://ss2.tvrdomi.com:1936/eradiofonicas/eradiofonicas/playlist.m3u8
 #EXTINF:-1 tvg-id="TeleAntillas.do@SD" tvg-logo="https://i.imgur.com/G1pJZkC.png" group-title="General",Tele Antillas (480p)
 http://200.125.170.122:8000/play/a0cg/index.m3u8
 #EXTINF:-1 tvg-id="TeleDominicanaTV.do@SD" tvg-logo="https://dominicanchannels.com/wp-content/uploads/teledominicana.png" group-title="Music",Tele Dominicana TV (720p)
@@ -295,6 +287,8 @@ https://hilandofinotv.essastream.com:3480/live/telenewscanallive.m3u8
 https://rdn.essastream.com:3170/live/telenord8live.m3u8
 #EXTINF:-1 tvg-id="Telenord10.do@SD" tvg-logo="https://i.imgur.com/1Ei0kB8.png" group-title="General",Telenord 10 (720p) [Not 24/7]
 https://rdn.essastream.com:3676/live/telenord10live.m3u8
+#EXTINF:-1 tvg-id="Telenord12.do@SD" tvg-logo="https://i.imgur.com/o7EzEsV.png" group-title="General",Telenord 12 (720p) [Not 24/7]
+https://vdo1.streamgato.us:3345/live/telenord12live.m3u8
 #EXTINF:-1 tvg-id="Telenovisa43.do@SD" tvg-logo="https://i.imgur.com/iHvf3bR.png" group-title="Family;General",Telenovisa 43 (720p)
 https://rdn.essastream.com:3230/live/telenovisa43live.m3u8
 #EXTINF:-1 tvg-id="Telesantodomingo.do@SD" tvg-logo="https://i.imgur.com/rI8c5UM.png" group-title="General",Telesantodomingo (720p)
@@ -323,12 +317,8 @@ https://streamunoapp.com:3086/live/telemileniolive.m3u8
 https://streamtvs.tvcanalsur.com.do/hls/stream/index.m3u8
 #EXTINF:-1 tvg-id="TVDaja.do@SD" tvg-logo="https://dajatv.com/wp-content/uploads/2021/09/logo_daja_2.png" group-title="General",TV Daja (1080p)
 https://rdn.essastream.com:3388/live/dajatvlive.m3u8
-#EXTINF:-1 tvg-id="TVExitos.do@SD" tvg-logo="https://i.imgur.com/ahz7X7u.png" group-title="Music",TV Éxitos (720p)
-https://streaming.grupomediosdelnorte.com:19360/tvexitos/tvexitos.m3u8
 #EXTINF:-1 tvg-id="TVHispanic.us@SD" tvg-logo="https://i.imgur.com/eThe0io.png" group-title="General",TV Hispanic [Not 24/7]
 https://livetv.305streamhd.com:3504/live/tvhispaniclive.m3u8
-#EXTINF:-1 tvg-id="TVLuz.do@SD" tvg-logo="https://i.imgur.com/FZUQ2WP.png" group-title="Religious",TV Luz (480p)
-https://host.streamingnation.live/p/3780/live/tvluzlive.m3u8
 #EXTINF:-1 tvg-id="TVMontanaCanal10.do@SD" tvg-logo="https://i.imgur.com/DHyRWc0.png" group-title="General",TV Montana Canal 10 (1080p) [Not 24/7]
 https://live20.bozztv.com/akamaissh101/ssh101/tvmontanahd/playlist.m3u8
 #EXTINF:-1 tvg-id="TVPlata.do@SD" tvg-logo="https://i.imgur.com/r3urUnn.png" group-title="General",TV Plata (720p) [Geo-blocked]
@@ -351,9 +341,9 @@ https://rdn.essastream.com:3400/live/canal18hdlive.m3u8
 https://ss2.tvrdomi.com:1936/vision3000/vision3000/playlist.m3u8
 #EXTINF:-1 tvg-id="VisionGlobalTV.us@SD" tvg-logo="https://i.imgur.com/3FaNbYD.png" group-title="General",Vision Global TV (720p) [Geo-blocked]
 https://vdopanel.jlahozconsulting.com:3407/hybrid/play.m3u8
+#EXTINF:-1 tvg-id="VisionNDV.do@SD" tvg-logo="https://i.imgur.com/4gj5NMa.png" group-title="Entertainment",VisionNDV TV
+https://cloudflare.streamgato.us:3820/live/visionndvlive.m3u8
 #EXTINF:-1 tvg-id="VTVCanal32.do@SD" tvg-logo="https://i.imgur.com/qjm4B0J.png" group-title="General",VTV Canal 32 (1080p)
 https://cnn.livestreaminggroup.info:3507/live/vtv32live.m3u8
 #EXTINF:-1 tvg-id="XtremoChannel.do@SD" tvg-logo="https://i.imgur.com/bvPh0Uq.png" group-title="General",Xtremo Channel (720p) [Geo-blocked]
 https://ss2.tvrdomi.com:1936/xtremochannel/xtremochannel/playlist.m3u8
-#EXTINF:-1 tvg-id="ZonavisionTV.do@SD" tvg-logo="https://imgur.com/B3PrrMH.png" group-title="General",Zonavision TV [Not 24/7]
-https://ds.tvabierta.net/memfs/b295f254-7af9-45e4-bfc6-7e0bba41929d.m3u8
