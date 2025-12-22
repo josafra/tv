@@ -1,14 +1,14 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="5tv.ar@SD" tvg-logo="https://i.imgur.com/mSn7ACs.png" group-title="General",5TV Corrientes (480p) [Not 24/7]
 http://www.coninfo.net:1935/tvcinco/live1/playlist.m3u8
-#EXTINF:-1 tvg-id="13MaxTelevision.ar@SD" tvg-logo="https://i.imgur.com/QvF4l2t.png" group-title="General",13Max Televisión (1080p)
-http://coninfo.net:1935/13maxhd/live13maxtvnuevo/playlist.m3u8
 #EXTINF:-1 tvg-id="247CanaldeNoticias.ar@SD" tvg-logo="https://i.imgur.com/4hDCB1M.png" group-title="News",24/7 Canal de Noticias
 https://panel.host-live.com:19360/cn247tv/cn247tv.m3u8
 #EXTINF:-1 tvg-id="AiredeSantaFe.ar@SD" tvg-logo="https://i.imgur.com/60vSWW0.png" group-title="General",Aire de Santa Fe (1080p)
 https://unlimited1-us.dps.live/airedesantafetv/airedesantafetv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ArgentinisimaSatelital.ar@SD" tvg-logo="https://i.imgur.com/xFgJawa.png" group-title="General",Argentinísima Satelital (540p)
 https://stream1.sersat.com/hls/argentinisima.m3u8
+#EXTINF:-1 tvg-id="AzaharesRadiovisualMultimedia.ar@SD" tvg-logo="https://i.imgur.com/g1BFoSs.png" group-title="Music",Azahares Radio Multimedia (720p)
+https://streamyes.alsolnet.com/azaharesfm/live/playlist.m3u8
 #EXTINF:-1 tvg-id="BayresTV.ar@SD" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKrroOZ4RYMYlzGqMQjiIO2QbRNVndEM9PiC-CaRn0PO2AoB_YKyrt6Eigzh4M1gPZaVn5udDL5YzrzxAmyQCj_HTF8Pszo46dk9dABt9TpepY43_IEzT80atZEMaiMcdrqt3lmxAbZYaLwCgr6vDUgV1HlvmhIOJ99UlwAhG2FoHgtCm13CWEugV7Bvg/w1200-h630-p-k-no-nu/bayres-tv-removebg-preview.png" group-title="General",Bayres TV (720p)
 https://streaming01.mikrolive.tv/bayrestv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="BeatsRadio.ar@SD" tvg-logo="https://i.imgur.com/zkNUO5p.png" group-title="Music",Beats Radio (480p)
@@ -35,8 +35,6 @@ https://iptv.ixfo.com.ar:30443/live/C4POS/playlist.m3u8
 https://streamlov.alsolnet.com/canal4sanjuan/live/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal5DelPueblo.ar@SD" tvg-logo="https://i.ibb.co/XzcYYMc/Canal-5-alcorta-ver.jpg" group-title="General",Canal 5 Del Pueblo [Not 24/7]
 https://stmv4.voxtvhd.com.br/canal5pueblo/canal5pueblo/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal5PicoTruncado.ar@SD" tvg-logo="https://i.imgur.com/VwUiSVF.png" group-title="Undefined",Canal 5 Pico Truncado (540p)
-https://stream.arcast.com.ar/canal5picotruncado/canal5picotruncado/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal5SantaFe.ar@SD" tvg-logo="https://i.imgur.com/WX0esjQ.png" group-title="Undefined",Canal 5 Santa Fe (240p)
 https://stream.arcast.com.ar/c5sf/c5sf/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal6Posadas.ar@SD" tvg-logo="https://i.imgur.com/OamBiS5.png" group-title="Undefined",Canal 6 Posadas (1080p)
@@ -51,16 +49,10 @@ https://vivo.solumedia.com:19360/cooperativa/cooperativa.m3u8
 https://stream.arcast.com.ar/envivo/castv/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal9Litoral.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ad/Canal_9_Litoral_2021.png" group-title="Undefined",Canal 9 Litoral (720p)
 https://stream.arcast.live/ahora/ahora/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal9Resistencia.ar@SD" tvg-logo="https://i.imgur.com/xqgRFpC.png" group-title="General",Canal 9 Resistencia (720p)
-http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal10Cordoba.ar@SD" tvg-logo="https://i.imgur.com/87WCHtd.png" group-title="Undefined",Canal 10 Cordoba
-https://stream.arcast.net:4443/canal10/ngrp:canal10_all/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal11delaCosta.ar@SD" tvg-logo="https://i.imgur.com/yYExcq1.jpg" group-title="Undefined",Canal 11 de la Costa (720p)
 https://vivo.solumedia.com:19360/dadaproductora/dadaproductora.m3u8
 #EXTINF:-1 tvg-id="Canal13LaRioja.ar@SD" tvg-logo="https://i.imgur.com/OI97Sgq.png" group-title="Undefined",Canal 13 La Rioja (480p)
 http://arcast.net:1935/mp/mp/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal13SanLuis.ar@SD" tvg-logo="https://i.imgur.com/NcfMC29.png" group-title="Undefined",Canal 13 San Luis
-https://stream.radiosmundiales.com:19360/sanluismas/sanluismas.m3u8
 #EXTINF:-1 tvg-id="Canal21TV.ar@SD" tvg-logo="https://i.imgur.com/Am7yMXg.png" group-title="Undefined",Canal 21 TV (1080p)
 https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal22.ar@SD" tvg-logo="https://i.imgur.com/R4wXVxf.png" group-title="Undefined",Canal 22 (720p)
@@ -73,8 +65,6 @@ https://streamyes.alsolnet.com/canal34hd/live/playlist.m3u8
 https://streamconex.com:19360/lacosta/lacosta.m3u8
 #EXTINF:-1 tvg-id="Canal79Puan.ar@SD" tvg-logo="https://i.imgur.com/HYuSqJy.png" group-title="Undefined",Canal 79 Puan (240p)
 https://streamconex.com:19360/puan/puan.m3u8
-#EXTINF:-1 tvg-id="Canal79SantaClaradelMar.ar@SD" tvg-logo="https://i.imgur.com/I93ypGY.png" group-title="Undefined",Canal 79 Santa Clara del Mar (240p)
-https://streamconex.com:19360/santaclara-1/santaclara-1.m3u8
 #EXTINF:-1 tvg-id="CanalE.ar@SD" tvg-logo="https://i.ibb.co/y4pkxH3/Qtc8-M2-PG-400x400.jpg" group-title="Business;News",Canal E (720p)
 https://unlimited1-us.dps.live/perfiltv/perfiltv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalOrbe21.ar@SD" tvg-logo="https://i.postimg.cc/gjgm8h55/canalorbe21.png" group-title="Religious",Canal Orbe 21
@@ -83,8 +73,6 @@ https://stream.arcast.net:4443/canal21/ngrp:canal21_all/playlist.m3u8
 https://streaming.telered.com.ar/provincial/streaming/mystream.m3u8
 #EXTINF:-1 tvg-id="CanalSantaMaria.ar@SD" tvg-logo="https://www.canalsantamaria.com.ar/images/santamaria_logo.jpg" group-title="Religious",Canal Santa María (360p)
 https://streaming.telered.com.ar/santa-maria/streaming/mystream.m3u8
-#EXTINF:-1 tvg-id="CanalSiete.ar@SD" tvg-logo="https://i.imgur.com/NdQF9K9.png" group-title="General",Canal Siete
-https://vivo.solumedia.com:19360/canalsiete/canalsiete.m3u8
 #EXTINF:-1 tvg-id="CatamarcaTV.ar@SD" tvg-logo="https://i.imgur.com/CEuPoqG.png" group-title="Culture;News",Catamarca TV (720p)
 https://stream.arcast.com.ar/canal7catamarca/ngrp:canal7catamarca_all/playlist.m3u8?DVR=
 #EXTINF:-1 tvg-id="CeltaTV.ar@SD" tvg-logo="https://i.imgur.com/rwoIF4w.png" group-title="Undefined",Celta TV (240p)
@@ -105,6 +93,8 @@ http://201.217.246.177:8000/play/a02r/index.m3u8
 https://stream.arcast.com.ar/litustv/ngrp:litustv_all/playlist.m3u8
 #EXTINF:-1 tvg-id="MagicKids.ar@SD" tvg-logo="https://i.imgur.com/CMImqQY.png" group-title="Animation",Magic Kids (486p)
 https://magicstream.ddns.net/magicstream/stream.m3u8
+#EXTINF:-1 tvg-id="MasFM.ar@SD" tvg-logo="https://i.imgur.com/TJ4gWQM.png" group-title="Music",Más FM 95.9 (720p)
+https://vivo.solumedia.com:19360/masfm/masfm.m3u8
 #EXTINF:-1 tvg-id="MisionesCuatro.ar@SD" tvg-logo="https://i.imgur.com/HXRpRlK.png" group-title="General",Misiones Cuatro
 https://iptv.ixfo.com.ar:30443/live-HD/MISIONES4/playlist.m3u8
 #EXTINF:-1 tvg-id="MultivisionFederal.ar@SD" tvg-logo="https://i.imgur.com/jX0lqy3.png" group-title="News",Multivision Federal
@@ -113,8 +103,6 @@ https://panel.host-live.com:19360/8250/8250.m3u8
 https://tv.streamcasthd.com:3076/live/sonicaargentinalive.m3u8
 #EXTINF:-1 tvg-id="NETTV.ar@SD" tvg-logo="https://i.imgur.com/IhJ0BjF.png" group-title="General",NET TV (720p)
 https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="NGFederal.ar@SD" tvg-logo="https://i.imgur.com/lJCIqYn.png" group-title="General",NG Federal (720p)
-http://www.coninfo.net:1935/tvlink/live/playlist.m3u8
 #EXTINF:-1 tvg-id="PancTV.ar@SD" tvg-logo="https://i.imgur.com/u1dnEVv.png" group-title="General",Panc TV (720p) [Not 24/7]
 https://panel.host-live.com:19360/20004/20004.m3u8
 #EXTINF:-1 tvg-id="PowerMaxRadioTV.ar@SD" tvg-logo="https://i.ibb.co/qgZLYDj/channels4-profile-6.jpg" group-title="Entertainment",Power Max Radio TV (720p)
@@ -139,8 +127,6 @@ https://media.neuquen.gov.ar/rtn/television/media.m3u8
 https://videohd.live:19360/8016/8016.m3u8
 #EXTINF:-1 tvg-id="Telemax.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Telemax_Argentina_%282018%29.png/512px-Telemax_Argentina_%282018%29.png" group-title="Undefined",Telemax
 https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8
-#EXTINF:-1 tvg-id="Telenord.ar@SD" tvg-logo="https://i.imgur.com/yqXORkt.png" group-title="Undefined",Telenord (720p) [Not 24/7]
-https://617c5175c970b.streamlock.net:4444/previsoratv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="TVManaArgentina.ar@SD" tvg-logo="https://i.imgur.com/jars0mP.png" group-title="Religious",TV Maná Argentina (576p) [Not 24/7]
 https://w2.manasat.com/tvmana-ar/smil:tvmana-ar.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TVSolidaria.ar@SD" tvg-logo="https://i.imgur.com/M0fMypR.png" group-title="Undefined",TV Solidaria (576p)

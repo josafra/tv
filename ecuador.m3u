@@ -11,6 +11,8 @@ https://video.makrodigital.com/americaestereotulcan/americaestereotulcan/playlis
 https://tvdatta.com:3578/live/antenaunolive.m3u8
 #EXTINF:-1 tvg-id="AustralTV.ec@SD" tvg-logo="https://i.imgur.com/zgGuCYL.png" group-title="General",Austral TV (1080p)
 https://stmv3.voxtvhd.com.br/australtv/australtv/playlist.m3u8
+#EXTINF:-1 tvg-id="Cinecanal.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/CinecanalLA.png/512px-CinecanalLA.png" group-title="Movies",Cinecanal
+https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/CINECANAL/index.m3u8
 #EXTINF:-1 tvg-id="CiracuTV.ec@SD" tvg-logo="https://i.imgur.com/mkf2TJ6.png" group-title="Culture",Ciracu TV (720p) [Not 24/7]
 https://cloud37.ecuatel.com/ciracutv/live/manifest.m3u8
 #EXTINF:-1 tvg-id="CuriquingueTV.ec@SD" tvg-logo="https://i.imgur.com/oukGx28.png" group-title="General",Curiquingue TV (720p)
@@ -25,6 +27,8 @@ https://video.misistemareseller.com/ecuastereotv/ecuastereotv/playlist.m3u8
 https://samson.streamerr.co:8081/shogun/index.m3u8
 #EXTINF:-1 tvg-id="Ecuavisa.ec@SD" tvg-logo="https://i.imgur.com/Hl5wowk.png" group-title="General",Ecuavisa (1080p) [Not 24/7]
 https://jireh-4-hls-video-us-isp.dps.live/hls-video/c54ac2799874375c81c1672abb700870537c5223/ecuavisa/ecuavisa.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="EducaTV.ec@SD" tvg-logo="https://i.imgur.com/nDRVsIc.png" group-title="Education",EducaTV (720p) [Not 24/7]
+https://vid2.ecuamedia.net/educatv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="FMMundo.ec@SD" tvg-logo="https://i.imgur.com/1nNnYQO.png" group-title="Music",FM Mundo (1080p)
 https://video2.makrodigital.com/fmmundo/fmmundo/playlist.m3u8
 #EXTINF:-1 tvg-id="GM7Digital.ec@HD" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3708-294x165-FFFFFF.jpg" group-title="General",GM7 Digital [Not 24/7]
@@ -47,6 +51,8 @@ http://179.51.136.19:8000/play/a0q4/index.m3u8
 https://live.tvcontrolcp.com:1936/puruwatv/puruwatv/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioAlegria985FM.ec@SD" tvg-logo="https://i.imgur.com/N00aS3x.png" group-title="Music",Radio Alegria 98.5 FM (720p)
 https://video.compuwebecuador.com:3880/stream/play.m3u8
+#EXTINF:-1 tvg-id="RadioBonita1067.ec@SD" tvg-logo="https://i.imgur.com/IvZtqyz.png" group-title="Music",Radio Bonita 106.7 (720p)
+https://cloudvideo.servers10.com:8081/8154/index.m3u8
 #EXTINF:-1 tvg-id="RadioCuencaEstereo.ec@SD" tvg-logo="https://i.imgur.com/qZzSOeU.png" group-title="Music",Radio Cuenca Estéreo (720p)
 https://eu1.servers10.com:8081/8074/index.m3u8
 #EXTINF:-1 tvg-id="RadioFantastica989FM.ec@SD" tvg-logo="https://i.imgur.com/mpcIbrH.jpg" group-title="Music",Radio Fantástica 98.9 FM (1080p)
@@ -59,6 +65,8 @@ https://d2qsan2ut81n2k.cloudfront.net/live/72a3661e-1019-45f8-af10-af59f6ef6222/
 https://eu1.servers10.com:8081/8108/index.m3u8
 #EXTINF:-1 tvg-id="SonoOndaTV.ec@SD" tvg-logo="https://i.imgur.com/HWHeqWY.png" group-title="Undefined",Sono Onda TV (720p)
 https://live.obslivestream.com/sonoondatv/index.m3u8
+#EXTINF:-1 tvg-id="StudioUniversalLatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/512px-StudioUniversal2016.png" group-title="Undefined",Studio Universal Latin America
+https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/STUDIO_UNIVERSAL/index.m3u8
 #EXTINF:-1 tvg-id="Telemar.ec@SD" tvg-logo="https://i.imgur.com/0vX9oJF.png" group-title="General",Telemar
 https://cloudpro.servidoresdestream.com:8081/8020/index.m3u8
 #EXTINF:-1 tvg-id="TVColorCanal36.ec@SD" tvg-logo="https://i.imgur.com/QJW6khK.jpg" group-title="General",TV Color Canal 36 (720p)
