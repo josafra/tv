@@ -159,8 +159,6 @@ https://rds3.desdeparaguay.net/mitv/mitv/playlist.m3u8
 https://cmc-ono.amagi.tv/hls/amagi_hls_data_cmcAAAAAA-cmc-ono/CDN/playlist.m3u8
 #EXTINF:-1,Lancelot TV (404p)
 https://5c0956165db0b.streamlock.net:8090/directo/_definst_/lancelot.television/master.m3u8
-#EXTINF:-1,Raly TV (720p)
-https://cloudvideo.servers10.com:8081/8072/index.m3u8
 #EXTINF:-1,Onda Digital TV | PE
 https://v4.tustreaming.cl:443/ondadigitaltv/index.m3u8?PlaylistM3UCL
 #EXTINF:-1,Cine Sony (720p)
@@ -177,8 +175,6 @@ https://thm-it-roku.otteravision.com/thm/it/it.m3u8
 https://iptv.ixfo.com.ar:30443/live-HD/MISIONES4/playlist.m3u8
 #EXTINF:-1,AXN
 https://streamer1.nexgen.bz/AXN/index.m3u8
-#EXTINF:-1,Impacto Televisión (360p) [Not 24/7]
-https://cloudvideo.servers10.com:8081/impactotv/index.m3u8
 #EXTINF:-1,ADN 40
 https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8
 #EXTINF:-1,Kanade (1080p)
@@ -199,8 +195,6 @@ https://backend.energeek.cl/webtv/egradioweb/index.m3u8?token=D3m0M3UCLWeb&Playl
 https://tls-cl.cdnz.cl/retroplustvtres/live/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1,Retro Plus TV 2
 https://tls-cl.cdnz.cl/retroplustvdos/live/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1,Vision Television
-https://cloudvideo.servers10.com:8081/8016/index.m3u8
 #EXTINF:-1,Net TV
 https://unlimited1-cl-isp.dps.live/nettv/nettv.smil/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1,Garabito TV (720p)

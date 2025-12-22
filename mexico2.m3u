@@ -145,8 +145,6 @@ https://mdstrm.com/live-stream-playlist/629a63ae8df27c082901f78b.m3u8
 https://imagenuniversaltv.net:3771/live/iutvlive.m3u8
 #EXTINF:-1,Canal 6 Posadas (1080p)
 https://iptv.ixfo.com.ar:30443/live/c6digital/playlist.m3u8
-#EXTINF:-1,Raly TV (720p)
-https://cloudvideo.servers10.com:8081/8072/index.m3u8
 #EXTINF:-1,NHL Network SD
 https://nhl-firetv.amagi.tv/playlist.m3u8
 #EXTINF:-1,Misiones Cuatro
@@ -155,8 +153,6 @@ https://iptv.ixfo.com.ar:30443/live-HD/MISIONES4/playlist.m3u8
 https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8
 #EXTINF:-1,beIN Sports USA SD
 http://fl1.moveonjoy.com/BEIN_SPORTS/index.m3u8
-#EXTINF:-1,Impacto Televisión (360p) [Not 24/7]
-https://cloudvideo.servers10.com:8081/impactotv/index.m3u8
 #EXTINF:-1,Aysen TV (720p)
 https://v1.tustreaming.cl/aysentv/index.m3u8
 #EXTINF:-1,AXN
@@ -177,8 +173,6 @@ https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223
 https://cloudvideo.servers10.com:8081/8230/index.m3u8
 #EXTINF:-1,Vevo Latino SD
 https://amg00056-amg00056c13-rakuten-es-3246.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1,Vision Television
-https://cloudvideo.servers10.com:8081/8016/index.m3u8
 #EXTINF:-1,Ovacion TV (720p) [Not 24/7]
 http://cdn2.ujjina.com:1935/iptvovacion1/liveovacion1tv/playlist.m3u8
 #EXTINF:-1,Net TV
