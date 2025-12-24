@@ -1,37 +1,37 @@
 {
     "musica.m3u": {
-        "before": 413,
-        "after": 412,
-        "removed": 1
+        "before": 411,
+        "after": 411,
+        "removed": 0
     },
     "mexico2.m3u": {
-        "before": 110,
+        "before": 109,
         "after": 109,
-        "removed": 1
+        "removed": 0
     },
     "bolivia.m3u": {
-        "before": 23,
-        "after": 23,
+        "before": 25,
+        "after": 25,
         "removed": 0
     },
     "chile.m3u": {
-        "before": 47,
-        "after": 47,
+        "before": 55,
+        "after": 55,
         "removed": 0
     },
     "costarica.m3u": {
-        "before": 42,
-        "after": 42,
+        "before": 41,
+        "after": 41,
         "removed": 0
     },
     "espana.m3u": {
-        "before": 152,
-        "after": 152,
+        "before": 155,
+        "after": 155,
         "removed": 0
     },
     "guatemala.m3u": {
-        "before": 25,
-        "after": 25,
+        "before": 22,
+        "after": 22,
         "removed": 0
     },
     "puertorico.m3u": {
@@ -40,13 +40,13 @@
         "removed": 0
     },
     "paraguay.m3u": {
-        "before": 17,
-        "after": 17,
+        "before": 19,
+        "after": 19,
         "removed": 0
     },
     "ecuador.m3u": {
-        "before": 40,
-        "after": 40,
+        "before": 38,
+        "after": 38,
         "removed": 0
     },
     "cine.m3u": {
@@ -65,9 +65,9 @@
         "removed": 0
     },
     "colombia.m3u": {
-        "before": 62,
+        "before": 61,
         "after": 61,
-        "removed": 1
+        "removed": 0
     },
     "uruguay.m3u": {
         "before": 4,
@@ -85,8 +85,8 @@
         "removed": 0
     },
     "Argentina.m3u": {
-        "before": 78,
-        "after": 78,
+        "before": 76,
+        "after": 76,
         "removed": 0
     },
     "peru.m3u": {
@@ -95,13 +95,13 @@
         "removed": 0
     },
     "elsalvador.m3u": {
-        "before": 23,
-        "after": 23,
+        "before": 22,
+        "after": 22,
         "removed": 0
     },
     "nicaragua.m3u": {
-        "before": 4,
-        "after": 4,
+        "before": 3,
+        "after": 3,
         "removed": 0
     },
     "cuba.m3u": {
@@ -110,23 +110,23 @@
         "removed": 0
     },
     "republicadominicana.m3u": {
-        "before": 169,
-        "after": 169,
-        "removed": 0
-    },
-    "mexico3.m3u": {
-        "before": 115,
-        "after": 114,
+        "before": 162,
+        "after": 161,
         "removed": 1
     },
+    "mexico3.m3u": {
+        "before": 114,
+        "after": 114,
+        "removed": 0
+    },
     "venezuela.m3u": {
-        "before": 47,
+        "before": 45,
         "after": 45,
-        "removed": 2
+        "removed": 0
     },
     "honduras.m3u": {
-        "before": 41,
-        "after": 41,
+        "before": 37,
+        "after": 37,
         "removed": 0
     }
 }
