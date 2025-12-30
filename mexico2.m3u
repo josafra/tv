@@ -79,8 +79,6 @@ https://fastly.live.brightcove.com/6383462549112/us-east-1/734546207001/eyJhbGci
 https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
 #EXTINF:-1,Canal E (720p)
 https://unlimited1-us.dps.live/perfiltv/perfiltv.smil/playlist.m3u8
-#EXTINF:-1,MiTV (720p)
-https://rds3.desdeparaguay.net/mitv/mitv/playlist.m3u8
 #EXTINF:-1,CBS News Los Angeles
 https://cbsn-la.cbsnstream.cbsnews.com/out/v1/57b6c4534a164accb6b1872b501e0028/master.m3u8
 #EXTINF:-1,UMTV
@@ -111,8 +109,6 @@ https://backend.energeek.cl/webtv/egretroweb/index.m3u8?token=D3m0M3UCLWeb&Playl
 https://backend.energeek.cl/webtv/egfanweb/index.m3u8?token=D3m0M3UCLWeb&PlaylistM3UCL
 #EXTINF:-1,EnerGeek (720p) [Not 24/7]
 https://backend.energeek.cl/webtv/egretroweb/index.m3u8?token=ZZDemoIPTVGH
-#EXTINF:-1,Mi TV
-https://rds3.desdeparaguay.net/mitv/mitv/playlist.m3u8
 #EXTINF:-1,Onda Digital TV 2 | PE
 https://v4.tustreaming.cl:443/odtv2/index.m3u8?PlaylistM3UCL
 #EXTINF:-1,Pelimex
