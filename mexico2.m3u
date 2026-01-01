@@ -113,8 +113,6 @@ https://amg00658-amg00658c95-canelatv-international-6696.playouts.now.amagi.tv/p
 https://v4.tustreaming.cl:443/ondadigitaltv/index.m3u8?PlaylistM3UCL
 #EXTINF:-1,ITV Deportes
 https://thm-it-roku.otteravision.com/thm/it/it.m3u8
-#EXTINF:-1,TeleCinco Trelew (240p)
-https://videohd.live:19360/8016/8016.m3u8
 #EXTINF:-1,Runtime Espanol
 https://run-rt-uh-roku.otteravision.com/run/rt_uh/rt_uh.m3u8
 #EXTINF:-1,Eternal Metal
@@ -151,8 +149,6 @@ https://59ef525c24caa.streamlock.net/garabitoTV/garabitotv/playlist.m3u8
 https://tv.mediacp.eu:8081/coraltv/index.m3u8
 #EXTINF:-1,Cine Sony (720p)
 https://a-cdn.klowdtv.com/live1/cine_720p/playlist.m3u8
-#EXTINF:-1,TDtv (720p)
-https://cloudvideo.servers10.com:8081/8230/index.m3u8
 #EXTINF:-1,Vevo Latino SD
 https://amg00056-amg00056c13-rakuten-es-3246.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1,Ovacion TV (720p) [Not 24/7]
