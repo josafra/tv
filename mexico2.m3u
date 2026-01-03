@@ -165,8 +165,6 @@ https://backend.energeek.cl/webtv/egradioweb/index.m3u8?token=D3m0M3UCLWeb&Playl
 https://streaming.telecablecentral.com.do/live/MicroHD/playlist.m3u8
 #EXTINF:-1,Retro Plus TV 3
 https://tls-cl.cdnz.cl/retroplustvtres/live/playlist.m3u8?PlaylistM3UCL
-#EXTINF:-1,Cosmos TV (720p)
-https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8
 #EXTINF:-1,Enfoque Digital TV (1080p)
 https://5eaccbab48461.streamlock.net:1936/8074/8074/playlist.m3u8
 #EXTINF:-1,Kanal D Drama (1080p)
