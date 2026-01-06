@@ -23,8 +23,6 @@ https://video0.rogohosting.com:19360/tvcozumel/tvcozumel.m3u8
 http://stream2.dynalias.com:1935/live/tvlive1/playlist.m3u8
 #EXTINF:-1 tvg-id="XHTTGTDT.mx@SD" tvg-logo="https://i.imgur.com/dw6puHC.png" group-title="General",Canal 10 Chiapas (720p)
 https://5ca9af4645e15.streamlock.net/chiapas/videochiapas/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal10Durango.mx@SD" tvg-logo="https://i.imgur.com/H34quHQ.png" group-title="Undefined",Canal 10 Durango (1080p)
-https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal13Bajio.mx@SD" tvg-logo="https://i.imgur.com/SlycKgZ.png" group-title="General",Canal 13 Bajío (720p) [Not 24/7]
 https://stream-207963.castr.net/65313d270e749722b6474684/live_1c690d40dfb711eeabd66ba1b9ba93a1/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="Canal13Campeche.mx@SD" tvg-logo="https://i.imgur.com/SlycKgZ.png" group-title="General",Canal 13 Campeche (720p) [Not 24/7]
@@ -45,6 +43,8 @@ https://stream-207963.castr.net/65313d270e749722b6474684/live_185f5f10888711ee83
 https://stream-207963.castr.net/65313d270e749722b6474684/live_2b589fc0dfbf11ee9ce13534ca2a46c3/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="Canal13Yucatan.mx@SD" tvg-logo="https://i.imgur.com/SlycKgZ.png" group-title="General",Canal 13 Yucatán (720p) [Not 24/7]
 https://stream-207963.castr.net/65313d270e749722b6474684/live_4d3635d0dfbf11eeaae187cc1ffaf09b/index.fmp4.m3u8
+#EXTINF:-1 tvg-id="ILCECanal15SummaSaberes.mx@SD" tvg-logo="https://i.imgur.com/r7czgOc.png" group-title="Education",Canal 15 ILCE Summa Sabres (720p)
+https://live-ilce.ovp-vivaro.digital/ovp-origin-abr/ngrp:6359ef999f3fb_all/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal22Nacional.mx@SD" tvg-logo="https://i.imgur.com/6qiYvhe.png" group-title="Undefined",Canal 22 Nacional (720p) [Geo-blocked]
 https://5fc584f3f19c9.streamlock.net/canal22/smil:canal22.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal26.mx@SD" tvg-logo="https://i.imgur.com/PAvnVN9.png" group-title="Undefined",Canal 26 Aguascalientes (1080p)
@@ -141,10 +141,10 @@ https://s5.mexside.net:1936/enlinea/enlinea/playlist.m3u8
 https://5f2c1b0d880e5.streamlock.net/zacatecas/videozacatecas/playlist.m3u8
 #EXTINF:-1 tvg-id="SonyChannel.mx@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/512px-Sony_Channel_Logo.png" group-title="Undefined",Sony Channel
 https://fl1.moveonjoy.com/Sony_Movie_Channel/index.m3u8
+#EXTINF:-1 tvg-id="SQCSCanal4.mx@SD" tvg-logo="https://i.imgur.com/qnx8nBP.png" group-title="Undefined",SQCS Canal 4 (1080p)
+https://video0.rogohosting.com:19360/4982/4982.m3u8
 #EXTINF:-1 tvg-id="SuperChannel12.mx@SD" tvg-logo="https://i.imgur.com/dLHIvKz.png" group-title="General",Super Channel 12 (1080p)
 https://servilive.com:3263/live/channel12live.m3u8
-#EXTINF:-1 tvg-id="TeleUV.mx@SD" tvg-logo="https://i.imgur.com/8MdUH69.jpeg" group-title="Education",Tele UV [Not 24/7]
-https://58fe359775f31.streamlock.net/tvuv/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="XEWHTDT.mx@SD" tvg-logo="https://i.imgur.com/klhTyDU.png" group-title="Undefined",Telemax (XEWH-TDT) (1080p)
 https://s5.mexside.net:1936/telemax/telemax/playlist.m3u8
 #EXTINF:-1 tvg-id="TeleplaySureste.mx@SD" tvg-logo="https://i.imgur.com/MeV5N08.png" group-title="Entertainment",Teleplay Sureste (720p)
