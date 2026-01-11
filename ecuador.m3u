@@ -1,6 +1,8 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="AmericaEstereoGuayaquil.ec@SD" tvg-logo="https://i.imgur.com/gUqKymM.png" group-title="General",América Estéreo Guayaquil (360p)
 https://video.makrodigital.com/americaestereoguayaquil/americaestereoguayaquil/playlist.m3u8
+#EXTINF:-1 tvg-id="AmericaEstereoIbarra.ec@SD" tvg-logo="https://i.imgur.com/gUqKymM.png" group-title="General",América Estéreo Ibarra (720p)
+https://video.makrodigital.com/americaestereoibarra/americaestereoibarra/playlist.m3u8
 #EXTINF:-1 tvg-id="AmericaEstereoQuito.ec@SD" tvg-logo="https://i.imgur.com/gUqKymM.png" group-title="General",América Estéreo Quito (1080p)
 https://video.makrodigital.com/americaestereoquito/americaestereoquito/playlist.m3u8
 #EXTINF:-1 tvg-id="AmericaEstereoTulcan.ec@SD" tvg-logo="https://i.imgur.com/gUqKymM.png" group-title="General",América Estéreo Tulcán (614p)
@@ -45,6 +47,8 @@ https://s2.tvdatta.com:3858/live/gm7digitallive.m3u8
 https://online.hechosecuador.com:5443/WebRTCApp/streams/hechosecuador.m3u8
 #EXTINF:-1 tvg-id="IeanJesusEcuador.ec@SD" tvg-logo="https://i.imgur.com/TyckDSV.png" group-title="Religious",IeanJesus Ecuador (720p)
 https://cloud37.ecuatel.com/iglesia2020/Stream1/playlist.m3u8
+#EXTINF:-1 tvg-id="ImperioTVCanal6.ec@SD" tvg-logo="https://i.imgur.com/NrsNljx.png" group-title="General",Imperio TV Canal 6 (720p)
+https://live21.bozztv.com/akamaissh101/ssh101/imperiotvcanal6/playlist.m3u8
 #EXTINF:-1 tvg-id="InfinitaTV.ec@SD" tvg-logo="https://i.imgur.com/1nHxdkR.png" group-title="Music",Infinita TV (1080p)
 https://s2.tvdatta.com:3753/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="KCHTV.ec@SD" tvg-logo="https://i.imgur.com/CwQmZm7.jpeg" group-title="General",KCH TV (1080p)

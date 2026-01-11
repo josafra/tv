@@ -17,12 +17,14 @@ https://s5.mexside.net:1936/lsac/lsac/playlist.m3u8
 https://s5.mexside.net:1936/envio2/envio2/playlist.m3u8
 #EXTINF:-1 tvg-id="BAMOSTV.mx@SD" tvg-logo="https://i.imgur.com/ntK4D64.png" group-title="Religious",BAMOS TV (1080p) [Not 24/7]
 https://video2.getstreamhosting.com:19360/8092/8092.m3u8
+#EXTINF:-1 tvg-id="Canal5.mx@SD" tvg-logo="https://i.imgur.com/uZdVSoW.png" group-title="General",Canal 5 (1080p)
+https://d162h6qqsk8wvl.cloudfront.net/a3df683f-7ba6-4012-8c2c-3cfd188c8c0c/manifest.m3u8
 #EXTINF:-1 tvg-id="Canal5TVCozumel.mx@SD" tvg-logo="https://i.imgur.com/0nzNMuP.jpeg" group-title="General",Canal 5 TV Cozumel (1080p)
 https://video0.rogohosting.com:19360/tvcozumel/tvcozumel.m3u8
 #EXTINF:-1 tvg-id="Canal10Cancun.mx@SD" tvg-logo="https://i.imgur.com/TvTn3hO.png" group-title="Undefined",Canal 10 Cancún (720p) [Not 24/7]
 http://stream2.dynalias.com:1935/live/tvlive1/playlist.m3u8
-#EXTINF:-1 tvg-id="XHTTGTDT.mx@SD" tvg-logo="https://i.imgur.com/dw6puHC.png" group-title="General",Canal 10 Chiapas (720p)
-https://5ca9af4645e15.streamlock.net/chiapas/videochiapas/playlist.m3u8
+#EXTINF:-1 tvg-id="Canal10Durango.mx@SD" tvg-logo="https://i.imgur.com/H34quHQ.png" group-title="Undefined",Canal 10 Durango (1080p)
+https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal13Bajio.mx@SD" tvg-logo="https://i.imgur.com/SlycKgZ.png" group-title="General",Canal 13 Bajío (720p) [Not 24/7]
 https://stream-207963.castr.net/65313d270e749722b6474684/live_1c690d40dfb711eeabd66ba1b9ba93a1/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="Canal13Campeche.mx@SD" tvg-logo="https://i.imgur.com/SlycKgZ.png" group-title="General",Canal 13 Campeche (720p) [Not 24/7]

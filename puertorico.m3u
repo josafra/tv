@@ -25,6 +25,8 @@ https://stream.eleden.com/livelax/ngrp:livelax_all/playlist.m3u8
 https://5fd5567570c0e.streamlock.net/222/stream/playlist.m3u8
 #EXTINF:-1 tvg-id="NGRadioTV.pr@SD" tvg-logo="https://i.imgur.com/KsNI3vQ.jpg" group-title="Religious",NG Radio TV (360p)
 https://67acccf130420.streamlock.net/ngradiotv/ngradiotv/playlist.m3u8
+#EXTINF:-1 tvg-id="NotiUnoTV.pr@SD" tvg-logo="https://i.imgur.com/qNdywBT.png" group-title="News",NotiUno TV (854p) [Not 24/7]
+https://59a564764e2b6.streamlock.net/notiunotv/notiunotv/playlist.m3u8
 #EXTINF:-1 tvg-id="NuevaVidaFM.pr@SD" tvg-logo="https://i.ibb.co/3mbZWyN/nav-Bar-title-Image-iphone6plus.png" group-title="Music;Religious",Nueva Vida TV (720p)
 https://stream.nuevavidafm.net:3937/live/nuevavidalive.m3u8
 #EXTINF:-1 tvg-id="ParaisoTV.pr@SD" tvg-logo="https://i.imgur.com/wE31GIP.jpg" group-title="Religious",Paraíso TV (720p)
