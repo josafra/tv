@@ -143,8 +143,6 @@ https://unlimited1-cl-isp.dps.live/nettv/nettv.smil/playlist.m3u8?PlaylistM3UCL
 https://unlimited1-cl-isp.dps.live/itv/itv.smil/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1,EnerGeek Radio
 https://backend.energeek.cl/webtv/egradioweb/index.m3u8?token=D3m0M3UCLWeb&PlaylistM3UCL
-#EXTINF:-1,Microvision 10 (720p) [Not 24/7]
-https://streaming.telecablecentral.com.do/live/MicroHD/playlist.m3u8
 #EXTINF:-1,Retro Plus TV 3
 https://tls-cl.cdnz.cl/retroplustvtres/live/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1,Enfoque Digital TV (1080p)
