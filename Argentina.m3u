@@ -87,6 +87,8 @@ https://streaming.telered.com.ar/santa-maria/streaming/mystream.m3u8
 https://stream.arcast.com.ar/canal7catamarca/ngrp:canal7catamarca_all/playlist.m3u8?DVR=
 #EXTINF:-1 tvg-id="CeltaTV.ar@SD" tvg-logo="https://i.imgur.com/rwoIF4w.png" group-title="Undefined",Celta TV (240p)
 https://vivo.solumedia.com:19360/celta/celta.m3u8
+#EXTINF:-1 tvg-id="ChacoTV.ar@SD" tvg-logo="https://i.imgur.com/b6RerDw.png" group-title="Undefined",Chaco TV (720p) [Not 24/7]
+https://wowzasrv.chaco.gov.ar/Streamtv/chacotv/playlist.m3u8
 #EXTINF:-1 tvg-id="ChilecitoTV.ar@SD" tvg-logo="https://i.imgur.com/zGubmgZ.png" group-title="Undefined",Chilecito TV (480p)
 https://vivo.solumedia.com:19360/grupoemail/grupoemail.m3u8
 #EXTINF:-1 tvg-id="CiudadMagazine.ar@SD" tvg-logo="https://i.imgur.com/V1xZV72.png" group-title="General",Ciudad Magazine (1080p) [Geo-blocked]
