@@ -13,20 +13,22 @@ https://cloud.fastchannel.es/manifiest/hls/prog9/btatv.m3u8
 https://stmv2.voxtvhd.com.br/canal21/canal21/playlist.m3u8
 #EXTINF:-1 tvg-id="CatatumboTV.ve@SD" tvg-logo="https://i.imgur.com/LBI2la0.png" group-title="General",Catatumbo TV (406p)
 https://cloud.fastchannel.es/manifiest/hls/prog9/catatumbotv.m3u8
+#EXTINF:-1 tvg-id="ChivacoaTVInternacional.ve@SD" tvg-logo="https://i.imgur.com/9rbwZFY.png" group-title="General",Chivacoa TV Internacional (720p)
+https://live20.bozztv.com/akamaissh101/ssh101/1234chivacoa/chunks.m3u8
 #EXTINF:-1 tvg-id="DisneyChannelLatinAmerica.ar@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" group-title="Animation;Kids",Disney Channel Latin America (1080p)
 http://201.230.121.186:8000/play/a0fb/index.m3u8
 #EXTINF:-1 tvg-id="FortunaTV.ve@SD" tvg-logo="https://i.imgur.com/RPiTPnK.png" group-title="General",Fortuna TV (1080p)
 https://streamtv.intervenhosting.net:3355/live/fortunatvlive.m3u8
 #EXTINF:-1 tvg-id="FXLatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/512px-FX_International_logo.svg.png" group-title="Entertainment",FX Latin America (1080p)
 http://38.199.6.1:17001/play/a04u/index.m3u8
-#EXTINF:-1 tvg-id="GlobalTV.ve@SD" tvg-logo="https://imgur.com/hzM9D9L.jpg" group-title="General",GlobalTV (480p) [Not 24/7]
-https://streamtv.intervenhosting.net:3179/live/globaltvlive.m3u8
 #EXTINF:-1 tvg-id="GrandeTV.ve@SD" tvg-logo="https://i.imgur.com/jxCirrP.png" group-title="General",Grande TV [Not 24/7]
 https://live20.bozztv.com/akamaissh101/ssh101/grandetv2240/playlist.m3u8
 #EXTINF:-1 tvg-id="InterTV.ve@SD" tvg-logo="https://i.ibb.co/HG2DM8G/IMG-20230705-153952.jpg" group-title="Entertainment",interTV (1080p)
 https://streamtv.intervenhosting.net:3439/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="IslaTV.ve@SD" tvg-logo="https://i.imgur.com/l11Ixhi.jpeg" group-title="General",Isla TV (480p)
 https://59d39900ebfb8.streamlock.net/islatv/islatv/playlist.m3u8
+#EXTINF:-1 tvg-id="KandelaTV.ve@SD" tvg-logo="https://i.imgur.com/cCFxyIp.jpg" group-title="Music",KandelaTV (480p)
+https://streamtv.intervenhosting.net:3718/live/kandelamedioslive.m3u8
 #EXTINF:-1 tvg-id="LatinaTV.ve@SD" tvg-logo="https://i0.wp.com/latinamedios.com/wp-content/uploads/2023/03/LOGO-LATINA-TV-H-500.png?w=500&ssl=1" group-title="General",Latina TV (1080p)
 https://streamtv.latinamedios.com:3413/live/latinatvlive.m3u8
 #EXTINF:-1 tvg-id="LGDTelevision.ve@SD" tvg-logo="https://i.imgur.com/a9E0DTY.jpeg" group-title="Religious",LGD Television (720p)
@@ -71,8 +73,6 @@ https://us.streaminghd.cl/torococotelevision/video.m3u8
 https://vcp12.myplaytv.com/trt/trt/playlist.m3u8
 #EXTINF:-1 tvg-id="TRV.ve@SD" tvg-logo="https://i.ibb.co/Yt6qyjL/trv.png" group-title="General",TRV (480p)
 https://vcp3.myplaytv.com/trv/trv/playlist.m3u8
-#EXTINF:-1 tvg-id="TVFANB.ve@SD" tvg-logo="https://i.imgur.com/yaEyv29.png" group-title="General",TV FANB (720p)
-https://vcp2.myplaytv.com/tvfanb/tvfanb/playlist.m3u8
 #EXTINF:-1 tvg-id="TVOasisMonay.ve@SD" tvg-logo="https://i.imgur.com/hwd7osJ.jpeg" group-title="General",TV Oasis Monay
 https://live20.bozztv.com/akamaissh101/ssh101/oasistv123/playlist.m3u8
 #EXTINF:-1 tvg-id="TVMparati.ve@SD" tvg-logo="https://intervenhosting.net/imagenes/tvmparati.jpg" group-title="General",TVM para ti (1080p)
