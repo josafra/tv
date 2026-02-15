@@ -5,18 +5,18 @@
         "removed": 0
     },
     "espana.m3u": {
-        "before": 132,
-        "after": 132,
+        "before": 133,
+        "after": 133,
         "removed": 0
     },
     "ecuador.m3u": {
-        "before": 57,
-        "after": 56,
-        "removed": 1
+        "before": 59,
+        "after": 57,
+        "removed": 2
     },
     "chile.m3u": {
-        "before": 49,
-        "after": 49,
+        "before": 47,
+        "after": 47,
         "removed": 0
     },
     "venezuela.m3u": {
@@ -30,14 +30,14 @@
         "removed": 0
     },
     "panama.m3u": {
-        "before": 8,
-        "after": 8,
+        "before": 6,
+        "after": 6,
         "removed": 0
     },
     "republicadominicana.m3u": {
         "before": 193,
-        "after": 193,
-        "removed": 0
+        "after": 192,
+        "removed": 1
     },
     "religion.m3u": {
         "before": 0,
@@ -50,8 +50,8 @@
         "removed": 0
     },
     "colombia.m3u": {
-        "before": 65,
-        "after": 65,
+        "before": 62,
+        "after": 62,
         "removed": 0
     },
     "mexico.m3u": {
@@ -70,13 +70,13 @@
         "removed": 0
     },
     "guatemala.m3u": {
-        "before": 24,
-        "after": 24,
+        "before": 23,
+        "after": 23,
         "removed": 0
     },
     "elsalvador.m3u": {
-        "before": 20,
-        "after": 20,
+        "before": 19,
+        "after": 19,
         "removed": 0
     },
     "photocall_canales.m3u": {
@@ -90,9 +90,9 @@
         "removed": 0
     },
     "costarica.m3u": {
-        "before": 40,
+        "before": 42,
         "after": 40,
-        "removed": 0
+        "removed": 2
     },
     "puertorico.m3u": {
         "before": 31,
@@ -115,9 +115,9 @@
         "removed": 0
     },
     "musica.m3u": {
-        "before": 433,
-        "after": 433,
-        "removed": 0
+        "before": 432,
+        "after": 427,
+        "removed": 5
     },
     "bolivia.m3u": {
         "before": 22,
@@ -125,8 +125,8 @@
         "removed": 0
     },
     "honduras.m3u": {
-        "before": 33,
-        "after": 33,
+        "before": 30,
+        "after": 30,
         "removed": 0
     }
 }
