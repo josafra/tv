@@ -39,8 +39,6 @@ https://master.tucableip.com/tvhome/index.m3u8
 https://master.tucableip.com/univalletv/playlist.m3u8
 #EXTINF:-1 tvg-id="UPPTV.bo@SD" tvg-logo="https://i.ibb.co/Kwvbyr0/unnamed.jpg" group-title="General",UPP TV/Bolivisión SCZ (720p) [Not 24/7]
 https://alba-bo-bolivision-upptv.stream.mediatiquestream.com/index.m3u8
-#EXTINF:-1 tvg-id="VTVCanal17.bo@SD" tvg-logo="https://i.imgur.com/TUhFzql.png" group-title="Religious",VTV Canal 17 (720p) [Not 24/7]
-https://solo.disfrutaenlared.com:1936/vtvcanal/vtvcanal/playlist.m3u8
 #EXTINF:-1 tvg-id="ZoyTVTurcas.bo@SD" tvg-logo="https://i.imgur.com/0YHztGq.png" group-title="Entertainment",Zoy TV Turcas (720p)
 https://mio.zoymilton.com/ZoyTurcas/index.m3u8
 #EXTINF:-1 tvg-id="ZoyTVPlus.bo@HD" tvg-logo="https://i.imgur.com/JPNPH3x.png" group-title="Entertainment",ZoyTV Plus (720p)
