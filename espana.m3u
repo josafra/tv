@@ -1,6 +1,10 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="3CatCameresdeltemps.es@SD" tvg-logo="https://i.imgur.com/zXy2kbe.png" group-title="Public;Weather",3Cat Càmeres del temps (1080p)
 https://directes-tv-int.3catdirectes.cat/live-content/beauties-hls/master.m3u8
+#EXTINF:-1 tvg-id="3CatElbunquer.es@SD" tvg-logo="https://i.imgur.com/wiqdIjd.png" group-title="Comedy;Public",3Cat El búnquer (1080p)
+https://fast-tailor.3catdirectes.cat/v1/channel/bunquer/hls.m3u8
+#EXTINF:-1 tvg-id="3CatPlatsbruts.es@SD" tvg-logo="https://i.imgur.com/49ZENis.png" group-title="Classic;Comedy;Public;Series",3Cat Plats bruts (1080p)
+https://fast-tailor.3catdirectes.cat/v1/channel/ccma-channel2/hls.m3u8
 #EXTINF:-1 tvg-id="3CatInfo.es@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/3CatInfo_logo.svg/512px-3CatInfo_logo.svg.png" group-title="News;Public",3CatInfo (1080p)
 https://directes-tv-int.3catdirectes.cat/live-origin/canal324-hls/master.m3u8
 #EXTINF:-1 tvg-id="Canal7TeleValencia.es@SD" tvg-logo="https://i.imgur.com/ILfXDRs.png" group-title="General",7 TeleValencia (576p)
@@ -9,8 +13,6 @@ https://play.cdn.enetres.net/9E9557EFCEBB43A89CEC8FBD3C500247022/028/playlist.m3
 https://streaming005.gestec-video.com/hls/canal24.m3u8
 #EXTINF:-1 tvg-id="24HorasInternacional.es@SD" tvg-logo="https://i.ibb.co/21sXZ3GT/24h.png" group-title="News;Public",24 Horas Internacional [Geo-Blocked]
 https://viamotionhsi.netplus.ch/live/eds/canal24horas/browser-HLS8/canal24horas.m3u8
-#EXTINF:-1 tvg-id="28kanala.es@SD" tvg-logo="https://i.imgur.com/DyvK28q.png" group-title="General",28 kanala
-https://streaming.28kanala.eus/hls/z.m3u8
 #EXTINF:-1 tvg-id="101tvAxarquia.es@SD" tvg-logo="https://i.imgur.com/GzI3RC4.png" group-title="General",101tv Axarquia (480p)
 https://www.streaming101tv.es:19360/axarquia/axarquia.m3u8
 #EXTINF:-1 tvg-id="ActivaTV.es@SD" tvg-logo="https://i.imgur.com/VCUZKiw.png" group-title="Music",Activa TV (720p)
@@ -21,8 +23,6 @@ https://amg01821-lovetv-amg01821c27-lg-es-6726.playouts.now.amagi.tv/playlist/am
 https://streaming01.gestec-video.com/hls/artequatreAlacanti.m3u8
 #EXTINF:-1 tvg-id="AlcarriaTV.es@SD" tvg-logo="https://i.imgur.com/pzJAYan.png" group-title="General",Alcarria TV (576p) [Not 24/7]
 http://217.182.77.27/live/alcarriatv-livestream.m3u8
-#EXTINF:-1 tvg-id="AngelTV.in@Spanish" tvg-logo="https://i.imgur.com/qKLEGU7.png" group-title="Religious",Angel TV Spanish (720p)
-https://janya-digimix.akamaized.net/vglive-sk-351398/spanish/ngrp:angelspanish_all/playlist.m3u8
 #EXTINF:-1 tvg-id="AnimeZoneTV.do@SD" tvg-logo="https://i.imgur.com/AHaXlCh.png" group-title="Animation",Anime Zone TV (480p)
 http://animezonetv.net/hls/stream.m3u8
 #EXTINF:-1 tvg-id="Antena3Internacional.es@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/83/Antena3Internacional2025.png" group-title="General",Antena 3 Internacional [Not 24 7]
@@ -51,8 +51,6 @@ https://avantstreaming.es/hls/canal3.m3u8
 https://limited35.todostreaming.es/live/mitjans-livestream.m3u8
 #EXTINF:-1 tvg-id="Canal4Mallorca.es@SD" tvg-logo="https://i.imgur.com/tQh8C3s.png" group-title="General",Canal 4 Mallorca (1080p)
 https://limited35.todostreaming.es/live/mitjans-livestream1.m3u8
-#EXTINF:-1 tvg-id="Canal10Emporda.es@SD" tvg-logo="https://i.imgur.com/ojQ6wzX.png" group-title="Undefined",Canal 10 Empordà (360p) [Not 24/7]
-https://ventdelnord.tv:8080/escala/directe.m3u8
 #EXTINF:-1 tvg-id="24HorasCanarias.es@SD" tvg-logo="https://i.ibb.co/21sXZ3GT/24h.png" group-title="News;Public",Canal 24 Horas Canarias (720p)
 https://ztnr.rtve.es/ztnr/5473142.m3u8
 #EXTINF:-1 tvg-id="24HorasCatalunya.es@SD" tvg-logo="https://i.ibb.co/21sXZ3GT/24h.png" group-title="News;Public",Canal 24 Horas Catalunya (720p)
@@ -95,6 +93,8 @@ https://congresodirecto.akamaized.net/hls/live/2038274/canal1/master.m3u8
 https://congresodirecto.akamaized.net/hls/live/2038275/canal2/master.m3u8
 #EXTINF:-1 tvg-id="CongresodelosDiputados3.es@SD" tvg-logo="https://i.imgur.com/2LAzcH8.jpg" group-title="Legislative",Congreso de los Diputados 3 (360p) [Not 24/7]
 https://congresodirecto.akamaized.net/hls/live/2038276/canal3/master.m3u8
+#EXTINF:-1 tvg-id="CongresodelosDiputados4.es@SD" tvg-logo="https://i.imgur.com/2LAzcH8.jpg" group-title="Legislative",Congreso de los Diputados 4 (360p) [Not 24/7]
+https://congresodirecto.akamaized.net/hls/live/2038277/canal4/master.m3u8
 #EXTINF:-1 tvg-id="CongresodelosDiputados5.es@SD" tvg-logo="https://i.imgur.com/2LAzcH8.jpg" group-title="Legislative",Congreso de los Diputados 5 (360p) [Not 24/7]
 https://congresodirecto.akamaized.net/hls/live/2038278/canal5/master.m3u8
 #EXTINF:-1 tvg-id="CostaNoroesteTV.es@SD" tvg-logo="https://i.imgur.com/iM9AN6Z.png" group-title="General",Costa Noroeste TV (1080p) [Not 24/7]
@@ -189,8 +189,6 @@ https://cloudtv.provideo.es/live/algecirastv-livestream.m3u8
 https://ondacadiztv.es:30443/octv/24h/playlist.m3u8
 #EXTINF:-1 tvg-id="OndaValenciaTV.es@SD" tvg-logo="https://i.imgur.com/6HxLUQd.png" group-title="Music;News",Onda Valencia (720p)
 https://cloudvideo.servers10.com:8081/8116/index.m3u8
-#EXTINF:-1 tvg-id="ParlamentodeNavarra.es@SD" tvg-logo="https://i.imgur.com/JnhWxKv.png" group-title="Legislative",Parlamento de Navarra (368p) [Not 24/7]
-https://broadcasting.parlamentodenavarra.es/live/canal1/master.m3u8
 #EXTINF:-1 tvg-id="Pequeradio.es@SD" tvg-logo="https://i.imgur.com/BNqZwxS.png" group-title="Music",Pequeradio (720p) [Not 24/7]
 https://canadaremar2.todostreaming.es/live/peque-pequetv.m3u8
 #EXTINF:-1 tvg-id="PlatziTV.es@SD" tvg-logo="https://i.imgur.com/vEzeqHP.png" group-title="Education",Platzi TV (1080p)
@@ -209,8 +207,6 @@ https://eu1.servers10.com:8081/8116/index.m3u8
 https://newidco-rakutenviki-2-eu.xiaomi.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RiberaTV.es@SD" tvg-logo="https://i.imgur.com/mPvSubP.png" group-title="General",Ribera TV (576p)
 https://common01.todostreaming.es/live/ribera-livestream.m3u8
-#EXTINF:-1 tvg-id="TVR.es@SD" tvg-logo="https://i.ibb.co/nRq3YfT/Logo-Rioja-Televisi-n-S-A.png" group-title="General",Rioja Televisión (360p) [Not 24/7]
-https://5924d3ad0efcf.streamlock.net/riojatv/riojatvlive/playlist.m3u8
 #EXTINF:-1 tvg-id="ROTVValencia.es@SD" tvg-logo="https://i.imgur.com/0TDnVQ4.png" group-title="Entertainment",ROTV Valencia (720p)
 https://rotv.romediavalencia.com:3839/live/rotvlive.m3u8
 #EXTINF:-1 tvg-id="RTenEspanol.ru@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/512px-Russia-today-logo.svg.png" group-title="News",RT en Español (1080p) [Geo-blocked]
@@ -245,8 +241,6 @@ https://cdn318.fractalmedia.es/318/live/hls/tvc/master.m3u8
 https://the-pet-collective-international-es.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TV3CAT.es@Originals" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/TV3CAT.svg/512px-TV3CAT.svg.png" group-title="Undefined",TV3CAT Originals (1080p)
 https://directes-tv-int.3catdirectes.cat/live-content/tvi-hls/master.m3u8
-#EXTINF:-1 tvg-id="TVAlmassora.es@SD" tvg-logo="https://i.imgur.com/syeJXGh.png" group-title="General",TV Almassora (1080p)
-https://tvalmassora.com/hls/tvalmassora.m3u8
 #EXTINF:-1 tvg-id="TVA.es@SD" tvg-logo="https://i.imgur.com/aobkgrS.png" group-title="Undefined",TV Artequatre (576p)
 https://streaming007.gestec-video.com/hls/artequatreTVA.m3u8
 #EXTINF:-1 tvg-id="TVBRICSSpanish.es@HD" tvg-logo="https://i.imgur.com/vLpm8tN.png" group-title="General",TV BRICS Spanish (1080p)

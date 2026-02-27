@@ -43,16 +43,12 @@ https://live20.bozztv.com/akamaissh101/ssh101/gextvaccess/playlist.m3u8
 https://rtmp.info/iqtv/envivo/playlist.m3u8
 #EXTINF:-1 tvg-id="LimonTV.cr@SD" tvg-logo="https://i.ibb.co/rdpcv7C/1689421727166.jpg" group-title="General",Limón TV (1080p) [Not 24/7]
 http://k4.usastreams.com/limontv1/limontv1/playlist.m3u8
-#EXTINF:-1 tvg-id="LosSantosTV.cr@SD" tvg-logo="https://i.imgur.com/5xw86wu.png" group-title="General",Los Santos TV (720p)
-https://lstv.duckdns.org:449/hls/lstv.m3u8
 #EXTINF:-1 tvg-id="NicoyaTV.cr@SD" tvg-logo="https://i.imgur.com/Lj2jRn3.png" group-title="General",Nicoya TV (720p) [Not 24/7]
 https://59ef525c24caa.streamlock.net/nicoyatv/nicoyatv/playlist.m3u8
 #EXTINF:-1 tvg-id="NorteInformativoTV.cr@SD" tvg-logo="https://i.ibb.co/2MNzXN7/Channels4-profile-9.jpg" group-title="News",Norte Informativo TV (240p)
 https://videohd.live:19360/8076/8076.m3u8
 #EXTINF:-1 tvg-id="RetroxTV.cr@SD" tvg-logo="https://i.imgur.com/viJBL6f.png" group-title="Classic",Retrox TV (720p) [Not 24/7]
 https://live20.bozztv.com/giatv/giatv-TVCHANNEL/TVCHANNEL/chunks.m3u8
-#EXTINF:-1 tvg-id="RTVChirripo.cr@SD" tvg-logo="https://i.imgur.com/XWmwwbj.jpg" group-title="General",RTV Chirripó (720p)
-https://lstv.duckdns.org:449/hls/rtchirripo.m3u8
 #EXTINF:-1 tvg-id="SanJoseTV.cr@SD" tvg-logo="https://i.ibb.co/mbB8hqL/blanco-crop.png" group-title="Religious",San José TV (1080p)
 https://rtmp.info/sanjosetv/envivo/playlist.m3u8
 #EXTINF:-1 tvg-id="SarapiquiTV.cr@SD" tvg-logo="https://i.imgur.com/obTnd32.png" group-title="General",Sarapiqui TV (720p) [Not 24/7]

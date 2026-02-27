@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="5tv.ar@SD" tvg-logo="https://i.imgur.com/mSn7ACs.png" group-title="General",5TV Corrientes (480p) [Not 24/7]
+http://www.coninfo.net:1935/tvcinco/live1/playlist.m3u8
 #EXTINF:-1 tvg-id="247CanaldeNoticias.ar@SD" tvg-logo="https://i.imgur.com/4hDCB1M.png" group-title="News",24/7 Canal de Noticias
 https://panel.host-live.com:19360/cn247tv/cn247tv.m3u8
 #EXTINF:-1 tvg-id="AiredeSantaFe.ar@SD" tvg-logo="https://i.imgur.com/60vSWW0.png" group-title="General",Aire de Santa Fe (1080p)
@@ -9,8 +11,6 @@ https://tv.alterna.ar/stream/hls/live.m3u8
 https://stream1.sersat.com/hls/argentinisima.m3u8
 #EXTINF:-1 tvg-id="AzaharesRadiovisualMultimedia.ar@SD" tvg-logo="https://i.imgur.com/g1BFoSs.png" group-title="Music",Azahares Radio Multimedia (720p)
 https://streamyes.alsolnet.com/azaharesfm/live/playlist.m3u8
-#EXTINF:-1 tvg-id="BayresTV.ar@SD" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKrroOZ4RYMYlzGqMQjiIO2QbRNVndEM9PiC-CaRn0PO2AoB_YKyrt6Eigzh4M1gPZaVn5udDL5YzrzxAmyQCj_HTF8Pszo46dk9dABt9TpepY43_IEzT80atZEMaiMcdrqt3lmxAbZYaLwCgr6vDUgV1HlvmhIOJ99UlwAhG2FoHgtCm13CWEugV7Bvg/w1200-h630-p-k-no-nu/bayres-tv-removebg-preview.png" group-title="General",Bayres TV (720p)
-https://streaming01.mikrolive.tv/bayrestv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="BeatsRadio.ar@SD" tvg-logo="https://i.imgur.com/zkNUO5p.png" group-title="Music",Beats Radio (480p)
 https://videostream.shockmedia.com.ar:19360/beatsradio/beatsradio.m3u8
 #EXTINF:-1 tvg-id="BravoTV.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5e/Bravotv.png" group-title="General",Bravo TV
@@ -55,6 +55,10 @@ http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/playlist.m3u8
 https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal10Cordoba.ar@SD" tvg-logo="https://i.imgur.com/87WCHtd.png" group-title="Undefined",Canal 10 Cordoba
 https://stream.arcast.net:4443/canal10/ngrp:canal10_all/playlist.m3u8
+#EXTINF:-1 tvg-id="Canal11delaCosta.ar@SD" tvg-logo="https://i.imgur.com/yYExcq1.jpg" group-title="Undefined",Canal 11 de la Costa (720p)
+https://vivo.solumedia.com:19360/dadaproductora/dadaproductora.m3u8
+#EXTINF:-1 tvg-id="Canal13Jujuy.ar@SD" tvg-logo="https://i.imgur.com/lmKLiJ3.jpg" group-title="Religious",Canal 13 Jujuy TV (720p)
+https://genexservicios.com:19360/canal13jujuy/canal13jujuy.m3u8
 #EXTINF:-1 tvg-id="Canal13LaRioja.ar@SD" tvg-logo="https://i.imgur.com/OI97Sgq.png" group-title="Undefined",Canal 13 La Rioja (480p)
 http://arcast.net:1935/mp/mp/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal13SanLuis.ar@SD" tvg-logo="https://i.imgur.com/NcfMC29.png" group-title="Undefined",Canal 13 San Luis
@@ -87,8 +91,6 @@ https://stream.arcast.com.ar/canal7catamarca/ngrp:canal7catamarca_all/playlist.m
 https://vivo.solumedia.com:19360/celta/celta.m3u8
 #EXTINF:-1 tvg-id="ChacoTV.ar@SD" tvg-logo="https://i.imgur.com/b6RerDw.png" group-title="Undefined",Chaco TV (720p) [Not 24/7]
 https://wowzasrv.chaco.gov.ar/Streamtv/chacotv/playlist.m3u8
-#EXTINF:-1 tvg-id="ChilecitoTV.ar@SD" tvg-logo="https://i.imgur.com/zGubmgZ.png" group-title="Undefined",Chilecito TV (480p)
-https://vivo.solumedia.com:19360/grupoemail/grupoemail.m3u8
 #EXTINF:-1 tvg-id="CiudadMagazine.ar@SD" tvg-logo="https://i.imgur.com/V1xZV72.png" group-title="General",Ciudad Magazine (1080p) [Geo-blocked]
 https://live-01-07-ciudad.vodgc.net/live-01-07-ciudad.vodgc.net/index.m3u8
 #EXTINF:-1 tvg-id="CumbiaMix.ar@HD" tvg-logo="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6901dfd41a05195b77301d7b/b306e57e4_Logo-TV-C.png" group-title="Music",Cumbia Mix (720p)
@@ -97,8 +99,6 @@ https://cloud.tvomix.com/CUMBIAMIX/index.m3u8
 https://cloud.tvomix.com/KPOPMIX/index.m3u8
 #EXTINF:-1 tvg-id="LitusTV.ar@SD" tvg-logo="https://i.imgur.com/QIGSf4L.png" group-title="General",Litus TV (720p)
 https://stream.arcast.com.ar/litustv/ngrp:litustv_all/playlist.m3u8
-#EXTINF:-1 tvg-id="MagicKids.ar@SD" tvg-logo="https://i.imgur.com/CMImqQY.png" group-title="Animation",Magic Kids (486p)
-https://magicstream.ddns.net/magicstream/stream.m3u8
 #EXTINF:-1 tvg-id="MasFM.ar@SD" tvg-logo="https://i.imgur.com/TJ4gWQM.png" group-title="Music",Más FM 95.9 (720p)
 https://vivo.solumedia.com:19360/masfm/masfm.m3u8
 #EXTINF:-1 tvg-id="MetroTV.ar@SD" tvg-logo="https://i.imgur.com/7f7M7zl.png" group-title="Entertainment",Metro TV (720p)

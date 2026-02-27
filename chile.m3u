@@ -27,8 +27,6 @@ http://38.250.127.17:9800/play/a05h/index.m3u8
 https://v2.tustreaming.cl/chiloered/index.m3u8
 #EXTINF:-1 tvg-id="ClickTVChile.cl@SD" tvg-logo="https://i.imgur.com/H0XNbMS.png" group-title="Documentary",Click TV (Coronel) (720p)
 https://v2.tustreaming.cl/clicktv/playlist.m3u8
-#EXTINF:-1 tvg-id="Contivision.cl@SD" tvg-logo="https://i.imgur.com/Lz2OlKf.png" group-title="News",Contivision (720p)
-https://unlimited6-cl.dps.live/cm/cm.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="DanceFM.cl@SD" tvg-logo="https://i2.paste.pics/ff3e1e1045a1968dcdbcda3824a94eb3.png" group-title="Music",Dance FM (720p)
 https://5eaccbab48461.streamlock.net:1936/dancefm_1/dancefm_1/playlist.m3u8
 #EXTINF:-1 tvg-id="DecimaTV.cl@SD" tvg-logo="https://i.imgur.com/eu8hDDc.png" group-title="General",Décima TV (Ancud) (720p)
@@ -49,8 +47,6 @@ https://live-server.mivideo.pro:8081/latinavzla/tracks-v1a1/mono.m3u8
 https://live.mtna.tv/hls/mtna/mtna.m3u8
 #EXTINF:-1 tvg-id="NCTV.cl@SD" tvg-logo="https://i.imgur.com/oo5vDBv.png" group-title="News",NCTV (1080p)
 https://pantera1-100gb-cl-movistar.dps.live/nctv/nctv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="NickJrLatinAmerica.us@Panregional" tvg-logo="https://i.imgur.com/KT4tdQs.png" group-title="Kids",Nick Jr. Latin America (480p)
-http://38.199.6.1:17001/play/a0pb/index.m3u8
 #EXTINF:-1 tvg-id="Nublevision.cl@SD" tvg-logo="https://i.imgur.com/nkQyR1X.png" group-title="General",Nublevision (720p)
 https://tv.arkeo.cl:1936/nublevision/nublevision/playlist.m3u8
 #EXTINF:-1 tvg-id="PichilemuTV.cl@SD" tvg-logo="https://i.imgur.com/eaJVCwM.png" group-title="Undefined",Pichilemu TV (1080p)
@@ -69,6 +65,8 @@ https://5ff3d9babae13.streamlock.net/8000/8000/playlist.m3u8
 https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/surtv/surtv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="T13.cl@SD" tvg-logo="https://i.imgur.com/2Vlkl2x.png" group-title="News",T13 (720p)
 https://jireh-2-hls-video-us-isp.dps.live/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/t13/t13.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TVinet.cl@SD" tvg-logo="https://i.imgur.com/KisHIpA.png" group-title="Undefined",T-Vinet (480p)
+https://unlimited1-us.dps.live/inet2/inet2.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TeletrakTV.cl@SD" tvg-logo="https://i.imgur.com/NoJvlig.png" group-title="Sports",Teletrak (720p)
 https://unlimited6-cl.dps.live/sportinghd/sportinghd.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Televida.cl@SD" tvg-logo="https://i.imgur.com/bmNA8hq.png" group-title="Religious",Televida (1080p)
