@@ -19,8 +19,6 @@ https://video2.getstreamhosting.com:19360/8092/8092.m3u8
 https://video0.rogohosting.com:19360/tvcozumel/tvcozumel.m3u8
 #EXTINF:-1 tvg-id="XHTTGTDT.mx@SD" tvg-logo="https://i.imgur.com/dw6puHC.png" group-title="General",Canal 10 Chiapas (720p)
 https://5ca9af4645e15.streamlock.net/chiapas/videochiapas/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal10Durango.mx@SD" tvg-logo="https://i.imgur.com/H34quHQ.png" group-title="Undefined",Canal 10 Durango (1080p)
-https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8
 #EXTINF:-1 tvg-id="ILCECanal15SummaSaberes.mx@SD" tvg-logo="https://i.imgur.com/r7czgOc.png" group-title="Education",Canal 15 ILCE Summa Sabres (720p)
 https://live-ilce.ovp-vivaro.digital/ovp-origin-abr/ngrp:6359ef999f3fb_all/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal26.mx@SD" tvg-logo="https://i.imgur.com/PAvnVN9.png" group-title="Undefined",Canal 26 Aguascalientes (1080p)
@@ -59,8 +57,6 @@ https://5fc584f3f19c9.streamlock.net/icrtvcolima/smil:icrtvcolima.smil/playlist.
 https://s5.mexside.net:1936/xhbzc82/xhbzc82/playlist.m3u8
 #EXTINF:-1 tvg-id="XHBZCTDT.mx@SD" tvg-logo="https://i.imgur.com/R3icGuG.png" group-title="General",IERTBCS Canal 8 La Paz (1080p) [Not 24/7]
 https://s5.mexside.net:1936/xhbzc81/xhbzc81/playlist.m3u8
-#EXTINF:-1 tvg-id="IMRyT.mx@SD" tvg-logo="https://i.imgur.com/D91O6ka.png" group-title="General",IMRyT Morelos TV (720p)
-https://stream8.mexiserver.com:19360/morelostv/morelostv.m3u8
 #EXTINF:-1 tvg-id="ITVDeportes.mx@SD" tvg-logo="https://iili.io/J1kV1Bn.png" group-title="Entertainment;Sports",ITV Deportes
 https://thm-it-roku.otteravision.com/thm/it/it.m3u8
 #EXTINF:-1 tvg-id="JaliscoTV.mx@SD" tvg-logo="https://i.imgur.com/N4meE8I.png" group-title="Culture;Education",Jalisco TV (720p)
@@ -117,8 +113,6 @@ https://video0.rogohosting.com:19360/4982/4982.m3u8
 https://servilive.com:3263/live/channel12live.m3u8
 #EXTINF:-1 tvg-id="TeleSaltillo.mx@SD" tvg-logo="https://i.imgur.com/PgBtvgO.png" group-title="Undefined",Tele Saltillo
 https://servilive.com:3879/live/telesaltillolive.m3u8
-#EXTINF:-1 tvg-id="TeleUV.mx@SD" tvg-logo="https://i.imgur.com/8MdUH69.jpeg" group-title="Education",Tele UV [Not 24/7]
-https://58fe359775f31.streamlock.net/tvuv/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="XEWHTDT.mx@SD" tvg-logo="https://i.imgur.com/klhTyDU.png" group-title="Undefined",Telemax (XEWH-TDT) (1080p)
 https://s5.mexside.net:1936/telemax/telemax/playlist.m3u8
 #EXTINF:-1 tvg-id="TeleplaySureste.mx@SD" tvg-logo="https://i.imgur.com/MeV5N08.png" group-title="Entertainment",Teleplay Sureste (720p)
