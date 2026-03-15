@@ -29,5 +29,3 @@ https://live.enhdtv.com:8081/8192/index.m3u8
 https://xtream.videx.lol/Yoshiro/admin/338.m3u8
 #EXTINF:-1 tvg-id="UnivalleTelevision.bo@SD" tvg-logo="https://i.imgur.com/qgrWDIs.png" group-title="Undefined",Univalle Televisión (1080p)
 https://master.tucableip.com/univalletv/playlist.m3u8
-#EXTINF:-1 tvg-id="UPPTV.bo@SD" tvg-logo="https://i.ibb.co/Kwvbyr0/unnamed.jpg" group-title="General",UPP TV/Bolivisión SCZ (720p) [Not 24/7]
-https://alba-bo-bolivision-upptv.stream.mediatiquestream.com/index.m3u8
