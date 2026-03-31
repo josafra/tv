@@ -83,8 +83,6 @@ https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8
 https://amg00056-amg00056c13-rakuten-es-3246.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1,NHL Network SD
 https://nhl-firetv.amagi.tv/playlist.m3u8
-#EXTINF:-1,California Music Channel
-https://cmc-ono.amagi.tv/hls/amagi_hls_data_cmcAAAAAA-cmc-ono/CDN/playlist.m3u8
 #EXTINF:-1,Lancelot TV (404p)
 https://5c0956165db0b.streamlock.net:8090/directo/_definst_/lancelot.television/master.m3u8
 #EXTINF:-1,Cine Sony (720p)
