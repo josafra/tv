@@ -51,10 +51,14 @@ https://movil.ejeserver.com/live/cncbuga.m3u8
 https://cloudvideo.servers10.com:8081/latinchaneltv/index.m3u8
 #EXTINF:-1 tvg-id="CNCSantanderdeQuilichao.co@SD" tvg-logo="https://i.imgur.com/LNl2o9q.jpg" group-title="General",CNC Santander de Quilichao (480p)
 https://movil.ejeserver.com/live/cncsantander.m3u8
+#EXTINF:-1 tvg-id="ComedyCentralLatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png" group-title="Comedy",Comedy Central Latin America (1080p)
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-60.playlist.m3u8
 #EXTINF:-1 tvg-id="Cristovision.co@SD" tvg-logo="https://i.imgur.com/XIhCUY9.png" group-title="Religious",Cristovision (720p)
 https://5fc584f3f19c9.streamlock.net/cristovision/videocristovision/playlist.m3u8
 #EXTINF:-1 tvg-id="CucutaRetroTV.co@SD" tvg-logo="https://i.imgur.com/GltIfWW.jpeg" group-title="Classic",Cúcuta Retro TV [Not 24/7]
 https://mist01.homestream.fun/hls/ntvlive/0_1/index.m3u8
+#EXTINF:-1 tvg-id="DirecTVSports.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/DirecTV_Sports_Latin_America_%282018%29.png/960px-DirecTV_Sports_Latin_America_%282018%29.png" group-title="Sports",DirecTV Sports (1080p)
+https://latam-cache-sv2-cdn.latamlive.net/DS1_ENC_LIVE/index.mpd
 #EXTINF:-1 tvg-id="Eduvision.co@SD" tvg-logo="https://i.imgur.com/ppBdqel.png" group-title="Education",Eduvision (1080p)
 https://stmv3.voxtvhd.com.br/conex2/conex2/playlist.m3u8
 #EXTINF:-1 tvg-id="ElMundodelCampo.co@SD" tvg-logo="https://i.imgur.com/xG2apUG.jpeg" group-title="Outdoor",El Mundo del Campo (720p)
