@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="AguacateTV.ve@SD" tvg-logo="https://i.ibb.co/wpWBsgf/IMG-20230705-154622.jpg" group-title="Entertainment",Aguacate TV (1080p)
+https://streamtv.intervenhosting.net:3040/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="BTATV.ve@SD" tvg-logo="https://i.imgur.com/vygOosC.png" group-title="Music",BTA TV (720p)
 https://cloud.fastchannel.es/manifiest/hls/prog9/btatv.m3u8
 #EXTINF:-1 tvg-id="Canal21Tachira.ve@SD" tvg-logo="https://i.imgur.com/7Tb7CF4.jpg" group-title="General",Canal 21 Táchira (360p)
@@ -7,8 +9,6 @@ https://stmv2.voxtvhd.com.br/canal21/canal21/playlist.m3u8
 https://vs20.live.opencaster.com/cristianhilos_314b91b0/index.m3u8
 #EXTINF:-1 tvg-id="CatatumboTV.ve@SD" tvg-logo="https://i.imgur.com/LBI2la0.png" group-title="General",Catatumbo TV (406p)
 https://cloud.fastchannel.es/manifiest/hls/prog9/catatumbotv.m3u8
-#EXTINF:-1 tvg-id="ComedyCentralLatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png" group-title="Comedy",Comedy Central Latin America (1080p)
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-60.playlist.m3u8
 #EXTINF:-1 tvg-id="FortunaTV.ve@SD" tvg-logo="https://i.imgur.com/RPiTPnK.png" group-title="General",Fortuna TV (1080p)
 https://streamtv.intervenhosting.net:3355/live/fortunatvlive.m3u8
 #EXTINF:-1 tvg-id="GrandeTV.ve@SD" tvg-logo="https://i.imgur.com/jxCirrP.png" group-title="General",Grande TV (720p) [Not 24/7]
@@ -37,8 +37,6 @@ https://5bf8041cb3fed.streamlock.net/ReformaTV/ReformaTV/playlist.m3u8
 https://cloud2.streaminglivehd.com:1936/siembratv/siembratv/playlist.m3u8
 #EXTINF:-1 tvg-id="SomosTV.ve@SD" tvg-logo="https://i.imgur.com/jOroeJZ.png" group-title="General",Somos TV (720p) [Not 24/7]
 https://vcp3.myplaytv.com/somostv/somostv/playlist.m3u8
-#EXTINF:-1 tvg-id="TeleAragua.ve@SD" tvg-logo="https://i.imgur.com/jPzcb2S.png" group-title="General",TeleAragua (480p)
-http://45.173.198.59:8080/hls/nginx3.m3u8?tla=
 #EXTINF:-1 tvg-id="Telecolor.ve@SD" tvg-logo="https://i.imgur.com/YvdzJHj.png" group-title="General",Telecolor (480p)
 https://cloud.livescast.com:19360/telecolor/telecolor.m3u8
 #EXTINF:-1 tvg-id="Telesur.ve@SD" tvg-logo="https://i.imgur.com/P50VjRX.png" group-title="News",Telesur (480p)
