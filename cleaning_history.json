@@ -30,8 +30,8 @@
         "removed": 0
     },
     "elsalvador.m3u": {
-        "before": 20,
-        "after": 20,
+        "before": 21,
+        "after": 21,
         "removed": 0
     },
     "chile.m3u": {
@@ -40,8 +40,8 @@
         "removed": 0
     },
     "musica.m3u": {
-        "before": 431,
-        "after": 431,
+        "before": 429,
+        "after": 429,
         "removed": 0
     },
     "ecuador.m3u": {
@@ -50,23 +50,23 @@
         "removed": 0
     },
     "costarica.m3u": {
-        "before": 37,
-        "after": 37,
+        "before": 43,
+        "after": 43,
         "removed": 0
     },
     "mexico.m3u": {
-        "before": 88,
-        "after": 88,
+        "before": 83,
+        "after": 83,
         "removed": 0
     },
     "colombia.m3u": {
-        "before": 64,
+        "before": 63,
         "after": 63,
-        "removed": 1
+        "removed": 0
     },
     "republicadominicana.m3u": {
-        "before": 213,
-        "after": 213,
+        "before": 216,
+        "after": 216,
         "removed": 0
     },
     "mexico2.m3u": {
@@ -90,43 +90,43 @@
         "removed": 0
     },
     "paraguay.m3u": {
-        "before": 44,
-        "after": 44,
+        "before": 39,
+        "after": 39,
         "removed": 0
     },
     "honduras.m3u": {
-        "before": 34,
-        "after": 34,
+        "before": 35,
+        "after": 35,
         "removed": 0
     },
     "espana.m3u": {
-        "before": 162,
-        "after": 161,
-        "removed": 1
+        "before": 160,
+        "after": 160,
+        "removed": 0
     },
     "peru.m3u": {
-        "before": 53,
-        "after": 53,
+        "before": 54,
+        "after": 54,
         "removed": 0
     },
     "puertorico.m3u": {
-        "before": 27,
-        "after": 27,
+        "before": 26,
+        "after": 26,
         "removed": 0
     },
     "Argentina.m3u": {
-        "before": 73,
-        "after": 72,
-        "removed": 1
+        "before": 76,
+        "after": 76,
+        "removed": 0
     },
     "venezuela.m3u": {
-        "before": 36,
-        "after": 36,
+        "before": 35,
+        "after": 35,
         "removed": 0
     },
     "mexico3.m3u": {
         "before": 37,
-        "after": 37,
-        "removed": 0
+        "after": 36,
+        "removed": 1
     }
 }
