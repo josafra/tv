@@ -1,17 +1,17 @@
 🧹 REPORTE IPTV - LIMPIEZA LOCAL
 ━━━━━━━━━━━━━━━━━━━━━
 
-🕐 01/06/2026 03:35
+🕐 01/06/2026 17:30
 
 🔍 VERIFICACIÓN DE CANALES
 • Total archivos: 26
-• Canales verificados: 1495
-• 🔴 3 canales eliminados (muertos)
-• ✅ 1492 canales vivos
+• Canales verificados: 1513
+• 🔴 4 canales eliminados (muertos)
+• ✅ 1509 canales vivos
 
 📋 CANALES ELIMINADOS POR LISTA
-🔴 espana.m3u: -1 canales (159 vivos)
-🔴 republicadominicana.m3u: -2 canales (194 vivos)
+🔴 espana.m3u: -2 canales (160 vivos)
+🔴 musica.m3u: -2 canales (425 vivos)
 
 ✅ 24 listas sin canales muertos
 
