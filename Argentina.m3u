@@ -9,8 +9,6 @@ https://unlimited1-us.dps.live/airedesantafetv/airedesantafetv.smil/playlist.m3u
 https://stream1.sersat.com/hls/argentinisima.m3u8
 #EXTINF:-1 tvg-id="AzaharesRadiovisualMultimedia.ar@SD" tvg-logo="https://i.imgur.com/g1BFoSs.png" group-title="Music",Azahares Radio Multimedia (720p)
 https://streamyes.alsolnet.com/azaharesfm/live/playlist.m3u8
-#EXTINF:-1 tvg-id="BayresTV.ar@SD" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKrroOZ4RYMYlzGqMQjiIO2QbRNVndEM9PiC-CaRn0PO2AoB_YKyrt6Eigzh4M1gPZaVn5udDL5YzrzxAmyQCj_HTF8Pszo46dk9dABt9TpepY43_IEzT80atZEMaiMcdrqt3lmxAbZYaLwCgr6vDUgV1HlvmhIOJ99UlwAhG2FoHgtCm13CWEugV7Bvg/w1200-h630-p-k-no-nu/bayres-tv-removebg-preview.png" group-title="General",Bayres TV (720p)
-https://streaming01.mikrolive.tv/bayrestv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="BeatsRadio.ar@SD" tvg-logo="https://i.imgur.com/zkNUO5p.png" group-title="Music",Beats Radio (480p)
 https://videostream.shockmedia.com.ar:19360/beatsradio/beatsradio.m3u8
 #EXTINF:-1 tvg-id="BravoTV.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5e/Bravotv.png" group-title="General",Bravo TV
@@ -91,6 +89,8 @@ https://stream.arcast.com.ar/canal7catamarca/ngrp:canal7catamarca_all/playlist.m
 https://vivo.solumedia.com:19360/celta/celta.m3u8
 #EXTINF:-1 tvg-id="ChacoTV.ar@SD" tvg-logo="https://i.imgur.com/b6RerDw.png" group-title="Undefined",Chaco TV (720p) [Not 24/7]
 https://wowzasrv.chaco.gov.ar/Streamtv/chacotv/playlist.m3u8
+#EXTINF:-1 tvg-id="ComedyCentralLatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png" group-title="Comedy",Comedy Central Latin America (1080p)
+http://181.119.93.83:8000/play/a1di/index.m3u8
 #EXTINF:-1 tvg-id="CumbiaMix.ar@HD" tvg-logo="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6901dfd41a05195b77301d7b/b306e57e4_Logo-TV-C.png" group-title="Music",Cumbia Mix (720p)
 https://cloud.tvomix.com/CUMBIAMIX/index.m3u8
 #EXTINF:-1 tvg-id="EuropaEuropa.ar@SD" tvg-logo="https://i.imgur.com/w5SOfyJ.png" group-title="Series",Europa Europa
@@ -127,8 +127,6 @@ https://media.neuquen.gov.ar/rtn/television/media.m3u8
 https://iptv.ixfo.com.ar:30443/live/sanpedrotv/playlist.m3u8
 #EXTINF:-1 tvg-id="SicardiTV.ar@SD" tvg-logo="https://i.imgur.com/W2EUIL2.png" group-title="Undefined",Sicardi TV (720p)
 https://vivo.solumedia.com:19360/sicarditv/sicarditv.m3u8
-#EXTINF:-1 tvg-id="TelePosadas.ar@HD" tvg-logo="https://i.imgur.com/88MVgwX.png" group-title="General",Tele Posadas (720p)
-https://live20.bozztv.com/giatv/giatv-teleposadaso01/teleposadaso01/playlist.m3u8
 #EXTINF:-1 tvg-id="Telecinco.ar@SD" tvg-logo="https://i.imgur.com/ZDenyAE.png" group-title="Undefined",TeleCinco Trelew (240p)
 https://videohd.live:19360/8016/8016.m3u8
 #EXTINF:-1 tvg-id="Telemax.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Telemax_Argentina_%282018%29.png/960px-Telemax_Argentina_%282018%29.png" group-title="Undefined",Telemax
