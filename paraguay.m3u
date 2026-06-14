@@ -7,8 +7,6 @@ https://video.hostingcaaguazu.com:19360/almayatv/almayatv.m3u8
 https://rds3.desdeparaguay.net/brunomasitv/brunomasitv/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal8CCProducciones.py@SD" tvg-logo="https://i.imgur.com/SVj5fjg.jpg" group-title="General",Canal 8 C&C Producciones
 https://video.hostingcaaguazu.com:19360/canal8cvs/canal8cvs.m3u8
-#EXTINF:-1 tvg-id="CaritasTV.py@SD" tvg-logo="https://i.ibb.co/rwkpQx6/unnamed-2.png" group-title="General;Religious",Cáritas TV (1080p)
-https://rds3.desdeparaguay.net/caritastv/caritastv/playlist.m3u8
 #EXTINF:-1 tvg-id="ComedyCentralLatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png" group-title="Comedy",Comedy Central Latin America (1080p)
 http://181.119.93.83:8000/play/a1di/index.m3u8
 #EXTINF:-1 tvg-id="CosmosTV.py@SD" tvg-logo="https://i.imgur.com/dAMyExY.jpg" group-title="Science",Cosmos TV (720p)
@@ -25,8 +23,6 @@ https://rds3.desdeparaguay.net/gotv/gotv/playlist.m3u8
 https://www.desde-paraguay.com/mega.m3u8
 #EXTINF:-1 tvg-id="MiTV.py@SD" tvg-logo="https://i.imgur.com/sgrEt9z.png" group-title="Entertainment",MiTV (720p)
 https://rds3.desdeparaguay.net/mitv/mitv/playlist.m3u8
-#EXTINF:-1 tvg-id="NandePortetepeTV.py@SD" tvg-logo="https://i.imgur.com/3taT6JK.jpeg" group-title="Music",Nande Portetepe TV
-https://video.hostingcaaguazu.com:19360/nandeportetepe/nandeportetepe.m3u8
 #EXTINF:-1 tvg-id="NandejaraNeeTV.py@SD" tvg-logo="https://i.imgur.com/VFxuBdL.jpg" group-title="Religious",Nandejara Ne'e TV
 https://copacogen.desdeparaguay.net/nandejaraneetv/nandejaraneetv/playlist.m3u8?admin=tvaccion
 #EXTINF:-1 tvg-id="NextHD.py@SD" tvg-logo="https://i.imgur.com/c2rF3SS.png" group-title="Movies;Music",Next HD (480p)
@@ -43,8 +39,6 @@ https://video.wilohosting.com:19360/oviedotv/oviedotv.m3u8
 https://stream.paraguaytv.gov.py/memfs/bbe36fed-9b49-4d1d-adaa-4bd6d1b2e386.m3u8
 #EXTINF:-1 tvg-id="ProductivaTV.py@SD" tvg-logo="https://i.imgur.com/KXHK7UP.png" group-title="Outdoor",Productiva TV
 https://copacoradios.desdeparaguay.net/productivatv/productivatv_baja/playlist.m3u8?admin=nacion
-#EXTINF:-1 tvg-id="RadioCiudad989FMTV.py@SD" tvg-logo="https://i.imgur.com/LaSLZwR.jpg" group-title="Music",Radio Ciudad 98.9 FM TV
-https://video.wilohosting.com:19360/radiociudadtv/radiociudadtv.m3u8
 #EXTINF:-1 tvg-id="RadioNacionaldelParaguay.py@SD" tvg-logo="https://i.imgur.com/ksh20I5.png" group-title="General",Radio Nacional del Paraguay
 https://stream.paraguaytv.gov.py/memfs/ea8a90e9-10f7-4b00-8e88-42f4a838d74b.m3u8
 #EXTINF:-1 tvg-id="RadioTVElArcadelPacto.py@SD" tvg-logo="https://i.imgur.com/Oq0i3Rb.png" group-title="Religious",Radio TV El Arca del Pacto (1080p)
@@ -57,10 +51,10 @@ https://video.hostingcaaguazu.com:19360/reddigitalsanpedro/reddigitalsanpedro.m3
 https://video.wilohosting.com:19360/redinteriortv/redinteriortv.m3u8
 #EXTINF:-1 tvg-id="RegionalTVYaguaron.py@SD" tvg-logo="https://i.imgur.com/iL5JnSy.jpeg" group-title="General",Regional TV Yaguaron (1080p)
 https://video.hostingcaaguazu.com:19360/regionaltv/regionaltv.m3u8
-#EXTINF:-1 tvg-id="RepublicaTV.py@SD" tvg-logo="https://i.ibb.co/qYRw4JP/Captura.png" group-title="General",República TV (720p)
-https://rds3.desdeparaguay.net/republicatv/republicatv/playlist.m3u8
 #EXTINF:-1 tvg-id="SucesoTV.py@SD" tvg-logo="https://i.imgur.com/BwRNes1.png" group-title="News",Suceso TV (720p) [Not 24/7]
 https://live.enhdtv.com:8081/8060/index.m3u8
+#EXTINF:-1 tvg-id="Telequince.py@SD" tvg-logo="https://i.imgur.com/og7xuqe.png" group-title="General",Telequince (1080p)
+https://video.hostingcaaguazu.com:19360/telequince/telequince.m3u8
 #EXTINF:-1 tvg-id="TigoSportsPlus.py@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Tigo_Sports_2025.png/960px-Tigo_Sports_2025.png" group-title="Sports",Tigo Sports+
 http://45.170.130.224:8000/play/a04i/index.m3u8
 #EXTINF:-1 tvg-id="TVAire.py@SD" tvg-logo="https://i.imgur.com/7gHFKPZ.png" group-title="General",TV Aire
