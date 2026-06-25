@@ -7,6 +7,8 @@ https://cdn.streamhispanatv.net:3417/live/auroramflive.m3u8
 http://45.167.1.138:8000/play/a04s
 #EXTINF:-1 tvg-id="AXNLatinAmerica.us@Mexico" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png" group-title="Movies",AXN Latin America Mexico
 http://190.11.225.124:5000/live/axn_hd/playlist.m3u8
+#EXTINF:-1 tvg-id="AXNMovies.es@SD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d2/AXN_Movies_logo.svg/revision/latest/scale-to-width-down/512" group-title="Movies",AXN Movies (1080p)
+https://adpnetworkhd-cmd.github.io/iptv/AXNMoviesSpain.m3u8
 #EXTINF:-1 tvg-id="DePeliculaLatinAmerica.mx@SD" tvg-logo="https://i.imgur.com/aksM8pa.png" group-title="Movies",De Pelicula Latin America
 http://181.119.93.83:8000/play/a1jw/index.m3u8
 #EXTINF:-1 tvg-id="MoviePlex.in@SD" tvg-logo="https://i.imgur.com/THJEAqJ.png" group-title="Movies",MoviePlex (576p)

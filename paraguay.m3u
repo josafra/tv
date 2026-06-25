@@ -1,6 +1,6 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="4DmasNoticiasTV.py@SD" tvg-logo="https://i.ibb.co/1fb5BtN/unnamed.png" group-title="News",4DmásNoticias TV (1080p) [Not 24/7]
-https://rds3.desdeparaguay.net/4dmasnoticiastv/4dmasnoticiastv/playlist.m3u8
+#EXTINF:-1 tvg-id="AlcanceFMPLAYTV.py@SD" tvg-logo="https://i.imgur.com/ymcWecA.png" group-title="Music",Alcance FM PLAY TV
+https://video.wilohosting.com:19360/alcancefmtv/alcancefmtv.m3u8
 #EXTINF:-1 tvg-id="AlmayaTV.py@SD" tvg-logo="https://i.imgur.com/dDAf1nJ.png" group-title="General",Almaya TV (720p)
 https://video.hostingcaaguazu.com:19360/almayatv/almayatv.m3u8
 #EXTINF:-1 tvg-id="BrunoMasiTV.py@SD" tvg-logo="https://i.ibb.co/QFmyjZN/unnamed-1.png" group-title="General",Bruno Masi TV (720p)
@@ -29,8 +29,6 @@ http://179.60.51.134:8888/DISNEY-JR/index.m3u8
 https://cloudtv.streaming.com.py/lenguasdesenas/lenguasdesenas/chunklist.m3u8
 #EXTINF:-1 tvg-id="FarraPlay.py@SD" tvg-logo="https://i.imgur.com/bXWzstH.png" group-title="Music",Farra Play (720p) [Not 24/7]
 http://159.203.148.226/live/farra.m3u8
-#EXTINF:-1 tvg-id="GOTV.py@SD" tvg-logo="https://i.ibb.co/jkvYVyz/Captura.png" group-title="Entertainment;Music",GO TV (720p)
-https://rds3.desdeparaguay.net/gotv/gotv/playlist.m3u8
 #EXTINF:-1 tvg-id="MegaTV.py@SD" tvg-logo="https://i.imgur.com/CaA7l86.png" group-title="News",Mega TV (1080p)
 https://www.desde-paraguay.com/mega.m3u8
 #EXTINF:-1 tvg-id="MiTV.py@SD" tvg-logo="https://i.imgur.com/sgrEt9z.png" group-title="Entertainment",MiTV (720p)
@@ -45,6 +43,8 @@ https://copacogen.desdeparaguay.net/nandejaraneetv/nandejaraneetv/playlist.m3u8?
 https://live.enhdtv.com:19360/nexthd/nexthd.m3u8
 #EXTINF:-1 tvg-id="OasisTV.py@SD" tvg-logo="https://i.imgur.com/u9umNKp.jpeg" group-title="Entertainment",Oasis TV (720p)
 https://video.hostingcaaguazu.com:19360/oasistv/oasistv.m3u8
+#EXTINF:-1 tvg-id="ObediraTV.py@SD" tvg-logo="https://i.imgur.com/fRzOUw5.png" group-title="Religious",Obedira TV
+https://video.hostingcaaguazu.com:19360/obediratv/obediratv.m3u8
 #EXTINF:-1 tvg-id="OccidentalTV.py@SD" tvg-logo="https://i.imgur.com/8IRBA9h.png" group-title="General",Occidental TV
 https://video.wilohosting.com:19360/occidentaltv/occidentaltv.m3u8
 #EXTINF:-1 tvg-id="OviedoTV.py@SD" tvg-logo="https://i.imgur.com/6OlfgSQ.png" group-title="General",Oviedo TV
@@ -73,10 +73,6 @@ https://rds3.desdeparaguay.net/republicatv/republicatv/playlist.m3u8
 https://alba-py-rqp-rqp.stream.mediatiquestream.com/index.m3u8
 #EXTINF:-1 tvg-id="SNT.py@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/af/SNT_LOGO.jpg" group-title="General",SNT (1080p)
 https://alba-py-snt-snt.stream.mediatiquestream.com/index.m3u8
-#EXTINF:-1 tvg-id="SucesoTV.py@SD" tvg-logo="https://i.imgur.com/BwRNes1.png" group-title="News",Suceso TV (720p) [Not 24/7]
-https://live.enhdtv.com:8081/8060/index.m3u8
-#EXTINF:-1 tvg-id="Telequince.py@SD" tvg-logo="https://i.imgur.com/og7xuqe.png" group-title="General",Telequince (1080p)
-https://video.hostingcaaguazu.com:19360/telequince/telequince.m3u8
 #EXTINF:-1 tvg-id="TigoSportsPlus.py@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Tigo_Sports_2025.png/960px-Tigo_Sports_2025.png" group-title="Sports",Tigo Sports+
 http://45.170.130.224:8000/play/a04i/index.m3u8
 #EXTINF:-1 tvg-id="TVAire.py@SD" tvg-logo="https://i.imgur.com/7gHFKPZ.png" group-title="General",TV Aire
