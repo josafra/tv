@@ -23,8 +23,6 @@ https://tv.arkeo.cl:1936/kymczwbrge/kymczwbrge/playlist.m3u8
 https://v2.tustreaming.cl/catvlive/index.m3u8
 #EXTINF:-1 tvg-id="CampusTV.cl@SD" tvg-logo="https://i.imgur.com/LvzLg33.png" group-title="Undefined",Campus TV (Talca) (720p) [Not 24/7]
 https://pantera1-100gb-cl-movistar.dps.live/campustv/campustv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal1Nuble.cl@SD" tvg-logo="https://i.imgur.com/PGSixH5.png" group-title="General",Canal 1 Nuble
-https://tls-cl.cdnz.cl/canal21tv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal5PuertoMontt.cl@SD" tvg-logo="https://i.imgur.com/pLobTRW.png" group-title="General",Canal 5 Puerto Montt
 https://5ff3d9babae13.streamlock.net/aufymdjpjf/aufymdjpjf/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal9BioBioTelevision.cl@SD" tvg-logo="https://i.imgur.com/J2G1WMs.png" group-title="Undefined",Canal 9 Bío Bío Televisión (1080p) [Not 24/7]
@@ -41,6 +39,8 @@ https://v2.tustreaming.cl/canallocalcl/index.m3u8
 https://wifispeed.trapemn.tv:1936/comunales/caracola-tv/chunks.m3u8
 #EXTINF:-1 tvg-id="ChileChannel.cl@SD" tvg-logo="https://i.imgur.com/F1it6fh.png" group-title="Entertainment;Travel",Chile Channel (720p)
 https://v2.tustreaming.cl/chilechannel/index.m3u8
+#EXTINF:-1 tvg-id="ClickTVChile.cl@SD" tvg-logo="https://i.imgur.com/H0XNbMS.png" group-title="Documentary",Click TV (Coronel) (720p)
+https://v2.tustreaming.cl/clicktv/playlist.m3u8
 #EXTINF:-1 tvg-id="ClubTV.cl@SD" tvg-logo="https://i.imgur.com/6fmQLF8.png" group-title="Undefined",Club TV
 https://tv.arkeo.cl:1936/clubtv/clubtv/playlist.m3u8
 #EXTINF:-1 tvg-id="ComedyCentralLatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png" group-title="Comedy",Comedy Central Latin America (1080p)
@@ -103,10 +103,14 @@ https://jireh-8-hls-video-us-isp.dps.live/hls-video/931b584451fa6dd1313ee66efbfd
 https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/ln/ln.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="LaPopularTV.cl@SD" tvg-logo="https://i.imgur.com/AWdgMCC.png" group-title="General",La Popular TV
 https://tv.arkeo.cl:1936/enlacetv1/enlacetv1/playlist.m3u8
+#EXTINF:-1 tvg-id="LilaTVPencahue.cl@SD" tvg-logo="https://i.imgur.com/widaSu3.png" group-title="General",Lila TV Pencahue
+https://tv.arkeo.cl:1936/radiolila/radiolila/playlist.m3u8
 #EXTINF:-1 tvg-id="LonginoTV.cl@SD" tvg-logo="https://i.imgur.com/CBmoNnJ.png" group-title="General",Longino TV
 https://cloud2.streaminglivehd.com:1936/longinotv-1/longinotv-1/playlist.m3u8
 #EXTINF:-1 tvg-id="MaquiTV.cl@SD" tvg-logo="https://i.imgur.com/U849xvX.png" group-title="Music",Maqui TV
 https://streamyes.alsolnet.com/maquiradio/live/playlist.m3u8
+#EXTINF:-1 tvg-id="MarayTV.cl@SD" tvg-logo="https://i.imgur.com/YinMA8c.png" group-title="General",Maray TV
+https://5eaccbab48461.streamlock.net:1936/8242/ngrp:8242_all/playlist.m3u8
 #EXTINF:-1 tvg-id="MargaMargaTV.cl@SD" tvg-logo="https://i.imgur.com/4cg51eE.png" group-title="General",Marga Marga TV (720p)
 https://v1.tustreaming.cl/margamargatv/index.m3u8
 #EXTINF:-1 tvg-id="Mega.cl@SD" tvg-logo="https://i.imgur.com/RlZfR84.png" group-title="General",Mega (720p)
