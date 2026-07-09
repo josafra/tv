@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="AELatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/960px-A%26E_Network_logo.svg.png" group-title="Entertainment",A&E Latin America (1080p)
+http://138.121.15.230:9002/A&E/index.m3u8
 #EXTINF:-1 tvg-id="AmericaEstereoGuayaquil.ec@SD" tvg-logo="https://i.imgur.com/gUqKymM.png" group-title="General",América Estéreo Guayaquil (360p)
 https://video.makrodigital.com/americaestereoguayaquil/americaestereoguayaquil/playlist.m3u8
 #EXTINF:-1 tvg-id="AmericaEstereoIbarra.ec@SD" tvg-logo="https://i.imgur.com/gUqKymM.png" group-title="General",América Estéreo Ibarra (720p)
@@ -17,8 +19,6 @@ https://stmv3.voxtvhd.com.br/australtv/australtv/playlist.m3u8
 http://177.234.249.178:8888/AXN/index.m3u8
 #EXTINF:-1 tvg-id="BacanTeVeo.ec@SD" tvg-logo="https://i.imgur.com/m1LK6rY.png" group-title="Entertainment",Bacán Te Veo (360p)
 https://stmv6.voxtvhd.com.br/vacantveo2/vacantveo2/playlist.m3u8
-#EXTINF:-1 tvg-id="CaprichoTV.ec@SD" tvg-logo="https://i.imgur.com/eUoj9bG.png" group-title="General",Capricho TV (720p) [Not 24/7]
-https://video.compuwebecuador.com:3783/live/caprichotvlive.m3u8
 #EXTINF:-1 tvg-id="CiracuTV.ec@SD" tvg-logo="https://i.imgur.com/mkf2TJ6.png" group-title="Culture",Ciracu TV (720p) [Not 24/7]
 https://cloud37.ecuatel.com/ciracutv/live/manifest.m3u8
 #EXTINF:-1 tvg-id="ComedyCentralLatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png" group-title="Comedy",Comedy Central Latin America (1080p)
@@ -47,12 +47,12 @@ https://tv.wracanal10.com:3025/live/elsoltvlive.m3u8
 https://video2.makrodigital.com/fmmundo/fmmundo/playlist.m3u8
 #EXTINF:-1 tvg-id="Gamavision.ec@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/94/Gamavisi%C3%B3n2018new.png" group-title="General",Gamavision (1080p)
 http://45.224.97.181:9999/Gamavision/index.m3u8
-#EXTINF:-1 tvg-id="GaviotaTV.ec@SD" tvg-logo="https://i.imgur.com/1vlZA6O.png" group-title="Entertainment",Gaviota TV
-https://gaviotatv.streamseguro.com:3195/live/gaviotatvlive.m3u8
+#EXTINF:-1 tvg-id="HechosEcuador.ec@SD" tvg-logo="https://i.imgur.com/koMQZNX.png" group-title="General",Hechos Ecuador (1080p) [Not 24/7]
+https://online.hechosecuador.com:5443/WebRTCApp/streams/hechosecuador.m3u8
+#EXTINF:-1 tvg-id="HistoryLatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png" group-title="Documentary",History Latin America (1080p)
+http://138.121.15.230:9002/HISTORY-CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="IeanJesusEcuador.ec@SD" tvg-logo="https://i.imgur.com/TyckDSV.png" group-title="Religious",IeanJesus Ecuador (720p)
 https://cloud37.ecuatel.com/iglesia2020/Stream1/playlist.m3u8
-#EXTINF:-1 tvg-id="InfinitaTV.ec@SD" tvg-logo="https://i.imgur.com/1nHxdkR.png" group-title="Music",Infinita TV (1080p)
-https://s2.tvdatta.com:3753/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="KasterweyMedia.ec@HD" tvg-logo="https://kasterweymedia.com/wp-content/uploads/2026/05/favicon.png" group-title="Entertainment",Kasterwey Media (1080p)
 https://live.fansplay.tv/livestreams/45.b0JPENQx19PG2pxg.m3u8
 #EXTINF:-1 tvg-id="KCHTV.ec@SD" tvg-logo="https://i.imgur.com/CwQmZm7.jpeg" group-title="General",KCHTV (1080p)
@@ -101,8 +101,6 @@ https://eu1.servers10.com:8081/8074/index.m3u8
 http://190.107.232.9:8082/livestream/stream.m3u8
 #EXTINF:-1 tvg-id="RadioMonumentalTV.ec@SD" tvg-logo="https://i.imgur.com/a97MaV2.png" group-title="Music",Radio Monumental TV (720p) [Not 24/7]
 https://cloud37.ecuatel.com/monumentaltv/live/manifest.m3u8
-#EXTINF:-1 tvg-id="RedTVEVentanas.ec@SD" tvg-logo="https://i.imgur.com/Pzf2ZAW.png" group-title="General",Red TVE Ventanas (432p)
-https://s2.tvdatta.com:3825/live/redtvelive.m3u8
 #EXTINF:-1 tvg-id="RTRTV.ec@SD" tvg-logo="https://i.imgur.com/dvP2yqB.png" group-title="General",RTRTV (1080p)
 https://tv3ecuador.site/hls/stream/index.m3u8
 #EXTINF:-1 tvg-id="RTS.ec@SD" tvg-logo="https://i.imgur.com/PML8cJA.png" group-title="General",RTS (1080p)
@@ -119,6 +117,8 @@ http://138.121.15.230:9002/STUDIO-UNIVERSAL/index.m3u8
 http://177.234.249.178:8888/TC/index.m3u8
 #EXTINF:-1 tvg-id="Teleamazonas.ec@Quito" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Teleamazonas_Logo.png/960px-Teleamazonas_Logo.png" group-title="General",Teleamazonas (1080p)
 http://45.224.97.181:9999/Teleamazonas/index.m3u8
+#EXTINF:-1 tvg-id="Telemar.ec@SD" tvg-logo="https://i.imgur.com/0vX9oJF.png" group-title="General",Telemar (720p)
+https://cloudpro.servidoresdestream.com:8081/8020/index.m3u8
 #EXTINF:-1 tvg-id="TelepremierPlus.ec@SD" tvg-logo="https://i.imgur.com/F7ZPcvb.png" group-title="Entertainment",Telepremier Plus (1080p)
 http://iptv.telepremier.video.makrodigital.com:8081/telepremier/iptv/playlist.m3u8
 #EXTINF:-1 tvg-id="Telerama.ec@SD" tvg-logo="https://i.imgur.com/whIRrjo.png" group-title="General",Telerama (240p) [Not 24/7]
@@ -131,8 +131,6 @@ https://video.compuwebecuador.com:3067/live/tvcolorlive.m3u8
 https://cdn.mycloudstream.io/hls/live/broadcast/uwcedjt2/index.m3u8
 #EXTINF:-1 tvg-id="TVC.ec@SD" tvg-logo="https://i.imgur.com/zhdIwlm.png" group-title="General",TVC (1080p)
 http://45.224.97.181:9999/TVC/index.m3u8
-#EXTINF:-1 tvg-id="UNIANDESTV.ec@SD" tvg-logo="https://i.imgur.com/1rluyB7.png" group-title="Education",UNIANDES TV (720p) [Not 24/7]
-https://video.compuwebecuador.com:3323/live/uniandeslive.m3u8
 #EXTINF:-1 tvg-id="UniversalTVLatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/960px-Universal_TV_logo.svg.png" group-title="Undefined",Universal TV Latin America (1080p)
 http://138.121.15.230:9002/UNIVERSAL-CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="UnsionTV.ec@SD" tvg-logo="https://i.imgur.com/HQGBqGU.png" group-title="Undefined",Unsion TV (1080p)
