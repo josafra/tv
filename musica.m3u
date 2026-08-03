@@ -77,6 +77,8 @@ https://gpuserver3.tier1streams.com/AXS_TV/index.m3u8
 https://streamyes.alsolnet.com/azaharesfm/live/playlist.m3u8
 #EXTINF:-1 tvg-id="B4UMusic.in@India" tvg-logo="https://dtil.tmsimg.com/assets/s158141_ld_h15_aa.png?lock=720x540" group-title="Music",B4U Music (576p)
 https://cdn-2.pishow.tv/live/415/master.m3u8
+#EXTINF:-1 tvg-id="B4UMusic.in@APAC" tvg-logo="https://dtil.tmsimg.com/assets/s158141_ld_h15_aa.png?lock=720x540" group-title="Music",B4U Music APAC (720p)
+https://s3.itcnbd.live/channel/6f6b7b6d25fbd0e6.m3u8
 #EXTINF:-1 tvg-id="BandamaxUSA.us@SD" tvg-logo="https://i.imgur.com/Pch8vTI.png" group-title="Music",Bandamax USA (1080p)
 http://177.234.249.135:8888/Bandamax/index.m3u8
 #EXTINF:-1 tvg-id="BarazaTV.gr@SD" tvg-logo="https://i.imgur.com/TZ1unwF.png" group-title="Music",Baraza TV (1080p)
@@ -91,8 +93,6 @@ https://tv.beatfm.nl/live.m3u8
 https://videostream.shockmedia.com.ar:19360/beatsradio/beatsradio.m3u8
 #EXTINF:-1 tvg-id="BibelTVMusik.de@SD" tvg-logo="https://i.imgur.com/yIqOcP5.png" group-title="Music",Bibel TV Musik (720p)
 https://bibeltv03.iptv-playoutcenter.de/bibeltv03/bibeltv03.stream_1/playlist.m3u8
-#EXTINF:-1 tvg-id="BIZMusic.uz@SD" tvg-logo="https://i.ibb.co/DfsCJwk/Uz-biz-music-5462.jpg" group-title="Music",BIZ Music (1080p)
-https://fl.biztv.media/music_720_QAKpGmVUjaPApCNjpsgBxrdqNihAkl/index.m3u8
 #EXTINF:-1 tvg-id="BOKTV.za@SD" tvg-logo="https://i.imgur.com/mcNjuuO.png" group-title="Music",BOKTV (720p) [Not 24/7]
 https://livestream2.bokradio.co.za/hls/Bok5c.m3u8
 #EXTINF:-1 tvg-id="BPXTVRadio.us@SD" tvg-logo="https://i.imgur.com/86VXni8.jpeg" group-title="Music",BPX TV Radio
@@ -113,6 +113,8 @@ http://stream.mcquack.net/320/index.m3u8
 https://cloud.fastchannel.es/manifiest/hls/prog9/btatv.m3u8
 #EXTINF:-1 tvg-id="BTBMusic.pl@SD" tvg-logo="https://btb.j00r.us/images/logo_BTBMusic.webp" group-title="Music",BTB Music (1080p)
 https://panel.btb.j00r.us/memfs/ebaffae6-0086-49d7-843d-57f2c561de86.m3u8
+#EXTINF:-1 tvg-id="BuenisimaRadioTV.co@SD" tvg-logo="https://i.imgur.com/URKDlOZ.png" group-title="Music",Buenisima Radio TV
+https://canal.mediaserver.com.co/live/buenisimatv.m3u8
 #EXTINF:-1 tvg-id="BusuiocTV.md@SD" tvg-logo="https://i.imgur.com/CQtfBPu.png" group-title="Music",Busuioc TV
 https://tt.nfthost.net/static/streaming-playlists/hls/bb907ca9-5cb5-49dd-b276-d77721a9bc6d/master.m3u8
 #EXTINF:-1 tvg-id="CadenaElite.es@SD" tvg-logo="https://i.imgur.com/3yeGDTP.png" group-title="Music",Cadena Elite (720p) [Not 24/7]
@@ -203,6 +205,8 @@ http://178.33.224.197:1935/euroindiemusic/euroindiemusic/playlist.m3u8
 http://31.148.48.15/Europa_Plus_HD/index.m3u8
 #EXTINF:-1 tvg-id="ExtraTV.hr@SD" tvg-logo="https://i.imgur.com/5edYPBO.png" group-title="Music",Extra TV (1080p)
 https://streaming.social3.hr/ExtraTVudzdhr5/uUankWqpXD/1.m3u8
+#EXTINF:-1 tvg-id="FabulosaEstereo1005FM.pa@SD" tvg-logo="https://i.imgur.com/YFmzkOp.png" group-title="Music",Fabulosa Estéreo 100.5 FM (720p)
+https://www.streaming507.net:19360/videofabulosa/videofabulosa.m3u8
 #EXTINF:-1 tvg-id="Fairuz.sa@HD" tvg-logo="https://shahid.mbc.net/mediaObject/f809d51c-e83d-43c9-8236-78731c2216ad?type=png" group-title="Music",Fairuz (1080p)
 https://shd-amg-fast.edgenextcdn.net/tx029/playlist.m3u8
 #EXTINF:-1 tvg-id="FalastiniTV.ps@SD" tvg-logo="https://i.imgur.com/6B3Cims.png" group-title="Music",Falastini TV (1080p)
@@ -235,8 +239,8 @@ https://edge20.vedge.infomaniak.com/livecast/ik:fusiontv/manifest.m3u8
 https://live20.bozztv.com/akamaissh101/ssh101/gextvaccess/playlist.m3u8
 #EXTINF:-1 tvg-id="GigantFM.nl@SD" tvg-logo="https://i.imgur.com/LwEHfjD.png" group-title="Music",Gigant FM (720p)
 https://video.uitzending.tv:19360/gigantfm/gigantfm.m3u8
-#EXTINF:-1 tvg-id="GOTV.py@SD" tvg-logo="https://i.ibb.co/jkvYVyz/Captura.png" group-title="Entertainment;Music",GO TV (720p)
-https://rds3.desdeparaguay.net/gotv/gotv/playlist.m3u8
+#EXTINF:-1 tvg-id="GMTV.us@SD" tvg-logo="https://i.imgur.com/GJYb8c8.png" group-title="Music",GMTV (1080p)
+https://livechannel.mdc.akamaized.net/stitch/livechannel/1341/master1400000.m3u8;session=live_stream_1341
 #EXTINF:-1 tvg-id="GugakTV.kr@SD" tvg-logo="https://i.imgur.com/Ey7Htm8.png" group-title="Music",GugakTV 국악방송 (1080p)
 https://mgugaklive.nowcdn.co.kr/gugakvideo/gugakvideo.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="HappyRadioTV.ua@HD" tvg-logo="https://i.imgur.com/PAw36qJ.png" group-title="Music",Happy Radio TV (1080p)
@@ -303,6 +307,8 @@ https://tv.broadcasting.ro/kisstv/a629c031-2170-4ee9-a36d-87a891aa3131.m3u8
 https://stream.cmctv.hr:49998/kit/live.m3u8
 #EXTINF:-1 tvg-id="KNMusicTV.az@SD" tvg-logo="https://www.knmusictv.com/wp-content/uploads/2026/01/LOGO2112.png" group-title="Music",KN Music TV
 https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="KpopTVPlay.br@SD" tvg-logo="https://i.imgur.com/Tf0vweF.png" group-title="Music",KpopTV Play (576p)
+https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8
 #EXTINF:-1 tvg-id="KPVMLD258.us@SD" tvg-logo="https://i.imgur.com/iPtuku6.png" group-title="Music",KPVM Ace Country Radio
 https://2-fss-1.streamhoster.com/pl_122/206858-4412960-1/playlist.m3u8
 #EXTINF:-1 tvg-id="KralPopTV.tr@SD" tvg-logo="https://i.imgur.com/ch365lh.png" group-title="Music",KRAL Pop TV (720p)
@@ -311,6 +317,8 @@ https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
 https://bitcdn-kronehit.bitmovin.com/v2/hls/playlist.m3u8
 #EXTINF:-1 tvg-id="KuriakosMusic.pt@SD" tvg-logo="https://i.imgur.com/Zl40NYi.jpg" group-title="Music",Kuriakos Music (1080p)
 http://195.23.211.179:1935/kmusic/smil:kmusic.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="La100.ar@SD" tvg-logo="https://cloudfront-us-east-1.images.arcpublishing.com/radiomitre/CZJMM4BJVRFANO4VGMMYWSTEVE.png" group-title="Music",La 100 (1080p)
+https://mdstrm.com/live-stream-playlist/68b74fd1d6512526f1f7c75a.m3u8
 #EXTINF:-1 tvg-id="LaClave.cl@SD" tvg-logo="https://cdn.m3u.cl/logo/1270_La_Clave.png" group-title="Music",La Clave (720p)
 https://unlimited1-cl-isp.dps.live/laclavetv/laclavetv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="LaFabulosaTV.pe@SD" tvg-logo="https://i.imgur.com/GjME5H0.png" group-title="Music",La Fabulosa Radio y TV (720p)
@@ -331,16 +339,10 @@ https://streamyes.alsolnet.com/quebuenaatlanta/live/index.m3u8
 https://59d39900ebfb8.streamlock.net/top102/top102/playlist.m3u8
 #EXTINF:-1 tvg-id="LaTop1077.hn@SD" tvg-logo="https://i.imgur.com/vgHhh1W.jpg" group-title="Music",La Top 107.7 (720p)
 https://59d39900ebfb8.streamlock.net/top107/top107/playlist.m3u8
-#EXTINF:-1 tvg-id="LaVozdelTropico.do@SD" tvg-logo="https://i.imgur.com/DKDFpHt.png" group-title="Music",La Voz del Tropico (480p) [Geo-blocked]
-https://ss2.tvrdomi.com:1936/lavozdeltropico/lavozdeltropico/playlist.m3u8
 #EXTINF:-1 tvg-id="LaX.pr@SD" tvg-logo="https://i.imgur.com/i2GnQTq.png" group-title="Music",La-X (720p)
 https://stream.eleden.com/livelax/ngrp:livelax_all/playlist.m3u8
-#EXTINF:-1 tvg-id="LaPuraCremaTelevision.ve@SD" tvg-logo="https://i.imgur.com/EJf1eRt.png" group-title="Music",LaPuraCrema Television
-https://streamlov.alsolnet.com/lapuracrema/live/playlist.m3u8
 #EXTINF:-1 tvg-id="Lausitzwelle.de@SD" tvg-logo="https://i.imgur.com/4kYF4bK.png" group-title="Music",Lausitzwelle (1080p)
 https://h056.video-stream-hosting.de/easycast11-live/_definst_/mp4:livestreamhd2/playlist.m3u8?ref=
-#EXTINF:-1 tvg-id="LingkarTV.id@SD" tvg-logo="https://lingkartv.com/assets/img/logo-square.png" group-title="Music;News;Religious",Lingkar TV
-https://lingkartv.my.id/hls/lingkartv.m3u8
 #EXTINF:-1 tvg-id="LiraTV.es@SD" tvg-logo="https://i.imgur.com/hBswXYZ.png" group-title="Music",LiraTV (720p)
 https://cloud2.streaminglivehd.com:1936/liratv/liratv/playlist.m3u8
 #EXTINF:-1 tvg-id="LittoralFMTV.fr@SD" tvg-logo="https://i.imgur.com/DCZKAQ1.png" group-title="Music",Littoral FM (720p)
@@ -401,12 +403,12 @@ https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-mood/78367bf48ccdba501d0d
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-wanasah/13e82ea6232fa647c43b26e8a41f173d/index.m3u8
 #EXTINF:-1 tvg-id="MCMPop.fr@SD" tvg-logo="https://i.imgur.com/j31lBL7.png" group-title="Music",MCM Pop
 http://rjcf.ofztvxv.top:8080/kang/71267133/99554
+#EXTINF:-1 tvg-id="MCMTop.fr@SD" tvg-logo="https://i.imgur.com/EVtWQLd.png" group-title="Music",MCM Top (1080p)
+http://89.33.29.118/MCM/index.m3u8
 #EXTINF:-1 tvg-id="MCN6MusicChannel.us@SD" tvg-logo="https://i.imgur.com/j6IiysJ.png" group-title="Animation;Kids;Music",MCN6 Music Channel (1080p) [Not 24/7]
 https://d18fcxaqfnwjhj.cloudfront.net/CDN_Ingest/MCN6_MUSIC.smil/Playlist.m3u8
 #EXTINF:-1 tvg-id="MedMuzik.tr@SD" tvg-logo="https://i.imgur.com/gtUFmCD.png" group-title="Music",Med Muzik (1080p)
 http://54.36.110.140/live3/live3.m3u8
-#EXTINF:-1 tvg-id="MelodyFM.jo@SD" tvg-logo="https://i.imgur.com/J8omcNz.png" group-title="Music",Melody FM Jordan (720p) [Not 24/7]
-https://cdn3.wowza.com/1/OVRrOWxXUEswS2Yv/eGVxSWZy/hls/live/playlist.m3u8
 #EXTINF:-1 tvg-id="MessatidaTV.gr@SD" tvg-logo="https://i.imgur.com/WEYrIrC.png" group-title="Music",Messatida TV (720p)
 https://rtmp.streams.ovh:8081/mtv/index.m3u8
 #EXTINF:-1 tvg-id="MetaleitorTV.us@SD" tvg-logo="https://new.opencaster.com/uploads/logos/logo_14_1752798826.png" group-title="Music",Metaleitor TV
@@ -419,8 +421,6 @@ https://video1.earthcam.com/myearthcam/075ff02f78c35af55564cf3af3b3f750.flv/play
 https://live-3.otcnet.ru/Mezzo/index.m3u8
 #EXTINF:-1 tvg-id="MezzoLive.fr@SD" tvg-logo="https://i.imgur.com/H9ytKPN.png" group-title="Music",Mezzo Live (1080p)
 http://stream.mcquack.net/276/index.m3u8
-#EXTINF:-1 tvg-id="mfm.lb@HD" tvg-logo="https://www.mtv.com.lb/images/header/mfm-logo.svg" group-title="Music",mfm (1080p)
-https://hms.pfs.gdn/hms/v1/broadcast/hlmvmp2hfriode891/playlist.m3u8
 #EXTINF:-1 tvg-id="MielTV.pe@SD" tvg-logo="https://i.imgur.com/dPSFrCs.png" group-title="Music",Miel TV (720p)
 https://live-evg5.tv360.bitel.com.pe/bitel/mieltvSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="Millenium109FM.pe@SD" tvg-logo="https://i.imgur.com/sfNL6Bv.png" group-title="Music",Millenium 109 FM
@@ -515,10 +515,6 @@ https://cloudvideo.servers10.com:8081/8034/index.m3u8
 https://cloudvideo.servers10.com:8081/8116/index.m3u8
 #EXTINF:-1 tvg-id="OndambientalTV.co@SD" tvg-logo="https://i.imgur.com/u5804Au.jpg" group-title="Culture;Music",Ondambiental TV (360p)
 https://stmv4.voxtvhd.com.br/ondastereo/ondastereo/playlist.m3u8
-#EXTINF:-1 tvg-id="OneTV.lb@SD" tvg-logo="https://i.imgur.com/O4DuR9G.png" group-title="Music",One TV (720p) [Not 24/7]
-https://hms.pfs.gdn/v1/broadcast/one/playlist.m3u8
-#EXTINF:-1 tvg-id="OneFM.lb@SD" tvg-logo="https://i.ibb.co/Vp2G9wTz/onefmlb.png" group-title="Music",OneFM (720p) [Not 24/7]
-https://hms.pfs.gdn/v1/broadcast/onefm/playlist.m3u8
 #EXTINF:-1 tvg-id="OrangeBanglaTV.in@SD" tvg-logo="https://i.imgur.com/wjSaHj5.png" group-title="Music",Orange Bangla TV (720p)
 https://cdn-4.pishow.tv/live/1499/master.m3u8
 #EXTINF:-1 tvg-id="P2MTV.fr@SD" tvg-logo="https://i.imgur.com/TrecSeG.png" group-title="Music",P2M TV (720p)
@@ -603,8 +599,6 @@ https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S35394734/Z6U2wGoDYANk/p
 https://eu1.servers10.com:8081/8116/index.m3u8
 #EXTINF:-1 tvg-id="RadioChalaca.pe@SD" tvg-logo="https://i.imgur.com/9A6DBG7.png" group-title="Music",Radio Chalaca
 https://servilive.com:3414/hybrid/play.m3u8
-#EXTINF:-1 tvg-id="RadioCiudad989FMTV.py@SD" tvg-logo="https://i.imgur.com/LaSLZwR.jpg" group-title="Music",Radio Ciudad 98.9 FM TV
-https://video.wilohosting.com:19360/radiociudadtv/radiociudadtv.m3u8
 #EXTINF:-1 tvg-id="RadioClasicaTV.bo@SD" tvg-logo="https://radioclasicapotosi.com/players/nexoplayer/assets/logo.png" group-title="Music",Radio Clasica TV (720p)
 https://ares.disfrutaenlared.com:1936/clasica/clasica/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioColmenar925FM.py@SD" tvg-logo="https://i.imgur.com/LniNLO1.jpeg" group-title="Music",Radio Colmenar 92.5 FM
@@ -647,6 +641,8 @@ https://5ff3d9babae13.streamlock.net/chrgkqgkyb/chrgkqgkyb/playlist.m3u8
 https://peer2.tdiradio.com/static/streaming-playlists/hls/7c3ea8d3-49dc-4e1b-8b1e-dc6fab71f5cf/0.m3u8
 #EXTINF:-1 tvg-id="RadioMaster.pe@HD" tvg-logo="https://i.imgur.com/AUoxyzP.png" group-title="Music",Radio Master (720p)
 https://videoserver.tmcreativos.com:19360/radiomaster/radiomaster.m3u8
+#EXTINF:-1 tvg-id="RadioMonumentalTV.ec@SD" tvg-logo="https://i.imgur.com/a97MaV2.png" group-title="Music",Radio Monumental TV (720p) [Not 24/7]
+https://cloud37.ecuatel.com/monumentaltv/live/manifest.m3u8
 #EXTINF:-1 tvg-id="RadioOndaDigital.pe@SD" tvg-logo="https://i.imgur.com/Lid5RTv.png" group-title="Music",Radio Onda Digital (1080p)
 https://live.ondadigitaltv.com/RADIOODTV/index.m3u8
 #EXTINF:-1 tvg-id="RadioPiterPanTV.it@SD" tvg-logo="https://i.imgur.com/hbqVWV4.png" group-title="Music",Radio Piter Pan TV (720p) [Not 24/7]
@@ -657,8 +653,12 @@ https://unlimited2-cl-isp.dps.live/pudahueltv/pudahueltv.smil/playlist.m3u8
 https://1888165924.rsc.cdn77.org/live/RadioRAM/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioRealpolitik.ar@SD" tvg-logo="https://i.imgur.com/L9KCdTX.png" group-title="Music",Radio Realpolitik (720p)
 https://vivo.solumedia.com:19360/realpolitik/realpolitik.m3u8
+#EXTINF:-1 tvg-id="RadioRumbaTV.pe@SD" tvg-logo="https://i.imgur.com/BYcxI03.png" group-title="Music",Radio Rumba TV (720p)
+https://live-evg7.tv360.bitel.com.pe/bitel/rumba/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioSanBorjaTV.pe@SD" tvg-logo="https://i.imgur.com/75dJBtH.png" group-title="Music",Radio San Borja TV (1080p)
 https://stream.mediacorp.pe/srt/3/playlist.m3u8
+#EXTINF:-1 tvg-id="RadioSanCristobal887FM.py@SD" tvg-logo="https://i.imgur.com/zaJhBdj.png" group-title="Music",Radio San Cristobal 88.7 FM
+https://video.wilohosting.com:19360/sancristobalfm/sancristobalfm.m3u8
 #EXTINF:-1 tvg-id="RadioSuyaiTV.cl@HD" tvg-logo="https://stream-tools.zenomedia.com/content/stations/883465cc-a2ee-418a-972d-2c937707687d/image/?keep=w&lu=1775615385000&resize=350x350" group-title="Culture;Music",Radio Suyai TV (1080p)
 https://cl-2.backend.energeek.cl/RadioSuyai-Neo/index.m3u8
 #EXTINF:-1 tvg-id="RadioSWHTV.lv@SD" tvg-logo="https://i.imgur.com/cFrNsXn.png" group-title="Music",Radio SWH TV (1080p)
@@ -717,14 +717,14 @@ https://stream.rtl.lu/data/live/tele/rtlgold/playlist.m3u8
 https://stream.rtl.lu/data/live/tele/rtltodayradio/playlist.m3u8
 #EXTINF:-1 tvg-id="RTVVida.es@SD" tvg-logo="https://i.imgur.com/EqUfEAh.png" group-title="Music",RTV Vida (1080p)
 https://vidartv2.todostreaming.es/live/radiovida-emisiontvhd.m3u8
-#EXTINF:-1 tvg-id="RuidosFM.cl@SD" tvg-logo="https://i.imgur.com/avIcT83.png" group-title="Music",Ruidos FM
-https://tv1.ruidosfm.cl/ruidostv/stream.m3u8
 #EXTINF:-1 tvg-id="RumbaTV.co@SD" tvg-logo="https://i.imgur.com/WtVpWwI.png" group-title="Music",Rumba TV (1080p)
 http://45.162.193.35/RUMBATV/index.m3u8
 #EXTINF:-1 tvg-id="RumbaMixTV.pe@SD" tvg-logo="https://i.imgur.com/rwA3HIp.png" group-title="Music",RumbaMix TV (720p)
 https://live-evg5.tv360.bitel.com.pe/bitel/mixtvSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="RussianMusicBox.ru@SD" tvg-logo="https://i.imgur.com/ZkJ3Rh9.png" group-title="Music",Russian MusicBox (576p)
 http://stream.mcquack.net/319/index.m3u8
+#EXTINF:-1 tvg-id="SaborTV.cl@SD" tvg-logo="https://cdn.m3u.cl/logo/416_Sabor_TV.png" group-title="Music",Sabor TV (720p)
+https://v1.tustreaming.cl/sabortv/index.m3u8
 #EXTINF:-1 tvg-id="SalsaGordaTelevision.co@SD" tvg-logo="https://i.imgur.com/3IhYd7G.jpg" group-title="Music",Salsa Gorda Television (1080p) [Not 24/7]
 https://live20.bozztv.com/akamaissh101/ssh101/qMUAZEy/playlist.m3u8
 #EXTINF:-1 tvg-id="SaltoBrasaMusic.nl@SD" tvg-logo="https://i.vimeocdn.com/portrait/31947989_640x640" group-title="Music",Salto Brasa Music (1080p)

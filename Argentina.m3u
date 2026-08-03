@@ -3,6 +3,8 @@
 http://www.coninfo.net:1935/tvcinco/live1/playlist.m3u8
 #EXTINF:-1 tvg-id="247CanaldeNoticias.ar@SD" tvg-logo="https://i.imgur.com/4hDCB1M.png" group-title="News",24/7 Canal de Noticias
 https://panel.host-live.com:19360/cn247tv/cn247tv.m3u8
+#EXTINF:-1 tvg-id="ABTVBariloche.ar@SD" tvg-logo="https://i.imgur.com/l4TSfDr.png" group-title="General",ABTV Bariloche
+https://videostream.shockmedia.com.ar/hls/abtvbariloche/abtvbariloche.m3u8
 #EXTINF:-1 tvg-id="AiredeSantaFe.ar@SD" tvg-logo="https://i.imgur.com/60vSWW0.png" group-title="General",Aire de Santa Fe (1080p)
 https://unlimited1-us.dps.live/airedesantafetv/airedesantafetv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlternaTV.ar@SD" tvg-logo="https://tv.alterna.ar/alternatv.png" group-title="Culture;Documentary;Entertainment;General;Movies;Music",Alterna TV (720p) [Not 24/7]
@@ -15,8 +17,6 @@ https://stream1.sersat.com/hls/argentinisima.m3u8
 http://45.228.235.116:8000/play/a0iy/index.m3u8
 #EXTINF:-1 tvg-id="AzaharesRadiovisualMultimedia.ar@SD" tvg-logo="https://i.imgur.com/g1BFoSs.png" group-title="Music",Azahares Radio Multimedia (720p)
 https://streamyes.alsolnet.com/azaharesfm/live/playlist.m3u8
-#EXTINF:-1 tvg-id="BayresTV.ar@SD" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKrroOZ4RYMYlzGqMQjiIO2QbRNVndEM9PiC-CaRn0PO2AoB_YKyrt6Eigzh4M1gPZaVn5udDL5YzrzxAmyQCj_HTF8Pszo46dk9dABt9TpepY43_IEzT80atZEMaiMcdrqt3lmxAbZYaLwCgr6vDUgV1HlvmhIOJ99UlwAhG2FoHgtCm13CWEugV7Bvg/w1200-h630-p-k-no-nu/bayres-tv-removebg-preview.png" group-title="General",Bayres TV (720p)
-https://streaming01.mikrolive.tv/bayrestv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="BeatsRadio.ar@SD" tvg-logo="https://i.imgur.com/zkNUO5p.png" group-title="Music",Beats Radio (480p)
 https://videostream.shockmedia.com.ar:19360/beatsradio/beatsradio.m3u8
 #EXTINF:-1 tvg-id="BravoTV.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5e/Bravotv.png" group-title="General",Bravo TV (1080p)
@@ -37,8 +37,6 @@ https://edge.enhdtv.com/nexthd/index.m3u8
 https://stmvideo6.livecastv.com/agenfor/agenfor/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal3LaPampa.ar@SD" tvg-logo="https://i.imgur.com/SsNFudZ.png" group-title="Undefined",Canal 3 La Pampa (1080p)
 https://stream.arcast.com.ar/c3lapampa/ngrp:c3lapampa_all/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal3LasHeras.ar@SD" tvg-logo="https://i.imgur.com/bd2afET.png" group-title="Undefined",Canal 3 Las Heras (720p)
-https://stream.arcast.com.ar/canal3/canal3/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal3Pinamar.ar@SD" tvg-logo="https://i.imgur.com/IABFaH1.png" group-title="Undefined",Canal 3 Pinamar
 http://intelincloud01.com.ar/hls/cn3/index.m3u8
 #EXTINF:-1 tvg-id="Canal3Tacural.ar@SD" tvg-logo="https://i.imgur.com/RKvSa52.jpeg" group-title="General",Canal 3 Tacural
@@ -79,6 +77,12 @@ https://stream.arcast.live/ahora/ahora/playlist.m3u8
 http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal11delaCosta.ar@SD" tvg-logo="https://i.imgur.com/yYExcq1.jpg" group-title="Undefined",Canal 11 de la Costa (720p)
 https://vivo.solumedia.com:19360/dadaproductora/dadaproductora.m3u8
+#EXTINF:-1 tvg-id="Canal13Jujuy.ar@SD" tvg-logo="https://i.imgur.com/lmKLiJ3.jpg" group-title="Religious",Canal 13 Jujuy TV (720p)
+https://genexservicios.com:19360/canal13jujuy/canal13jujuy.m3u8
+#EXTINF:-1 tvg-id="Canal13LaRioja.ar@SD" tvg-logo="https://i.imgur.com/OI97Sgq.png" group-title="Undefined",Canal 13 La Rioja (480p)
+http://arcast.net:1935/mp/mp/playlist.m3u8
+#EXTINF:-1 tvg-id="Canal13SanLuis.ar@SD" tvg-logo="https://i.imgur.com/NcfMC29.png" group-title="Undefined",Canal 13 San Luis
+https://stream.radiosmundiales.com:19360/sanluismas/sanluismas.m3u8
 #EXTINF:-1 tvg-id="Canal21TV.ar@SD" tvg-logo="https://i.imgur.com/Am7yMXg.png" group-title="Undefined",Canal 21 TV (1080p)
 https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal22.ar@SD" tvg-logo="https://i.imgur.com/R4wXVxf.png" group-title="Undefined",Canal 22 (720p)
@@ -97,6 +101,8 @@ https://streamconex.com:19360/mardelplata/mardelplata.m3u8
 https://streamconex.com:19360/puan/puan.m3u8
 #EXTINF:-1 tvg-id="Canal79SantaClaradelMar.ar@SD" tvg-logo="https://i.imgur.com/I93ypGY.png" group-title="Undefined",Canal 79 Santa Clara del Mar (240p)
 https://streamconex.com:19360/santaclara-1/santaclara-1.m3u8
+#EXTINF:-1 tvg-id="Canal79VillaMaza.ar@SD" tvg-logo="https://i.imgur.com/HYuSqJy.png" group-title="Undefined",Canal 79 Villa Maza
+https://streamconex.com:19360/villamaza/villamaza.m3u8
 #EXTINF:-1 tvg-id="Canal99Miramar.ar@SD" tvg-logo="https://i.imgur.com/PblsZxz.jpeg" group-title="General",Canal 99 Miramar
 https://vivo.solumedia.com:19360/cardinal/cardinal.m3u8
 #EXTINF:-1 tvg-id="CanalE.ar@SD" tvg-logo="https://i.ibb.co/y4pkxH3/Qtc8-M2-PG-400x400.jpg" group-title="Business;News",Canal E (720p)
@@ -151,16 +157,22 @@ http://45.134.141.161:2200/ARG/Disney_Junior/index.m3u8
 http://181.119.93.83:8000/play/a1sr/index.m3u8
 #EXTINF:-1 tvg-id="FolcloreandoTV.ar@SD" tvg-logo="https://folcloreando.com/wp-content/uploads/elementor/thumbs/logo-qvcz16ulfxe7qqvftihvlcoku8l2hux59qcndiy3qo.png" group-title="General",Folcloreando TV
 https://stmvideo6.livecastv.com/radioactivasanjuan/radioactivasanjuan/playlist.m3u8
+#EXTINF:-1 tvg-id="FXLatinAmerica.us@South" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/960px-FX_International_logo.svg.png" group-title="Entertainment",FX Latin America South (720p)
+http://72.1.184.5:8089/play/a05i/index.m3u8
 #EXTINF:-1 tvg-id="ItelTVCanal2.ar@SD" tvg-logo="https://i.imgur.com/OxmpRDx.png" group-title="General",Itel TV Canal 2
 https://proxystream.iteltv.com.ar/output/iteltv/playlist.m3u8
 #EXTINF:-1 tvg-id="KpopMix.ar@SD" tvg-logo="https://tvomix.com/Logos/Kpopmix.png" group-title="Undefined",Kpop Mix (720p)
 https://cloud.tvomix.com/KPOPMIX/index.m3u8
+#EXTINF:-1 tvg-id="La100.ar@SD" tvg-logo="https://cloudfront-us-east-1.images.arcpublishing.com/radiomitre/CZJMM4BJVRFANO4VGMMYWSTEVE.png" group-title="Music",La 100 (1080p)
+https://mdstrm.com/live-stream-playlist/68b74fd1d6512526f1f7c75a.m3u8
 #EXTINF:-1 tvg-id="LAMIL35TV.ar@SD" tvg-logo="https://www.appcreator24.com/srv/imgs/gen/3544498_ico.png" group-title="Animation;Classic;Entertainment",LAMIL35 TV
 https://vd01.streaminghd.net.ar:3349/live/bzuctkgnlive.m3u8
 #EXTINF:-1 tvg-id="LinkTV.ar@SD" tvg-logo="https://i.ibb.co/ncYZY6T/logo-3.png" group-title="General",Link TV
 https://linktv.b-cdn.net/linktv.m3u8
 #EXTINF:-1 tvg-id="MasFM.ar@SD" tvg-logo="https://i.imgur.com/TJ4gWQM.png" group-title="Music",Más FM 95.9 (720p)
 https://vivo.solumedia.com:19360/masfm/masfm.m3u8
+#EXTINF:-1 tvg-id="MercurioNoticias.ar@SD" tvg-logo="https://i.imgur.com/sfd87LX.png" group-title="News",Mercurio Noticias
+https://videostream.shockmedia.com.ar/hls/mercuriotv/mercuriotv.m3u8
 #EXTINF:-1 tvg-id="MetroTV.ar@SD" tvg-logo="https://i.imgur.com/7f7M7zl.png" group-title="Entertainment",Metro TV (720p)
 https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8
 #EXTINF:-1 tvg-id="MisionesCuatro.ar@SD" tvg-logo="https://i.imgur.com/HXRpRlK.png" group-title="General",Misiones Cuatro
@@ -169,8 +181,6 @@ https://iptv.ixfo.com.ar:30443/live-HD/MISIONES4/playlist.m3u8
 http://179.60.51.134:8888/MTV/index.m3u8
 #EXTINF:-1 tvg-id="NeoTV.ar@SD" tvg-logo="https://i.imgur.com/Xtu85tb.png" group-title="General",Neo TV
 https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
-#EXTINF:-1 tvg-id="NeoxTV.ar@SD" tvg-logo="https://i.imgur.com/eIX71c9.png" group-title="General",Neox TV (720p)
-https://tv.streamcasthd.com:3031/live/neoxtvlive.m3u8
 #EXTINF:-1 tvg-id="NETTV.ar@SD" tvg-logo="https://i.imgur.com/IhJ0BjF.png" group-title="General",NET TV (720p)
 http://45.134.141.161:2200/ARG/Net_TV/index.m3u8
 #EXTINF:-1 tvg-id="NGFederal.ar@SD" tvg-logo="https://i.imgur.com/lJCIqYn.png" group-title="General",NG Federal (720p)
@@ -199,20 +209,22 @@ https://live.enhdtv.com:8081/radioiguazutv/index.m3u8
 http://204.199.3.2/.m3u8
 #EXTINF:-1 tvg-id="RTN.ar@SD" tvg-logo="https://i.imgur.com/8xqYg4C.png" group-title="Undefined",RTN (Neuquén) (720p) [Not 24/7]
 https://media.neuquen.gov.ar/rtn/television/media.m3u8
+#EXTINF:-1 tvg-id="SanLuisPlus.ar@SD" tvg-logo="https://i.imgur.com/bGoGiry.png" group-title="General",San Luis +
+https://stream.radiosmundiales.com/hls/sanluismas/sanluismas.m3u8
 #EXTINF:-1 tvg-id="SanPedroTV.ar@SD" tvg-logo="https://i.imgur.com/UkpXogr.png" group-title="Undefined",San Pedro TV (1080p) [Not 24/7]
 https://iptv.ixfo.com.ar:30443/live/sanpedrotv/playlist.m3u8
 #EXTINF:-1 tvg-id="SenillosaTV.ar@SD" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLTrvk7gv0uCQ8QdGREqv6Rtzm4F6UMetdxKub6D=s400-c-k-c0x00ffffff-no-rj" group-title="Undefined",Senillosa TV
 https://player.videohost.click/senillosatv/senillosatv/playlist.m3u8
 #EXTINF:-1 tvg-id="SicardiTV.ar@SD" tvg-logo="https://i.imgur.com/W2EUIL2.png" group-title="Undefined",Sicardi TV (720p)
 https://vivo.solumedia.com:19360/sicarditv/sicarditv.m3u8
+#EXTINF:-1 tvg-id="SionTV.ar@SD" tvg-logo="https://i.imgur.com/qeroYLq.png" group-title="Religious",Sion TV
+https://tv.streamcasthd.com:3536/live/siontvlive.m3u8
 #EXTINF:-1 tvg-id="SoliveTV.ar@SD" tvg-logo="https://i.imgur.com/dyUxugT.png" group-title="Undefined",Solive TV
 https://stmv6.voxtvhd.com.br/solivetv/solivetv/playlist.m3u8
 #EXTINF:-1 tvg-id="SonyChannel.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/960px-Sony_Channel_Logo.png" group-title="Undefined",Sony Channel (1080p)
 http://138.121.15.230:9002/SONY/index.m3u8
 #EXTINF:-1 tvg-id="T5Satelital.ar@SD" tvg-logo="https://i.imgur.com/ZcD0rUP.png" group-title="Undefined",T5 Satelital
 https://stream.t5satelital.blog/hls/t5satelitalweb.m3u8
-#EXTINF:-1 tvg-id="TelePosadas.ar@HD" tvg-logo="https://i.imgur.com/88MVgwX.png" group-title="General",Tele Posadas (720p)
-https://live20.bozztv.com/giatv/giatv-teleposadaso01/teleposadaso01/playlist.m3u8
 #EXTINF:-1 tvg-id="Telecinco.ar@SD" tvg-logo="https://i.imgur.com/ZDenyAE.png" group-title="Undefined",TeleCinco Trelew (240p)
 https://videohd.live:19360/8016/8016.m3u8
 #EXTINF:-1 tvg-id="Telecreativa.ar@SD" tvg-logo="https://i.imgur.com/PjlAB6x.jpg" group-title="Undefined",Telecreativa
