@@ -1,22 +1,23 @@
 🧹 REPORTE IPTV - LIMPIEZA LOCAL
 ━━━━━━━━━━━━━━━━━━━━━
 
-🕐 05/08/2026 13:58
+🕐 06/08/2026 02:07
 
 🔍 VERIFICACIÓN DE CANALES
 • Total archivos: 26
-• Canales verificados: 2164
+• Canales verificados: 2181
 • 🔴 9 canales eliminados (muertos)
-• ✅ 2155 canales vivos
+• ✅ 2172 canales vivos
 
 📋 CANALES ELIMINADOS POR LISTA
-🔴 bolivia.m3u: -1 canales (84 vivos)
-🔴 chile.m3u: -2 canales (195 vivos)
-🔴 espana.m3u: -1 canales (146 vivos)
-🔴 peru.m3u: -1 canales (148 vivos)
-🔴 republicadominicana.m3u: -4 canales (202 vivos)
+🔴 Argentina.m3u: -1 canales (137 vivos)
+🔴 chile.m3u: -1 canales (198 vivos)
+🔴 costarica.m3u: -2 canales (51 vivos)
+🔴 musica.m3u: -2 canales (533 vivos)
+🔴 peru.m3u: -2 canales (150 vivos)
+🔴 puertorico.m3u: -1 canales (28 vivos)
 
-✅ 21 listas sin canales muertos
+✅ 20 listas sin canales muertos
 
 ━━━━━━━━━━━━━━━━━━━━━
 🤖 Verificación automática
