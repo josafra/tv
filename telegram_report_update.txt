@@ -1,23 +1,23 @@
 📺 REPORTE IPTV - ACTUALIZACIÓN
 ━━━━━━━━━━━━━━━━━━━━━
 
-🕐 13/08/2026 13:00
+🕐 14/08/2026 01:28
 
 📊 RESUMEN GENERAL
-• Total canales: 2065
-• 🟢 +3 nuevos canales
+• Total canales: 2026
+• 🔴 -39 canales caídos
 
 📋 DETALLES POR LISTA
-🟢 Argentina.m3u: 132 (+1)
-🟢 bolivia.m3u: 82 (+2)
-🔴 chile.m3u: 186 (-2)
-🔴 colombia.m3u: 88 (-6)
-🔴 costarica.m3u: 49 (-1)
-🔴 elsalvador.m3u: 15 (-3)
-🟢 espana.m3u: 149 (+1)
-🔴 guatemala.m3u: 30 (-2)
-🔴 honduras.m3u: 49 (-1)
-🔴 mexico.m3u: 104 (-1)
+🔴 bolivia.m3u: 78 (-4)
+🔴 chile.m3u: 180 (-6)
+🔴 colombia.m3u: 85 (-3)
+🟢 costarica.m3u: 50 (+1)
+🔴 ecuador.m3u: 74 (-1)
+🟢 elsalvador.m3u: 17 (+2)
+🔴 espana.m3u: 148 (-1)
+🔴 guatemala.m3u: 28 (-2)
+🟢 honduras.m3u: 51 (+2)
+🔴 musica.m3u: 530 (-5)
 ... y 7 más con cambios
 
 ⚪ 6 listas sin cambios
