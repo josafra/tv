@@ -13,6 +13,8 @@ https://tls-cl.cdnz.cl/aeradio/live/playlist.m3u8
 https://live20.bozztv.com/giatv/giatv-alternativatv/alternativatv/playlist.m3u8
 #EXTINF:-1 tvg-id="AntofagastaTV.cl@SD" tvg-logo="https://i.imgur.com/XIQr0fs.png" group-title="General",Antofagasta TV (ATV) (1080p)
 https://unlimited6-cl.dps.live/atv/atv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="ARTV.cl@SD" tvg-logo="https://i.imgur.com/rKP1ihL.png" group-title="Culture",ARTV (720p)
+http://45.162.193.35/ARTV/index.m3u8
 #EXTINF:-1 tvg-id="AtacamaNoticias.cl@SD" tvg-logo="https://i.imgur.com/Avx4Ecf.png" group-title="News",Atacama Noticias (720p) [Not 24/7]
 https://v2.tustreaming.cl/atacamanoticias/index.m3u8
 #EXTINF:-1 tvg-id="AtacamaTV.cl@SD" tvg-logo="https://i.postimg.cc/rwS082hL/atacama-tv.png" group-title="Undefined",Atacama TV (Copiapó) (720p) [Not 24/7]
@@ -51,6 +53,8 @@ https://unlimited1-us.dps.live/isb/isb.smil/playlist.m3u8
 https://videostream.chileservidores.com:8081/latina/index.m3u8
 #EXTINF:-1 tvg-id="CanalLocal.cl@SD" tvg-logo="https://i.imgur.com/ReZXqWR.png" group-title="General",Canal Local (720p)
 https://v2.tustreaming.cl/canallocalcl/index.m3u8
+#EXTINF:-1 tvg-id="CanalSurvisionAlerce.cl@SD" tvg-logo="https://i.imgur.com/FknQYSp.png" group-title="Undefined",Canal Survision Alerce (720p)
+https://s1.tvdatta.com:3384/live/canal20tvlive.m3u8
 #EXTINF:-1 tvg-id="CaracolaTV.cl@SD" tvg-logo="https://i.imgur.com/QGvfqug.png" group-title="General",Caracola TV
 https://wifispeed.trapemn.tv:1936/comunales/caracola-tv/chunks.m3u8
 #EXTINF:-1 tvg-id="CDO.cl@SD" tvg-logo="https://i.imgur.com/zH3jHIT.png" group-title="Sports",CDO (1080p)
@@ -59,14 +63,14 @@ http://cdn1tlinkgo.tlink.cl/cdo/mono.m3u8
 https://freya.mivideo.pro/centraltv/video.m3u8
 #EXTINF:-1 tvg-id="ChileChannel.cl@SD" tvg-logo="https://i.imgur.com/F1it6fh.png" group-title="Entertainment;Travel",Chile Channel (720p)
 https://v2.tustreaming.cl/chilechannel/index.m3u8
+#EXTINF:-1 tvg-id="ChiloeRed25.cl@SD" tvg-logo="https://i.imgur.com/3tqrImm.png" group-title="Culture",Chiloe Red 25 (720p)
+https://v2.tustreaming.cl/chiloered/index.m3u8
 #EXTINF:-1 tvg-id="ChinaChannel.cl@SD" tvg-logo="https://cdn.m3u.cl/logo/1769_China_Channel.png" group-title="General",China Channel (720p)
 https://v2.tustreaming.cl/chinachannel/index.m3u8
 #EXTINF:-1 tvg-id="ChocolateFM.cl@SD" tvg-logo="https://cdn.m3u.cl/logo/382_ChocolateFM.png" group-title="Music",Chocolate FM (720p)
 https://5eaccbab48461.streamlock.net:1936/8180/8180/playlist.m3u8
 #EXTINF:-1 tvg-id="Cinecanal.us@Pacific" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/CinecanalLA.png/960px-CinecanalLA.png" group-title="Movies",Cinecanal Pacific (1080p)
 http://138.121.15.230:9002/CINECANAL/index.m3u8
-#EXTINF:-1 tvg-id="CiudadanoRadio.cl@SD" tvg-logo="https://cdn.m3u.cl/logo/1655_Ciudadano_Radio.png" group-title="General",Ciudadano Radio (720p)
-https://oracle.streaminghd.cl/ciudadanoradiotv/ciudadanoradiotv/playlist.m3u8
 #EXTINF:-1 tvg-id="ClickTVChile.cl@SD" tvg-logo="https://i.imgur.com/H0XNbMS.png" group-title="Documentary",Click TV (Coronel) (720p)
 https://v2.tustreaming.cl/clicktv/playlist.m3u8
 #EXTINF:-1 tvg-id="ClubTV.cl@SD" tvg-logo="https://i.imgur.com/6fmQLF8.png" group-title="Undefined",Club TV
@@ -185,8 +189,6 @@ https://scl.edge.grupoz.cl/miradio2/live/playlist.m3u8
 https://live.mtna.tv/hls/mtna/mtna.m3u8
 #EXTINF:-1 tvg-id="MundosLacustresTV.cl@SD" tvg-logo="https://i.imgur.com/5xKtvnD.jpeg" group-title="General",Mundos Lacustres TV (720p)
 https://video.ipstream.cl:3710/hybrid/play.m3u8
-#EXTINF:-1 tvg-id="NadaEsImposibleTV.cl@SD" tvg-logo="https://i.imgur.com/cGNgvOD.png" group-title="Entertainment",Nada Es Imposible TV
-https://vdochile.com:3194/live/mvqutymylive.m3u8
 #EXTINF:-1 tvg-id="NativaTV.cl@SD" tvg-logo="https://i.imgur.com/0SFE2Fr.png" group-title="General",Nativa TV
 https://origin-us.streaminghd.cl/nativatv/nativatv/playlist.m3u8
 #EXTINF:-1 tvg-id="NCTV.cl@SD" tvg-logo="https://i.imgur.com/oo5vDBv.png" group-title="News",NCTV (1080p)
@@ -255,6 +257,8 @@ https://tv.arkeo.cl:1936/radiorancagua/radiorancagua/playlist.m3u8
 https://panel.tvstream.cl:1936/8046/8046/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioUC.cl@SD" tvg-logo="https://cdn.m3u.cl/logo/1467_Radio_UC.png" group-title="General",Radio UC (720p)
 https://oracle.streaminghd.cl/radiouc/radiouc/playlist.m3u8
+#EXTINF:-1 tvg-id="RadioUniversal.cl@SD" tvg-logo="https://cdn.m3u.cl/logo/390_Radio_Universal.png" group-title="General",Radio Universal (720p)
+https://videostream.chileservidores.com:8081/universal/index.m3u8
 #EXTINF:-1 tvg-id="RadioViaLibre.cl@SD" tvg-logo="https://cdn.m3u.cl/logo/396_Radio_Via_Libre.png" group-title="General",Radio Via Libre (720p)
 https://live20.bozztv.com/akamaissh101/ssh101/vialibretv/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioVidaCurico.cl@SD" tvg-logo="https://cdn.m3u.cl/logo/167_Radio_Vida_Curico.png" group-title="General",Radio Vida Curico (720p)
@@ -271,10 +275,14 @@ https://5eaccbab48461.streamlock.net:1936/8124/8124/playlist.m3u8
 https://streaming.purum.cl/ritoquetv/index.m3u8
 #EXTINF:-1 tvg-id="RoccoTV.cl@SD" tvg-logo="https://i.imgur.com/QFzCKRa.png" group-title="Undefined",Rocco TV
 https://5ff3d9babae13.streamlock.net/wympnqeqts/wympnqeqts/playlist.m3u8
+#EXTINF:-1 tvg-id="RTCTelevision.cl@SD" tvg-logo="https://i.imgur.com/w91IBj7.png" group-title="Undefined",RTC Television
+https://scl.edge.grupoz.cl/rtcstreaming/live/playlist.m3u8
 #EXTINF:-1 tvg-id="RTVNuble.cl@SD" tvg-logo="https://i.imgur.com/BDKgDZG.png" group-title="Undefined",RTV Nuble
 https://tv.arkeo.cl:1936/canalrtv/canalrtv/playlist.m3u8
 #EXTINF:-1 tvg-id="SaborTV.cl@SD" tvg-logo="https://cdn.m3u.cl/logo/416_Sabor_TV.png" group-title="Music",Sabor TV (720p)
 https://v1.tustreaming.cl/sabortv/index.m3u8
+#EXTINF:-1 tvg-id="SanNicolasTV.cl@SD" tvg-logo="https://i.imgur.com/z94YCpH.png" group-title="General",San Nicolas TV (720p)
+https://v4.tustreaming.cl/sannicolastv/index.m3u8
 #EXTINF:-1 tvg-id="SantaMariaTelevision.cl@SD" tvg-logo="https://i.imgur.com/SnbGpoK.png" group-title="Undefined",Santa María Televisión (720p) [Not 24/7]
 https://pantera1-100gb-cl-movistar.dps.live/smtv/smtv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="SensacionCosta.cl@SD" tvg-logo="https://i.imgur.com/oYQoWAB.png" group-title="Music",Sensacion Costa
@@ -321,6 +329,8 @@ https://v1.tustreaming.cl/tv5linares/index.m3u8
 https://pantera1-100gb-cl-movistar.dps.live/tvquellon/tvquellon.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TVSenado.cl@SD" tvg-logo="https://i.imgur.com/CNUZ6ig.png" group-title="Undefined",TV Senado (720p)
 http://cdn1tlinkgo.tlink.cl/tvsenado/mono.m3u8
+#EXTINF:-1 tvg-id="TVShowFortaleza.br@SD" tvg-logo="https://static.wixstatic.com/media/9af6b8_e963e864c8fb40d3954f5c1c8cab1b40~mv2.png" group-title="General",TV Show Fortaleza (720p)
+https://stmv8.samcast.com.br/raimundoanselmolimamororo1908/raimundoanselmolimamororo1908/playlist.m3u8
 #EXTINF:-1 tvg-id="TVUCT.cl@SD" tvg-logo="https://i.imgur.com/tpI0WQH.png" group-title="Undefined",TV UCT (1080p)
 https://unlimited1-us.dps.live/uct/uct.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TVPlus.cl@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/TV%2B_%282018%29.png/960px-TV%2B_%282018%29.png" group-title="General",TV+ (1080p)
@@ -353,6 +363,8 @@ https://5eaccbab48461.streamlock.net:1936/8264/8264/playlist.m3u8
 https://unlimited1-us.dps.live/vtv/vtv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Wapp.cl@SD" tvg-logo="https://i.imgur.com/Bv1yJ1d.png" group-title="Lifestyle",Wapp (720p)
 https://stream.wapptv.cl/video/index.m3u8
+#EXTINF:-1 tvg-id="ZonaLatina.cl@SD" tvg-logo="https://i.imgur.com/lMyZZtk.png" group-title="Undefined",Zona Latina (720p)
+http://45.162.193.35/ZONALATINA/index.m3u8
 #EXTINF:-1 tvg-id="ZonaPlayTV.cl@SD" tvg-logo="https://i.imgur.com/GewcpHv.png" group-title="Entertainment",Zona Play TV (720p)
 https://tv1.mediacp.eu:3131/live/dilxbgxylive.m3u8
 #EXTINF:-1 tvg-id="ZoomTecnologicoPlus.cl@SD" tvg-logo="https://cdn.m3u.cl/logo/1617_Zoom_Tecnologico_Plus.png" group-title="General",Zoom Tecnologico Plus (720p)
