@@ -23,9 +23,11 @@ https://mumt03.tangotv.in/Dsly5z3HMHONEMOVIE/index.m3u8
 https://amg00353-lionsgatestudio-moviesphere-xumo-zh5u0.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="MovieSphere.us@AU" tvg-logo="https://i.imgur.com/h1ejU90.png" group-title="Movies",MovieSphere AU (1080p)
 https://amg00353-lionsgatefilmsi-moviesphereaus-samsungau-7qzhf.amagi.tv/playlist/amg00353-lionsgatefilmsi-moviesphereaus-samsungau/playlist.m3u8
-#EXTINF:-1 tvg-id="MyTimeMovieNetwork.mx@SD" tvg-logo="https://i.imgur.com/pw4NZK1.png" group-title="Movies",MyTime Movie Network Mexico (720p)
+#EXTINF:-1 tvg-id="MovieSphereGold.us@WFXT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/MovieSphere_Gold_2025_logo.svg/500px-MovieSphere_Gold_2025_logo.svg.png" group-title="Movies",MovieSphere Gold WFXT (1080p)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-ionmystery-tablo/playlist.m3u8
+#EXTINF:-1 tvg-id="MyTimeMovieNetwork.mx@SD" tvg-logo="https://i.imgur.com/pw4NZK1.png" group-title="Movies",MyTime Movie Network (Mexico) (720p)
 https://appletree-mytime-samsungmexico.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="MyTimeMovieNetwork.es@SD" tvg-logo="https://i.imgur.com/pw4NZK1.png" group-title="Movies",MyTime movie network Spain (1080p)
+#EXTINF:-1 tvg-id="MyTimeMovieNetwork.es@SD" tvg-logo="https://i.imgur.com/pw4NZK1.png" group-title="Movies",MyTime Movie Network (Spain) (1080p)
 https://appletree-mytimespain-rakuten.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="PersianaLatino.fr@SD" tvg-logo="" group-title="Movies",Persiana Latino
 https://latinohls.persiana.live/hls/stream.m3u8
@@ -33,7 +35,7 @@ https://latinohls.persiana.live/hls/stream.m3u8
 https://mumt04.tangotv.in/m18aqlK4PUBLICMOVIES/index.m3u8
 #EXTINF:-1 tvg-id="RuntimeEspanol.us@SD" tvg-logo="https://i.imgur.com/OMQq19N.png" group-title="Movies",Runtime Espanol (720p)
 https://run-rt-uh-roku.otteravision.com/run/rt_uh/rt_uh.m3u8
+#EXTINF:-1 tvg-id="StarChannel.cl@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/960px-Star_Channel_2020.svg.png" group-title="Movies;Series",Star Channel (Chile) (720p)
+http://138.121.15.230:9002/STAR-CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="SuriyanTV.in@SD" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Suriyan-tv-logo_2000_X_1125_Transpharent.png" group-title="Movies",Suriyan TV (576p)
 https://stream.sscloud7.com/live/suriyantv/index.m3u8
-#EXTINF:-1 tvg-id="MovieSphereGold.us@WFXT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/MovieSphere_Gold_2025_logo.svg/500px-MovieSphere_Gold_2025_logo.svg.png" group-title="Movies",WFXT-DT2 (1080p)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-ionmystery-tablo/playlist.m3u8
