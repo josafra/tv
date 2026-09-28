@@ -81,8 +81,6 @@ http://200.229.147.210:9999/play/a00k/index.m3u8
 https://5fc584f3f19c9.streamlock.net/icrtvcolima/smil:icrtvcolima.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="IERTBCSCanal82.mx@SD" tvg-logo="https://i.imgur.com/R3icGuG.png" group-title="Entertainment",IERTBCS Canal 8.2 (1080p) [Not 24/7]
 https://s5.mexside.net:1936/xhbzc82/xhbzc82/playlist.m3u8
-#EXTINF:-1 tvg-id="ILCECanal15SummaSaberes.mx@SD" tvg-logo="https://i.imgur.com/r7czgOc.png" group-title="Education",ILCE Canal 15 Summa Saberes (720p)
-https://live-ilce.ovp-vivaro.digital/ovp-origin-abr/ngrp:6359ef999f3fb_all/playlist.m3u8
 #EXTINF:-1 tvg-id="ImagenTV.mx@SD" tvg-logo="https://i.imgur.com/lKrRvtS.png" group-title="General",Imagen TV (1080p)
 https://igd-it-runtime.otteravision.com/igd/it/it.m3u8
 #EXTINF:-1 tvg-id="ITVDeportes.mx@SD" tvg-logo="https://iili.io/J1kV1Bn.png" group-title="Entertainment;Sports",ITV Deportes (720p)
@@ -99,6 +97,8 @@ https://1601580044.rsc.cdn77.org/live/_jcn_/amlst:Mariavision/master.m3u8
 https://5e50264bd6766.streamlock.net/mexiquense/videomexiquense/playlist.m3u8
 #EXTINF:-1 tvg-id="MonteMaria.mx@SD" tvg-logo="https://i.imgur.com/0rMHbbM.png" group-title="Religious",Monte Maria (1080p)
 https://5ca9af4645e15.streamlock.net/montemaria/videomontemaria/playlist.m3u8
+#EXTINF:-1 tvg-id="MultiPremier.mx@SD" tvg-logo="https://i.imgur.com/H3PzGZW.png" group-title="Movies",MultiPremier (1080p)
+http://168.196.127.137:6001/play/a08n/index.m3u8
 #EXTINF:-1 tvg-id="MyTimeMovieNetwork.mx@SD" tvg-logo="https://i.imgur.com/pw4NZK1.png" group-title="Movies",MyTime Movie Network (Mexico) (720p)
 https://appletree-mytime-samsungmexico.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="NationalGeographic.mx@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" group-title="Documentary",National Geographic (Mexico) (1080p)
@@ -171,8 +171,6 @@ https://5fc584f3f19c9.streamlock.net/tvmarloscabos/smil:tvmarloscabos.smil/playl
 https://5ca9af4645e15.streamlock.net/tvmarvallarta/videotvmarvallarta/playlist.m3u8
 #EXTINF:-1 tvg-id="TVMigrante.mx@SD" tvg-logo="https://i.imgur.com/tVgkiJF.png" group-title="General",TV Migrante (720p)
 https://s5.mexside.net:1936/tvmigrante/tvmigrante/playlist.m3u8
-#EXTINF:-1 tvg-id="TVUG.mx@SD" tvg-logo="https://i.imgur.com/pxkDpTU.jpeg" group-title="Education",TV UG (1080p) [Not 24/7]
-https://5ca3e84a76d30.streamlock.net/universidadgto/videouniversidadgto/playlist.m3u8
 #EXTINF:-1 tvg-id="TVPCuliacan.mx@SD" tvg-logo="https://i.imgur.com/uX1S3kt.png" group-title="General",TVP Culiacan (720p) [Not 24/7]
 https://5ca3e84a76d30.streamlock.net/gpacifico1/smil:gpculiacan.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TVPLosMochis.mx@SD" tvg-logo="https://i.imgur.com/uX1S3kt.png" group-title="General",TVP Los Mochis (720p) [Not 24/7]
