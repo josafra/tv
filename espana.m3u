@@ -27,8 +27,14 @@ https://janya-digimix.akamaized.net/vglive-sk-351398/spanish/ngrp:angelspanish_a
 http://38.252.238.18:8000/play/a04a/index.m3u8
 #EXTINF:-1 tvg-id="ArabiTV.es@SD" tvg-logo="https://i.ibb.co/9Vp9Ghg/LOGO-WEB-ARABI-TV-3.png" group-title="General",Arabi TV (1080p)
 https://streamtv2.elitecomunicacion.cloud:3628/live/arabitv2025live.m3u8
+#EXTINF:-1 tvg-id="AXN.es@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png" group-title="Movies",AXN (Spain) (1080p)
+http://193.254.245.162/AXN/index.m3u8
+#EXTINF:-1 tvg-id="AzCorazon.mx@SD" tvg-logo="https://i.imgur.com/KIpSdQC.png" group-title="Series",Az Corazon (720p)
+http://200.115.120.1:8000/play/ca020/index.m3u8
 #EXTINF:-1 tvg-id="BBCDrama.uk@Spain" tvg-logo="https://i.imgur.com/HctHhLL.png" group-title="Series",BBC Drama (1080p)
 https://amg00793-amg00793c40-rakuten-es-5444.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="BCNGospelTV.es@HD" tvg-logo="https://bcngospelchannel.com/wp-content/uploads/2025/09/bcn-gospel-channer-favicon.png" group-title="General",BCN Gospel TV HD (720p)
+https://live1.ovalcast.com:3916/live/bcngospeltvlive.m3u8
 #EXTINF:-1 tvg-id="BonDiaTV.es@SD" tvg-logo="https://i.imgur.com/VgRCu2U.png" group-title="General;Public",Bon Dia TV (1080p)
 https://directes-tv-int.3catdirectes.cat/live-content/bondia-hls/master.m3u8
 #EXTINF:-1 tvg-id="CadenaElite.es@SD" tvg-logo="https://i.imgur.com/3yeGDTP.png" group-title="Music",Cadena Elite (720p) [Not 24/7]
@@ -57,8 +63,6 @@ http://canal2000.berkano-systems.net/streaming/streams/canal2000.m3u8
 https://canalcoin.garjim.es/hls/directo.m3u8
 #EXTINF:-1 tvg-id="CanalDiocesano.es@SD" tvg-logo="https://i.imgur.com/uWhVKL3.png" group-title="Undefined",Canal Diocesano (576p)
 https://nlb2-live.emitstream.com/hls/5i3pxfuz4az356yu22ij/master.m3u8
-#EXTINF:-1 tvg-id="CanalDonana.es@SD" tvg-logo="https://i.imgur.com/0WrKIxm.png" group-title="Undefined",Canal Donana (720p) [Not 24/7]
-https://secure5.todostreaming.es/live/division-alm.m3u8
 #EXTINF:-1 tvg-id="CanalMalagaRTV.es@SD" tvg-logo="https://i.imgur.com/QSUOxtM.png" group-title="General",Canal Malaga RTV (720p) [Not 24/7]
 https://canalmalaga-tv-live.flumotion.com/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalParlamento.es@SD" tvg-logo="https://i.imgur.com/BUO0wH6.png" group-title="Legislative",Canal Parlamento (360p) [Not 24/7]
@@ -131,6 +135,8 @@ https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_5000.m3u8
 https://5c0956165db0b.streamlock.net/ftv/directo/.m3u8
 #EXTINF:-1 tvg-id="GaliciaTVEuropa.es@SD" tvg-logo="https://i.imgur.com/dvkzH8n.png" group-title="General;Public",Galicia TV Europa (720p)
 https://crtvg-europa.flumotion.cloud/playlist.m3u8
+#EXTINF:-1 tvg-id="GoienaEus.es@SD" tvg-logo="https://i.imgur.com/eaLIJzK.png" group-title="Undefined",Goiena Eus (720p)
+https://zuzenean.goienamedia.eus/goiena-telebista.m3u8
 #EXTINF:-1 tvg-id="GuadaTV.es@SD" tvg-logo="https://i.imgur.com/YaDNsYN.png" group-title="General",Guada TV (720p) [Not 24/7]
 https://cloud.streamingconnect.tv/hls/guadatv/guadatv.m3u8
 #EXTINF:-1 tvg-id="HamaikaTelebista.es@SD" tvg-logo="https://i.imgur.com/HR3G3Ie.png" group-title="Culture",Hamaika Telebista (1080p)
@@ -189,8 +195,6 @@ https://cloudtv.provideo.es/live/algecirastv-livestream.m3u8
 https://ondacadiztv.es:30443/octv/24h/playlist.m3u8
 #EXTINF:-1 tvg-id="OndaValenciaTV.es@SD" tvg-logo="https://i.imgur.com/6HxLUQd.png" group-title="Music;News",Onda Valencia TV (720p)
 https://cloudvideo.servers10.com:8081/8116/index.m3u8
-#EXTINF:-1 tvg-id="ParlamentodeNavarra.es@SD" tvg-logo="https://i.imgur.com/JnhWxKv.png" group-title="Legislative",Parlamento de Navarra (368p) [Not 24/7]
-https://broadcasting.parlamentodenavarra.es/live/canal1/master.m3u8
 #EXTINF:-1 tvg-id="PlatziTV.es@SD" tvg-logo="https://i.imgur.com/vEzeqHP.png" group-title="Education",Platzi TV (1080p)
 https://mdstrm.com/live-stream-playlist/629a63ae8df27c082901f78b.m3u8
 #EXTINF:-1 tvg-id="POPWorldTV.es@SD" tvg-logo="https://i.imgur.com/LQB6G3s.jpg" group-title="Music",POP World TV (720p)
@@ -233,8 +237,6 @@ https://tvdirecto.teleelx.es/stream/teleelx.m3u8
 https://video.telesafor.com/hls/video.m3u8
 #EXTINF:-1 tvg-id="Teledeporte.es@SD" tvg-logo="https://i.ibb.co/0jxLdjnY/TDP.png" group-title="Sports",Teledeporte
 https://rtve01p.origin.c21livecloud.com/live-origin/tdp-hls/bitrate_1.m3u8
-#EXTINF:-1 tvg-id="Teleganes.es@SD" tvg-logo="https://i.imgur.com/BXyplMX.png" group-title="Undefined",Teleganes (720p)
-https://nlb2-live.emitstream.com/hls/5z6oj7ziwxzfnj78vg2m/master.m3u8
 #EXTINF:-1 tvg-id="Telemadrid.es@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/TeleMadrid.svg/960px-TeleMadrid.svg.png" group-title="Undefined",Telemadrid HD (1080p)
 https://live.telemadrid.cross-media.es/6389770581112/eu-central-1/6416060453001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiajI5YjgyLmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjQxNjA2MDQ1MzAwMSIsImVobiI6ImxpdmUudGVsZW1hZHJpZC5jcm9zcy1tZWRpYS5lcyIsImlzcyI6ImJsaXZlLXBsYXliYWNrLXNvdXJjZS1hcGkiLCJzdWIiOiJwYXRobWFwdG9rZW4iLCJhdWQiOlsiNjQxNjA2MDQ1MzAwMSJdLCJqdGkiOiI2Mzg5NzcwNTgxMTEyIn0.kqriAMUkHT6m0V6wkCHJum_EUyL4PAi1zJMKlfmYHEU/playlist-hls.m3u8
 #EXTINF:-1 tvg-id="TelevisionAranda.es@SD" tvg-logo="https://i.imgur.com/FwIIdKG.png" group-title="Undefined",Television Aranda (720p)
