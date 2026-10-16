@@ -51,8 +51,6 @@ https://barinaslive1.boldmss.com/ESPN_5/ESPN_5.isml/ESPN_5.m3u8
 https://barinaslive1.boldmss.com/ESPN_6/ESPN_6.isml/ESPN_6.m3u8
 #EXTINF:-1 tvg-id="ESPN7LatinAmerica.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" group-title="Sports",ESPN 7 Latin America (1080p)
 https://barinaslive1.boldmss.com/ESPN_7/ESPN_7.isml/ESPN_7.m3u8
-#EXTINF:-1 tvg-id="ESPNLatinAmerica.us@Colombia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" group-title="Sports",ESPN Latin America Colombia (1080p)
-http://190.61.47.54:8000/play/a004/index.m3u8
 #EXTINF:-1 tvg-id="FMMundo.ec@SD" tvg-logo="https://i.imgur.com/1nNnYQO.png" group-title="Music",FM Mundo (1080p)
 https://video2.makrodigital.com/fmmundo/fmmundo/playlist.m3u8
 #EXTINF:-1 tvg-id="Gamavision.ec@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/94/Gamavisi%C3%B3n2018new.png" group-title="General",Gamavision (1080p)
@@ -115,14 +113,14 @@ http://45.171.64.30:6060/play/a04n/index.m3u8
 https://vd01.streaminghd.net.ar:3113/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="TCTelevision.ec@SD" tvg-logo="https://i.imgur.com/okK02EN.png" group-title="General",TC Television (1080p)
 http://45.224.97.181:9999/TC/index.m3u8
-#EXTINF:-1 tvg-id="Telemar.ec@SD" tvg-logo="https://i.imgur.com/0vX9oJF.png" group-title="General",Telemar (720p)
-https://cloudpro.servidoresdestream.com:8081/8020/index.m3u8
 #EXTINF:-1 tvg-id="Telerama.ec@SD" tvg-logo="https://i.imgur.com/whIRrjo.png" group-title="General",Telerama (240p) [Not 24/7]
 https://play.once.net.ec/telerama/live.tv/538.m3u8
 #EXTINF:-1 tvg-id="TLCLatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png" group-title="Lifestyle",TLC Latin America (1080p)
 http://38.134.250.110:8000/play/a00n/index.m3u8
 #EXTINF:-1 tvg-id="TNTSeriesLatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/75/TNT_Series_Logo_2016.png" group-title="Series",TNT Series Latin America (1080p)
 http://168.196.127.137:6001/play/a095/index.m3u8
+#EXTINF:-1 tvg-id="TVColorCanal36.ec@SD" tvg-logo="https://i.imgur.com/QJW6khK.jpg" group-title="General",TV Color Canal 36 (720p)
+https://video.compuwebecuador.com:3067/live/tvcolorlive.m3u8
 #EXTINF:-1 tvg-id="TVLegislativa.ec@SD" tvg-logo="https://i.imgur.com/3Y6Lp5l.png" group-title="Legislative",TV Legislativa (1080p) [Not 24/7]
 https://streamingav.asambleanacional.gob.ec/hls/stream.m3u8
 #EXTINF:-1 tvg-id="TVUniversalEcuador.ec@SD" tvg-logo="https://i.imgur.com/TIsk5zN.png" group-title="Religious",TV Universal Ecuador (720p)
@@ -131,6 +129,8 @@ https://cdn.mycloudstream.io/hls/live/broadcast/uwcedjt2/index.m3u8
 http://45.224.97.181:9999/TVC/index.m3u8
 #EXTINF:-1 tvg-id="TvOro.ec@SD" tvg-logo="https://i.imgur.com/9d02qUU.jpeg" group-title="General",TvOro (1080p)
 http://45.187.0.19:9090/tvusa/index.m3u8
+#EXTINF:-1 tvg-id="UNIANDESTV.ec@SD" tvg-logo="https://i.imgur.com/1rluyB7.png" group-title="Education",UNIANDES TV (720p) [Not 24/7]
+https://video.compuwebecuador.com:3323/live/uniandeslive.m3u8
 #EXTINF:-1 tvg-id="UnsionTV.ec@SD" tvg-logo="https://i.imgur.com/HQGBqGU.png" group-title="Undefined",Unsion TV (1080p)
 http://provedores.unsion.tv:8081/srt/1/playlist.m3u8
 #EXTINF:-1 tvg-id="WuanPlus.ec@SD" tvg-logo="https://i.imgur.com/pJNx1za.png" group-title="General",Wuan+

@@ -1,12 +1,10 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="AguacateTV.ve@SD" tvg-logo="https://i.ibb.co/wpWBsgf/IMG-20230705-154622.jpg" group-title="Entertainment",Aguacate TV (1080p)
+https://streamtv.intervenhosting.net:3040/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="ANTV.ve@SD" tvg-logo="https://i.imgur.com/Qm88HT0.png" group-title="Legislative",ANTV (Venezuela) (720p)
 http://181.78.8.199:8000/play/a0fo/index.m3u8
-#EXTINF:-1 tvg-id="AnzoateguiTV.ve@SD" tvg-logo="https://i.imgur.com/SLqrEOz.png" group-title="General",Anzoategui TV (360p) [Not 24/7]
-https://vcp2.myplaytv.com/anzoateguitv/anzoateguitv/playlist.m3u8
 #EXTINF:-1 tvg-id="AS3SportTV.ve@SD" tvg-logo="https://i.ibb.co/bRmGbsyV/A3-SPORTTV.jpg" group-title="Sports",AS3 Sport TV (1080p)
 https://streamtv.as3sport.online:3394/hybrid/play.m3u8
-#EXTINF:-1 tvg-id="AudazTV.ve@SD" tvg-logo="https://i.imgur.com/QtCgtZq.jpg" group-title="Religious",Audaz TV (432p) [Not 24/7]
-https://cloud2.streaminglivehd.com:1936/8264/8264/playlist.m3u8
 #EXTINF:-1 tvg-id="BTATV.ve@SD" tvg-logo="https://i.imgur.com/vygOosC.png" group-title="Music",BTA TV (720p)
 https://cloud.fastchannel.es/manifiest/hls/prog9/btatv.m3u8
 #EXTINF:-1 tvg-id="Canal21Tachira.ve@SD" tvg-logo="https://i.imgur.com/7Tb7CF4.jpg" group-title="General",Canal 21 Tachira (360p)
@@ -37,10 +35,14 @@ https://barinaslive1.boldmss.com/ESPN_5/ESPN_5.isml/ESPN_5.m3u8
 https://barinaslive1.boldmss.com/ESPN_6/ESPN_6.isml/ESPN_6.m3u8
 #EXTINF:-1 tvg-id="ESPN7LatinAmerica.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" group-title="Sports",ESPN 7 Latin America (1080p)
 https://barinaslive1.boldmss.com/ESPN_7/ESPN_7.isml/ESPN_7.m3u8
-#EXTINF:-1 tvg-id="ESPNLatinAmerica.us@Colombia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" group-title="Sports",ESPN Latin America Colombia (1080p)
-http://190.61.47.54:8000/play/a004/index.m3u8
 #EXTINF:-1 tvg-id="Globovision.ve@SD" tvg-logo="https://i.imgur.com/v6nRdxQ.png" group-title="General",Globovision (576p)
 http://181.78.8.199:8000/play/a09k/index.m3u8
+#EXTINF:-1 tvg-id="GrandeTV.ve@SD" tvg-logo="https://i.imgur.com/jxCirrP.png" group-title="General",Grande TV
+https://vs20.live.opencaster.com/grande41_0b593479/index.m3u8
+#EXTINF:-1 tvg-id="GuaroTV.ve@SD" tvg-logo="https://i.ibb.co/LN92K6h/IMG-20230705-154347.jpg" group-title="Entertainment",Guaro TV (720p)
+https://stream.guarotv.net:3592/hybrid/play.m3u8
+#EXTINF:-1 tvg-id="InterTV.ve@SD" tvg-logo="https://i.ibb.co/HG2DM8G/IMG-20230705-153952.jpg" group-title="Entertainment",Inter TV (Venezuela) (1080p)
+https://streamtv.intervenhosting.net:3439/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="IslaTV.ve@SD" tvg-logo="https://i.imgur.com/l11Ixhi.jpeg" group-title="General",Isla TV (480p)
 https://59d39900ebfb8.streamlock.net/islatv/islatv/playlist.m3u8
 #EXTINF:-1 tvg-id="KandelaTV.ve@SD" tvg-logo="https://i.imgur.com/cCFxyIp.jpg" group-title="Music",KandelaTV (480p)
@@ -105,6 +107,8 @@ https://vcp12.myplaytv.com/trt/trt/playlist.m3u8
 https://astl-mainstr.qvixsolutions.com/asltvtu_ext/index.m3u8
 #EXTINF:-1 tvg-id="TVes.ve@SD" tvg-logo="https://i.imgur.com/QX5DVUB.png" group-title="General",TVes (1080p)
 https://vs20.live.opencaster.com/tves_5fd18b1e/index.m3u8
+#EXTINF:-1 tvg-id="TVMparati.ve@SD" tvg-logo="https://intervenhosting.net/imagenes/tvmparati.jpg" group-title="General",TVM para ti (1080p)
+https://streamtv.intervenhosting.net:3529/live/tvmparatilive.m3u8
 #EXTINF:-1 tvg-id="TVS.ve@SD" tvg-logo="https://i.imgur.com/J8ztiAN.png" group-title="General",TVS (Venezuela) (720p)
 https://vcp10.myplaytv.com/tvs/tvs/playlist.m3u8
 #EXTINF:-1 tvg-id="UniTV.ve@SD" tvg-logo="https://i.imgur.com/KLGeznX.png" group-title="General",UniTV (720p)
