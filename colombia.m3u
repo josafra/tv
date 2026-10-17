@@ -29,6 +29,10 @@ https://stmv1.voxtvhd.com.br/alpavision/alpavision/playlist.m3u8
 https://movil.ejeserver.com/live/canal8tv.m3u8
 #EXTINF:-1 tvg-id="Canal9Cosespu.co@SD" tvg-logo="https://i.imgur.com/w5e1d8k.png" group-title="General",Canal 9 Cosespu
 https://video2.lhdserver.es/canal9cosespu/live.m3u8
+#EXTINF:-1 tvg-id="Canal14Codazzi.co@SD" tvg-logo="https://i.imgur.com/wNSUMhJ.png" group-title="Entertainment",Canal 14 Codazzi (720p) [Not 24/7]
+https://eu1.servers10.com:8081/8056/index.m3u8
+#EXTINF:-1 tvg-id="CanalCalimaTV.co@SD" tvg-logo="https://i.imgur.com/6YxtyUR.jpeg" group-title="General",Canal Calima TV (720p)
+https://movil.ejeserver.com/live/calimatv.m3u8
 #EXTINF:-1 tvg-id="CanalCapital.co@SD" tvg-logo="https://i.imgur.com/zAYtbYi.png" group-title="General",Canal Capital (1080p)
 http://138.121.15.230:9002/CANAL-CAPITAL/index.m3u8
 #EXTINF:-1 tvg-id="CanalCineDios.co@SD" tvg-logo="https://i.imgur.com/S4xqZgV.png" group-title="Movies",Canal Cine Dios
@@ -55,8 +59,6 @@ https://stmv2.voxtvhd.com.br/telefamilia/telefamilia/playlist.m3u8
 https://stream.canaltelesantiago.com:8000/play/TELESANTIAGO/index.m3u8
 #EXTINF:-1 tvg-id="CanalTV3.co@SD" tvg-logo="https://i.imgur.com/pyeBDpg.jpeg" group-title="General",Canal TV3 (720p) [Not 24/7]
 https://streaming.telenetdigital.net.co:8086/canal3tv/stream.m3u8
-#EXTINF:-1 tvg-id="CanalWomtv.co@SD" tvg-logo="https://i.imgur.com/Nr4muMP.jpeg" group-title="Entertainment",Canal Womtv (720p)
-https://live.amelbatv.co:81/womtvlive/index.m3u8
 #EXTINF:-1 tvg-id="CanicaTV.co@SD" tvg-logo="https://i.imgur.com/RuQDwTt.jpeg" group-title="Entertainment",Canica TV (240p)
 https://stmv4.voxtvhd.com.br/canicatv/canicatv/playlist.m3u8
 #EXTINF:-1 tvg-id="CaracolHD2.co@SD" tvg-logo="https://i.imgur.com/Fww94l9.png" group-title="General",Caracol HD2 (1080p)
@@ -161,8 +163,6 @@ https://inforedvos.lcdn.claro.net.co/Content/HLS_HLS_DIR/Live/channel(REDMASHDWE
 https://eu1.servers10.com:8081/8090/index.m3u8
 #EXTINF:-1 tvg-id="RumbaTV.co@SD" tvg-logo="https://i.imgur.com/WtVpWwI.png" group-title="Music",Rumba TV
 http://186.148.196.100:8000/play/a02h
-#EXTINF:-1 tvg-id="SalsaGordaTelevision.co@SD" tvg-logo="https://i.imgur.com/3IhYd7G.jpg" group-title="Music",Salsa Gorda Television (1080p) [Not 24/7]
-https://live20.bozztv.com/akamaissh101/ssh101/qMUAZEy/playlist.m3u8
 #EXTINF:-1 tvg-id="SantelTV.co@SD" tvg-logo="https://i.imgur.com/jmJx0jo.png" group-title="Religious",Santel TV
 https://tv3.bitstreaming.net:3540/live/santeltvlive.m3u8
 #EXTINF:-1 tvg-id="SoonaTV.co@SD" tvg-logo="https://i.imgur.com/Pk8zzTL.jpeg" group-title="General",Soona TV
@@ -187,8 +187,8 @@ http://190.61.47.54:8000/play/a015/index.m3u8
 http://38.134.250.110:8000/play/a01q/index.m3u8
 #EXTINF:-1 tvg-id="Telepacifico.co@SD" tvg-logo="https://i.imgur.com/39hy97J.png" group-title="General",Telepacifico (1080p)
 http://138.121.15.230:9002/TELEPACIFICO/index.m3u8
-#EXTINF:-1 tvg-id="TeleQuindio.co@SD" tvg-logo="https://i.imgur.com/bJWj5ja.png" group-title="General",TeleQuindio (1080p)
-https://live20.bozztv.com/akamaissh101/ssh101/telequindio/playlist.m3u8
+#EXTINF:-1 tvg-id="Telesangil.co@SD" tvg-logo="https://i.ibb.co/27Pzdvw/cropped-TELESANGIL-LOGO-1.png" group-title="General",Telesangil (720p)
+https://live20.bozztv.com/akamaissh101/ssh101/telesangil/playlist.m3u8
 #EXTINF:-1 tvg-id="TeveColombia.co@SD" tvg-logo="https://i.imgur.com/vPwiJTw.png" group-title="Entertainment",TeveColombia (720p) [Not 24/7]
 https://cloud6.livescast.com:3900/live/tevecolombialive.m3u8
 #EXTINF:-1 tvg-id="TLCLatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png" group-title="Lifestyle",TLC Latin America (1080p)
@@ -199,8 +199,6 @@ http://181.78.211.244:8005/play/a09g/index.m3u8
 http://190.61.47.54:8000/play/a02f/index.m3u8
 #EXTINF:-1 tvg-id="TNTSeriesLatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/75/TNT_Series_Logo_2016.png" group-title="Series",TNT Series Latin America (1080p)
 http://168.196.127.137:6001/play/a095/index.m3u8
-#EXTINF:-1 tvg-id="Tooncast.us@SouthAmerica" tvg-logo="https://i.imgur.com/3yXRbQy.png" group-title="Animation;Kids",Tooncast SouthAmerica (1080p)
-http://200.62.239.170:830/play/a07n/index.m3u8
 #EXTINF:-1 tvg-id="Trece.co@SD" tvg-logo="https://i.imgur.com/jsuXXIg.png" group-title="General",Trece (Colombia) (1080p)
 http://190.60.46.228:8888/play/a030/index.m3u8
 #EXTINF:-1 tvg-id="TuUniversoTV.co@SD" tvg-logo="https://i.imgur.com/e6esjLZ.jpg" group-title="Religious",Tu Universo TV (720p)
